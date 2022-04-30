@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "nl.rijksoverheid.en",
+  "variantName": "tstDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 101424,
+      "versionName": "2.3.0-tst",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

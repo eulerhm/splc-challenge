@@ -1,0 +1,1 @@
+/home/eulerhm/Documents/workspaceSQJ/MoonShot/logger/build/classes/kotlin/main/com/haroldadmin/logger/Logger.class:/home/eulerhm/Documents/workspaceSQJ/MoonShot/logger/build/classes/kotlin/main/com/haroldadmin/logger/LoggerKt.class

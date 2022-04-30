@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/base" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/database" />
+            <option value="$PROJECT_DIR$/db" />
+            <option value="$PROJECT_DIR$/db/spacex" />
+            <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/about" />
+            <option value="$PROJECT_DIR$/features/launchDetails" />
+            <option value="$PROJECT_DIR$/features/launchPad" />
+            <option value="$PROJECT_DIR$/features/launches" />
+            <option value="$PROJECT_DIR$/features/missions" />
+            <option value="$PROJECT_DIR$/features/nextLaunch" />
+            <option value="$PROJECT_DIR$/features/rocketDetails" />
+            <option value="$PROJECT_DIR$/features/rockets" />
+            <option value="$PROJECT_DIR$/features/search" />
+            <option value="$PROJECT_DIR$/features/settings" />
+            <option value="$PROJECT_DIR$/logger" />
+            <option value="$PROJECT_DIR$/models" />
+            <option value="$PROJECT_DIR$/moonshot-repository" />
+            <option value="$PROJECT_DIR$/navigation" />
+            <option value="$PROJECT_DIR$/services" />
+            <option value="$PROJECT_DIR$/services/spacex" />
+            <option value="$PROJECT_DIR$/spacex-api-wrapper" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

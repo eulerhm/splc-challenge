@@ -1,0 +1,28 @@
+<!--
+  ~ This Source Code Form is subject to the terms of the Mozilla Public
+  ~ License, v. 2.0. If a copy of the MPL was not distributed with this
+  ~ file, You can obtain one at http://mozilla.org/MPL/2.0/.
+  -->
+
+<resources 
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:ignore="MissingTranslation">
+    <string name="app_name" translatable="false">Firefox Lockwise</string>
+    <string name="app_label" translatable="false">Lockwise</string>
+    <string name="default_avatar_url"  translatable="false">https://firefoxusercontent.com/00000000000000000000000000000000</string>
+    <!--suppress CheckTagEmptyBody -->
+    <string name="empty_string"></string>
+    <!-- Unicode character for an empty space -->
+    <string name="empty_space">\u0020</string>
+    <string name="firefox_account" translatable="false">Firefox Account</string>
+    <string name="telemetry_server_endpoint" translatable="false">https://incoming.telemetry.mozilla.org</string>
+    <!-- This is the label for a button only available on test builds to skip the authentication step and immediately use test data -->
+    <string name="placeholder_skip_fxa">Use test data</string>
+    <!-- The text is never displayed, but the error is a placeholder to stop the save button being enabled. -->
+    <string name="hidden_credential_mutation_error" translatable="false">Hidden</string>
+    <!-- CURRENTLY UNUSED BUT RESERVED FOR FUTURE USE -->
+    <!-- This is the text displayed on the button of the network availability error message -->
+    <!--<string name="retry">Retry</string>-->
+    <!-- This is the text displayed on the button of the network availability error message -->
+    <!--<string name="retryButton">Retry connect to internet</string>-->
+</resources>

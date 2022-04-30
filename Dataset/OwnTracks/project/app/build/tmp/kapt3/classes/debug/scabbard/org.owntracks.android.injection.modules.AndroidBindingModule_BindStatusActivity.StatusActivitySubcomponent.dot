@@ -1,0 +1,51 @@
+digraph "org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindStatusActivity.StatusActivitySubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AppComponent → AndroidBindingModule_BindStatusActivity.StatusActivitySubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "fbc70850-e6a6-42d2-8e54-2f69f55f11bd" [label="inject (StatusActivity)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "4c118d94-c076-4d39-b8df-e93f47b29400" [label="StatusMvvm.ViewModel<StatusMvvm.View>", color="turquoise"]
+    "6a999a3a-37ab-4fbb-98b5-510b387738c1" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "ffbcc08e-6773-4686-ac46-0ce3fc6c02b3" [label="@PerActivity\nStatusViewModel", color="bisque"]
+    "056bfee0-2ef6-42f1-93e5-f118f6ea3d3c" [label="@PerActivity\nNavigator", color="bisque"]
+    "3f3e64d5-1dd9-464f-8e38-477d6a2f6e2a" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "a55d28aa-0ff4-4904-8727-56bce9f61c83" [label="StatusActivity", color="turquoise", shape="parallelogram"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindStatusActivity.StatusActivitySubcomponent" {
+    graph [labeljust="c", label="Inherited from AndroidBindingModule_BindStatusActivity.StatusActivitySubcomponent\n@PerActivity", style="dashed", href="org.owntracks.android.injection.modules.AndroidBindingModule_BindStatusActivity.StatusActivitySubcomponent.svg", color="bisque"]
+    "4c118d94-c076-4d39-b8df-e93f47b29400" [label="StatusMvvm.ViewModel<StatusMvvm.View>", color="turquoise"]
+    "6a999a3a-37ab-4fbb-98b5-510b387738c1" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "ffbcc08e-6773-4686-ac46-0ce3fc6c02b3" [label="@PerActivity\nStatusViewModel", color="bisque"]
+    "3f3e64d5-1dd9-464f-8e38-477d6a2f6e2a" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "056bfee0-2ef6-42f1-93e5-f118f6ea3d3c" [label="@PerActivity\nNavigator", color="bisque"]
+    "3f3e64d5-1dd9-464f-8e38-477d6a2f6e2a" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "a55d28aa-0ff4-4904-8727-56bce9f61c83" [label="StatusActivity", color="turquoise", shape="parallelogram"]
+  }
+  subgraph "cluster_AppComponent" {
+    graph [labeljust="c", label="Inherited from AppComponent\n@Singleton", style="dashed", href="org.owntracks.android.injection.components.AppComponent.svg", color="aquamarine"]
+    "4d951c4a-1209-4dc8-adaf-b171fa76af59" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "233b7926-0625-421c-94b5-8355edd1d90c" [label="@Singleton\nEventBus", color="aquamarine"]
+    "a81fac18-c4a8-4a7d-9155-ecd495f287b7" [label="@Singleton\nPreferences", color="aquamarine"]
+    "c4e33f5e-6b76-4e9a-85a6-3b58ce88a3a6" [label="@Singleton\nScheduler", color="aquamarine"]
+    "5ce679c8-2f53-4ff0-94a9-4dbf11bb805d" [label="@AppContext\n@Singleton\nContext", color="aquamarine"]
+  }
+  "fbc70850-e6a6-42d2-8e54-2f69f55f11bd" -> "4c118d94-c076-4d39-b8df-e93f47b29400"
+  "fbc70850-e6a6-42d2-8e54-2f69f55f11bd" -> "6a999a3a-37ab-4fbb-98b5-510b387738c1"
+  "fbc70850-e6a6-42d2-8e54-2f69f55f11bd" -> "a81fac18-c4a8-4a7d-9155-ecd495f287b7"
+  "fbc70850-e6a6-42d2-8e54-2f69f55f11bd" -> "233b7926-0625-421c-94b5-8355edd1d90c"
+  "fbc70850-e6a6-42d2-8e54-2f69f55f11bd" -> "4d951c4a-1209-4dc8-adaf-b171fa76af59"
+  "4c118d94-c076-4d39-b8df-e93f47b29400" -> "ffbcc08e-6773-4686-ac46-0ce3fc6c02b3" [style="dotted", label="delegates"]
+  "6a999a3a-37ab-4fbb-98b5-510b387738c1" -> "3f3e64d5-1dd9-464f-8e38-477d6a2f6e2a"
+  "6a999a3a-37ab-4fbb-98b5-510b387738c1" -> "c4e33f5e-6b76-4e9a-85a6-3b58ce88a3a6"
+  "ffbcc08e-6773-4686-ac46-0ce3fc6c02b3" -> "056bfee0-2ef6-42f1-93e5-f118f6ea3d3c"
+  "ffbcc08e-6773-4686-ac46-0ce3fc6c02b3" -> "5ce679c8-2f53-4ff0-94a9-4dbf11bb805d"
+  "056bfee0-2ef6-42f1-93e5-f118f6ea3d3c" -> "3f3e64d5-1dd9-464f-8e38-477d6a2f6e2a"
+  "3f3e64d5-1dd9-464f-8e38-477d6a2f6e2a" -> "a55d28aa-0ff4-4904-8727-56bce9f61c83" [style="dotted", label="delegates"]
+}

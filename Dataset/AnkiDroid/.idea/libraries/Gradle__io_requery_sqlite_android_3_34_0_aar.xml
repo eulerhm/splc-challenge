@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: io.requery:sqlite-android:3.34.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e61d60c71c3c5cd16b57596ef57060c3/transformed/jetified-sqlite-android-3.34.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e61d60c71c3c5cd16b57596ef57060c3/transformed/jetified-sqlite-android-3.34.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e61d60c71c3c5cd16b57596ef57060c3/transformed/jetified-sqlite-android-3.34.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e61d60c71c3c5cd16b57596ef57060c3/transformed/jetified-sqlite-android-3.34.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.requery/sqlite-android/3.34.0/27c842b7c7c1c1adc107ff6f4782e2b68b98158c/sqlite-android-3.34.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.requery/sqlite-android/3.34.0/97f1e602b323e62a1eecf20d11d38626919fed80/sqlite-android-3.34.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

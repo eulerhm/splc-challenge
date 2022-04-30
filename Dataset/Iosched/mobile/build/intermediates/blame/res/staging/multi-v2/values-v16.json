@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/incremental/mergeStagingResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/eulerhm/.gradle/caches/transforms-2/files-2.1/7ac0c7c758c8aedf86a33b0cac8a332a/appcompat-1.1.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/eulerhm/.gradle/caches/transforms-2/files-2.1/a7026988422613b0fbb61167207cd6ba/core-1.3.0-rc01/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

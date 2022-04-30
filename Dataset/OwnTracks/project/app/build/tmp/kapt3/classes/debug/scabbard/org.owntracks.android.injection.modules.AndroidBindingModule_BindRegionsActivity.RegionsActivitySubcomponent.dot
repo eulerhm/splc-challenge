@@ -1,0 +1,55 @@
+digraph "org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindRegionsActivity.RegionsActivitySubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AppComponent → AndroidBindingModule_BindRegionsActivity.RegionsActivitySubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "634e5043-7241-4fe1-81f4-1a75354c67ba" [label="inject (RegionsActivity)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "4ac98346-123c-484e-8d9e-76c6154c30c0" [label="RegionsMvvm.ViewModel<RegionsMvvm.View>", color="turquoise"]
+    "6b641230-9cda-423b-926e-9d1395d6a642" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "0152385f-29bd-4360-8571-fa93cd352082" [label="@PerActivity\nNavigator", color="bisque"]
+    "b441787b-32d3-4f66-abb1-58720b90d62a" [label="@PerActivity\nRegionsViewModel", color="bisque"]
+    "a7a7ea06-8336-4b8a-886d-bb646888a56a" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "a57270ff-af91-493f-8317-a56e9cf93b23" [label="RegionsActivity", color="turquoise", shape="parallelogram"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindRegionsActivity.RegionsActivitySubcomponent" {
+    graph [labeljust="c", label="Inherited from AndroidBindingModule_BindRegionsActivity.RegionsActivitySubcomponent\n@PerActivity", style="dashed", href="org.owntracks.android.injection.modules.AndroidBindingModule_BindRegionsActivity.RegionsActivitySubcomponent.svg", color="bisque"]
+    "4ac98346-123c-484e-8d9e-76c6154c30c0" [label="RegionsMvvm.ViewModel<RegionsMvvm.View>", color="turquoise"]
+    "0152385f-29bd-4360-8571-fa93cd352082" [label="@PerActivity\nNavigator", color="bisque"]
+    "6b641230-9cda-423b-926e-9d1395d6a642" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "b441787b-32d3-4f66-abb1-58720b90d62a" [label="@PerActivity\nRegionsViewModel", color="bisque"]
+    "a7a7ea06-8336-4b8a-886d-bb646888a56a" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "a7a7ea06-8336-4b8a-886d-bb646888a56a" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "0152385f-29bd-4360-8571-fa93cd352082" [label="@PerActivity\nNavigator", color="bisque"]
+    "a57270ff-af91-493f-8317-a56e9cf93b23" [label="RegionsActivity", color="turquoise", shape="parallelogram"]
+  }
+  subgraph "cluster_AppComponent" {
+    graph [labeljust="c", label="Inherited from AppComponent\n@Singleton", style="dashed", href="org.owntracks.android.injection.components.AppComponent.svg", color="aquamarine"]
+    "af3bdaed-69de-4ab5-8daa-13fe50dba9d0" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "05802cd9-2169-450b-b9e8-4e92415fe721" [label="@Singleton\nEventBus", color="aquamarine"]
+    "3c8131c6-3661-4a55-8e6c-d90150804995" [label="@Singleton\nPreferences", color="aquamarine"]
+    "0497af69-8954-478a-abe5-8c6d4cfdfd1d" [label="@Singleton\nScheduler", color="aquamarine"]
+    "ea80ff7d-bb48-42f4-b4aa-68e2c51f7546" [label="WaypointsRepo", color="turquoise"]
+    "c2bcd2ec-09d4-44fa-af13-ca4b6b7f0ed1" [label="@Singleton\nLocationProcessor", color="aquamarine"]
+  }
+  "634e5043-7241-4fe1-81f4-1a75354c67ba" -> "af3bdaed-69de-4ab5-8daa-13fe50dba9d0"
+  "634e5043-7241-4fe1-81f4-1a75354c67ba" -> "05802cd9-2169-450b-b9e8-4e92415fe721"
+  "634e5043-7241-4fe1-81f4-1a75354c67ba" -> "4ac98346-123c-484e-8d9e-76c6154c30c0"
+  "634e5043-7241-4fe1-81f4-1a75354c67ba" -> "3c8131c6-3661-4a55-8e6c-d90150804995"
+  "634e5043-7241-4fe1-81f4-1a75354c67ba" -> "6b641230-9cda-423b-926e-9d1395d6a642"
+  "634e5043-7241-4fe1-81f4-1a75354c67ba" -> "0152385f-29bd-4360-8571-fa93cd352082"
+  "4ac98346-123c-484e-8d9e-76c6154c30c0" -> "b441787b-32d3-4f66-abb1-58720b90d62a" [style="dotted", label="delegates"]
+  "6b641230-9cda-423b-926e-9d1395d6a642" -> "0497af69-8954-478a-abe5-8c6d4cfdfd1d"
+  "6b641230-9cda-423b-926e-9d1395d6a642" -> "a7a7ea06-8336-4b8a-886d-bb646888a56a"
+  "b441787b-32d3-4f66-abb1-58720b90d62a" -> "0152385f-29bd-4360-8571-fa93cd352082"
+  "0152385f-29bd-4360-8571-fa93cd352082" -> "a7a7ea06-8336-4b8a-886d-bb646888a56a"
+  "b441787b-32d3-4f66-abb1-58720b90d62a" -> "ea80ff7d-bb48-42f4-b4aa-68e2c51f7546"
+  "b441787b-32d3-4f66-abb1-58720b90d62a" -> "c2bcd2ec-09d4-44fa-af13-ca4b6b7f0ed1"
+  "a7a7ea06-8336-4b8a-886d-bb646888a56a" -> "a57270ff-af91-493f-8317-a56e9cf93b23" [style="dotted", label="delegates"]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "com.google.samples.apps.iosched.shared",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "outputFile": "shared-staging.aar",
+        "fullName": "staging",
+        "baseName": "staging",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/staging/AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.google.samples.apps.iosched.shared",
+        "split": ""
+      }
+    }
+  ]
+}

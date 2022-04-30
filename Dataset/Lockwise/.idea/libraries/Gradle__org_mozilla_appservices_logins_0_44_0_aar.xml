@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.appservices:logins:0.44.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bdbd98e46ef270522365c317914936e4/jetified-logins-0.44.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bdbd98e46ef270522365c317914936e4/jetified-logins-0.44.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bdbd98e46ef270522365c317914936e4/jetified-logins-0.44.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.appservices/logins/0.44.0/a579e5817c15b2c1eb9338bb4a2c4df8de41b1ac/logins-0.44.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Showly_2.0.iml" filepath="$PROJECT_DIR$/.idea/modules/Showly_2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Showly_2.0.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Showly_2.0.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Showly_2.0.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Showly_2.0.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-local/Showly_2.0.data-local.iml" filepath="$PROJECT_DIR$/.idea/modules/data-local/Showly_2.0.data-local.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-remote/Showly_2.0.data-remote.iml" filepath="$PROJECT_DIR$/.idea/modules/data-remote/Showly_2.0.data-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/Showly_2.0.repository.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/Showly_2.0.repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-base/Showly_2.0.ui-base.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-base/Showly_2.0.ui-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-comments/Showly_2.0.ui-comments.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-comments/Showly_2.0.ui-comments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-discover/Showly_2.0.ui-discover.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-discover/Showly_2.0.ui-discover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-discover-movies/Showly_2.0.ui-discover-movies.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-discover-movies/Showly_2.0.ui-discover-movies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-episodes/Showly_2.0.ui-episodes.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-episodes/Showly_2.0.ui-episodes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-gallery/Showly_2.0.ui-gallery.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-gallery/Showly_2.0.ui-gallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-lists/Showly_2.0.ui-lists.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-lists/Showly_2.0.ui-lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-model/Showly_2.0.ui-model.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-model/Showly_2.0.ui-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-movie/Showly_2.0.ui-movie.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-movie/Showly_2.0.ui-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-my-movies/Showly_2.0.ui-my-movies.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-my-movies/Showly_2.0.ui-my-movies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-my-shows/Showly_2.0.ui-my-shows.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-my-shows/Showly_2.0.ui-my-shows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-navigation/Showly_2.0.ui-navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-navigation/Showly_2.0.ui-navigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-news/Showly_2.0.ui-news.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-news/Showly_2.0.ui-news.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-premium/Showly_2.0.ui-premium.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-premium/Showly_2.0.ui-premium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-progress/Showly_2.0.ui-progress.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-progress/Showly_2.0.ui-progress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-progress-movies/Showly_2.0.ui-progress-movies.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-progress-movies/Showly_2.0.ui-progress-movies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-search/Showly_2.0.ui-search.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-search/Showly_2.0.ui-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-settings/Showly_2.0.ui-settings.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-settings/Showly_2.0.ui-settings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-show/Showly_2.0.ui-show.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-show/Showly_2.0.ui-show.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-statistics/Showly_2.0.ui-statistics.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-statistics/Showly_2.0.ui-statistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-statistics-movies/Showly_2.0.ui-statistics-movies.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-statistics-movies/Showly_2.0.ui-statistics-movies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-streamings/Showly_2.0.ui-streamings.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-streamings/Showly_2.0.ui-streamings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-trakt-sync/Showly_2.0.ui-trakt-sync.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-trakt-sync/Showly_2.0.ui-trakt-sync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-widgets/Showly_2.0.ui-widgets.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-widgets/Showly_2.0.ui-widgets.iml" />
+    </modules>
+  </component>
+</project>

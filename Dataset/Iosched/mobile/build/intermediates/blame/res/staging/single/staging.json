@@ -1,0 +1,1006 @@
+[
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_navigation_item_background.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/navigation_item_background.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_agenda_after_hours.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_agenda_after_hours.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_divider_empty_margin_normal.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/divider_empty_margin_normal.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/raw_map_style_day.json.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/raw/map_style_day.json"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_schedule.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_sustainability_art.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_sustainability_art.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout-land_include_search_appbar.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout-land/include_search_appbar.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_restroom.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_restroom.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_avd_pending_to_reserved.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/avd_pending_to_reserved.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_signal_wifi_off.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/signal_wifi_off.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_3.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_3.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_medical.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_medical.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_food.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_food.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_feed_announcements_empty.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_feed_announcements_empty.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_menu.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_reserved.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_reserved.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_include_schedule_appbar.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/include_schedule_appbar.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_info_faq.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_info_faq.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_no_network.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_no_network.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/raw_map_style_night.json.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/raw/map_style_night.json"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_divider_slash.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/divider_slash.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_codelab.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_codelab.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_clear_all.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_clear_all.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_other.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_other.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_info.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_collapsible_card_content.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/collapsible_card_content.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable-anydpi-v23_preview_window_logo.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable-anydpi-v23/preview_window_logo.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_4.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_4.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_game_reviews3.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_game_reviews3.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_map_variant_select.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_map_variant_select.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_generic_section_header.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_generic_section_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_shuttle.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_shuttle.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_handicap.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_handicap.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_schedule_day_indicator.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_schedule_day_indicator.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_bullet_small.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/bullet_small.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_speaker.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_speaker.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_avd_unstar_event.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/avd_unstar_event.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/color_chip_stroke.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/color/chip_stroke.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_search.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_search.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_1.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_1.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_agenda_light.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_agenda_light.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_my_location.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_my_location.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_asld_chip_icon.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/asld_chip_icon.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_countdown.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/countdown.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_default_profile_avatar.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_default_profile_avatar.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/transition_speaker_shared_enter.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/transition/speaker_shared_enter.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/menu_session_detail_menu.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/menu/session_detail_menu.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_announcements.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_announcements.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_session_info.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_session_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_service_dog.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_service_dog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_arrow_back.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_agenda_concert.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_agenda_concert.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_filters_sheet_header_shadow.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/filters_sheet_header_shadow.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_map.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_map.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_include_search_appbar.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/include_search_appbar.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_nav_settings.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_nav_settings.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_layers.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_layers.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_asld_star_event.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/asld_star_event.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_onboarding_signin.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_onboarding_signin.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_charging.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_charging.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_page_margin.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/page_margin.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_map_concert.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_map_concert.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable-anydpi-v23_preview_window.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable-anydpi-v23/preview_window.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_logo_facebook.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_logo_facebook.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_game_reviews1.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_game_reviews1.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_arrow_right.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_arrow_right.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_list_divider.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/list_divider.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_office_hours2.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_office_hours2.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_store.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_store.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_avd_pending_to_reservable.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/avd_pending_to_reservable.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_info.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_header_afterhours.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_header_afterhours.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_asld_reservation.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/asld_reservation.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_placeholder_session3.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_placeholder_session3.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_default_avatar_1.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_default_avatar_1.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_7.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_7.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_game_reviews2.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_game_reviews2.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_play_circle_outline.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_play_circle_outline.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_avd_pending_to_waitlisted.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/avd_pending_to_waitlisted.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_dialog_schedule_hints.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/dialog_schedule_hints.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_reservation_pending.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_reservation_pending.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_search.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_avd_reserved_to_pending.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/avd_reserved_to_pending.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_placeholder_session4.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_placeholder_session4.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_star.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_star.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_avd_star_event.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/avd_star_event.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout-land_include_schedule_appbar.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout-land/include_schedule_appbar.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_no_items_found_204.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/no_items_found_204.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/menu_schedule_menu.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/menu/schedule_menu.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/raw_map_markers_concert.json.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/raw/map_markers_concert.json"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_parking.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_parking.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_reservation.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_reservation.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_question_answer.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_question_answer.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_divider_empty_margin_small.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/divider_empty_margin_small.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_agenda_badge.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_agenda_badge.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_agenda_sandbox.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_agenda_sandbox.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_agenda.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_agenda.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_filter_chip_selectable.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_filter_chip_selectable.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_settings.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_label_background.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_label_background.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_avd_waitlisted_to_pending.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/avd_waitlisted_to_pending.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_hashtag_io19.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/hashtag_io19.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_filter.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_filter.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_agenda_meal.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_agenda_meal.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_8.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_8.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_onboarding_schedule.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/onboarding_schedule.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_session3.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_session3.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_feed_sustainability.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_feed_sustainability.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_header_codelabs.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_header_codelabs.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_session_detail.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_session_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_io_logo_color.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/io_logo_color.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_filters.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_filters.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_avd_reservable_to_pending.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/avd_reservable_to_pending.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_preview_window.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/preview_window.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_header_sessions.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_header_sessions.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_keynote.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_keynote.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_default_avatar_2.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_default_avatar_2.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_e.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_e.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_chip_check.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/chip_check.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_login.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_login.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_2.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_2.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_office_hours3.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_office_hours3.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_inline_tag.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_inline_tag.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_onboarding_io_19.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/onboarding_io_19.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_reservable.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_reservable.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_session4.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_session4.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_generic_placeholder.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/generic_placeholder.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_feed_announcements_header.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_feed_announcements_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_reservation_disabled.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_reservation_disabled.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_activity_main.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_logo_assistant.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_logo_assistant.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_speaker_info.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_speaker_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_waitlist_available.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_waitlist_available.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_afterhours.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_afterhours.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_mothers_room.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_mothers_room.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_fading_snackbar_background.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/fading_snackbar_background.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_app_reviews2.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_app_reviews2.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_feed_session.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_feed_session.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/transition_codelab_toggle.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/transition/codelab_toggle.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_d.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_d.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/raw_map_markers_night.json.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/raw/map_markers_night.json"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_filters_sheet_background.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/filters_sheet_background.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_lounge.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_lounge.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_feed_moment.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_feed_moment.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_navigation_header.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/navigation_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_header_sandbox.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_header_sandbox.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/color_schedule_day_indicator_text.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/color/schedule_day_indicator_text.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_session_feedback.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_session_feedback.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_app_reviews3.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_app_reviews3.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_c.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_c.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_nav_codelabs.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_nav_codelabs.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_onboarding_welcome_post.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_onboarding_welcome_post.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_session2.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_session2.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_nav_signpost.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_nav_signpost.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_feed_social_button_bg.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_feed_social_button_bg.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_launch.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_launch.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_default_avatar_3.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_default_avatar_3.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_f.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_f.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_feed_sessions_container.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_feed_sessions_container.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_agenda_codelab.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_agenda_codelab.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_feed_social_channels.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_feed_social_channels.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_info_event.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_info_event.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/menu_search_menu.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/menu/search_menu.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_nav_map.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_nav_map.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_chip_dot.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/chip_dot.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_dialog_sign_in.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/dialog_sign_in.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_agenda_keynote.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_agenda_keynote.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_feed.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_feed.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_session.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_session.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_map_variant.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_map_variant.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_avd_chip_dot_to_check.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/avd_chip_dot_to_check.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_placeholder_session2.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_placeholder_session2.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_app_reviews1.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_app_reviews1.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_nav_info.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_nav_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/menu_map_menu.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/menu/map_menu.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_map_after_dark.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_map_after_dark.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_codelabs_information_card.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_codelabs_information_card.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_logo_components.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_logo_components.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_include_agenda_contents.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/include_agenda_contents.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/navigation_nav_graph.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable-xxxhdpi_preview_window_logo.png.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable-xxxhdpi/preview_window_logo.png"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_arcore_gray.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/arcore_gray.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_a.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_a.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_6.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_6.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout-w500dp_event_card_content.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout-w500dp/event_card_content.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_map_daytime.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_map_daytime.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_office_hours1.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_office_hours1.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_filter_chip_closeable.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_filter_chip_closeable.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_h.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_h.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_logo_google_developers.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_logo_google_developers.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_feed_announcement.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_feed_announcement.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_unrated_thumb.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/unrated_thumb.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_dialog_sign_out.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/dialog_sign_out.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_i.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_i.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_narrow_session1.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_narrow_session1.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_codelabs.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_codelabs.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_feed_countdown.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_feed_countdown.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_agenda_dark.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_agenda_dark.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_question.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_question.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_drink.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_drink.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_info_travel.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_info_travel.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_avd_chip_check_to_dot.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/avd_chip_check_to_dot.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_expand_more.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_expand_more.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/menu_navigation.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/menu/navigation.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_g.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_g.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_logo_twitter.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_logo_twitter.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_logo_instagram.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_logo_instagram.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_header_office_hours.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_header_office_hours.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_logout.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/color_map_variant_text.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/color/map_variant_text.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_logo_youtube.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_logo_youtube.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_tab_indicator.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/tab_indicator.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/menu_profile.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/menu/profile.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_codelabs_header.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_codelabs_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_event_card_content.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/event_card_content.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/color_navigation_item_background_tint.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/color/navigation_item_background_tint.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_onboarding_io_date_2019.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/onboarding_io_date_2019.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_agenda_store.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_agenda_store.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_activity_session_detail.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/activity_session_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_speaker.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_speaker.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_water.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_water.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_placeholder_keynote.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_placeholder_keynote.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_nav_schedule.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_nav_schedule.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_placeholder_session1.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_placeholder_session1.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_nav_agenda.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_nav_agenda.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_onboarding_welcome_during.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_onboarding_welcome_during.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/transition_info_card_toggle.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/transition/info_card_toggle.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/animator_active_alpha.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/animator/active_alpha.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_onboarding_welcome_pre.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_onboarding_welcome_pre.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_agenda_office_hours.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_agenda_office_hours.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_share.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_share.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fading_snackbar_layout.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fading_snackbar_layout.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_bike.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_bike.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/color_map_variant_icon.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/color/map_variant_icon.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_tune.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_tune.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_agenda_session.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_agenda_session.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_5.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_5.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_b.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_b.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_play.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_play.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_onboarding.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_onboarding.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_map_marker_rideshare.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/map_marker_rideshare.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_filter_clear.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_filter_clear.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_waitlisted.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_waitlisted.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_ic_nav_home.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/ic_nav_home.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/raw_map_markers_day.json.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/raw/map_markers_day.json"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/color_chip_bg.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/color/chip_bg.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_item_feed_announcements_loading.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/item_feed_announcements_loading.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/drawable_event_header_meals.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/drawable/event_header_meals.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_fragment_arcore_not_supported.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/fragment_arcore_not_supported.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_info_wifi_card.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/info_wifi_card.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/res/merged/staging/layout_activity_onboarding.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout/activity_onboarding.xml"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/build/intermediates/res/merged/debug/color_search_text_box_border_color.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/res/color/search_text_box_border_color.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/build/intermediates/res/merged/debug/raw_search_anim.json.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/res/raw/search_anim.json"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/build/intermediates/res/merged/debug/layout_view_search_result.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/res/layout/view_search_result.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/build/intermediates/res/merged/debug/layout_view_search_uninitialized.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/res/layout/view_search_uninitialized.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/build/intermediates/res/merged/debug/color_search_text_box_hint_color.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/res/color/search_text_box_hint_color.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/build/intermediates/res/merged/debug/layout_fragment_search.xml.flat",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/res/layout/fragment_search.xml"
+    }
+]

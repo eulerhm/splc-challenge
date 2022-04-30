@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.blipinsk:disable-animations-rule:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5f74bf3130d76aaf5ff00666d967c27e/transformed/disable-animations-rule-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5f74bf3130d76aaf5ff00666d967c27e/transformed/disable-animations-rule-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5f74bf3130d76aaf5ff00666d967c27e/transformed/disable-animations-rule-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.blipinsk/disable-animations-rule/2.0.0/3bb1313d17c0d093e4b649ba915d4e82bbc746c7/disable-animations-rule-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.blipinsk/disable-animations-rule/2.0.0/3cf0e632c3be0b309ca4cabe025ee7cbe2ce456e/disable-animations-rule-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

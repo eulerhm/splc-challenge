@@ -1,0 +1,177 @@
+digraph "org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "a88978c4-76c2-4268-9cc3-f82723f514ac" [label="inject (WelcomeActivity)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "63e15552-698b-4f27-95a4-5a3dbd7d0e06" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "457f6b84-8409-4ba9-a386-77572f6b1be1" [label="@PerActivity\nWelcomeViewModel", color="bisque"]
+    "a40d8661-89e7-4b7e-977a-4b037c2a8c17" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "71be3cd8-f97e-4c00-b4b0-90e9f3e8de4e" [label="@PerActivity\nNavigator", color="bisque"]
+    "d6f927a3-fcb8-4346-af57-d12770b39c8a" [label="@PerActivity\nRequirementsChecker", color="bisque"]
+    "388d0255-b72a-4091-8258-aabaac79b588" [label="WelcomeActivityModule_BindPlayFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "c54eaecd-0f9f-4404-b7ad-682c36ffb0fa" [label="WelcomeActivityModule_BindIntroFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "bd95c88f-1344-43e3-9098-211fdfb5065c" [label="WelcomeActivityModule_BindVersionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "ac76da17-f0b6-4ee6-91d4-ef899781e29f" [label="WelcomeActivityModule_BindPermissionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "e2f3f090-f8ff-4597-921a-287278d3f4ed" [label="WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "d14098b9-d06d-4d52-9e34-d05cf85a1d44" [label="PlayFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "1d5b31d6-681f-4ac9-9265-00fb6b3767d2" [label="IntroFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "9b6ac3ed-ff28-4903-a80b-2659006d8717" [label="VersionFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "a576ba22-e97c-47ff-b8b1-0f0a36a2654f" [label="PermissionFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "f92622fc-205c-4b40-9204-c08de053c056" [label="FinishFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "c30ebb60-6459-4612-99cc-e6ee2aee19cc" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "6d75424a-edca-47ce-b4dc-64275f450c5b" [label="WelcomeActivity", color="turquoise", shape="parallelogram"]
+    "4f1d2cf1-eb8f-4102-b998-3fa518d7a568" [label="@PerActivity\nPermissionFragmentViewModel", color="bisque"]
+    subgraph "cluster_Map<Class<?>, Provider<AndroidInjector.Factory<?>>>" {
+      graph [label="Map<Class<?>, Provider<AndroidInjector.Factory<?>>>", labeljust="c", style="rounded", color="black"]
+      "605a093b-02d9-4979-969e-9a9cdb402fd4" [label="Map<Class<?>, Provider<AndroidInjector.Factory<?>>>", color="turquoise", shape="tab"]
+      "388d0255-b72a-4091-8258-aabaac79b588" [label="WelcomeActivityModule_BindPlayFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "ac76da17-f0b6-4ee6-91d4-ef899781e29f" [label="WelcomeActivityModule_BindPermissionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "e15ebfd2-9edc-4eb5-8d94-8e984bb2d6fe" [label="AndroidBindingModule_BindMapActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "c34d105e-4268-4f0a-ad1b-6765d7b63791" [label="AndroidBindingModule_BindRegionActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "47d765de-b307-4d6e-b8f0-7ac9c9ef0314" [label="AndroidBindingModule_BindWelcomeActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "772284cf-498f-4b9d-9201-66c195173072" [label="AndroidBindingModule_BindLogViewerActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "43dd185c-5619-426f-b710-24f761318450" [label="AndroidBindingModule_BindStatusActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "4870c754-000f-49e1-b909-4fcaac22e3ec" [label="AndroidBindingModule_BindLoadActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "ecd80278-351b-4c70-8d71-fe2d56bc76bf" [label="AndroidBindingModule_BindBackgroundService.bindAndroidInjectorFactory()", color="turquoise"]
+      "fc07b013-db0b-48f0-8b8b-0a96317ffcb7" [label="AndroidBindingModule_BindRegionsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "0c5b9ff8-a55b-47db-8e21-18dc68fcd6bd" [label="AndroidBindingModule_BindBackgroundServiceReceiver.bindAndroidInjectorFactory()", color="turquoise"]
+      "e666f1a9-5a46-4bcd-95ac-57aad45e2830" [label="AndroidBindingModule_BindEditorActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "c54eaecd-0f9f-4404-b7ad-682c36ffb0fa" [label="WelcomeActivityModule_BindIntroFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "e2f3f090-f8ff-4597-921a-287278d3f4ed" [label="WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "95a9683f-00a8-452c-a4c2-16b4f24a782c" [label="AndroidBindingModule_BindConnectionActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "163458d4-c4ed-4e7a-b9a3-42f81528ef7b" [label="AndroidBindingModule_BindPreferencesActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "f6cb627e-93b1-4f6b-adf8-b663850e4a66" [label="AndroidBindingModule_BindContactsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "bd95c88f-1344-43e3-9098-211fdfb5065c" [label="WelcomeActivityModule_BindVersionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "9c1d8858-639f-4475-8417-f42ba3dec4e1" [label="@PerFragment\nWelcomeActivityModule_BindPlayFragment.PlayFragmentSubcomponent", href="org.owntracks.android.ui.welcome.WelcomeActivityModule_BindPlayFragment.PlayFragmentSubcomponent.svg", color="coral"]
+    "1343a0bc-4c0e-4407-b79c-22e48ffca1d3" [label="@PerFragment\nWelcomeActivityModule_BindIntroFragment.IntroFragmentSubcomponent", href="org.owntracks.android.ui.welcome.WelcomeActivityModule_BindIntroFragment.IntroFragmentSubcomponent.svg", color="coral"]
+    "20a11286-7045-43f9-8678-3c37b08354ea" [label="@PerFragment\nWelcomeActivityModule_BindVersionFragment.VersionFragmentSubcomponent", href="org.owntracks.android.ui.welcome.WelcomeActivityModule_BindVersionFragment.VersionFragmentSubcomponent.svg", color="coral"]
+    "69d86bb8-94c5-4346-bf8b-fa2553a36b4e" [label="@PerFragment\nWelcomeActivityModule_BindPermissionFragment.PermissionFragmentSubcomponent", href="org.owntracks.android.ui.welcome.WelcomeActivityModule_BindPermissionFragment.PermissionFragmentSubcomponent.svg", color="coral"]
+    "d5ad3df8-7c62-421c-9d3d-2e8045952439" [label="@PerFragment\nWelcomeActivityModule_BindFinishFragment.FinishFragmentSubcomponent", href="org.owntracks.android.ui.welcome.WelcomeActivityModule_BindFinishFragment.FinishFragmentSubcomponent.svg", color="coral"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent" {
+    graph [labeljust="c", label="Inherited from AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent\n@PerActivity", style="dashed", href="org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent.svg", color="bisque"]
+    "a40d8661-89e7-4b7e-977a-4b037c2a8c17" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "d6f927a3-fcb8-4346-af57-d12770b39c8a" [label="@PerActivity\nRequirementsChecker", color="bisque"]
+    "457f6b84-8409-4ba9-a386-77572f6b1be1" [label="@PerActivity\nWelcomeViewModel", color="bisque"]
+    "63e15552-698b-4f27-95a4-5a3dbd7d0e06" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "71be3cd8-f97e-4c00-b4b0-90e9f3e8de4e" [label="@PerActivity\nNavigator", color="bisque"]
+    "71be3cd8-f97e-4c00-b4b0-90e9f3e8de4e" [label="@PerActivity\nNavigator", color="bisque"]
+    "c30ebb60-6459-4612-99cc-e6ee2aee19cc" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "c30ebb60-6459-4612-99cc-e6ee2aee19cc" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "c30ebb60-6459-4612-99cc-e6ee2aee19cc" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "388d0255-b72a-4091-8258-aabaac79b588" [label="WelcomeActivityModule_BindPlayFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "ac76da17-f0b6-4ee6-91d4-ef899781e29f" [label="WelcomeActivityModule_BindPermissionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "c54eaecd-0f9f-4404-b7ad-682c36ffb0fa" [label="WelcomeActivityModule_BindIntroFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "e2f3f090-f8ff-4597-921a-287278d3f4ed" [label="WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "bd95c88f-1344-43e3-9098-211fdfb5065c" [label="WelcomeActivityModule_BindVersionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "d14098b9-d06d-4d52-9e34-d05cf85a1d44" [label="PlayFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "1d5b31d6-681f-4ac9-9265-00fb6b3767d2" [label="IntroFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "9b6ac3ed-ff28-4903-a80b-2659006d8717" [label="VersionFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "a576ba22-e97c-47ff-b8b1-0f0a36a2654f" [label="PermissionFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "f92622fc-205c-4b40-9204-c08de053c056" [label="FinishFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "6d75424a-edca-47ce-b4dc-64275f450c5b" [label="WelcomeActivity", color="turquoise", shape="parallelogram"]
+    "71be3cd8-f97e-4c00-b4b0-90e9f3e8de4e" [label="@PerActivity\nNavigator", color="bisque"]
+    subgraph "cluster_Map<Class<?>, Provider<AndroidInjector.Factory<?>>>" {
+      graph [label="Map<Class<?>, Provider<AndroidInjector.Factory<?>>>", labeljust="c", style="rounded", color="black"]
+      "605a093b-02d9-4979-969e-9a9cdb402fd4" [label="Map<Class<?>, Provider<AndroidInjector.Factory<?>>>", color="turquoise", shape="tab"]
+      "388d0255-b72a-4091-8258-aabaac79b588" [label="WelcomeActivityModule_BindPlayFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "ac76da17-f0b6-4ee6-91d4-ef899781e29f" [label="WelcomeActivityModule_BindPermissionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "e15ebfd2-9edc-4eb5-8d94-8e984bb2d6fe" [label="AndroidBindingModule_BindMapActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "c34d105e-4268-4f0a-ad1b-6765d7b63791" [label="AndroidBindingModule_BindRegionActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "47d765de-b307-4d6e-b8f0-7ac9c9ef0314" [label="AndroidBindingModule_BindWelcomeActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "772284cf-498f-4b9d-9201-66c195173072" [label="AndroidBindingModule_BindLogViewerActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "43dd185c-5619-426f-b710-24f761318450" [label="AndroidBindingModule_BindStatusActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "4870c754-000f-49e1-b909-4fcaac22e3ec" [label="AndroidBindingModule_BindLoadActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "ecd80278-351b-4c70-8d71-fe2d56bc76bf" [label="AndroidBindingModule_BindBackgroundService.bindAndroidInjectorFactory()", color="turquoise"]
+      "fc07b013-db0b-48f0-8b8b-0a96317ffcb7" [label="AndroidBindingModule_BindRegionsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "0c5b9ff8-a55b-47db-8e21-18dc68fcd6bd" [label="AndroidBindingModule_BindBackgroundServiceReceiver.bindAndroidInjectorFactory()", color="turquoise"]
+      "e666f1a9-5a46-4bcd-95ac-57aad45e2830" [label="AndroidBindingModule_BindEditorActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "c54eaecd-0f9f-4404-b7ad-682c36ffb0fa" [label="WelcomeActivityModule_BindIntroFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "e2f3f090-f8ff-4597-921a-287278d3f4ed" [label="WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "95a9683f-00a8-452c-a4c2-16b4f24a782c" [label="AndroidBindingModule_BindConnectionActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "163458d4-c4ed-4e7a-b9a3-42f81528ef7b" [label="AndroidBindingModule_BindPreferencesActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "f6cb627e-93b1-4f6b-adf8-b663850e4a66" [label="AndroidBindingModule_BindContactsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "bd95c88f-1344-43e3-9098-211fdfb5065c" [label="WelcomeActivityModule_BindVersionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_AppComponent" {
+    graph [labeljust="c", label="Inherited from AppComponent\n@Singleton", style="dashed", href="org.owntracks.android.injection.components.AppComponent.svg", color="aquamarine"]
+    "606ef058-940e-4f19-8c03-ba9b791824b3" [label="@Singleton\nEventBus", color="aquamarine"]
+    "c36b6091-7cae-4b9a-9e45-53b841a56671" [label="@Singleton\nPreferences", color="aquamarine"]
+    "c36b6091-7cae-4b9a-9e45-53b841a56671" [label="@Singleton\nPreferences", color="aquamarine"]
+    "39cb28f0-154d-402b-bfd7-8573f71fbada" [label="@Singleton\nScheduler", color="aquamarine"]
+    "c36b6091-7cae-4b9a-9e45-53b841a56671" [label="@Singleton\nPreferences", color="aquamarine"]
+    "e15ebfd2-9edc-4eb5-8d94-8e984bb2d6fe" [label="AndroidBindingModule_BindMapActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "c34d105e-4268-4f0a-ad1b-6765d7b63791" [label="AndroidBindingModule_BindRegionActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "47d765de-b307-4d6e-b8f0-7ac9c9ef0314" [label="AndroidBindingModule_BindWelcomeActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "772284cf-498f-4b9d-9201-66c195173072" [label="AndroidBindingModule_BindLogViewerActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "43dd185c-5619-426f-b710-24f761318450" [label="AndroidBindingModule_BindStatusActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "4870c754-000f-49e1-b909-4fcaac22e3ec" [label="AndroidBindingModule_BindLoadActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "ecd80278-351b-4c70-8d71-fe2d56bc76bf" [label="AndroidBindingModule_BindBackgroundService.bindAndroidInjectorFactory()", color="turquoise"]
+    "fc07b013-db0b-48f0-8b8b-0a96317ffcb7" [label="AndroidBindingModule_BindRegionsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "0c5b9ff8-a55b-47db-8e21-18dc68fcd6bd" [label="AndroidBindingModule_BindBackgroundServiceReceiver.bindAndroidInjectorFactory()", color="turquoise"]
+    "e666f1a9-5a46-4bcd-95ac-57aad45e2830" [label="AndroidBindingModule_BindEditorActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "95a9683f-00a8-452c-a4c2-16b4f24a782c" [label="AndroidBindingModule_BindConnectionActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "163458d4-c4ed-4e7a-b9a3-42f81528ef7b" [label="AndroidBindingModule_BindPreferencesActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "f6cb627e-93b1-4f6b-adf8-b663850e4a66" [label="AndroidBindingModule_BindContactsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    subgraph "cluster_Map<String, Provider<AndroidInjector.Factory<?>>>" {
+      graph [label="Map<String, Provider<AndroidInjector.Factory<?>>>", labeljust="c", style="rounded", color="black"]
+      "685c4f5d-6ed4-4ea9-b288-7a249ad01696" [label="Map<String, Provider<AndroidInjector.Factory<?>>>", color="turquoise", shape="tab"]
+    }
+  }
+  "a88978c4-76c2-4268-9cc3-f82723f514ac" -> "457f6b84-8409-4ba9-a386-77572f6b1be1"
+  "a88978c4-76c2-4268-9cc3-f82723f514ac" -> "63e15552-698b-4f27-95a4-5a3dbd7d0e06"
+  "a88978c4-76c2-4268-9cc3-f82723f514ac" -> "71be3cd8-f97e-4c00-b4b0-90e9f3e8de4e"
+  "a88978c4-76c2-4268-9cc3-f82723f514ac" -> "606ef058-940e-4f19-8c03-ba9b791824b3"
+  "a88978c4-76c2-4268-9cc3-f82723f514ac" -> "c36b6091-7cae-4b9a-9e45-53b841a56671"
+  "a88978c4-76c2-4268-9cc3-f82723f514ac" -> "d6f927a3-fcb8-4346-af57-d12770b39c8a"
+  "a88978c4-76c2-4268-9cc3-f82723f514ac" -> "a40d8661-89e7-4b7e-977a-4b037c2a8c17"
+  "63e15552-698b-4f27-95a4-5a3dbd7d0e06" -> "605a093b-02d9-4979-969e-9a9cdb402fd4"
+  "63e15552-698b-4f27-95a4-5a3dbd7d0e06" -> "685c4f5d-6ed4-4ea9-b288-7a249ad01696"
+  "457f6b84-8409-4ba9-a386-77572f6b1be1" -> "c36b6091-7cae-4b9a-9e45-53b841a56671"
+  "457f6b84-8409-4ba9-a386-77572f6b1be1" -> "71be3cd8-f97e-4c00-b4b0-90e9f3e8de4e"
+  "a40d8661-89e7-4b7e-977a-4b037c2a8c17" -> "c30ebb60-6459-4612-99cc-e6ee2aee19cc"
+  "a40d8661-89e7-4b7e-977a-4b037c2a8c17" -> "39cb28f0-154d-402b-bfd7-8573f71fbada"
+  "4f1d2cf1-eb8f-4102-b998-3fa518d7a568" -> "71be3cd8-f97e-4c00-b4b0-90e9f3e8de4e"
+  "71be3cd8-f97e-4c00-b4b0-90e9f3e8de4e" -> "c30ebb60-6459-4612-99cc-e6ee2aee19cc"
+  "d6f927a3-fcb8-4346-af57-d12770b39c8a" -> "c30ebb60-6459-4612-99cc-e6ee2aee19cc"
+  "d6f927a3-fcb8-4346-af57-d12770b39c8a" -> "c36b6091-7cae-4b9a-9e45-53b841a56671"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "95a9683f-00a8-452c-a4c2-16b4f24a782c"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "ecd80278-351b-4c70-8d71-fe2d56bc76bf"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "43dd185c-5619-426f-b710-24f761318450"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "e666f1a9-5a46-4bcd-95ac-57aad45e2830"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "c34d105e-4268-4f0a-ad1b-6765d7b63791"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "e15ebfd2-9edc-4eb5-8d94-8e984bb2d6fe"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "ac76da17-f0b6-4ee6-91d4-ef899781e29f"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "bd95c88f-1344-43e3-9098-211fdfb5065c"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "163458d4-c4ed-4e7a-b9a3-42f81528ef7b"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "0c5b9ff8-a55b-47db-8e21-18dc68fcd6bd"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "47d765de-b307-4d6e-b8f0-7ac9c9ef0314"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "772284cf-498f-4b9d-9201-66c195173072"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "f6cb627e-93b1-4f6b-adf8-b663850e4a66"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "fc07b013-db0b-48f0-8b8b-0a96317ffcb7"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "c54eaecd-0f9f-4404-b7ad-682c36ffb0fa"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "4870c754-000f-49e1-b909-4fcaac22e3ec"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "388d0255-b72a-4091-8258-aabaac79b588"
+  "605a093b-02d9-4979-969e-9a9cdb402fd4" -> "e2f3f090-f8ff-4597-921a-287278d3f4ed"
+  "388d0255-b72a-4091-8258-aabaac79b588" -> "d14098b9-d06d-4d52-9e34-d05cf85a1d44" [style="dotted", label="delegates"]
+  "c54eaecd-0f9f-4404-b7ad-682c36ffb0fa" -> "1d5b31d6-681f-4ac9-9265-00fb6b3767d2" [style="dotted", label="delegates"]
+  "bd95c88f-1344-43e3-9098-211fdfb5065c" -> "9b6ac3ed-ff28-4903-a80b-2659006d8717" [style="dotted", label="delegates"]
+  "ac76da17-f0b6-4ee6-91d4-ef899781e29f" -> "a576ba22-e97c-47ff-b8b1-0f0a36a2654f" [style="dotted", label="delegates"]
+  "e2f3f090-f8ff-4597-921a-287278d3f4ed" -> "f92622fc-205c-4b40-9204-c08de053c056" [style="dotted", label="delegates"]
+  "d14098b9-d06d-4d52-9e34-d05cf85a1d44" -> "9c1d8858-639f-4475-8417-f42ba3dec4e1" [style="dashed", label="subcomponent", headport="w"]
+  "1d5b31d6-681f-4ac9-9265-00fb6b3767d2" -> "1343a0bc-4c0e-4407-b79c-22e48ffca1d3" [style="dashed", label="subcomponent", headport="w"]
+  "9b6ac3ed-ff28-4903-a80b-2659006d8717" -> "20a11286-7045-43f9-8678-3c37b08354ea" [style="dashed", label="subcomponent", headport="w"]
+  "a576ba22-e97c-47ff-b8b1-0f0a36a2654f" -> "69d86bb8-94c5-4346-bf8b-fa2553a36b4e" [style="dashed", label="subcomponent", headport="w"]
+  "f92622fc-205c-4b40-9204-c08de053c056" -> "d5ad3df8-7c62-421c-9d3d-2e8045952439" [style="dashed", label="subcomponent", headport="w"]
+  "c30ebb60-6459-4612-99cc-e6ee2aee19cc" -> "6d75424a-edca-47ce-b4dc-64275f450c5b" [style="dotted", label="delegates"]
+}

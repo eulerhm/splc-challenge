@@ -1,0 +1,30 @@
+digraph "org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent → org.owntracks.android.ui.welcome.WelcomeActivityModule_BindFinishFragment.FinishFragmentSubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent → WelcomeActivityModule_BindFinishFragment.FinishFragmentSubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "cae89f45-b3f6-42bf-8efc-967ddca5c27d" [label="inject (FinishFragment)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "dda7c840-d3ae-428d-8b08-4c44e39edfb4" [label="NoOpViewModel", color="turquoise"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent → WelcomeActivityModule_BindFinishFragment.FinishFragmentSubcomponent" {
+    graph [labeljust="c", label="Inherited from WelcomeActivityModule_BindFinishFragment.FinishFragmentSubcomponent\n@PerFragment", style="dashed", href="org.owntracks.android.ui.welcome.WelcomeActivityModule_BindFinishFragment.FinishFragmentSubcomponent.svg", color="coral"]
+    "dda7c840-d3ae-428d-8b08-4c44e39edfb4" [label="NoOpViewModel", color="turquoise"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent" {
+    graph [labeljust="c", label="Inherited from AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent\n@PerActivity", style="dashed", href="org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent.svg", color="bisque"]
+    "69ca124d-0071-4ac7-b709-41b58b8d31d2" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "9bac6c9e-5393-430c-a064-abf51e635f42" [label="@PerActivity\nNavigator", color="bisque"]
+    "9bac6c9e-5393-430c-a064-abf51e635f42" [label="@PerActivity\nNavigator", color="bisque"]
+  }
+  "cae89f45-b3f6-42bf-8efc-967ddca5c27d" -> "9bac6c9e-5393-430c-a064-abf51e635f42"
+  "cae89f45-b3f6-42bf-8efc-967ddca5c27d" -> "dda7c840-d3ae-428d-8b08-4c44e39edfb4"
+  "cae89f45-b3f6-42bf-8efc-967ddca5c27d" -> "69ca124d-0071-4ac7-b709-41b58b8d31d2"
+  "dda7c840-d3ae-428d-8b08-4c44e39edfb4" -> "9bac6c9e-5393-430c-a064-abf51e635f42"
+}

@@ -1,0 +1,120 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'dagger.hilt.android.plugin'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.appdistribution'
+apply plugin: 'com.google.firebase.crashlytics'
+apply from: '../versions.gradle'
+
+android {
+  kotlinOptions { jvmTarget = "1.8" }
+  compileOptions {
+    coreLibraryDesugaringEnabled true
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+
+  buildFeatures {
+    buildConfig = true
+  }
+
+  hilt {
+    enableExperimentalClasspathAggregation = true
+  }
+
+  // If the Android Gradle plugin version used in the project is less than 7.0 then checkReleaseBuilds has to be set to false
+  lintOptions {
+    checkReleaseBuilds false
+  }
+
+  compileSdkVersion versions.compileSdk
+
+  defaultConfig {
+    applicationId "com.michaldrabik.showly2"
+    minSdkVersion versions.minSdk
+    targetSdkVersion versions.compileSdk
+    versionCode versions.versionCode
+    versionName versions.versionName
+
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+  }
+
+//signingConfigs {
+//  def keystorePropertiesFile = rootProject.file("app/keystore.properties")
+//   def keystoreProperties = new Properties()
+//   keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+//   release {
+//     storeFile file("keystore")
+//     storePassword keystoreProperties['storePassword']
+//     keyAlias keystoreProperties['keyAlias']
+//     keyPassword keystoreProperties['keyPassword']
+//   }
+// }
+
+  buildTypes {
+    debug {
+      versionNameSuffix '-debug'
+    }
+    release {
+      minifyEnabled true
+      //signingConfig signingConfigs.release
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+      firebaseAppDistribution {
+        serviceCredentialsFile = rootProject.file("app/firebase-service-key.json")
+        releaseNotes = ""
+        groups = "developers"
+      }
+    }
+  }
+}
+
+dependencies {
+  implementation project(':common')
+  implementation project(':data-remote')
+  implementation project(':data-local')
+  implementation project(':repository')
+  implementation project(':ui-base')
+  implementation project(':ui-model')
+  implementation project(':ui-navigation')
+  implementation project(':ui-trakt-sync')
+  implementation project(':ui-discover')
+  implementation project(':ui-discover-movies')
+  implementation project(':ui-episodes')
+  implementation project(':ui-comments')
+  implementation project(':ui-lists')
+  implementation project(':ui-show')
+  implementation project(':ui-movie')
+  implementation project(':ui-gallery')
+  implementation project(':ui-my-shows')
+  implementation project(':ui-my-movies')
+  implementation project(':ui-search')
+  implementation project(':ui-statistics')
+  implementation project(':ui-statistics-movies')
+  implementation project(':ui-settings')
+  implementation project(':ui-progress')
+  implementation project(':ui-progress-movies')
+  implementation project(':ui-premium')
+  implementation project(':ui-news')
+  implementation project(':ui-widgets')
+
+  implementation "com.google.dagger:hilt-android:$versions.hilt"
+  kapt "com.google.dagger:hilt-compiler:$versions.hilt"
+
+  implementation "com.google.android.play:core:$versions.androidPlayCore"
+  implementation "com.github.YarikSOffice:lingver:$versions.lingver"
+
+  debugImplementation "com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v$versions.debugDb"
+//  debugImplementation "com.squareup.leakcanary:leakcanary-android:$versions.leakCanary"
+
+  testImplementation "junit:junit:$versions.junit"
+  testImplementation "io.mockk:mockk:$versions.mockk"
+  testImplementation "com.google.truth:truth:$versions.truth"
+  testImplementation "androidx.arch.core:core-testing:$versions.coreTesting"
+  testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$versions.coroutinesTesting"
+  androidTestImplementation "androidx.test:runner:$versions.testRunner"
+
+  coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:$versions.androidDesugarLibs"
+}

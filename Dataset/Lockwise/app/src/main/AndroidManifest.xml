@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This Source Code Form is subject to the terms of the Mozilla Public
+  ~ License, v. 2.0. If a copy of the MPL was not distributed with this
+  ~ file, You can obtain one at http://mozilla.org/MPL/2.0/.
+  -->
+
+<manifest
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="mozilla.lockbox">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!--USE_FINGERPRINT is deprecated in API 28+. Use android.permission.USE_BIOMETRIC instead. -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+            android:allowBackup="false"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme.Launcher"
+            android:name=".LockboxApplication"
+            tools:replace="android:allowBackup"
+            tools:ignore="GoogleAppIndexingWarning">
+        <activity
+                android:name=".view.RootActivity"
+                android:label="@string/app_label"
+                android:windowSoftInputMode="adjustPan|stateUnchanged"
+                android:configChanges="orientation|keyboardHidden"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="lockwise" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.AutofillRootActivity"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:taskAffinity=".view.AuthActivity"
+                  android:theme="@style/NoBackgroundTheme"
+                  android:screenOrientation="portrait"/>
+
+        <service
+                android:name=".LockboxAutofillService"
+                android:label="Lockwise"
+                android:permission="android.permission.BIND_AUTOFILL_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.autofill.AutofillService"/>
+            </intent-filter>
+        </service>
+
+        <receiver
+                android:name="com.adjust.sdk.AdjustReferrerReceiver"
+                android:permission="android.permission.INSTALL_PACKAGES"
+                android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".LockboxBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

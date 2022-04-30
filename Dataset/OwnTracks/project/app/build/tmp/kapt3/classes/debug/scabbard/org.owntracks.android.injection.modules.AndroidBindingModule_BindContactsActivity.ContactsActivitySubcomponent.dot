@@ -1,0 +1,53 @@
+digraph "org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindContactsActivity.ContactsActivitySubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AppComponent → AndroidBindingModule_BindContactsActivity.ContactsActivitySubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "21ad3049-a248-4fa9-adde-bf1c7445d1ce" [label="inject (ContactsActivity)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "2a9869dc-d446-4257-b1ec-9f69900807f7" [label="ContactsMvvm.ViewModel<?>", color="turquoise"]
+    "45884660-3283-4e6d-861e-4b47be4dae57" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "1ef52970-587a-4af2-8c9a-72436443fe4a" [label="@PerActivity\nContactsViewModel", color="bisque"]
+    "4c7769cb-cb3d-42a7-aa06-72e0d1cc3d78" [label="@PerActivity\nNavigator", color="bisque"]
+    "c5d54a9d-0176-4aa4-95d0-f9691a14cefd" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "e7bf571a-7188-45c0-a04a-0541072fe7fc" [label="ContactsActivity", color="turquoise", shape="parallelogram"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindContactsActivity.ContactsActivitySubcomponent" {
+    graph [labeljust="c", label="Inherited from AndroidBindingModule_BindContactsActivity.ContactsActivitySubcomponent\n@PerActivity", style="dashed", href="org.owntracks.android.injection.modules.AndroidBindingModule_BindContactsActivity.ContactsActivitySubcomponent.svg", color="bisque"]
+    "2a9869dc-d446-4257-b1ec-9f69900807f7" [label="ContactsMvvm.ViewModel<?>", color="turquoise"]
+    "45884660-3283-4e6d-861e-4b47be4dae57" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "1ef52970-587a-4af2-8c9a-72436443fe4a" [label="@PerActivity\nContactsViewModel", color="bisque"]
+    "c5d54a9d-0176-4aa4-95d0-f9691a14cefd" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "4c7769cb-cb3d-42a7-aa06-72e0d1cc3d78" [label="@PerActivity\nNavigator", color="bisque"]
+    "c5d54a9d-0176-4aa4-95d0-f9691a14cefd" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "e7bf571a-7188-45c0-a04a-0541072fe7fc" [label="ContactsActivity", color="turquoise", shape="parallelogram"]
+  }
+  subgraph "cluster_AppComponent" {
+    graph [labeljust="c", label="Inherited from AppComponent\n@Singleton", style="dashed", href="org.owntracks.android.injection.components.AppComponent.svg", color="aquamarine"]
+    "e509428f-9f24-43da-afd0-f4b4f5f3cb5d" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "6c069e56-f281-41a8-86b3-8fd2931c3311" [label="@Singleton\nGeocoderProvider", color="aquamarine"]
+    "d05eed59-cfb7-4cc0-b58b-0bba4dc6b919" [label="@Singleton\nEventBus", color="aquamarine"]
+    "d1140e44-e139-452d-a146-1a28d27f0f5d" [label="@Singleton\nPreferences", color="aquamarine"]
+    "908039ec-0f52-434a-9087-9e431729572f" [label="@Singleton\nScheduler", color="aquamarine"]
+    "8bbce52f-152b-405e-a737-452371ebd786" [label="@Singleton\nContactsRepo", color="aquamarine"]
+  }
+  "21ad3049-a248-4fa9-adde-bf1c7445d1ce" -> "e509428f-9f24-43da-afd0-f4b4f5f3cb5d"
+  "21ad3049-a248-4fa9-adde-bf1c7445d1ce" -> "2a9869dc-d446-4257-b1ec-9f69900807f7"
+  "21ad3049-a248-4fa9-adde-bf1c7445d1ce" -> "d1140e44-e139-452d-a146-1a28d27f0f5d"
+  "21ad3049-a248-4fa9-adde-bf1c7445d1ce" -> "d05eed59-cfb7-4cc0-b58b-0bba4dc6b919"
+  "21ad3049-a248-4fa9-adde-bf1c7445d1ce" -> "45884660-3283-4e6d-861e-4b47be4dae57"
+  "21ad3049-a248-4fa9-adde-bf1c7445d1ce" -> "6c069e56-f281-41a8-86b3-8fd2931c3311"
+  "2a9869dc-d446-4257-b1ec-9f69900807f7" -> "1ef52970-587a-4af2-8c9a-72436443fe4a" [style="dotted", label="delegates"]
+  "45884660-3283-4e6d-861e-4b47be4dae57" -> "908039ec-0f52-434a-9087-9e431729572f"
+  "45884660-3283-4e6d-861e-4b47be4dae57" -> "c5d54a9d-0176-4aa4-95d0-f9691a14cefd"
+  "1ef52970-587a-4af2-8c9a-72436443fe4a" -> "8bbce52f-152b-405e-a737-452371ebd786"
+  "1ef52970-587a-4af2-8c9a-72436443fe4a" -> "4c7769cb-cb3d-42a7-aa06-72e0d1cc3d78"
+  "4c7769cb-cb3d-42a7-aa06-72e0d1cc3d78" -> "c5d54a9d-0176-4aa4-95d0-f9691a14cefd"
+  "c5d54a9d-0176-4aa4-95d0-f9691a14cefd" -> "e7bf571a-7188-45c0-a04a-0541072fe7fc" [style="dotted", label="delegates"]
+}

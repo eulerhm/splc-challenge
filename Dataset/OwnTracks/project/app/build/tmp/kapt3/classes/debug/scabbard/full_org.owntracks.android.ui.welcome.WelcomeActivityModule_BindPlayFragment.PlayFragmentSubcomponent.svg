@@ -1,0 +1,176 @@
+<svg width="1743px" height="539px"
+ viewBox="0.00 0.00 1742.72 538.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(14.4 524.2)">
+<title>org.owntracks.android.ui.welcome.WelcomeActivityModule → org.owntracks.android.ui.welcome.WelcomeActivityModule_BindPlayFragment.PlayFragmentSubcomponent</title>
+<polygon fill="#ffffff" stroke="transparent" points="-14.4,14.4 -14.4,-524.2 1728.3198,-524.2 1728.3198,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="299.2245" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">WelcomeActivityModule → WelcomeActivityModule_BindPlayFragment.PlayFragmentSubcomponent</text>
+<g id="clust1" class="cluster">
+<title>cluster_Entry Points</title>
+<polygon fill="none" stroke="#000000" points="8,-126.8 8,-203.8 162.4636,-203.8 162.4636,-126.8 8,-126.8"/>
+<text text-anchor="middle" x="50.8061" y="-187.2" font-family="Times,serif" font-size="14.00" fill="#000000">Entry Points</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_Dependency Graph</title>
+<polygon fill="none" stroke="#000000" points="183.4636,-123.8 183.4636,-501.8 1705.9198,-501.8 1705.9198,-123.8 183.4636,-123.8"/>
+<text text-anchor="middle" x="245.687" y="-485.2" font-family="Times,serif" font-size="14.00" fill="#000000">Dependency Graph</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_Map&lt;Class&lt;?&gt;, Provider&lt;AndroidInjector.Factory&lt;?&gt;&gt;&gt;</title>
+<path fill="none" stroke="#000000" d="M723.8454,-175.8C723.8454,-175.8 1685.9198,-175.8 1685.9198,-175.8 1691.9198,-175.8 1697.9198,-181.8 1697.9198,-187.8 1697.9198,-187.8 1697.9198,-456.8 1697.9198,-456.8 1697.9198,-462.8 1691.9198,-468.8 1685.9198,-468.8 1685.9198,-468.8 723.8454,-468.8 723.8454,-468.8 717.8454,-468.8 711.8454,-462.8 711.8454,-456.8 711.8454,-456.8 711.8454,-187.8 711.8454,-187.8 711.8454,-181.8 717.8454,-175.8 723.8454,-175.8"/>
+<text text-anchor="middle" x="1204.8826" y="-452.2" font-family="Times,serif" font-size="14.00" fill="#000000">Map&lt;Class&lt;?&gt;, Provider&lt;AndroidInjector.Factory&lt;?&gt;&gt;&gt;</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_WelcomeActivityModule</title>
+<g id="a_clust7"><a xlink:href="full_org.owntracks.android.ui.welcome.WelcomeActivityModule.svg" xlink:title="Inherited from WelcomeActivityModule">
+<polygon fill="none" stroke="#000000" stroke-dasharray="5,2" points="447.4114,-32.8 447.4114,-115.8 690.8454,-115.8 690.8454,-32.8 447.4114,-32.8"/>
+<text text-anchor="middle" x="569.1284" y="-99.2" font-family="Times,serif" font-size="14.00" fill="#000000">Inherited from WelcomeActivityModule</text>
+</a>
+</g>
+</g>
+<!-- 449d12b2&#45;4443&#45;431d&#45;ae78&#45;f6b942329f57 -->
+<g id="node1" class="node">
+<title>449d12b2&#45;4443&#45;431d&#45;ae78&#45;f6b942329f57</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" stroke-width="2" points="154.6962,-170.8 15.7674,-170.8 15.7674,-166.8 11.7674,-166.8 11.7674,-162.8 15.7674,-162.8 15.7674,-142.8 11.7674,-142.8 11.7674,-138.8 15.7674,-138.8 15.7674,-134.8 154.6962,-134.8 154.6962,-170.8"/>
+<polyline fill="none" stroke="#40e0d0" stroke-width="2" points="15.7674,-166.8 19.7674,-166.8 19.7674,-162.8 15.7674,-162.8 "/>
+<polyline fill="none" stroke="#40e0d0" stroke-width="2" points="15.7674,-142.8 19.7674,-142.8 19.7674,-138.8 15.7674,-138.8 "/>
+<text text-anchor="middle" x="85.2318" y="-148.6" font-family="Times,serif" font-size="14.00" fill="#000000">inject (PlayFragment)</text>
+</g>
+<!-- 3dcd6c11&#45;3768&#45;431f&#45;bdf5&#45;ec3bd4628505 -->
+<g id="node2" class="node">
+<title>3dcd6c11&#45;3768&#45;431f&#45;bdf5&#45;ec3bd4628505</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="418.3853,-294.8 191.4897,-294.8 191.4897,-258.8 418.3853,-258.8 418.3853,-294.8"/>
+<text text-anchor="middle" x="304.9375" y="-272.6" font-family="Times,serif" font-size="14.00" fill="#000000">DispatchingAndroidInjector&lt;Object&gt;</text>
+</g>
+<!-- 449d12b2&#45;4443&#45;431d&#45;ae78&#45;f6b942329f57&#45;&gt;3dcd6c11&#45;3768&#45;431f&#45;bdf5&#45;ec3bd4628505 -->
+<g id="edge2" class="edge">
+<title>449d12b2&#45;4443&#45;431d&#45;ae78&#45;f6b942329f57&#45;&gt;3dcd6c11&#45;3768&#45;431f&#45;bdf5&#45;ec3bd4628505</title>
+<path fill="none" stroke="#000000" d="M100.3529,-171.0657C118.1857,-191.4523 149.7017,-224.0343 183.4636,-242.8 192.0773,-247.5877 201.4162,-251.7428 210.9592,-255.3398"/>
+<polygon fill="#000000" stroke="#000000" points="209.9562,-258.6978 220.5509,-258.7534 212.3033,-252.103 209.9562,-258.6978"/>
+</g>
+<!-- 4153e1d1&#45;8ed7&#45;4dad&#45;a671&#45;7481b57c5a3e -->
+<g id="node3" class="node">
+<title>4153e1d1&#45;8ed7&#45;4dad&#45;a671&#45;7481b57c5a3e</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="385.8476,-173.4019 224.0274,-173.4019 224.0274,-132.1981 385.8476,-132.1981 385.8476,-173.4019"/>
+<text text-anchor="middle" x="304.9375" y="-157" font-family="Times,serif" font-size="14.00" fill="#000000">@PerFragment</text>
+<text text-anchor="middle" x="304.9375" y="-140.2" font-family="Times,serif" font-size="14.00" fill="#000000">PlayFragmentViewModel</text>
+</g>
+<!-- 449d12b2&#45;4443&#45;431d&#45;ae78&#45;f6b942329f57&#45;&gt;4153e1d1&#45;8ed7&#45;4dad&#45;a671&#45;7481b57c5a3e -->
+<g id="edge1" class="edge">
+<title>449d12b2&#45;4443&#45;431d&#45;ae78&#45;f6b942329f57&#45;&gt;4153e1d1&#45;8ed7&#45;4dad&#45;a671&#45;7481b57c5a3e</title>
+<path fill="none" stroke="#000000" d="M154.7481,-152.8C173.4828,-152.8 194.0352,-152.8 213.7599,-152.8"/>
+<polygon fill="#000000" stroke="#000000" points="213.9853,-156.3001 223.9853,-152.8 213.9852,-149.3001 213.9853,-156.3001"/>
+</g>
+<!-- be37c534&#45;a8fe&#45;4b27&#45;b94c&#45;21568b82456e -->
+<g id="node12" class="node">
+<title>be37c534&#45;a8fe&#45;4b27&#45;b94c&#45;21568b82456e</title>
+<polygon fill="#7fffd4" stroke="#7fffd4" points="616.0634,-82.4019 522.1934,-82.4019 522.1934,-41.1981 616.0634,-41.1981 616.0634,-82.4019"/>
+<text text-anchor="middle" x="569.1284" y="-66" font-family="Times,serif" font-size="14.00" fill="#000000">@PerActivity</text>
+<text text-anchor="middle" x="569.1284" y="-49.2" font-family="Times,serif" font-size="14.00" fill="#000000">Navigator</text>
+</g>
+<!-- 449d12b2&#45;4443&#45;431d&#45;ae78&#45;f6b942329f57&#45;&gt;be37c534&#45;a8fe&#45;4b27&#45;b94c&#45;21568b82456e -->
+<g id="edge3" class="edge">
+<title>449d12b2&#45;4443&#45;431d&#45;ae78&#45;f6b942329f57&#45;&gt;be37c534&#45;a8fe&#45;4b27&#45;b94c&#45;21568b82456e</title>
+<path fill="none" stroke="#000000" d="M133.4565,-134.73C149.2253,-129.3265 166.9363,-123.7864 183.4636,-119.8 298.5051,-92.0516 436.2287,-75.1575 512.0394,-67.2307"/>
+<polygon fill="#000000" stroke="#000000" points="512.7284,-70.6783 522.3169,-66.1715 512.0107,-63.7152 512.7284,-70.6783"/>
+</g>
+<!-- 534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83 -->
+<g id="node6" class="node">
+<title>534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="1059.2019,-304.8 731.7265,-304.8 731.7265,-308.8 719.7265,-308.8 719.7265,-268.8 1059.2019,-268.8 1059.2019,-304.8"/>
+<polyline fill="none" stroke="#40e0d0" points="719.7265,-304.8 731.7265,-304.8 "/>
+<text text-anchor="middle" x="889.4642" y="-282.6" font-family="Times,serif" font-size="14.00" fill="#000000">Map&lt;Class&lt;?&gt;, Provider&lt;AndroidInjector.Factory&lt;?&gt;&gt;&gt;</text>
+</g>
+<!-- 3dcd6c11&#45;3768&#45;431f&#45;bdf5&#45;ec3bd4628505&#45;&gt;534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83 -->
+<g id="edge4" class="edge">
+<title>3dcd6c11&#45;3768&#45;431f&#45;bdf5&#45;ec3bd4628505&#45;&gt;534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83</title>
+<path fill="none" stroke="#000000" d="M418.6803,-278.7459C501.3586,-280.1603 614.9327,-282.1034 709.8135,-283.7266"/>
+<polygon fill="#000000" stroke="#000000" points="709.7559,-287.226 719.8143,-283.8977 709.8757,-280.227 709.7559,-287.226"/>
+</g>
+<!-- 4153e1d1&#45;8ed7&#45;4dad&#45;a671&#45;7481b57c5a3e&#45;&gt;be37c534&#45;a8fe&#45;4b27&#45;b94c&#45;21568b82456e -->
+<g id="edge5" class="edge">
+<title>4153e1d1&#45;8ed7&#45;4dad&#45;a671&#45;7481b57c5a3e&#45;&gt;be37c534&#45;a8fe&#45;4b27&#45;b94c&#45;21568b82456e</title>
+<path fill="none" stroke="#000000" d="M364.8865,-132.1507C409.1874,-116.8913 469.1052,-96.2528 512.5785,-81.2785"/>
+<polygon fill="#000000" stroke="#000000" points="513.8312,-84.5489 522.1461,-77.9829 511.5514,-77.9305 513.8312,-84.5489"/>
+</g>
+<!-- 0c4bd2e3&#45;3879&#45;4be1&#45;aba3&#45;93bd2c5bd06d -->
+<g id="node4" class="node">
+<title>0c4bd2e3&#45;3879&#45;4be1&#45;aba3&#45;93bd2c5bd06d</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="355.6417,-233.4019 254.2333,-233.4019 254.2333,-192.1981 355.6417,-192.1981 355.6417,-233.4019"/>
+<text text-anchor="middle" x="304.9375" y="-217" font-family="Times,serif" font-size="14.00" fill="#000000">@PerFragment</text>
+<text text-anchor="middle" x="304.9375" y="-200.2" font-family="Times,serif" font-size="14.00" fill="#000000">Fragment</text>
+</g>
+<!-- 02902dba&#45;c585&#45;4891&#45;9e7c&#45;08f39e09b377 -->
+<g id="node5" class="node">
+<title>02902dba&#45;c585&#45;4891&#45;9e7c&#45;08f39e09b377</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="985.1935,-167.8 832.9096,-167.8 793.7349,-131.8 946.0188,-131.8 985.1935,-167.8"/>
+<text text-anchor="middle" x="889.4642" y="-145.6" font-family="Times,serif" font-size="14.00" fill="#000000">PlayFragment</text>
+</g>
+<!-- 0c4bd2e3&#45;3879&#45;4be1&#45;aba3&#45;93bd2c5bd06d&#45;&gt;02902dba&#45;c585&#45;4891&#45;9e7c&#45;08f39e09b377 -->
+<g id="edge11" class="edge">
+<title>0c4bd2e3&#45;3879&#45;4be1&#45;aba3&#45;93bd2c5bd06d&#45;&gt;02902dba&#45;c585&#45;4891&#45;9e7c&#45;08f39e09b377</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M355.7879,-207.3194C458.0443,-196.2982 689.1705,-171.3876 810.9714,-158.2599"/>
+<polygon fill="#000000" stroke="#000000" points="811.4119,-161.7328 820.9793,-157.1813 810.6617,-154.7731 811.4119,-161.7328"/>
+<text text-anchor="middle" x="569.1284" y="-201" font-family="Times,serif" font-size="14.00" fill="#000000">delegates</text>
+</g>
+<!-- cbaee407&#45;bcbb&#45;4eed&#45;bc5b&#45;cae85337a0d8 -->
+<g id="node7" class="node">
+<title>cbaee407&#45;bcbb&#45;4eed&#45;bc5b&#45;cae85337a0d8</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="1689.8382,-219.8 1210.1646,-219.8 1210.1646,-183.8 1689.8382,-183.8 1689.8382,-219.8"/>
+<text text-anchor="middle" x="1450.0014" y="-197.6" font-family="Times,serif" font-size="14.00" fill="#000000">WelcomeActivityModule_BindPermissionFragment.bindAndroidInjectorFactory()</text>
+</g>
+<!-- 534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83&#45;&gt;cbaee407&#45;bcbb&#45;4eed&#45;bc5b&#45;cae85337a0d8 -->
+<g id="edge10" class="edge">
+<title>534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83&#45;&gt;cbaee407&#45;bcbb&#45;4eed&#45;bc5b&#45;cae85337a0d8</title>
+<path fill="none" stroke="#000000" d="M1051.0513,-268.7365C1053.7767,-267.4965 1056.4567,-266.1856 1059.083,-264.8 1081.2161,-253.1232 1071.5586,-222.8 1096.583,-222.8 1096.583,-222.8 1096.583,-222.8 1172.583,-222.8 1198.6017,-222.8 1225.954,-221.8702 1252.9266,-220.4018"/>
+<polygon fill="#000000" stroke="#000000" points="1253.4575,-223.8773 1263.242,-219.8135 1253.0589,-216.8887 1253.4575,-223.8773"/>
+</g>
+<!-- 7e79d634&#45;8811&#45;40ea&#45;a31e&#45;d678a3617455 -->
+<g id="node8" class="node">
+<title>7e79d634&#45;8811&#45;40ea&#45;a31e&#45;d678a3617455</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="1672.3312,-273.8 1227.6716,-273.8 1227.6716,-237.8 1672.3312,-237.8 1672.3312,-273.8"/>
+<text text-anchor="middle" x="1450.0014" y="-251.6" font-family="Times,serif" font-size="14.00" fill="#000000">WelcomeActivityModule_BindIntroFragment.bindAndroidInjectorFactory()</text>
+</g>
+<!-- 534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83&#45;&gt;7e79d634&#45;8811&#45;40ea&#45;a31e&#45;d678a3617455 -->
+<g id="edge7" class="edge">
+<title>534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83&#45;&gt;7e79d634&#45;8811&#45;40ea&#45;a31e&#45;d678a3617455</title>
+<path fill="none" stroke="#000000" d="M1010.7815,-268.7907C1038.8875,-265.8808 1068.7251,-263.8 1096.583,-263.8 1096.583,-263.8 1096.583,-263.8 1172.583,-263.8 1187.068,-263.8 1201.9767,-263.6897 1217.0097,-263.4949"/>
+<polygon fill="#000000" stroke="#000000" points="1217.4841,-266.9887 1227.4334,-263.347 1217.3847,-259.9894 1217.4841,-266.9887"/>
+</g>
+<!-- 68c3c173&#45;aabb&#45;4dd7&#45;bfce&#45;7353f4379004 -->
+<g id="node9" class="node">
+<title>68c3c173&#45;aabb&#45;4dd7&#45;bfce&#45;7353f4379004</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="1676.128,-327.8 1223.8748,-327.8 1223.8748,-291.8 1676.128,-291.8 1676.128,-327.8"/>
+<text text-anchor="middle" x="1450.0014" y="-305.6" font-family="Times,serif" font-size="14.00" fill="#000000">WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()</text>
+</g>
+<!-- 534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83&#45;&gt;68c3c173&#45;aabb&#45;4dd7&#45;bfce&#45;7353f4379004 -->
+<g id="edge6" class="edge">
+<title>534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83&#45;&gt;68c3c173&#45;aabb&#45;4dd7&#45;bfce&#45;7353f4379004</title>
+<path fill="none" stroke="#000000" d="M1059.2292,-300.1342C1071.8632,-300.5567 1084.4194,-300.8 1096.583,-300.8 1096.583,-300.8 1096.583,-300.8 1172.583,-300.8 1185.9609,-300.8 1199.6997,-300.9058 1213.564,-301.0946"/>
+<polygon fill="#000000" stroke="#000000" points="1213.6266,-304.5958 1223.6781,-301.2463 1213.7317,-297.5966 1213.6266,-304.5958"/>
+</g>
+<!-- f2280256&#45;97f4&#45;444a&#45;8fbd&#45;2b90457b86c2 -->
+<g id="node10" class="node">
+<title>f2280256&#45;97f4&#45;444a&#45;8fbd&#45;2b90457b86c2</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="1680.9364,-381.8 1219.0664,-381.8 1219.0664,-345.8 1680.9364,-345.8 1680.9364,-381.8"/>
+<text text-anchor="middle" x="1450.0014" y="-359.6" font-family="Times,serif" font-size="14.00" fill="#000000">WelcomeActivityModule_BindVersionFragment.bindAndroidInjectorFactory()</text>
+</g>
+<!-- 534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83&#45;&gt;f2280256&#45;97f4&#45;444a&#45;8fbd&#45;2b90457b86c2 -->
+<g id="edge8" class="edge">
+<title>534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83&#45;&gt;f2280256&#45;97f4&#45;444a&#45;8fbd&#45;2b90457b86c2</title>
+<path fill="none" stroke="#000000" d="M922.4525,-304.8442C962.4332,-324.9896 1032.4332,-354.8 1096.583,-354.8 1096.583,-354.8 1096.583,-354.8 1172.583,-354.8 1184.3477,-354.8 1196.3916,-354.8819 1208.5544,-355.03"/>
+<polygon fill="#000000" stroke="#000000" points="1208.7488,-358.5328 1218.7956,-355.1696 1208.8443,-351.5335 1208.7488,-358.5328"/>
+</g>
+<!-- 13de9617&#45;bba4&#45;4ada&#45;9f19&#45;db57f83c4ebd -->
+<g id="node11" class="node">
+<title>13de9617&#45;bba4&#45;4ada&#45;9f19&#45;db57f83c4ebd</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="1671.0075,-435.8 1228.9953,-435.8 1228.9953,-399.8 1671.0075,-399.8 1671.0075,-435.8"/>
+<text text-anchor="middle" x="1450.0014" y="-413.6" font-family="Times,serif" font-size="14.00" fill="#000000">WelcomeActivityModule_BindPlayFragment.bindAndroidInjectorFactory()</text>
+</g>
+<!-- 534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83&#45;&gt;13de9617&#45;bba4&#45;4ada&#45;9f19&#45;db57f83c4ebd -->
+<g id="edge9" class="edge">
+<title>534311c0&#45;fd5f&#45;4fe5&#45;9791&#45;719e412aac83&#45;&gt;13de9617&#45;bba4&#45;4ada&#45;9f19&#45;db57f83c4ebd</title>
+<path fill="none" stroke="#000000" d="M905.779,-304.8015C938.4233,-338.7379 1015.6219,-408.8 1096.583,-408.8 1096.583,-408.8 1096.583,-408.8 1172.583,-408.8 1187.6042,-408.8 1203.0805,-408.9334 1218.6783,-409.1678"/>
+<polygon fill="#000000" stroke="#000000" points="1218.8863,-412.6716 1228.9423,-409.336 1219.001,-405.6725 1218.8863,-412.6716"/>
+</g>
+</g>
+</svg>

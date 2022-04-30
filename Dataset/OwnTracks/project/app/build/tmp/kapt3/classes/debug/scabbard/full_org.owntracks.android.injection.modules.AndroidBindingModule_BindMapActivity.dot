@@ -1,0 +1,32 @@
+digraph "org.owntracks.android.injection.modules.AndroidBindingModule_BindMapActivity" {
+  graph [rankdir="LR", labeljust="l", label="AndroidBindingModule_BindMapActivity", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "c922e69f-0009-404b-88af-79e8c7ac3173" [label="AndroidBindingModule_BindMapActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "a940b318-fdd8-436a-81ac-735c88518063" [label="MapActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "5b00095d-b27d-4919-b31e-74d5b8ccfb5d" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "2b7628ae-7fe4-4e91-bf37-4b22c22cd64f" [label="androidx.test.espresso.idling.CountingIdlingResource", color="firebrick1"]
+    "246395ad-f67a-44fa-826a-e111d5f3b65a" [label="java.util.Map<java.lang.String,javax.inject.Provider<dagger.android.AndroidInjector.Factory<?>>>", color="firebrick1"]
+    "307777b8-c688-4378-83cc-14ebe4724e74" [label="org.owntracks.android.data.repos.ContactsRepo", color="firebrick1"]
+    "e47417f5-b679-4ad3-800f-95bc54e58f92" [label="org.owntracks.android.data.repos.WaypointsRepo", color="firebrick1"]
+    "6a18c434-935c-4e5b-abf4-2d19fb14320d" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "6a13d737-f6a5-442f-95ca-940522b69f8b" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "e8b87cba-db27-4e20-98d0-55c4b4bf4de3" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "c922e69f-0009-404b-88af-79e8c7ac3173" [label="AndroidBindingModule_BindMapActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "488d505f-47c4-4715-843d-606c3894dbb3" [label="@PerActivity\nAndroidBindingModule_BindMapActivity.MapActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindMapActivity.MapActivitySubcomponent.svg", color="aquamarine"]
+  }
+  "e8b87cba-db27-4e20-98d0-55c4b4bf4de3" -> "c922e69f-0009-404b-88af-79e8c7ac3173"
+  "c922e69f-0009-404b-88af-79e8c7ac3173" -> "a940b318-fdd8-436a-81ac-735c88518063" [style="dotted", label="delegates"]
+  "a940b318-fdd8-436a-81ac-735c88518063" -> "488d505f-47c4-4715-843d-606c3894dbb3" [style="dashed", label="subcomponent", headport="w"]
+}

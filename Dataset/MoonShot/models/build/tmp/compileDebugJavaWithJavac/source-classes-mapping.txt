@@ -1,0 +1,2 @@
+com/haroldadmin/moonshot/models/BuildConfig.java
+ com.haroldadmin.moonshot.models.BuildConfig

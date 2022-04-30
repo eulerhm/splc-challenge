@@ -1,0 +1,677 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2018 Google LLC
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     https://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.google.samples.apps.iosched"
+19    android:versionCode="70153"
+20    android:versionName="7.0.15-staging" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+26-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:21:5-76
+26-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:21:22-73
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+27-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:22:5-76
+27-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:22:22-73
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:23:5-79
+28-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:23:22-76
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:24:5-78
+29-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:24:22-76
+30    <uses-permission android:name="android.permission.BLUETOOTH" />
+30-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:26:5-67
+30-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:26:22-65
+31    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+31-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:27:5-73
+31-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:27:22-71
+32    <uses-permission android:name="android.permission.INTERNET" />
+32-->[:ar] /home/eulerhm/Documents/workspaceSQJ/iosched/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:26:5-67
+32-->[:ar] /home/eulerhm/Documents/workspaceSQJ/iosched/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:26:22-64
+33    <uses-permission android:name="android.permission.CAMERA" />
+33-->[:ar] /home/eulerhm/Documents/workspaceSQJ/iosched/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:27:5-65
+33-->[:ar] /home/eulerhm/Documents/workspaceSQJ/iosched/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:27:22-62
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->[:ar] /home/eulerhm/Documents/workspaceSQJ/iosched/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:28:5-81
+34-->[:ar] /home/eulerhm/Documents/workspaceSQJ/iosched/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:28:22-78
+35
+36    <uses-feature
+36-->[com.google.android.gms:play-services-maps:16.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/0b1d975eddbdfca7a4e790422c582d60/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
+37        android:glEsVersion="0x00020000"
+37-->[com.google.android.gms:play-services-maps:16.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/0b1d975eddbdfca7a4e790422c582d60/jetified-play-services-maps-16.0.0/AndroidManifest.xml:27:9-41
+38        android:required="true" />
+38-->[com.google.android.gms:play-services-maps:16.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/0b1d975eddbdfca7a4e790422c582d60/jetified-play-services-maps-16.0.0/AndroidManifest.xml:28:9-32
+39
+40    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+40-->[com.google.android.gms:play-services-measurement-api:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/fd9808f2095635faa1aad6dea21778c3/jetified-play-services-measurement-api-17.4.0/AndroidManifest.xml:24:5-68
+40-->[com.google.android.gms:play-services-measurement-api:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/fd9808f2095635faa1aad6dea21778c3/jetified-play-services-measurement-api-17.4.0/AndroidManifest.xml:24:22-65
+41    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+41-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:26:5-82
+41-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:26:22-79
+42    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+42-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:26:5-110
+42-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:26:22-107
+43    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+44    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+45
+46    <application
+46-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:29:5-101:19
+47        android:name="com.google.samples.apps.iosched.MainApplication"
+47-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:30:9-40
+48        android:allowBackup="false"
+48-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:31:9-36
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.3.0-rc01] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a7026988422613b0fbb61167207cd6ba/core-1.3.0-rc01/AndroidManifest.xml:24:18-86
+50        android:debuggable="true"
+51        android:icon="@mipmap/ic_launcher"
+51-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:32:9-43
+52        android:label="@string/app_name"
+52-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:33:9-41
+53        android:supportsRtl="true"
+53-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:34:9-35
+54        android:theme="@style/AppTheme" >
+54-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:35:9-40
+55
+56        <!-- Required for apps targeting API 28 and above and using Google Maps. -->
+57        <uses-library
+57-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:38:9-88
+58            android:name="org.apache.http.legacy"
+58-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:38:23-60
+59            android:required="false" />
+59-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:38:61-85
+60
+61        <meta-data
+61-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:40:9-81
+62            android:name="com.google.ar.core"
+62-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:40:20-53
+63            android:value="optional" />
+63-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:40:54-78
+64        <meta-data
+64-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:42:9-44:41
+65            android:name="com.google.ar.core.min_apk_version"
+65-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:43:13-62
+66            android:value="190128000" />
+66-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:44:13-38
+67
+68        <activity
+68-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:46:9-54:21
+69            android:name="com.google.samples.apps.iosched.ui.LauncherActivity"
+69-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:47:13-48
+70            android:theme="@style/AppTheme.Launcher" >
+70-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:48:13-53
+71
+72            <!-- This will have to be placed wherever the activity-alias is pointing to. -->
+73            <intent-filter>
+73-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:50:13-53:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:51:17-69
+74-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:51:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:52:17-77
+76-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:52:27-74
+77            </intent-filter>
+78        </activity>
+79        <activity android:name="com.google.samples.apps.iosched.ui.MainActivity" />
+79-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:56:9-57:47
+79-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:57:13-44
+80        <activity
+80-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:59:9-61:58
+81            android:name="com.google.samples.apps.iosched.ui.onboarding.OnboardingActivity"
+81-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:60:13-61
+82            android:theme="@style/AppTheme.Onboarding" />
+82-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:61:13-55
+83        <activity
+83-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:63:9-76:20
+84            android:name="com.google.samples.apps.iosched.ui.sessiondetail.SessionDetailActivity"
+84-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:64:13-67
+85            android:launchMode="singleTask"
+85-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:66:13-44
+86            android:parentActivityName="com.google.samples.apps.iosched.ui.MainActivity"
+86-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:65:13-58
+87            android:theme="@style/AppTheme.Detail" >
+87-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:67:13-51
+88            <intent-filter android:label="Session detail" >
+88-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:69:13-75:29
+88-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:69:28-58
+89                <action android:name="android.intent.action.VIEW" />
+89-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:70:17-69
+89-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:70:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:71:17-76
+91-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:71:27-73
+92                <!-- Accepts URIs that begin with "iosched://sessions” -->
+93                <data
+93-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:73:17-74:47
+94                    android:host="sessions"
+94-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:74:21-44
+95                    android:scheme="iosched" />
+95-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:73:23-47
+96            </intent-filter>
+97        </activity>
+98
+99        <meta-data
+99-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:78:9-80:57
+100            android:name="preloaded_fonts"
+100-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:79:13-43
+101            android:resource="@array/preloaded_fonts" />
+101-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:80:13-54
+102        <meta-data
+102-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:82:9-84:69
+103            android:name="com.google.android.gms.version"
+103-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:83:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:84:13-66
+105        <meta-data
+105-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:86:9-88:55
+106            android:name="com.google.android.geo.API_KEY"
+106-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:87:13-58
+107            android:value="@string/google_maps_key" />
+107-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:88:13-52
+108        <meta-data
+109            android:name="firebase_crashlytics_collection_enabled"
+109-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:91:13-67
+110            android:value="false" />
+110-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:92:13-50
+111
+112        <!--
+113             By default, these are not exported since they do not have an intent filter.
+114             However, explicitly saying exported="false" to communicate that these are not for
+115             other apps to call
+116        -->
+117        <receiver
+117-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:97:9-98:40
+118            android:name="com.google.samples.apps.iosched.shared.notifications.AlarmBroadcastReceiver"
+118-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:97:19-78
+119            android:exported="false" />
+119-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:98:13-37
+120        <receiver
+120-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:99:9-100:40
+121            android:name="com.google.samples.apps.iosched.shared.notifications.CancelNotificationBroadcastReceiver"
+121-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:99:19-91
+122            android:exported="false" />
+122-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:100:13-37
+123
+124        <activity
+124-->[:ar] /home/eulerhm/Documents/workspaceSQJ/iosched/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:31:9-34:74
+125            android:name="com.google.samples.apps.iosched.ar.ArActivity"
+125-->[:ar] /home/eulerhm/Documents/workspaceSQJ/iosched/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:32:13-73
+126            android:screenOrientation="portrait"
+126-->[:ar] /home/eulerhm/Documents/workspaceSQJ/iosched/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:33:13-49
+127            android:theme="@style/AppTheme.NoActionBar.BlackStatusBar" />
+127-->[:ar] /home/eulerhm/Documents/workspaceSQJ/iosched/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:34:13-71
+128
+129        <service
+129-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:31:9-33:72
+130            android:name="com.google.samples.apps.iosched.shared.data.job.ConferenceDataService"
+130-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:32:13-97
+131            android:permission="android.permission.BIND_JOB_SERVICE" />
+131-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:33:13-69
+132        <service
+132-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:34:9-40:19
+133            android:name="com.google.samples.apps.iosched.shared.fcm.IoschedFirebaseMessagingService"
+133-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:35:13-102
+134            android:exported="false" >
+134-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:36:13-37
+135            <intent-filter>
+135-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:37:13-39:29
+136                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+136-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:38:17-78
+136-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:38:25-75
+137            </intent-filter>
+138        </service>
+139
+140        <meta-data
+140-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:19:9-21:63
+141            android:name="com.facebook.sdk.ApplicationId"
+141-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:20:13-58
+142            android:value="@string/facebook_application_id" />
+142-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:21:13-60
+143
+144        <activity
+144-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:23:9-27:61
+145            android:name="com.firebase.ui.auth.KickoffActivity"
+145-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:24:13-64
+146            android:exported="false"
+146-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:25:13-37
+147            android:label=""
+147-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:26:13-29
+148            android:theme="@style/FirebaseUI.Transparent" />
+148-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:27:13-58
+149        <activity
+149-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:28:9-32:61
+150            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+150-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:29:13-76
+151            android:exported="false"
+151-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:30:13-37
+152            android:label=""
+152-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:31:13-29
+153            android:theme="@style/FirebaseUI.Transparent" />
+153-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:32:13-58
+154        <activity
+154-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:33:9-37:58
+155            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+155-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:34:13-81
+156            android:exported="false"
+156-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:35:13-37
+157            android:label="@string/fui_title_recover_password_activity"
+157-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:36:13-72
+158            android:windowSoftInputMode="adjustResize" />
+158-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:37:13-55
+159        <activity
+159-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:38:9-42:58
+160            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+160-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:39:13-71
+161            android:exported="false"
+161-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:40:13-37
+162            android:label="@string/fui_sign_in_default"
+162-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:41:13-56
+163            android:windowSoftInputMode="adjustResize" />
+163-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:42:13-55
+164        <activity
+164-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:43:9-47:77
+165            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+165-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:44:13-71
+166            android:exported="false"
+166-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:45:13-37
+167            android:label="@string/fui_sign_in_with_phone_number"
+167-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:46:13-66
+168            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+168-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:47:13-74
+169        <activity
+169-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:48:9-52:58
+170            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+170-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:49:13-76
+171            android:exported="false"
+171-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:50:13-37
+172            android:label="@string/fui_title_welcome_back_idp_prompt"
+172-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:51:13-70
+173            android:windowSoftInputMode="adjustResize" />
+173-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:52:13-55
+174        <activity
+174-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:53:9-57:58
+175            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+175-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:54:13-83
+176            android:exported="false"
+176-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:55:13-37
+177            android:label="@string/fui_title_welcome_back_password_prompt"
+177-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:56:13-75
+178            android:windowSoftInputMode="adjustResize" />
+178-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:57:13-55
+179        <activity
+179-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:58:9-61:65
+180            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+180-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:59:13-80
+181            android:exported="false"
+181-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:60:13-37
+182            android:label="@string/fui_default_toolbar_title" />
+182-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:61:13-62
+183        <activity
+183-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:62:9-66:48
+184            android:name="com.facebook.FacebookActivity"
+184-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:63:13-57
+185            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+185-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:64:13-96
+186            android:label="@string/app_name" />
+186-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:65:13-45
+187        <activity
+187-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:67:9-71:61
+188            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+188-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:68:13-86
+189            android:exported="false"
+189-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:69:13-37
+190            android:label=""
+190-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:70:13-29
+191            android:theme="@style/FirebaseUI.Transparent" />
+191-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:71:13-58
+192        <activity
+192-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:72:9-84:20
+193            android:name="com.facebook.CustomTabActivity"
+193-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:73:13-58
+194            android:exported="true" >
+194-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:74:13-36
+195            <intent-filter>
+195-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:76:13-83:29
+196                <action android:name="android.intent.action.VIEW" />
+196-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:70:17-69
+196-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:70:25-66
+197
+198                <category android:name="android.intent.category.DEFAULT" />
+198-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:71:17-76
+198-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:71:27-73
+199                <category android:name="android.intent.category.BROWSABLE" />
+199-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:80:17-78
+199-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:80:27-75
+200
+201                <data android:scheme="@string/facebook_login_protocol_scheme" />
+201-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:73:17-74:47
+201-->/home/eulerhm/Documents/workspaceSQJ/iosched/mobile/src/main/AndroidManifest.xml:73:23-47
+202            </intent-filter>
+203        </activity>
+204
+205        <provider
+205-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:86:9-90:38
+206            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+206-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:87:13-79
+207            android:authorities="com.google.samples.apps.iosched.authuiinitprovider"
+207-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:88:13-70
+208            android:exported="false"
+208-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:89:13-37
+209            android:initOrder="90" />
+209-->[com.firebaseui:firebase-ui-auth:4.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a87123c059d45b06f8a7a68996dbd5a1/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:90:13-35
+210
+211        <service
+211-->[androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/081e360a0c046a698b90a049c41248c7/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+212            android:name="androidx.room.MultiInstanceInvalidationService"
+212-->[androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/081e360a0c046a698b90a049c41248c7/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+213            android:directBootAware="true"
+213-->[androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/081e360a0c046a698b90a049c41248c7/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+214            android:exported="false" />
+214-->[androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/081e360a0c046a698b90a049c41248c7/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+215
+216        <provider
+216-->[com.crashlytics.sdk.android:crashlytics:2.9.8] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/4c1844b37a14530716914482a2176081/jetified-crashlytics-2.9.8/AndroidManifest.xml:12:9-16:38
+217            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+217-->[com.crashlytics.sdk.android:crashlytics:2.9.8] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/4c1844b37a14530716914482a2176081/jetified-crashlytics-2.9.8/AndroidManifest.xml:13:13-75
+218            android:authorities="com.google.samples.apps.iosched.crashlyticsinitprovider"
+218-->[com.crashlytics.sdk.android:crashlytics:2.9.8] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/4c1844b37a14530716914482a2176081/jetified-crashlytics-2.9.8/AndroidManifest.xml:14:13-75
+219            android:exported="false"
+219-->[com.crashlytics.sdk.android:crashlytics:2.9.8] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/4c1844b37a14530716914482a2176081/jetified-crashlytics-2.9.8/AndroidManifest.xml:15:13-37
+220            android:initOrder="90" />
+220-->[com.crashlytics.sdk.android:crashlytics:2.9.8] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/4c1844b37a14530716914482a2176081/jetified-crashlytics-2.9.8/AndroidManifest.xml:16:13-35
+221
+222        <service
+222-->[com.google.firebase:firebase-config-ktx:19.1.4] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/9f1c3815fbe90d4d5e9da184f7efe6a1/jetified-firebase-config-ktx-19.1.4/AndroidManifest.xml:12:9-18:19
+223            android:name="com.google.firebase.components.ComponentDiscoveryService"
+223-->[com.google.firebase:firebase-config-ktx:19.1.4] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/9f1c3815fbe90d4d5e9da184f7efe6a1/jetified-firebase-config-ktx-19.1.4/AndroidManifest.xml:13:13-84
+224            android:directBootAware="true"
+224-->[com.google.firebase:firebase-common:19.3.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/cc8618ad40fd3ab78e2e387e99831c66/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+225            android:exported="false" >
+225-->[com.google.firebase:firebase-config-ktx:19.1.4] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/9f1c3815fbe90d4d5e9da184f7efe6a1/jetified-firebase-config-ktx-19.1.4/AndroidManifest.xml:14:13-37
+226            <meta-data
+226-->[com.google.firebase:firebase-config-ktx:19.1.4] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/9f1c3815fbe90d4d5e9da184f7efe6a1/jetified-firebase-config-ktx-19.1.4/AndroidManifest.xml:15:13-17:85
+227                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseConfigKtxRegistrar"
+227-->[com.google.firebase:firebase-config-ktx:19.1.4] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/9f1c3815fbe90d4d5e9da184f7efe6a1/jetified-firebase-config-ktx-19.1.4/AndroidManifest.xml:16:17-126
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-config-ktx:19.1.4] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/9f1c3815fbe90d4d5e9da184f7efe6a1/jetified-firebase-config-ktx-19.1.4/AndroidManifest.xml:17:17-82
+229            <meta-data
+229-->[com.google.firebase:firebase-analytics-ktx:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a6907fca0f6c0c1e47cf37e967e2a48c/jetified-firebase-analytics-ktx-17.4.0/AndroidManifest.xml:11:13-13:85
+230                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+230-->[com.google.firebase:firebase-analytics-ktx:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a6907fca0f6c0c1e47cf37e967e2a48c/jetified-firebase-analytics-ktx-17.4.0/AndroidManifest.xml:12:17-126
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.firebase:firebase-analytics-ktx:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a6907fca0f6c0c1e47cf37e967e2a48c/jetified-firebase-analytics-ktx-17.4.0/AndroidManifest.xml:13:17-82
+232            <meta-data
+232-->[com.google.firebase:firebase-firestore-ktx:21.4.3] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/f0fb9e44a1d3ecbf6ab01b968d4ad4f7/jetified-firebase-firestore-ktx-21.4.3/AndroidManifest.xml:15:13-17:85
+233                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+233-->[com.google.firebase:firebase-firestore-ktx:21.4.3] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/f0fb9e44a1d3ecbf6ab01b968d4ad4f7/jetified-firebase-firestore-ktx-21.4.3/AndroidManifest.xml:16:17-126
+234                android:value="com.google.firebase.components.ComponentRegistrar" />
+234-->[com.google.firebase:firebase-firestore-ktx:21.4.3] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/f0fb9e44a1d3ecbf6ab01b968d4ad4f7/jetified-firebase-firestore-ktx-21.4.3/AndroidManifest.xml:17:17-82
+235            <meta-data
+235-->[com.google.firebase:firebase-functions-ktx:19.0.2] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04874b47e4d49d6dabd8958661551bd8/jetified-firebase-functions-ktx-19.0.2/AndroidManifest.xml:15:13-17:85
+236                android:name="com.google.firebase.components:com.google.firebase.functions.ktx.FirebaseFunctionsKtxRegistrar"
+236-->[com.google.firebase:firebase-functions-ktx:19.0.2] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04874b47e4d49d6dabd8958661551bd8/jetified-firebase-functions-ktx-19.0.2/AndroidManifest.xml:16:17-126
+237                android:value="com.google.firebase.components.ComponentRegistrar" />
+237-->[com.google.firebase:firebase-functions-ktx:19.0.2] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04874b47e4d49d6dabd8958661551bd8/jetified-firebase-functions-ktx-19.0.2/AndroidManifest.xml:17:17-82
+238            <meta-data
+238-->[com.google.firebase:firebase-common-ktx:19.3.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/1ba1425f3e820d55141fde97bc698ee5/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:15:13-17:85
+239                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+239-->[com.google.firebase:firebase-common-ktx:19.3.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/1ba1425f3e820d55141fde97bc698ee5/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:16:17-113
+240                android:value="com.google.firebase.components.ComponentRegistrar" />
+240-->[com.google.firebase:firebase-common-ktx:19.3.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/1ba1425f3e820d55141fde97bc698ee5/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:17:17-82
+241            <meta-data
+241-->[com.google.firebase:firebase-firestore:21.4.3] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/21d6df67376077108d3933c3c3b69747/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:20:13-22:85
+242                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+242-->[com.google.firebase:firebase-firestore:21.4.3] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/21d6df67376077108d3933c3c3b69747/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:21:17-111
+243                android:value="com.google.firebase.components.ComponentRegistrar" />
+243-->[com.google.firebase:firebase-firestore:21.4.3] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/21d6df67376077108d3933c3c3b69747/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:22:17-82
+244            <meta-data
+244-->[com.google.firebase:firebase-messaging:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/079d7f7315a8ef9caef1f4574c1ae28b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:38:13-40:85
+245                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+245-->[com.google.firebase:firebase-messaging:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/079d7f7315a8ef9caef1f4574c1ae28b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:39:17-119
+246                android:value="com.google.firebase.components.ComponentRegistrar" />
+246-->[com.google.firebase:firebase-messaging:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/079d7f7315a8ef9caef1f4574c1ae28b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:40:17-82
+247            <meta-data
+247-->[com.google.firebase:firebase-functions:19.0.2] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/3ca40321434c0df001f77f8c577e344d/jetified-firebase-functions-19.0.2/AndroidManifest.xml:18:13-20:85
+248                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+248-->[com.google.firebase:firebase-functions:19.0.2] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/3ca40321434c0df001f77f8c577e344d/jetified-firebase-functions-19.0.2/AndroidManifest.xml:19:17-111
+249                android:value="com.google.firebase.components.ComponentRegistrar" />
+249-->[com.google.firebase:firebase-functions:19.0.2] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/3ca40321434c0df001f77f8c577e344d/jetified-firebase-functions-19.0.2/AndroidManifest.xml:20:17-82
+250            <meta-data
+250-->[com.google.firebase:firebase-auth:19.3.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a4f297ef14bb6759cb4b9ac0804114b2/jetified-firebase-auth-19.3.1/AndroidManifest.xml:36:13-38:85
+251                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+251-->[com.google.firebase:firebase-auth:19.3.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a4f297ef14bb6759cb4b9ac0804114b2/jetified-firebase-auth-19.3.1/AndroidManifest.xml:37:17-109
+252                android:value="com.google.firebase.components.ComponentRegistrar" />
+252-->[com.google.firebase:firebase-auth:19.3.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a4f297ef14bb6759cb4b9ac0804114b2/jetified-firebase-auth-19.3.1/AndroidManifest.xml:38:17-82
+253            <meta-data
+253-->[com.google.firebase:firebase-config:19.1.4] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/0941a2c19a1f4e4a9fd29638d0ccb98a/jetified-firebase-config-19.1.4/AndroidManifest.xml:32:13-34:85
+254                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+254-->[com.google.firebase:firebase-config:19.1.4] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/0941a2c19a1f4e4a9fd29638d0ccb98a/jetified-firebase-config-19.1.4/AndroidManifest.xml:33:17-117
+255                android:value="com.google.firebase.components.ComponentRegistrar" />
+255-->[com.google.firebase:firebase-config:19.1.4] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/0941a2c19a1f4e4a9fd29638d0ccb98a/jetified-firebase-config-19.1.4/AndroidManifest.xml:34:17-82
+256            <meta-data
+256-->[com.google.firebase:firebase-abt:19.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/babb87e99ab84aea7f6c1b14044d93ab/jetified-firebase-abt-19.0.1/AndroidManifest.xml:13:13-15:85
+257                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+257-->[com.google.firebase:firebase-abt:19.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/babb87e99ab84aea7f6c1b14044d93ab/jetified-firebase-abt-19.0.1/AndroidManifest.xml:14:17-109
+258                android:value="com.google.firebase.components.ComponentRegistrar" />
+258-->[com.google.firebase:firebase-abt:19.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/babb87e99ab84aea7f6c1b14044d93ab/jetified-firebase-abt-19.0.1/AndroidManifest.xml:15:17-82
+259            <meta-data
+259-->[com.google.android.gms:play-services-measurement-api:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/fd9808f2095635faa1aad6dea21778c3/jetified-play-services-measurement-api-17.4.0/AndroidManifest.xml:30:13-32:85
+260                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+260-->[com.google.android.gms:play-services-measurement-api:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/fd9808f2095635faa1aad6dea21778c3/jetified-play-services-measurement-api-17.4.0/AndroidManifest.xml:31:17-139
+261                android:value="com.google.firebase.components.ComponentRegistrar" />
+261-->[com.google.android.gms:play-services-measurement-api:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/fd9808f2095635faa1aad6dea21778c3/jetified-play-services-measurement-api-17.4.0/AndroidManifest.xml:32:17-82
+262            <meta-data
+262-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:32:13-34:85
+263                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+263-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:33:17-96
+264                android:value="com.google.firebase.components.ComponentRegistrar" />
+264-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:34:17-82
+265            <meta-data
+265-->[com.google.firebase:firebase-datatransport:17.0.3] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/6f437a88e920f9fe34772752b43c2d9d/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+266                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+266-->[com.google.firebase:firebase-datatransport:17.0.3] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/6f437a88e920f9fe34772752b43c2d9d/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+267                android:value="com.google.firebase.components.ComponentRegistrar" />
+267-->[com.google.firebase:firebase-datatransport:17.0.3] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/6f437a88e920f9fe34772752b43c2d9d/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+268            <meta-data
+268-->[com.google.firebase:firebase-installations:16.2.2] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/30daf664a45c2eb573a8d98a1dfb48cb/jetified-firebase-installations-16.2.2/AndroidManifest.xml:17:13-19:85
+269                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+269-->[com.google.firebase:firebase-installations:16.2.2] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/30daf664a45c2eb573a8d98a1dfb48cb/jetified-firebase-installations-16.2.2/AndroidManifest.xml:18:17-127
+270                android:value="com.google.firebase.components.ComponentRegistrar" />
+270-->[com.google.firebase:firebase-installations:16.2.2] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/30daf664a45c2eb573a8d98a1dfb48cb/jetified-firebase-installations-16.2.2/AndroidManifest.xml:19:17-82
+271        </service> <!-- This activity is critical for installing ARCore when it is not already present. -->
+272        <activity
+272-->[com.google.ar:core:1.7.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/e6e560c2a4e56914be805eba9afd2bbd/jetified-core-1.7.0/AndroidManifest.xml:37:9-43:80
+273            android:name="com.google.ar.core.InstallActivity"
+273-->[com.google.ar:core:1.7.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/e6e560c2a4e56914be805eba9afd2bbd/jetified-core-1.7.0/AndroidManifest.xml:38:13-62
+274            android:configChanges="keyboardHidden|orientation|screenSize"
+274-->[com.google.ar:core:1.7.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/e6e560c2a4e56914be805eba9afd2bbd/jetified-core-1.7.0/AndroidManifest.xml:39:13-74
+275            android:excludeFromRecents="true"
+275-->[com.google.ar:core:1.7.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/e6e560c2a4e56914be805eba9afd2bbd/jetified-core-1.7.0/AndroidManifest.xml:40:13-46
+276            android:exported="false"
+276-->[com.google.ar:core:1.7.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/e6e560c2a4e56914be805eba9afd2bbd/jetified-core-1.7.0/AndroidManifest.xml:41:13-37
+277            android:launchMode="singleTop"
+277-->[com.google.ar:core:1.7.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/e6e560c2a4e56914be805eba9afd2bbd/jetified-core-1.7.0/AndroidManifest.xml:42:13-43
+278            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+278-->[com.google.ar:core:1.7.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/e6e560c2a4e56914be805eba9afd2bbd/jetified-core-1.7.0/AndroidManifest.xml:43:13-77
+279        <!--
+280             FirebaseMessagingService performs security checks at runtime,
+281             but set to not exported to explicitly avoid allowing another app to call it.
+282        -->
+283        <service
+283-->[com.google.firebase:firebase-messaging:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/079d7f7315a8ef9caef1f4574c1ae28b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:28:9-34:19
+284            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+284-->[com.google.firebase:firebase-messaging:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/079d7f7315a8ef9caef1f4574c1ae28b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:29:13-82
+285            android:exported="false" >
+285-->[com.google.firebase:firebase-messaging:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/079d7f7315a8ef9caef1f4574c1ae28b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:30:13-37
+286            <intent-filter android:priority="-500" >
+286-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:37:13-39:29
+287                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+287-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:38:17-78
+287-->[:shared] /home/eulerhm/Documents/workspaceSQJ/iosched/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:38:25-75
+288            </intent-filter>
+289        </service>
+290
+291        <activity
+291-->[com.google.firebase:firebase-auth:19.3.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a4f297ef14bb6759cb4b9ac0804114b2/jetified-firebase-auth-19.3.1/AndroidManifest.xml:24:9-31:50
+292            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+292-->[com.google.firebase:firebase-auth:19.3.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a4f297ef14bb6759cb4b9ac0804114b2/jetified-firebase-auth-19.3.1/AndroidManifest.xml:25:13-85
+293            android:excludeFromRecents="true"
+293-->[com.google.firebase:firebase-auth:19.3.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a4f297ef14bb6759cb4b9ac0804114b2/jetified-firebase-auth-19.3.1/AndroidManifest.xml:26:13-46
+294            android:exported="true"
+294-->[com.google.firebase:firebase-auth:19.3.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a4f297ef14bb6759cb4b9ac0804114b2/jetified-firebase-auth-19.3.1/AndroidManifest.xml:27:13-36
+295            android:launchMode="singleTask"
+295-->[com.google.firebase:firebase-auth:19.3.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a4f297ef14bb6759cb4b9ac0804114b2/jetified-firebase-auth-19.3.1/AndroidManifest.xml:28:13-44
+296            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+296-->[com.google.firebase:firebase-auth:19.3.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a4f297ef14bb6759cb4b9ac0804114b2/jetified-firebase-auth-19.3.1/AndroidManifest.xml:29:13-102
+297            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+297-->[com.google.firebase:firebase-auth:19.3.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/a4f297ef14bb6759cb4b9ac0804114b2/jetified-firebase-auth-19.3.1/AndroidManifest.xml:30:13-72
+298        <activity
+298-->[com.google.android.gms:play-services-auth:15.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/506ec4bc59f02a8174c7cbf70327716b/jetified-play-services-auth-15.0.1/AndroidManifest.xml:23:9-27:75
+299            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+299-->[com.google.android.gms:play-services-auth:15.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/506ec4bc59f02a8174c7cbf70327716b/jetified-play-services-auth-15.0.1/AndroidManifest.xml:24:13-93
+300            android:excludeFromRecents="true"
+300-->[com.google.android.gms:play-services-auth:15.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/506ec4bc59f02a8174c7cbf70327716b/jetified-play-services-auth-15.0.1/AndroidManifest.xml:25:13-46
+301            android:exported="false"
+301-->[com.google.android.gms:play-services-auth:15.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/506ec4bc59f02a8174c7cbf70327716b/jetified-play-services-auth-15.0.1/AndroidManifest.xml:26:13-37
+302            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+302-->[com.google.android.gms:play-services-auth:15.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/506ec4bc59f02a8174c7cbf70327716b/jetified-play-services-auth-15.0.1/AndroidManifest.xml:27:13-72
+303        <!--
+304            Service handling Google Sign-In user revocation. For apps that do not integrate with
+305            Google Sign-In, this service will never be started.
+306        -->
+307        <service
+307-->[com.google.android.gms:play-services-auth:15.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/506ec4bc59f02a8174c7cbf70327716b/jetified-play-services-auth-15.0.1/AndroidManifest.xml:33:9-36:110
+308            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+308-->[com.google.android.gms:play-services-auth:15.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/506ec4bc59f02a8174c7cbf70327716b/jetified-play-services-auth-15.0.1/AndroidManifest.xml:34:13-89
+309            android:exported="true"
+309-->[com.google.android.gms:play-services-auth:15.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/506ec4bc59f02a8174c7cbf70327716b/jetified-play-services-auth-15.0.1/AndroidManifest.xml:35:13-36
+310            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+310-->[com.google.android.gms:play-services-auth:15.0.1] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/506ec4bc59f02a8174c7cbf70327716b/jetified-play-services-auth-15.0.1/AndroidManifest.xml:36:13-107
+311
+312        <receiver
+312-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:37:9-44:20
+313            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+313-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:38:13-78
+314            android:exported="true"
+314-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:39:13-36
+315            android:permission="com.google.android.c2dm.permission.SEND" >
+315-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:40:13-73
+316            <intent-filter>
+316-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:41:13-43:29
+317                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+317-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:42:17-81
+317-->[com.google.firebase:firebase-iid:20.1.6] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/68c73faf16821896b0448546555357e1/jetified-firebase-iid-20.1.6/AndroidManifest.xml:42:25-78
+318            </intent-filter>
+319        </receiver>
+320
+321        <provider
+321-->[com.google.firebase:firebase-common:19.3.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/cc8618ad40fd3ab78e2e387e99831c66/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+322            android:name="com.google.firebase.provider.FirebaseInitProvider"
+322-->[com.google.firebase:firebase-common:19.3.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/cc8618ad40fd3ab78e2e387e99831c66/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+323            android:authorities="com.google.samples.apps.iosched.firebaseinitprovider"
+323-->[com.google.firebase:firebase-common:19.3.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/cc8618ad40fd3ab78e2e387e99831c66/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+324            android:exported="false"
+324-->[com.google.firebase:firebase-common:19.3.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/cc8618ad40fd3ab78e2e387e99831c66/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+325            android:initOrder="100" />
+325-->[com.google.firebase:firebase-common:19.3.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/cc8618ad40fd3ab78e2e387e99831c66/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+326
+327        <activity
+327-->[com.google.android.gms:play-services-base:17.1.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/2c84857c9c1cc930ffd7ce07e9759d1b/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+328            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+328-->[com.google.android.gms:play-services-base:17.1.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/2c84857c9c1cc930ffd7ce07e9759d1b/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+329            android:exported="false"
+329-->[com.google.android.gms:play-services-base:17.1.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/2c84857c9c1cc930ffd7ce07e9759d1b/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+330            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+330-->[com.google.android.gms:play-services-base:17.1.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/2c84857c9c1cc930ffd7ce07e9759d1b/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+331
+332        <receiver
+332-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:29:9-33:20
+333            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+333-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:30:13-85
+334            android:enabled="true"
+334-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:31:13-35
+335            android:exported="false" >
+335-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:32:13-37
+336        </receiver>
+337
+338        <service
+338-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:35:9-38:40
+339            android:name="com.google.android.gms.measurement.AppMeasurementService"
+339-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:36:13-84
+340            android:enabled="true"
+340-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:37:13-35
+341            android:exported="false" />
+341-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:38:13-37
+342        <service
+342-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:39:9-43:72
+343            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+343-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:40:13-87
+344            android:enabled="true"
+344-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:41:13-35
+345            android:exported="false"
+345-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:42:13-37
+346            android:permission="android.permission.BIND_JOB_SERVICE" />
+346-->[com.google.android.gms:play-services-measurement:17.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/04ea4cb9b76e7e25b102078b7328bd42/jetified-play-services-measurement-17.4.0/AndroidManifest.xml:43:13-69
+347
+348        <provider
+348-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/9a1c2e73d4af163db562a077040d286f/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+349            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+349-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/9a1c2e73d4af163db562a077040d286f/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+350            android:authorities="com.google.samples.apps.iosched.lifecycle-process"
+350-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/9a1c2e73d4af163db562a077040d286f/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+351            android:exported="false"
+351-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/9a1c2e73d4af163db562a077040d286f/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+352            android:multiprocess="true" />
+352-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/9a1c2e73d4af163db562a077040d286f/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+353
+354        <service
+354-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/7b9cec8fa99bda1552a717f090606db4/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+355            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+355-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/7b9cec8fa99bda1552a717f090606db4/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+356            android:exported="false" >
+356-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/7b9cec8fa99bda1552a717f090606db4/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+357            <meta-data
+357-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/7b9cec8fa99bda1552a717f090606db4/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+358                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+358-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/7b9cec8fa99bda1552a717f090606db4/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+359                android:value="cct" />
+359-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/7b9cec8fa99bda1552a717f090606db4/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+360        </service>
+361        <service
+361-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/07721de35f7e0ac899836396726bfcf9/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+362            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+362-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/07721de35f7e0ac899836396726bfcf9/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+363            android:exported="false"
+363-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/07721de35f7e0ac899836396726bfcf9/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+364            android:permission="android.permission.BIND_JOB_SERVICE" >
+364-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/07721de35f7e0ac899836396726bfcf9/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+365        </service>
+366
+367        <receiver
+367-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/07721de35f7e0ac899836396726bfcf9/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+368            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+368-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/07721de35f7e0ac899836396726bfcf9/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+369            android:exported="false" />
+369-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/07721de35f7e0ac899836396726bfcf9/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+370    </application>
+371
+372</manifest>

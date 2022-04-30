@@ -1,0 +1,1 @@
+{"databases":[{"packageName":"com.haroldadmin.moonshot.db.spacex","compilationUnits":[{"name":"main","sourceFolders":[{"path":"src/main/sqldelight","dependency":false}]}],"outputDirectory":"build/generated/sqldelight/code/SpacexDatabase","className":"SpacexDatabase","dependencies":[],"dialectPreset":"SQLITE_3_18","deriveSchemaFromMigrations":false}]}

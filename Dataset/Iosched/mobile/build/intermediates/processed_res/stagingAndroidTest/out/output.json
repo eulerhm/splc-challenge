@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "applicationId": "com.google.samples.apps.iosched.test",
+  "variantType": "ANDROID_TEST",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 70153,
+        "versionName": "7.0.15-staging",
+        "outputFile": "mobile-staging-androidTest.apk",
+        "fullName": "stagingAndroidTest",
+        "baseName": "staging-androidTest",
+        "dirName": ""
+      },
+      "path": "resources-stagingAndroidTest.ap_",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.components:service-sync-logins:27.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b04e7c9db04c91f0570c2785d25d3c56/jetified-service-sync-logins-27.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b04e7c9db04c91f0570c2785d25d3c56/jetified-service-sync-logins-27.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b04e7c9db04c91f0570c2785d25d3c56/jetified-service-sync-logins-27.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.components/service-sync-logins/27.0.4/bec44d438ecc62bf26b58c1ad9e5fb951cef4289/service-sync-logins-27.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

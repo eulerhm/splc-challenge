@@ -1,0 +1,64 @@
+digraph "org.owntracks.android.ui.welcome.WelcomeActivityModule → org.owntracks.android.ui.welcome.WelcomeActivityModule_BindPlayFragment.PlayFragmentSubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="WelcomeActivityModule → WelcomeActivityModule_BindPlayFragment.PlayFragmentSubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "449d12b2-4443-431d-ae78-f6b942329f57" [label="inject (PlayFragment)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "3dcd6c11-3768-431f-bdf5-ec3bd4628505" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "4153e1d1-8ed7-4dad-a671-7481b57c5a3e" [label="@PerFragment\nPlayFragmentViewModel", color="yellow1"]
+    "0c4bd2e3-3879-4be1-aba3-93bd2c5bd06d" [label="@PerFragment\nFragment", color="yellow1"]
+    "02902dba-c585-4891-9e7c-08f39e09b377" [label="PlayFragment", color="turquoise", shape="parallelogram"]
+    subgraph "cluster_Map<Class<?>, Provider<AndroidInjector.Factory<?>>>" {
+      graph [label="Map<Class<?>, Provider<AndroidInjector.Factory<?>>>", labeljust="c", style="rounded", color="black"]
+      "534311c0-fd5f-4fe5-9791-719e412aac83" [label="Map<Class<?>, Provider<AndroidInjector.Factory<?>>>", color="turquoise", shape="tab"]
+      "cbaee407-bcbb-4eed-bc5b-cae85337a0d8" [label="WelcomeActivityModule_BindPermissionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "7e79d634-8811-40ea-a31e-d678a3617455" [label="WelcomeActivityModule_BindIntroFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "68c3c173-aabb-4dd7-bfce-7353f4379004" [label="WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "f2280256-97f4-444a-8fbd-2b90457b86c2" [label="WelcomeActivityModule_BindVersionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "13de9617-bba4-4ada-9f19-db57f83c4ebd" [label="WelcomeActivityModule_BindPlayFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_WelcomeActivityModule → WelcomeActivityModule_BindPlayFragment.PlayFragmentSubcomponent" {
+    graph [labeljust="c", label="Inherited from WelcomeActivityModule_BindPlayFragment.PlayFragmentSubcomponent\n@PerFragment", style="dashed", href="full_org.owntracks.android.ui.welcome.WelcomeActivityModule_BindPlayFragment.PlayFragmentSubcomponent.svg", color="yellow1"]
+    "4153e1d1-8ed7-4dad-a671-7481b57c5a3e" [label="@PerFragment\nPlayFragmentViewModel", color="yellow1"]
+    "3dcd6c11-3768-431f-bdf5-ec3bd4628505" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "02902dba-c585-4891-9e7c-08f39e09b377" [label="PlayFragment", color="turquoise", shape="parallelogram"]
+    subgraph "cluster_Map<Class<?>, Provider<AndroidInjector.Factory<?>>>" {
+      graph [label="Map<Class<?>, Provider<AndroidInjector.Factory<?>>>", labeljust="c", style="rounded", color="black"]
+      "534311c0-fd5f-4fe5-9791-719e412aac83" [label="Map<Class<?>, Provider<AndroidInjector.Factory<?>>>", color="turquoise", shape="tab"]
+      "cbaee407-bcbb-4eed-bc5b-cae85337a0d8" [label="WelcomeActivityModule_BindPermissionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "7e79d634-8811-40ea-a31e-d678a3617455" [label="WelcomeActivityModule_BindIntroFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "68c3c173-aabb-4dd7-bfce-7353f4379004" [label="WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "f2280256-97f4-444a-8fbd-2b90457b86c2" [label="WelcomeActivityModule_BindVersionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "13de9617-bba4-4ada-9f19-db57f83c4ebd" [label="WelcomeActivityModule_BindPlayFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_WelcomeActivityModule" {
+    graph [labeljust="c", label="Inherited from WelcomeActivityModule", style="dashed", href="full_org.owntracks.android.ui.welcome.WelcomeActivityModule.svg"]
+    "be37c534-a8fe-4b27-b94c-21568b82456e" [label="@PerActivity\nNavigator", color="aquamarine"]
+    "be37c534-a8fe-4b27-b94c-21568b82456e" [label="@PerActivity\nNavigator", color="aquamarine"]
+    "cbaee407-bcbb-4eed-bc5b-cae85337a0d8" [label="WelcomeActivityModule_BindPermissionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "7e79d634-8811-40ea-a31e-d678a3617455" [label="WelcomeActivityModule_BindIntroFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "68c3c173-aabb-4dd7-bfce-7353f4379004" [label="WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "f2280256-97f4-444a-8fbd-2b90457b86c2" [label="WelcomeActivityModule_BindVersionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "13de9617-bba4-4ada-9f19-db57f83c4ebd" [label="WelcomeActivityModule_BindPlayFragment.bindAndroidInjectorFactory()", color="turquoise"]
+  }
+  "449d12b2-4443-431d-ae78-f6b942329f57" -> "4153e1d1-8ed7-4dad-a671-7481b57c5a3e"
+  "449d12b2-4443-431d-ae78-f6b942329f57" -> "3dcd6c11-3768-431f-bdf5-ec3bd4628505"
+  "449d12b2-4443-431d-ae78-f6b942329f57" -> "be37c534-a8fe-4b27-b94c-21568b82456e"
+  "3dcd6c11-3768-431f-bdf5-ec3bd4628505" -> "534311c0-fd5f-4fe5-9791-719e412aac83"
+  "4153e1d1-8ed7-4dad-a671-7481b57c5a3e" -> "be37c534-a8fe-4b27-b94c-21568b82456e"
+  "534311c0-fd5f-4fe5-9791-719e412aac83" -> "68c3c173-aabb-4dd7-bfce-7353f4379004"
+  "534311c0-fd5f-4fe5-9791-719e412aac83" -> "7e79d634-8811-40ea-a31e-d678a3617455"
+  "534311c0-fd5f-4fe5-9791-719e412aac83" -> "f2280256-97f4-444a-8fbd-2b90457b86c2"
+  "534311c0-fd5f-4fe5-9791-719e412aac83" -> "13de9617-bba4-4ada-9f19-db57f83c4ebd"
+  "534311c0-fd5f-4fe5-9791-719e412aac83" -> "cbaee407-bcbb-4eed-bc5b-cae85337a0d8"
+  "0c4bd2e3-3879-4be1-aba3-93bd2c5bd06d" -> "02902dba-c585-4891-9e7c-08f39e09b377" [style="dotted", label="delegates"]
+}

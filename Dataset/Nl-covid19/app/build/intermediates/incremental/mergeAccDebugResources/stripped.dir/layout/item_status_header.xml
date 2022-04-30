@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  Copyright (c) 2020 De Staat der Nederlanden, Ministerie van Volksgezondheid, Welzijn en Sport.
+  ~   Licensed under the EUROPEAN UNION PUBLIC LICENCE v. 1.2
+  ~
+  ~   SPDX-License-Identifier: EUPL-1.2
+  ~
+  -->
+
+
+                                                       
+                                                   
+
+    
+
+                 
+                            
+                                                                                 
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:tag="layout/item_status_header_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:importantForAccessibility="no"
+            android:tag="binding_1"                    
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/clouds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:adjustViewBounds="true"
+            android:importantForAccessibility="no"
+            android:src="@drawable/illustration_clouds"
+            android:tint="?attr/colorSurface"
+            android:tag="binding_2"              
+                                      
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/clouds"
+                                                     />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/status_animated_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="center"
+            android:tag="binding_3"              
+                                                                           
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/clouds"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+                                                               />
+
+        <TextView
+            android:id="@+id/status_headline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:drawablePadding="24dp"
+            android:gravity="center_horizontal"
+            android:tag="binding_4"             
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/status_animated_image"
+            tools:text="@string/status_no_exposure_detected_headline" />
+
+        <TextView
+            android:id="@+id/status_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:gravity="center_horizontal"
+            android:tag="binding_5"                            
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:translationZ="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/status_headline"
+            tools:text="@string/status_no_exposure_detected_description" />
+
+        <Space
+            android:id="@+id/illustration_top"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            app:layout_constraintBottom_toBottomOf="@id/status_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/no_exposure_illustration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:importantForAccessibility="no"
+            android:src="@drawable/illustration_status"
+            android:tag="binding_6"              
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/illustration_top"
+                                                     />
+
+        <LinearLayout
+            android:id="@+id/exposure_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/status_description">
+
+            <Button
+                android:id="@+id/disabled_enable"
+                style="@style/Widget.App.Button.Rounded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:tag="binding_7"                                   
+                                                                   
+                tools:text="@string/status_en_api_disabled_enable" />
+
+            <Button
+                android:id="@+id/exposure_what_next"
+                style="@style/Widget.App.Button.Error.Rounded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:tag="binding_8"                                      
+                                                                      
+                tools:text="@string/status_exposure_what_next" />
+
+            <Button
+                android:id="@+id/exposure_reset"
+                style="@style/Widget.App.Button.Secondary.Rounded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:tag="binding_9"                                  
+                                                                  
+                tools:text="@string/status_reset_exposure" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

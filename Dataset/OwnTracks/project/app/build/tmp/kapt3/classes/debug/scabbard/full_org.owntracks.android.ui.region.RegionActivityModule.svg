@@ -1,0 +1,112 @@
+<svg width="1670px" height="267px"
+ viewBox="0.00 0.00 1669.56 266.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(14.4 252.2)">
+<title>org.owntracks.android.ui.region.RegionActivityModule</title>
+<polygon fill="#ffffff" stroke="transparent" points="-14.4,14.4 -14.4,-252.2 1655.1568,-252.2 1655.1568,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="72.9376" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">RegionActivityModule</text>
+<g id="clust2" class="cluster">
+<title>cluster_Dependency Graph</title>
+<polygon fill="none" stroke="#000000" points="8,-32.8 8,-229.8 1632.7568,-229.8 1632.7568,-32.8 8,-32.8"/>
+<text text-anchor="middle" x="70.2234" y="-213.2" font-family="Times,serif" font-size="14.00" fill="#000000">Dependency Graph</text>
+</g>
+<!-- 1bcf7094&#45;bd21&#45;4ba3&#45;985b&#45;9b1e850b7f88 -->
+<g id="node1" class="node">
+<title>1bcf7094&#45;bd21&#45;4ba3&#45;985b&#45;9b1e850b7f88</title>
+<polygon fill="#7fffd4" stroke="#7fffd4" points="1173.5533,-196.4019 1042.9073,-196.4019 1042.9073,-155.1981 1173.5533,-155.1981 1173.5533,-196.4019"/>
+<text text-anchor="middle" x="1108.2303" y="-180" font-family="Times,serif" font-size="14.00" fill="#000000">@PerActivity</text>
+<text text-anchor="middle" x="1108.2303" y="-163.2" font-family="Times,serif" font-size="14.00" fill="#000000">AppCompatActivity</text>
+</g>
+<!-- eb790dce&#45;0f94&#45;46d7&#45;80e1&#45;149112cf9a31 -->
+<g id="node2" class="node">
+<title>eb790dce&#45;0f94&#45;46d7&#45;80e1&#45;149112cf9a31</title>
+<polygon fill="#ff3030" stroke="#ff3030" points="1624.977,-193.8 1339.0968,-193.8 1339.0968,-157.8 1624.977,-157.8 1624.977,-193.8"/>
+<text text-anchor="middle" x="1482.0369" y="-171.6" font-family="Times,serif" font-size="14.00" fill="#000000">org.owntracks.android.ui.region.RegionActivity</text>
+</g>
+<!-- 1bcf7094&#45;bd21&#45;4ba3&#45;985b&#45;9b1e850b7f88&#45;&gt;eb790dce&#45;0f94&#45;46d7&#45;80e1&#45;149112cf9a31 -->
+<g id="edge2" class="edge">
+<title>1bcf7094&#45;bd21&#45;4ba3&#45;985b&#45;9b1e850b7f88&#45;&gt;eb790dce&#45;0f94&#45;46d7&#45;80e1&#45;149112cf9a31</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M1173.7702,-175.8C1216.742,-175.8 1274.7931,-175.8 1328.9307,-175.8"/>
+<polygon fill="#000000" stroke="#000000" points="1328.9894,-179.3001 1338.9894,-175.8 1328.9893,-172.3001 1328.9894,-179.3001"/>
+<text text-anchor="middle" x="1276.2749" y="-180" font-family="Times,serif" font-size="14.00" fill="#000000">delegates</text>
+<text text-anchor="middle" x="1293.2913" y="-163.2" font-family="Times,serif" font-size="14.00" fill="#000000">Missing binding</text>
+</g>
+<!-- b0464968&#45;0542&#45;49fd&#45;8a8d&#45;fa927e4223df -->
+<g id="node3" class="node">
+<title>b0464968&#45;0542&#45;49fd&#45;8a8d&#45;fa927e4223df</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="307.2951,-133.8 16.2347,-133.8 16.2347,-97.8 307.2951,-97.8 307.2951,-133.8"/>
+<text text-anchor="middle" x="161.7649" y="-111.6" font-family="Times,serif" font-size="14.00" fill="#000000">RegionMvvm.ViewModel&lt;RegionMvvm.View&gt;</text>
+</g>
+<!-- 64442b4c&#45;e00a&#45;481c&#45;80da&#45;db166f1edaad -->
+<g id="node4" class="node">
+<title>64442b4c&#45;e00a&#45;481c&#45;80da&#45;db166f1edaad</title>
+<polygon fill="#7fffd4" stroke="#7fffd4" points="557.0794,-136.4019 433.4586,-136.4019 433.4586,-95.1981 557.0794,-95.1981 557.0794,-136.4019"/>
+<text text-anchor="middle" x="495.269" y="-120" font-family="Times,serif" font-size="14.00" fill="#000000">@PerActivity</text>
+<text text-anchor="middle" x="495.269" y="-103.2" font-family="Times,serif" font-size="14.00" fill="#000000">RegionViewModel</text>
+</g>
+<!-- b0464968&#45;0542&#45;49fd&#45;8a8d&#45;fa927e4223df&#45;&gt;64442b4c&#45;e00a&#45;481c&#45;80da&#45;db166f1edaad -->
+<g id="edge3" class="edge">
+<title>b0464968&#45;0542&#45;49fd&#45;8a8d&#45;fa927e4223df&#45;&gt;64442b4c&#45;e00a&#45;481c&#45;80da&#45;db166f1edaad</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M307.5595,-115.8C347.5879,-115.8 389.2534,-115.8 423.1315,-115.8"/>
+<polygon fill="#000000" stroke="#000000" points="423.385,-119.3001 433.385,-115.8 423.385,-112.3001 423.385,-119.3001"/>
+<text text-anchor="middle" x="370.5719" y="-120" font-family="Times,serif" font-size="14.00" fill="#000000">delegates</text>
+</g>
+<!-- 3c53d3ee&#45;2d1f&#45;4e2a&#45;9fd5&#45;b85326ccea03 -->
+<g id="node5" class="node">
+<title>3c53d3ee&#45;2d1f&#45;4e2a&#45;9fd5&#45;b85326ccea03</title>
+<polygon fill="#ff3030" stroke="#ff3030" points="928.3799,-76.8 631.7719,-76.8 631.7719,-40.8 928.3799,-40.8 928.3799,-76.8"/>
+<text text-anchor="middle" x="780.0759" y="-54.6" font-family="Times,serif" font-size="14.00" fill="#000000">org.owntracks.android.data.repos.WaypointsRepo</text>
+</g>
+<!-- 64442b4c&#45;e00a&#45;481c&#45;80da&#45;db166f1edaad&#45;&gt;3c53d3ee&#45;2d1f&#45;4e2a&#45;9fd5&#45;b85326ccea03 -->
+<g id="edge5" class="edge">
+<title>64442b4c&#45;e00a&#45;481c&#45;80da&#45;db166f1edaad&#45;&gt;3c53d3ee&#45;2d1f&#45;4e2a&#45;9fd5&#45;b85326ccea03</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M557.0753,-101.7398C580.4827,-96.5444 607.3952,-90.7259 631.924,-85.8 643.7561,-83.4239 656.1381,-81.0268 668.4869,-78.6936"/>
+<polygon fill="#000000" stroke="#000000" points="669.1898,-82.1228 678.3722,-76.8377 667.8981,-75.243 669.1898,-82.1228"/>
+<text text-anchor="middle" x="632.6741" y="-81.0377" font-family="Times,serif" font-size="14.00" fill="#000000">Missing binding</text>
+</g>
+<!-- 1105ee19&#45;8c79&#45;4ae8&#45;9fa1&#45;8bc9d02262fa -->
+<g id="node6" class="node">
+<title>1105ee19&#45;8c79&#45;4ae8&#45;9fa1&#45;8bc9d02262fa</title>
+<polygon fill="#ffe4c4" stroke="#ffe4c4" points="827.8906,-136.4019 732.2612,-136.4019 732.2612,-95.1981 827.8906,-95.1981 827.8906,-136.4019"/>
+<text text-anchor="middle" x="780.0759" y="-120" font-family="Times,serif" font-size="14.00" fill="#000000">@Singleton</text>
+<text text-anchor="middle" x="780.0759" y="-103.2" font-family="Times,serif" font-size="14.00" fill="#000000">LocationRepo</text>
+</g>
+<!-- 64442b4c&#45;e00a&#45;481c&#45;80da&#45;db166f1edaad&#45;&gt;1105ee19&#45;8c79&#45;4ae8&#45;9fa1&#45;8bc9d02262fa -->
+<g id="edge4" class="edge">
+<title>64442b4c&#45;e00a&#45;481c&#45;80da&#45;db166f1edaad&#45;&gt;1105ee19&#45;8c79&#45;4ae8&#45;9fa1&#45;8bc9d02262fa</title>
+<path fill="none" stroke="#000000" d="M557.0679,-115.8C605.994,-115.8 673.8481,-115.8 721.8267,-115.8"/>
+<polygon fill="#000000" stroke="#000000" points="722.0517,-119.3001 732.0517,-115.8 722.0516,-112.3001 722.0517,-119.3001"/>
+</g>
+<!-- db59b40a&#45;5a29&#45;4879&#45;b533&#45;c597981c4059 -->
+<g id="node7" class="node">
+<title>db59b40a&#45;5a29&#45;4879&#45;b533&#45;c597981c4059</title>
+<polygon fill="#7fffd4" stroke="#7fffd4" points="827.0109,-196.4019 733.1409,-196.4019 733.1409,-155.1981 827.0109,-155.1981 827.0109,-196.4019"/>
+<text text-anchor="middle" x="780.0759" y="-180" font-family="Times,serif" font-size="14.00" fill="#000000">@PerActivity</text>
+<text text-anchor="middle" x="780.0759" y="-163.2" font-family="Times,serif" font-size="14.00" fill="#000000">Navigator</text>
+</g>
+<!-- 64442b4c&#45;e00a&#45;481c&#45;80da&#45;db166f1edaad&#45;&gt;db59b40a&#45;5a29&#45;4879&#45;b533&#45;c597981c4059 -->
+<g id="edge6" class="edge">
+<title>64442b4c&#45;e00a&#45;481c&#45;80da&#45;db166f1edaad&#45;&gt;db59b40a&#45;5a29&#45;4879&#45;b533&#45;c597981c4059</title>
+<path fill="none" stroke="#000000" d="M557.1281,-129.6038C580.5416,-134.7696 607.4445,-140.6349 631.924,-145.8 662.1111,-152.1694 695.8165,-159.0155 723.4427,-164.5573"/>
+<polygon fill="#000000" stroke="#000000" points="722.8353,-168.005 733.3279,-166.5366 724.2097,-161.1413 722.8353,-168.005"/>
+</g>
+<!-- 99fa70f0&#45;1602&#45;43c6&#45;8be0&#45;76443ef630bb -->
+<g id="node8" class="node">
+<title>99fa70f0&#45;1602&#45;43c6&#45;8be0&#45;76443ef630bb</title>
+<polygon fill="#ff3030" stroke="#ff3030" points="1213.2353,-133.8 1003.2253,-133.8 1003.2253,-97.8 1213.2353,-97.8 1213.2353,-133.8"/>
+<text text-anchor="middle" x="1108.2303" y="-111.6" font-family="Times,serif" font-size="14.00" fill="#000000">org.greenrobot.eventbus.EventBus</text>
+</g>
+<!-- 1105ee19&#45;8c79&#45;4ae8&#45;9fa1&#45;8bc9d02262fa&#45;&gt;99fa70f0&#45;1602&#45;43c6&#45;8be0&#45;76443ef630bb -->
+<g id="edge7" class="edge">
+<title>1105ee19&#45;8c79&#45;4ae8&#45;9fa1&#45;8bc9d02262fa&#45;&gt;99fa70f0&#45;1602&#45;43c6&#45;8be0&#45;76443ef630bb</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M827.7924,-115.8C870.9728,-115.8 936.3055,-115.8 993.0507,-115.8"/>
+<polygon fill="#000000" stroke="#000000" points="993.1724,-119.3001 1003.1724,-115.8 993.1723,-112.3001 993.1724,-119.3001"/>
+<text text-anchor="middle" x="957.4743" y="-103.2" font-family="Times,serif" font-size="14.00" fill="#000000">Missing binding</text>
+</g>
+<!-- db59b40a&#45;5a29&#45;4879&#45;b533&#45;c597981c4059&#45;&gt;1bcf7094&#45;bd21&#45;4ba3&#45;985b&#45;9b1e850b7f88 -->
+<g id="edge1" class="edge">
+<title>db59b40a&#45;5a29&#45;4879&#45;b533&#45;c597981c4059&#45;&gt;1bcf7094&#45;bd21&#45;4ba3&#45;985b&#45;9b1e850b7f88</title>
+<path fill="none" stroke="#000000" d="M827.0924,-175.8C880.7289,-175.8 969.1893,-175.8 1032.5621,-175.8"/>
+<polygon fill="#000000" stroke="#000000" points="1032.9024,-179.3001 1042.9024,-175.8 1032.9024,-172.3001 1032.9024,-179.3001"/>
+</g>
+</g>
+</svg>

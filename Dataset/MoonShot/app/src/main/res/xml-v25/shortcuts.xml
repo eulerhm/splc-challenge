@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_round_settings_24px"
+        android:shortcutId="settings"
+        android:shortcutShortLabel="@string/shortcutSettingsShortLabel">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="moonshot://settings"
+            android:targetClass="com.haroldadmin.moonshot.MainActivity"
+            android:targetPackage="com.haroldadmin.moonshot" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_round_history_24px"
+        android:shortcutId="launches"
+        android:shortcutShortLabel="@string/shortcutLaunchesShortLabel">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="moonshot://launches"
+            android:targetClass="com.haroldadmin.moonshot.MainActivity"
+            android:targetPackage="com.haroldadmin.moonshot" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_round_rocket_small"
+        android:shortcutId="rockets"
+        android:shortcutShortLabel="@string/shortcutRocketsShortLabel">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="moonshot://rockets"
+            android:targetClass="com.haroldadmin.moonshot.MainActivity"
+            android:targetPackage="com.haroldadmin.moonshot" />
+    </shortcut>
+</shortcuts>

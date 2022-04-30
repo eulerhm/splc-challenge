@@ -1,0 +1,25 @@
+digraph "org.owntracks.android.ui.contacts.ContactsActivityModule" {
+  graph [rankdir="LR", labeljust="l", label="ContactsActivityModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "685e9e9b-6b55-4018-b17d-ed2d6c3ec5bf" [label="@PerActivity\nAppCompatActivity", color="aquamarine"]
+    "ca1a4c9f-f9fb-44d4-8e7a-7d72d50ab026" [label="org.owntracks.android.ui.contacts.ContactsActivity", color="firebrick1"]
+    "6bc697bb-8475-4357-9a54-6800ea9d91d4" [label="ContactsMvvm.ViewModel<?>", color="turquoise"]
+    "c34e8377-0907-480a-8dc6-c8e450123c4d" [label="@PerActivity\nContactsViewModel", color="aquamarine"]
+    "6ccab8a4-1354-42a2-92c0-6d744299314a" [label="org.owntracks.android.data.repos.ContactsRepo", color="firebrick1"]
+    "9e5973a9-e8c6-4129-9a55-52a3f983ff52" [label="@PerActivity\nNavigator", color="aquamarine"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "9e5973a9-e8c6-4129-9a55-52a3f983ff52" -> "685e9e9b-6b55-4018-b17d-ed2d6c3ec5bf"
+  "685e9e9b-6b55-4018-b17d-ed2d6c3ec5bf" -> "ca1a4c9f-f9fb-44d4-8e7a-7d72d50ab026" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+  "6bc697bb-8475-4357-9a54-6800ea9d91d4" -> "c34e8377-0907-480a-8dc6-c8e450123c4d" [style="dotted", label="delegates"]
+  "c34e8377-0907-480a-8dc6-c8e450123c4d" -> "6ccab8a4-1354-42a2-92c0-6d744299314a" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "c34e8377-0907-480a-8dc6-c8e450123c4d" -> "9e5973a9-e8c6-4129-9a55-52a3f983ff52"
+}

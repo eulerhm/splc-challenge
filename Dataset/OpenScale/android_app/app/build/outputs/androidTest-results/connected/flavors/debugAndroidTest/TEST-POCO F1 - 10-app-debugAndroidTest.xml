@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.health.openscale.DatabaseMigrationTest" tests="14" failures="0" errors="0" skipped="0" time="498.765" timestamp="2021-09-20T07:11:15" hostname="localhost">
+  <properties>
+    <property name="device" value="POCO F1 - 10" />
+    <property name="flavor" value="debugAndroidTest" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="migrate1To2" classname="com.health.openscale.DatabaseMigrationTest" time="0.1" />
+  <testcase name="migrate2To3" classname="com.health.openscale.DatabaseMigrationTest" time="0.101" />
+  <testcase name="migrate3To4" classname="com.health.openscale.DatabaseMigrationTest" time="0.1" />
+  <testcase name="userOperations" classname="com.health.openscale.DatabaseTest" time="0.026" />
+  <testcase name="measurementOperations" classname="com.health.openscale.DatabaseTest" time="0.075" />
+  <testcase name="convertJavaTimestampToDeviceTests" classname="com.health.openscale.TrisaBodyAnalyzeLibTest" time="0.05" />
+  <testcase name="parseScaleMeasurementData_missingUserData" classname="com.health.openscale.TrisaBodyAnalyzeLibTest" time="0.025" />
+  <testcase name="parseScaleMeasurementData_validUserData" classname="com.health.openscale.TrisaBodyAnalyzeLibTest" time="0.025" />
+  <testcase name="parseScaleMeasurementData_invalidUserData" classname="com.health.openscale.TrisaBodyAnalyzeLibTest" time="0.025" />
+  <testcase name="convertDeviceTimestampToJavaTests" classname="com.health.openscale.TrisaBodyAnalyzeLibTest" time="0.025" />
+  <testcase name="getBase10FloatTests" classname="com.health.openscale.TrisaBodyAnalyzeLibTest" time="0.025" />
+  <testcase name="addMeasurementFemaleTest" classname="com.health.openscale.gui.AddMeasurementTest" time="24.882" />
+  <testcase name="addMeasurementMaleTest" classname="com.health.openscale.gui.AddMeasurementTest" time="24.118" />
+  <testcase name="captureScreenshots" classname="com.health.openscale.gui.ScreenshotRecorder" time="24.831" />
+</testsuite>

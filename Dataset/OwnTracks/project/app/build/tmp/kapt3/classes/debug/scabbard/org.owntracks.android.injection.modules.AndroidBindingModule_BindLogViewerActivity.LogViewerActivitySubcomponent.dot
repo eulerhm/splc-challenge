@@ -1,0 +1,46 @@
+digraph "org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindLogViewerActivity.LogViewerActivitySubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AppComponent → AndroidBindingModule_BindLogViewerActivity.LogViewerActivitySubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "2f0e2458-a79b-4d75-bbcf-c0b16e0b0e22" [label="inject (LogViewerActivity)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "f96f50e6-c144-46b9-92c1-42b94fd4d34f" [label="NoOpViewModel", color="turquoise"]
+    "ce988862-b764-4449-9ccb-a71ecf25fad8" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "6296fbd6-9736-4170-8418-0141417771c0" [label="@PerActivity\nNavigator", color="bisque"]
+    "81dc753a-47e0-4a74-b8d4-a4f19cf2628a" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "f963a3d0-c9e4-499f-b4a9-1d923cd472e8" [label="LogViewerActivity", color="turquoise", shape="parallelogram"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindLogViewerActivity.LogViewerActivitySubcomponent" {
+    graph [labeljust="c", label="Inherited from AndroidBindingModule_BindLogViewerActivity.LogViewerActivitySubcomponent\n@PerActivity", style="dashed", href="org.owntracks.android.injection.modules.AndroidBindingModule_BindLogViewerActivity.LogViewerActivitySubcomponent.svg", color="bisque"]
+    "ce988862-b764-4449-9ccb-a71ecf25fad8" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "f96f50e6-c144-46b9-92c1-42b94fd4d34f" [label="NoOpViewModel", color="turquoise"]
+    "6296fbd6-9736-4170-8418-0141417771c0" [label="@PerActivity\nNavigator", color="bisque"]
+    "81dc753a-47e0-4a74-b8d4-a4f19cf2628a" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "81dc753a-47e0-4a74-b8d4-a4f19cf2628a" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "f963a3d0-c9e4-499f-b4a9-1d923cd472e8" [label="LogViewerActivity", color="turquoise", shape="parallelogram"]
+  }
+  subgraph "cluster_AppComponent" {
+    graph [labeljust="c", label="Inherited from AppComponent\n@Singleton", style="dashed", href="org.owntracks.android.injection.components.AppComponent.svg", color="aquamarine"]
+    "a4c664ff-7bf9-44aa-a1f4-5152031c074c" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "0fe8a90c-2382-4818-bf39-378dcbdaeb89" [label="@Singleton\nEventBus", color="aquamarine"]
+    "ec328213-e64c-4deb-b8fb-6922087e5e4d" [label="@Singleton\nPreferences", color="aquamarine"]
+    "b2c235cb-5704-41ae-a186-c942c249f22b" [label="@Singleton\nScheduler", color="aquamarine"]
+  }
+  "2f0e2458-a79b-4d75-bbcf-c0b16e0b0e22" -> "f96f50e6-c144-46b9-92c1-42b94fd4d34f"
+  "2f0e2458-a79b-4d75-bbcf-c0b16e0b0e22" -> "ce988862-b764-4449-9ccb-a71ecf25fad8"
+  "2f0e2458-a79b-4d75-bbcf-c0b16e0b0e22" -> "ec328213-e64c-4deb-b8fb-6922087e5e4d"
+  "2f0e2458-a79b-4d75-bbcf-c0b16e0b0e22" -> "a4c664ff-7bf9-44aa-a1f4-5152031c074c"
+  "2f0e2458-a79b-4d75-bbcf-c0b16e0b0e22" -> "0fe8a90c-2382-4818-bf39-378dcbdaeb89"
+  "f96f50e6-c144-46b9-92c1-42b94fd4d34f" -> "6296fbd6-9736-4170-8418-0141417771c0"
+  "ce988862-b764-4449-9ccb-a71ecf25fad8" -> "81dc753a-47e0-4a74-b8d4-a4f19cf2628a"
+  "ce988862-b764-4449-9ccb-a71ecf25fad8" -> "b2c235cb-5704-41ae-a186-c942c249f22b"
+  "6296fbd6-9736-4170-8418-0141417771c0" -> "81dc753a-47e0-4a74-b8d4-a4f19cf2628a"
+  "81dc753a-47e0-4a74-b8d4-a4f19cf2628a" -> "f963a3d0-c9e4-499f-b4a9-1d923cd472e8" [style="dotted", label="delegates"]
+}

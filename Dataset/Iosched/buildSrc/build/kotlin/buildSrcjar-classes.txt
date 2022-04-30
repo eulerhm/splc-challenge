@@ -1,0 +1,1 @@
+/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/buildSrc/build/classes/kotlin/main/Libs.class:/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/buildSrc/build/classes/kotlin/main/Versions.class

@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jakewharton.rxbinding2:rxbinding-support-v4-kotlin:2.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f85f0e11bb742499bf02302bdb969be1/jetified-rxbinding-support-v4-kotlin-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f85f0e11bb742499bf02302bdb969be1/jetified-rxbinding-support-v4-kotlin-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f85f0e11bb742499bf02302bdb969be1/jetified-rxbinding-support-v4-kotlin-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ffeeb566d029afdac5f375fa2380971/jetified-rxbinding-support-v4-kotlin-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ffeeb566d029afdac5f375fa2380971/jetified-rxbinding-support-v4-kotlin-2.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ffeeb566d029afdac5f375fa2380971/jetified-rxbinding-support-v4-kotlin-2.2.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1e38c237d8249c74e4175c8ff1f7bec3/jetified-rxbinding-support-v4-kotlin-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1e38c237d8249c74e4175c8ff1f7bec3/jetified-rxbinding-support-v4-kotlin-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1e38c237d8249c74e4175c8ff1f7bec3/jetified-rxbinding-support-v4-kotlin-2.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe5220dd6fcaf1b34f5debedb872787c/jetified-rxbinding-support-v4-kotlin-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe5220dd6fcaf1b34f5debedb872787c/jetified-rxbinding-support-v4-kotlin-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe5220dd6fcaf1b34f5debedb872787c/jetified-rxbinding-support-v4-kotlin-2.2.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.rxbinding2/rxbinding-support-v4-kotlin/2.2.0/ac4d62e4a111fa45b2676f466cdf68378354f0cc/rxbinding-support-v4-kotlin-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.rxbinding2/rxbinding-support-v4-kotlin/2.2.0/e18b683032f2086bbfb0f37f863ca4aefda16592/rxbinding-support-v4-kotlin-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

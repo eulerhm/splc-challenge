@@ -1,0 +1,17 @@
+digraph "org.owntracks.android.ui.welcome.version.VersionFragmentModule" {
+  graph [rankdir="LR", labeljust="l", label="VersionFragmentModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "411697b2-8e12-4654-8333-0784d76f2e46" [label="@PerFragment\nFragment", color="aquamarine"]
+    "d3ac1bf9-52c0-43e5-800b-4f60c186875e" [label="org.owntracks.android.ui.welcome.version.VersionFragment", color="firebrick1"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "411697b2-8e12-4654-8333-0784d76f2e46" -> "d3ac1bf9-52c0-43e5-800b-4f60c186875e" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+}

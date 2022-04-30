@@ -1,0 +1,28 @@
+digraph "org.owntracks.android.injection.modules.AndroidBindingModule_BindBackgroundServiceReceiver" {
+  graph [rankdir="LR", labeljust="l", label="AndroidBindingModule_BindBackgroundServiceReceiver", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "e78ccfff-0899-4703-b05d-d970a48ff22a" [label="AndroidBindingModule_BindBackgroundServiceReceiver.bindAndroidInjectorFactory()", color="turquoise"]
+    "9e127db6-45d4-4d6c-9d39-38a0e2603a9a" [label="StartBackgroundServiceReceiverSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "5741b833-e3d3-483b-8fe8-a921ac5be738" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "4682fe85-3808-4511-9d9a-8e5bb0c677d0" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "7608c6be-2388-40a1-b9c6-c3a6a6f51245" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "f24e9448-0bec-49b2-a57e-f6cbc94c5967" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "e78ccfff-0899-4703-b05d-d970a48ff22a" [label="AndroidBindingModule_BindBackgroundServiceReceiver.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "8557e9d3-9133-456d-80fd-c811bf986a21" [label="@PerReceiver\nAndroidBindingModule_BindBackgroundServiceReceiver.StartBackgroundServiceReceiverSubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindBackgroundServiceReceiver.StartBackgroundServiceReceiverSubcomponent.svg", color="aquamarine"]
+  }
+  "f24e9448-0bec-49b2-a57e-f6cbc94c5967" -> "e78ccfff-0899-4703-b05d-d970a48ff22a"
+  "e78ccfff-0899-4703-b05d-d970a48ff22a" -> "9e127db6-45d4-4d6c-9d39-38a0e2603a9a" [style="dotted", label="delegates"]
+  "9e127db6-45d4-4d6c-9d39-38a0e2603a9a" -> "8557e9d3-9133-456d-80fd-c811bf986a21" [style="dashed", label="subcomponent", headport="w"]
+}

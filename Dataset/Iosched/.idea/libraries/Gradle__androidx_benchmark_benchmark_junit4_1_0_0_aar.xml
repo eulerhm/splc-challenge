@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.benchmark:benchmark-junit4:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdc786a42055706a91e4eefab991c42f/jetified-benchmark-junit4-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdc786a42055706a91e4eefab991c42f/jetified-benchmark-junit4-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdc786a42055706a91e4eefab991c42f/jetified-benchmark-junit4-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ba487ff50250d2c604a148e3f4ed234/jetified-benchmark-junit4-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ba487ff50250d2c604a148e3f4ed234/jetified-benchmark-junit4-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ba487ff50250d2c604a148e3f4ed234/jetified-benchmark-junit4-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.benchmark/benchmark-junit4/1.0.0/243a2d4482afa28d5067bd656a97d9968da5b466/benchmark-junit4-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

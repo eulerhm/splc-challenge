@@ -1,0 +1,17 @@
+digraph "org.owntracks.android.ui.status.LogViewerActivityModule" {
+  graph [rankdir="LR", labeljust="l", label="LogViewerActivityModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "e00a9da4-ccd2-4496-bbab-79a446a0595f" [label="@PerActivity\nAppCompatActivity", color="aquamarine"]
+    "e6118ec0-aa22-4bc8-9e18-af8660c57070" [label="org.owntracks.android.ui.status.LogViewerActivity", color="firebrick1"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "e00a9da4-ccd2-4496-bbab-79a446a0595f" -> "e6118ec0-aa22-4bc8-9e18-af8660c57070" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+}

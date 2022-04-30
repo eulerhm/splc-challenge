@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="days_ago">
+        <item quantity="one">vor %d Tag</item>
+        <item quantity="other">vor %d Tagen</item>
+    </plurals>
+    <plurals name="duration_hours_plurals">
+        <item quantity="one">%d Stunde</item>
+        <item quantity="other">%d Stunden</item>
+    </plurals>
+    <plurals name="duration_minutes_plurals">
+        <item quantity="one">%d Minute</item>
+        <item quantity="other">%d Minuten</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d neue Benachrichtigung</item>
+    <item quantity="other">%d neue Benachrichtigungen</item>
+  </plurals>
+    <plurals name="pause_duration_hours_option_plurals">
+        <item quantity="one">%d Stunde anhalten</item>
+        <item quantity="other">%d Stunden anhalten</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Alle anzeigen"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AUS"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AN"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Strg +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Löschen"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Eingabetaste"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktionstaste +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta-Taste +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Umschalttaste +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Leertaste"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym-Taste +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menütaste +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Suche"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Anfrage senden"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="about_accessibility">Zugänglichkeit</string>
+    <string name="about_colofon">Impressum</string>
+    <string name="about_helpdesk_subtitle" ns2:ignore="TypographyDashes">Rufen Sie kostenlos 0800-1280 an.</string>
+    <string name="about_helpdesk_title">Eine andere Frage über die App?</string>
+    <string name="about_onboarding_subtitle">Lesen Sie, wie Sie mit dieser App dazu beitragen können, Corona zu stoppen.</string>
+    <string name="about_onboarding_title">Was macht CoronaMelder?</string>
+    <string name="about_privacy_statement">Datenschutzerklärung</string>
+    <string name="about_review">Beurteilen Sie die App</string>
+    <string name="about_technical_explanation_subtitle">Schauen Sie sich die technischen Erläuterungen an.</string>
+    <string name="about_technical_explanation_title">Wie funktioniert die App?</string>
+    <string name="about_toolbar_title">Über die App</string>
+    <string name="about_website_link_subtitle">Gehen Sie zu coronamelder.nl</string>
+    <string name="about_website_link_title">Mehr über die App</string>
+    <string name="app_inactive_message">Kontrollieren Sie Ihre Einstellungen.</string>
+    <string name="app_inactive_paused_message">Achtung: Die App ist noch nicht aktiv. Sie müssen sie selbst in der App aktivieren.</string>
+    <string name="app_inactive_paused_title">CoronaMelder wieder aktivieren</string>
+    <string name="app_inactive_title">CoronaMelder ist momentan nicht aktiv.</string>
+    <string name="app_language">de</string>
+    <string name="app_name">CoronaMelder</string>
+    <string name="bottomsheet_action_expand_halfway">Zur Hälfte maximieren</string>
+    <string name="cd_back">Zurück</string>
+    <string name="cd_close">Schließen</string>
+    <string name="cd_error_box">Warnung</string>
+    <string name="cd_info_box">Wichtig</string>
+    <string name="cd_status_active">Ein grüner Kreis mit Häkchen gibt an, dass die App gut eingestellt ist.</string>
+    <string name="cd_status_disabled">Ein gelber Kreis mit Ausrufezeichen ist eine Warnung.</string>
+    <string name="cd_status_exposed">Ein roter Kreis mit Alarmglocke gibt an, dass jetzt eine Aktion erforderlich ist.</string>
+    <string name="cd_status_paused">Grauer Kreis mit Pausezeichen gibt an, dass die App angehalten wurde</string>
+    <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
+    <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
+    <string name="clear_text_end_icon_content_description">Text löschen</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivieren"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> funktioniert erst nach der Aktivierung der Google Play-Dienste."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play-Dienste aktivieren"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installieren"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind die Google Play-Dienste erforderlich, die auf deinem Gerät nicht installiert sind."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play-Dienste installieren"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Verfügbarkeit von Google Play-Diensten"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fehler bei Zugriff auf Google Play-Dienste"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die auf deinem Gerät nicht unterstützt werden."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Aktualisieren"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> wird nur ausgeführt, wenn du die Google Play-Dienste aktualisierst."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play-Dienste aktualisieren"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die gerade aktualisiert werden."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Auf Smartphone öffnen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Anmelden"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Über Google anmelden"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopieren"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link in Zwischenablage kopiert"</string>
+    <string name="coronatest_description"><![CDATA[Entdecken Sie über coronatest.nl, dass Sie Corona haben? Dann können Sie über CoronaMelder sofort eine Nachricht schicken. <a href="">Wie geht das?</a>]]></string>
+    <string name="coronatest_finish_button">Ich bin fertig.</string>
+    <string name="coronatest_finish_confirmation_accept">Ja, abschließen</string>
+    <string name="coronatest_finish_confirmation_cancel">Annullieren</string>
+    <string name="coronatest_finish_confirmation_text">Haben Sie den GGD-Schlüssel auf coronatest.nl eingegeben und eine Bestätigung erhalten? Wenn ja, können Sie abschließen.</string>
+    <string name="coronatest_finish_confirmation_title">Sind Sie sicher, dass Sie fertig sind?</string>
+    <string name="coronatest_keys_shared">Codes geteilt</string>
+    <string name="coronatest_share_keys">Codes teilen</string>
+    <string name="coronatest_step_1">Teilen Sie die Codes, die CoronaMelder erstellt hat</string>
+    <string name="coronatest_step_2">Schreiben Sie Ihren GGD-Schlüssel auf oder kopieren Sie ihn</string>
+    <string name="coronatest_step_3">Geben Sie Ihren GGD-Schlüssel auf coronatest.nl ein. So warnen Sie Personen, in deren Nähe Sie waren.</string>
+    <string name="coronatest_step_3_nodeeplink">Gehen Sie (zurück) zu coronatest.nl und geben Sie Ihren GGD-Schlüssel ein. So warnen Sie Personen, in deren Nähe Sie waren.</string>
+    <string name="coronatest_step_4">GGD-Schlüssel eingegeben?</string>
+    <string name="coronatest_step_4_subtitle">Sie sind fertig. Personen, in deren Nähe Sie waren, als Sie ansteckend waren, bekommen innerhalb von 8 Stunden eine Nachricht.</string>
+    <string name="coronatest_webpage_button">Zu coronatest.nl</string>
+    <string name="cross_links_header">Lesen Sie auch</string>
+    <string name="dialog_error_api_not_available_message">Erst wenn Google Play Services aktualisiert ist, kann der mögliche Kontakt mit dem Coronavirus registriert werden. Versuchen Sie es später erneut.</string>
+    <string name="dialog_error_api_not_available_title">Google Play Services wird noch aktualisiert.</string>
+    <string name="dialog_error_confirm">Schließen</string>
+    <string name="duration_format_hours_and_minutes">%1$s und %2$s</string>
+    <string name="enable_internet_description">Die App braucht eine Internetverbindung, um zu prüfen, ob bei den Personen, denen Sie begegnet sind, später Corona festgestellt wurde.\n\nNutzen Sie ein WLAN oder deaktivieren Sie \"Nur Codes über WLAN kontrollieren\" in den App-Einstellungen.</string>
+    <string name="enable_internet_footer">Ist die App danach immer noch nicht ganz aktiviert? Dann gibt es wahrscheinlich ein technisches Problem. Das können Sie momentan selbst nicht lösen.</string>
+    <string name="enable_internet_open_settings_button">Einstellungen öffnen</string>
+    <string name="enable_internet_title">Internetverbindung herstellen</string>
+    <string name="end_of_life_action">Lesen Sie weiter</string>
+    <string name="end_of_life_description">Das Ministerium für Gesundheit, Gemeinwohl und Sport hat beschlossen, dass die App nicht mehr erforderlich ist. Sie erhalten also keine Nachricht mehr, wenn Sie in der Nähe einer Person mit Corona waren.</string>
+    <string name="end_of_life_headline">CoronaMelder wurde eingestellt.</string>
+    <string name="error_api_not_available">In der App ist ein Fehler aufgetreten. Versuchen Sie es später erneut.</string>
+    <string name="error_icon_content_description">Fehler</string>
+    <string name="error_upload_not_available">Sie können nur eine Nachricht schicken, wenn die erforderlichen Einstellungen aktiviert sind.</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Erweitert"</string>
+    <string name="exposed_dropdown_menu_content_description">Drop-down-Menü anzeigen</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Link kopieren"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Im Browser öffnen"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Link teilen"</string>
+    <string name="faq_anonymous">Weiß die App wer ich bin und wen ich begegnet bin?</string>
+    <string name="faq_anonymous_paragraph_1">Die App tauscht willkürliche Codes mit anderen Telefonen aus. Die Codes enthalten keine Personen- oder Standortdaten. Die Codes werden ausgetauscht, wenn Sie in der Nähe einer Person sind, die auch die App hat.</string>
+    <string name="faq_anonymous_paragraph_2">Stellt sich später heraus, dass diese Person Corona hat? Dann kann diese Person gemeinsam mit dem GGD ihre Codes einer Liste mit Codes von Personen hinzufügen, die auch Corona haben. So wird die Ansteckung bestätigt. \n\nDanach wird eine Nachricht an alle anderen Personen geschickt, die diese Codes auf ihrem Telefon haben. In dieser Nachricht steht nur, wann sie in der Nähe einer Person mit Corona waren. Aber nicht, wer das ist und wo sie der Person begegnet sind.</string>
+    <string name="faq_bluetooth">Funktioniert Bluetooth durch Wände hindurch?</string>
+    <string name="faq_bluetooth_paragraph_1">"Ja, aber das Signal ist dann sehr schwach. Bluetooth funktioniert am besten, wenn Ihr Telefon im selben Raum ist wie das Telefon der anderen Person. \n\nEs ist zum Beispiel sehr unwahrscheinlich, dass Ihre App das Bluetooth-Signal des Nachbarn auffängt.\n\nDeshalb ist es auch sehr unwahrscheinlich, dass Sie eine Nachricht erhalten, wenn sich Ihr Nachbar mit Corona angesteckt hat und Sie nicht im selben Raum waren."</string>
+    <string name="faq_deletion">Wie lösche ich die Bluetooth-Daten auf meinem Telefon?</string>
+    <string name="faq_deletion_button">Einstellungen öffnen</string>
+    <string name="faq_deletion_paragraph_1">"Sie können die Bluetooth-Daten, die CoronaMelder gespeichert hat, selbst löschen. Tippen Sie auf die untenstehende Taste und danach auf&lt;strong>Zufallserkennungen löschen&lt;/strong>. \n\nMöchten Sie, dass die App keine neuen Bluetooth-Daten mehr speichert? Entfernen Sie dann die App."</string>
+    <string name="faq_detail_toolbar_title">Häufig gestellte Frage</string>
+    <string name="faq_header">Häufig gestellte Fragen</string>
+    <string name="faq_interop_countries">Mit welchen ausländischen Apps arbeitet CoronaMelder zusammen?</string>
+    <string name="faq_interoperability">Funktioniert CoronaMelder auch mit Apps aus anderen Ländern?</string>
+    <string name="faq_interoperability_paragraph_1">CoronaMelder arbeitet mit einigen Apps aus anderen europäischen Ländern zusammen. Zum Beispiel mit Deutschland, Irland und Italien.</string>
+    <string name="faq_interoperability_paragraph_2">Angenommen, Sie waren längere Zeit in der Nähe eines Nutzers der deutschen Corona-Warn-App. Diese Person wird in Deutschland getestet. Es stellt sich heraus, dass sie Corona hat. Wenn diese Person ihre Codes mit der deutschen Gesundheitsbehörde teilt, bekommen Sie über CoronaMelder eine Nachricht. Umgekehrt gilt dasselbe. Da die Corona-Apps miteinander zusammenarbeiten, müssen Sie nur 1 App aktiviert haben.</string>
+    <string name="faq_interoperability_paragraph_3">CoronaMelder kontrolliert ab 30. November 2020 täglich die Codes von Nutzern aus verschiedenen Ländern. Deshalb verbraucht die App mehr mobile Daten als früher.    Über &lt;strong>Einstellungen&lt;/strong> im Hauptmenü können Sie einstellen, dass die App nur über WLAN kontrolliert, ob Sie in der Nähe einer Person mit Corona waren.</string>
+    <string name="faq_location">Kann die App meinen Standort erkennen?</string>
+    <string name="faq_location_paragraph_1">Nein. Die App erkennt über Bluetooth nur, ob Sie in der Nähe anderer Personen sind, die die App auch haben. Die App sieht nie, wo Sie sind.\n\nBluetooth stellt eine drahtlose Verbindung zwischen zwei Geräten her, die dicht beieinander sind. Zum Beispiel Ihr Telefon und eine Musikbox oder ein Kopfhörer.\n\nDie App schätzt den Abstand zwischen den beiden Telefonen. Das tut sie anhand der Stärke des Bluetooth-Signals.</string>
+    <string name="faq_location_permission">Warum müssen meine Standorteinstellungen aktiviert sein?</string>
+    <string name="faq_location_permission_paragraph_1">CoronaMelder weiß nicht, wo Sie sind. Ihre Standorteinstellungen müssen aber aktiviert sein. Sonst funktioniert die App nicht. Das klingt vielleicht komisch. Es ist so:\n\nCoronaMelder verwendet ‘Bluetooth Scanning’. Das ist eine andere Bluetooth-Technik als die, mit der zum Beispiel Verbindung mit einem drahtlosen Kopfhörer hergestellt wird. Bluetooth Scanning verbraucht wenig Strom. Mit Bluetooth Scanning tauscht die App willkürliche Codes mit Telefonen in der Nähe aus.\n\nEinige Apps (nicht CoronaMelder) verwenden Bluetooth Scanning zur Standortbestimmung. Deshalb müssen Standorteinstellungen immer aktiviert sein, um Bluetooth Scanning zu verwenden. Auch wenn eine App nicht Ihren Standort benutzt.\n\nBitte merken Sie sich: CoronaMelder hat nie Zugang zu Ihrem Standort. Ab der Android-Version 11 müssen Ihre Standorteinstellungen nicht mehr aktiviert sein.</string>
+    <string name="faq_notification">Wann bekomme ich eine App-Nachricht?</string>
+    <string name="faq_notification_message">Wie erkenne ich eine Nachricht?</string>
+    <string name="faq_notification_paragraph_1">Sie erhalten eine Nachricht, wenn für Sie eine erhöhte Ansteckungsgefahr bestand. Das ist der Fall, wenn Sie an einem Tag mindestens 15 Minuten in der Nähe einer Person mit Corona waren. Es kann sich um eine oder mehrere Personen handeln. Und diese Person muss wie Sie auch die App benutzen.\n\nOb Sie eine Nachricht erhalten, hängt von der Stärke des Bluetooth-Signals ab. Und von der Dauer der Begegnung. \n\nFuhr jemand auf der Straße mit dem Rad vorbei? Dann bekommen Sie später keine Nachricht. Sie waren dicht beieinander, also war das Bluetooth-Signal stark. Aber die Begegnung war so kurz, dass die Ansteckungsgefahr sehr gering ist.\n\nSaßen Sie im Zug oder Büro dicht beieinander? Dann können Sie später eine Nachricht bekommen. Das Bluetooth-Signal war stark genug, und Sie waren längere Zeit nah beieinander.</string>
+    <string name="faq_pause">Kann ich die App anhalten?</string>
+    <string name="faq_pause_paragraph_1"><![CDATA[Ja, Sie können die App vorübergehend anhalten. Wählen Sie dazu im Startbildschirm <strong>Einstellungen > App anhalten</strong>. Wenn Sie die App anhalten, werden Ihre Begegnungen vorübergehend nicht registriert. Sie erhalten auch keine Nachricht, wenn Sie in der Nähe einer Person waren, bei der später Corona festgestellt wurde.]]></string>
+    <string name="faq_pause_paragraph_2">Ist die Pause vorbei, erhalten Sie sofort die Nachricht, die App wieder zu aktivieren. Nach der Aktivierung der App können Sie noch Nachrichten über Begegnungen von vor der Pause erhalten.</string>
+    <string name="faq_pause_paragraph_3">Es ist meistens nicht ratsam, die App anzuhalten, da Sie vielleicht vergessen, sie wieder zu aktivieren. Sie können die App jedoch in besonderen Situationen anhalten. Zum Beispiel, wenn Sie in die Nähe von (möglichen) Corona-Patienten kommen, aber sicher sind, dass Sie medizinische Schutzausrüstung tragen.</string>
+    <string name="faq_power_usage">Wieviel Akku verbraucht die App?</string>
+    <string name="faq_power_usage_paragraph_1">Die App verwendet Bluetooth Low Energy. Das ist eine Sonderform von Bluetooth, die sehr wenig Strom verbraucht. Es hängt von Ihrem Telefon ab, wieviel Prozent das genau sind.</string>
+    <string name="faq_reason">Warum ist diese App wichtig?</string>
+    <string name="faq_reason_paragraph_1">"Die App kann Sie schnell warnen, wenn Sie in der Nähe einer Person mit Corona waren. Schon bevor Sie Beschwerden haben. Sie können nämlich Corona haben und ansteckend sein, ohne es zu wissen. "</string>
+    <string name="faq_reason_paragraph_2">Wenn Sie über die App eine Warnmeldung bekommen, lesen Sie in der App was Sie tun können. Und ob Sie sich testen lassen müssen. So verhindern Sie, dass Sie unbewusst Personen in Ihrer Umgebung anstecken.</string>
+    <string name="faq_reason_paragraph_3">"Sie wurden getestet und haben Corona? Dann können Sie gemeinsam mit dem GGD (auch unbekannte) Personen warnen, die lange in Ihrer Nähe waren. Zum Beispiel in einem Restaurant, Kino oder Wartezimmer. Diese Personen müssen allerdings auch die App nutzen."</string>
+    <string name="faq_reason_paragraph_4">Dank CoronaMelder können wir schneller eingreifen und Neuansteckungen verhindern. Nur gemeinsam bekommen wir Corona unter Kontrolle.</string>
+    <string name="faq_technical">Wie funktioniert die App genau?</string>
+    <string name="faq_technical_github_subtitle">Zu GitHub wechseln</string>
+    <string name="faq_technical_github_title">Quellcode anzeigen</string>
+    <string name="faq_technical_header_1">1. Die App erstellt für jedes Telefon einen eigenen Code.</string>
+    <string name="faq_technical_header_3">2. Telefone tauschen Codes aus, wenn sie dicht beieinander sind.</string>
+    <string name="faq_technical_header_5">3. Stellt sich heraus, dass eine Person Corona hat? Dann kann diese Person ihre Codes auf eine Liste setzen.</string>
+    <string name="faq_technical_header_7">4. Jedes Telefon kontrolliert, ob es die Codes auf der Liste schon kennt.</string>
+    <string name="faq_technical_header_9">5. Sie bekommen eine Nachricht, wenn die Codes einer Person mit Corona auf Ihrem Telefon stehen.</string>
+    <string name="faq_technical_paragraph_10">In dieser Nachricht steht, wann Sie in der Nähe der Person mit Corona waren. Aber nicht, wer das ist und wo das war. Die App sagt Ihnen auch, was Sie nun am besten tun können. Ihre eigenen Codes stehen nicht auf der Liste mit den Codes von Personen mit Corona. Ihre Codes werden aber 14 Tage auf Ihrem Telefon gespeichert.</string>
+    <string name="faq_technical_paragraph_2">Der Code enthält keine Informationen über Sie oder Ihr Telefon. Der Code ist völlig willkürlich und ändert sich alle 15 Minuten.</string>
+    <string name="faq_technical_paragraph_4">Hat die Person, der Sie begegnen, auch die App? Dann tauschen beide Telefone Codes über Bluetooth Low Energy aus. So weiß die App, welche Telefone dicht beieinander waren. Die App weiß nicht, zu wem die Telefone gehören oder wo Sie gewesen sind.</string>
+    <string name="faq_technical_paragraph_6">Diese Liste enthält nur Codes von Personen mit Corona. Um Codes hinzufügen zu können, muss eine Person mit Corona erst einen GGD-Schlüssel an den GGD weiterleiten. So ist immer sichergestellt, dass die hinzugefügten Codes auch wirklich zu einer Person gehören, die Corona hat. Alle Codes, die älter sind als 14 Tage, werden automatisch aus der Liste gelöscht.</string>
+    <string name="faq_technical_paragraph_8">Die App prüft ein paar Mal am Tag die Liste mit den Codes von Personen mit Corona. Und vergleicht sie mit den Codes, die auf Ihrem Telefon gespeichert sind. So erkennt die App, ob für Sie eine erhöhte Ansteckungsgefahr bestand.</string>
+    <string name="faq_technical_toolbar_title">Technische Erläuterungen</string>
+    <string name="faq_upload_keys">Kann ich anderen eine Nachricht schicken, wenn ich Corona habe?</string>
+    <string name="faq_upload_keys_generic_paragraph_1">Sie können nur eine Nachricht an andere schicken, wenn sich nach einem Test beim GGD herausstellt, dass Sie Corona haben. Die Nachricht schicken Sie, wenn der GGD Sie anruft. Oder Sie tun es selbst auf coronatest.nl.\n\nWenn Sie eine Nachricht schicken möchten, müssen Sie Ihren GGD-Schlüssel eingeben. Sie finden ihn in der App. Ein GGD-Schlüssel sorgt dafür, dass nur Personen Nachrichten verschicken können, die wirklich Corona haben.</string>
+    <string name="faq_upload_keys_generic_paragraph_2">Nach der Kontrolle Ihres GGD-Schlüssels werden die Codes geteilt, die Ihr Telefon in den letzten 14 Tagen an andere Telefone geschickt hat. \n\nSo bekommen Personen, in deren Nähe Sie waren, als Sie ansteckend waren, eine Nachricht. Aber nur, wenn diese Personen auch die App verwenden.</string>
+    <string name="faq_upload_keys_paragraph_1">Sie können nur eine Nachricht an andere schicken, wenn sich nach einem Test herausstellt, dass Sie Corona haben. Der GGD ruft Sie in diesem Fall an.\n\n\nBei diesem Gespräch kontrolliert ein GGD-Mitarbeiter Ihren GGD-Schlüssel. Sie finden ihn in der App. So wird immer sichergestellt, dass nur Personen Nachrichten verschicken können, die wirklich Corona haben.</string>
+    <string name="faq_upload_keys_paragraph_2">Nach der Kontrolle Ihres GGD-Schlüssels können Sie die Codes teilen, die Ihr Telefon in den letzten 14 Tagen an andere Telefone geschickt hat.\n\nSo bekommen die Personen, in deren Nähe Sie waren, als Sie ansteckend waren, eine Nachricht. Aber nur, wenn diese Personen auch die App verwenden.</string>
+    <string name="generic_notification_advice_stay_home">Bleiben Sie in jedem Fall zu Hause, bis Sie sicher sind, dass Sie keine Corona haben. So vermeiden Sie, dass Sie unbewusst andere Menschen anstecken.</string>
+    <string name="generic_notification_alt_text_6">Ein roter Bildschirm mit Alarmglocke gibt an, dass jetzt eine Aktion erforderlich ist.</string>
+    <string name="generic_notification_caption_7">Beispiel: So sieht die App aus, wenn Sie eine Nachricht erhalten haben.</string>
+    <string name="generic_notification_exposure_summaries">"Manchmal erhalten Sie Nachrichten, in denen steht, dass Ihr Smartphone COVID-19-Überprüfungen ausführt. Öffnen Sie dann den CoronaMelder. Gut zu wissen: Meistens ist alles in Ordnung.
+"</string>
+    <string name="generic_notification_header_1">Wie erkenne ich eine Nachricht?</string>
+    <string name="generic_notification_header_11">Andere Nachrichten</string>
+    <string name="generic_notification_header_3">Wie sieht eine Nachricht aus?</string>
+    <string name="generic_notification_header_8">Was können Sie tun, wenn Sie in der Nähe einer Person mit Corona waren?</string>
+    <string name="generic_notification_paragraph_10">Gibt der GGD Ihnen am Telefon andere Anweisungen als die App? Befolgen Sie dann den Anweisungen des GGD.</string>
+    <string name="generic_notification_paragraph_12">CoronaMelder kann Ihnen auch eine Nachricht schicken, wenn es ein technisches Problem gibt. Zum Beispiel, wenn Bluetooth bei Ihnen deaktiviert ist. Oder wenn es länger als einen Tag keine Internetverbindung gab. Die App hilft Ihnen, das zu lösen.</string>
+    <string name="generic_notification_paragraph_13">Haben Sie eine solche Nachricht erhalten? Und funktioniert Ihre App normal? Dann wurde das Problem in der Zwischenzeit gelöst.</string>
+    <string name="generic_notification_paragraph_2">Die App schickt eine Nachricht, wenn Sie an einem Tag mindestens 15 Minuten in der Nähe einer Person mit Corona waren. Es kann sich um eine oder mehrere Personen handeln.</string>
+    <string name="generic_notification_paragraph_4">Die Nachricht erscheint bei Ihren Meldungen, wie Nachrichten aus den anderen Apps. Die Nachricht hat das Symbol des CoronaMelders. Haben Sie eine Nachricht erhalten? Öffnen Sie dann den CoronaMelder. Dort lesen Sie, was in diesem Fall zu tun ist.</string>
+    <string name="generic_notification_paragraph_5">Klicken Sie auf die Nachricht, um CoronaMelder zu öffnen. Dort lesen Sie, was Sie tun können.</string>
+    <string name="generic_notification_paragraph_9">Befolgen Sie den Ratschlägen in der App. Die Ratschläge hängen von Ihrer persönlichen Situation ab. Ob Sie Symptome haben, die zu Corona passen. Und an welchem Tag Sie in der Nähe einer Person mit Corona waren.</string>
+    <string name="generic_notification_sample_notification_content_description">Beispiel einer Nachricht</string>
+    <string name="generic_notification_toolbar_title">Nachricht erhalten</string>
+    <string name="icon_content_description">Dialogfeldsymbol</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="lab_test_button">Weiter</string>
+    <string name="lab_test_copy_key_to_clipboard">GGD-Schlüssel kopiert</string>
+    <string name="lab_test_done_box_4">Die Nachricht wird nur verschickt, wenn Sie vom GGD getestet wurden und Sie Corona haben.</string>
+    <string name="lab_test_done_button">Schließen</string>
+    <string name="lab_test_done_generic_box_4">Die Nachricht wird nur verschickt, wenn Sie Ihren GGD-Schlüssel dem GGD mitgeteilt oder ihn auf coronatest.nl eingegeben haben.</string>
+    <string name="lab_test_done_generic_header_1">Vielen Dank, dass Sie die Nachricht geschickt haben.</string>
+    <string name="lab_test_done_generic_paragraph_2">Der GGD sagt Ihnen, was Sie sonst noch tun können, damit Sie andere nicht anstecken. Wir wünschen Ihnen gute Besserung.</string>
+    <string name="lab_test_done_header_1">Danke. Der GGD hilft Ihnen weiter.</string>
+    <string name="lab_test_done_paragraph_2">Der GGD-Mitarbeiter sagt Ihnen, was Sie tun können, damit Sie andere nicht anstecken. Wir wünschen Ihnen gute Besserung.</string>
+    <string name="lab_test_done_toolbar_title">Danke.</string>
+    <string name="lab_test_done_used_key">Verwendeter GGD-Schlüssel: %1$s</string>
+    <string name="lab_test_generic_toolbar_title">Nachricht verschicken</string>
+    <string name="lab_test_how_does_it_work">Wie funktioniert das?</string>
+    <string name="lab_test_paragraph_1"><![CDATA[Wurden Sie getestet und haben Sie Corona? Dann ruft Sie ein GGD-Mitarbeiter an. Der Mitarbeiter wird Ihnen dabei helfen, anderen zu warnen, die in Ihrer Nähe waren. Sie benötigen dazu Ihren GGD-Schlüssel. <a href="">Wie funktioniert das?</a>]]></string>
+    <string name="lab_test_step_1">Leiten Sie diesen GGD-Schlüssel an den GGD-Mitarbeiter weiter:</string>
+    <string name="lab_test_step_2">Warten Sie auf den GGD-Mitarbeiter, bevor Sie fortfahren.</string>
+    <string name="lab_test_step_3">Warnen Sie andere durch das Senden einer Nachricht.</string>
+    <string name="lab_test_token_error">Die App konnte keinen GGD-Schlüssel laden. Kontrollieren Sie die Internetverbindung.</string>
+    <string name="lab_test_token_loading">Schlüssel wird geladen</string>
+    <string name="lab_test_token_retry">Versuchen Sie es erneut.</string>
+    <string name="lab_test_toolbar_title">GGD-Schlüssel</string>
+    <string name="lab_test_upload_error">Es ist nicht gelungen, anderen eine Nachricht zu schicken. Versuchen Sie es später erneut.</string>
+    <string name="location_services_required_description">Einige Apps nutzen Bluetooth, um Ihren Standort zu bestimmen. Deshalb ist dies Teil der Standort-Einstellungen. CoronaMelder benötigt Bluetooth, um zu funktionieren, hat jedoch nie Zugang zu Ihrem Standort.</string>
+    <string name="location_services_required_enable_error">Standort-Einstellungen können nicht geöffnet werden.</string>
+    <string name="location_services_required_explain">Wie funktioniert das genau?</string>
+    <string name="location_services_required_headline">Die App funktioniert nur, wenn die Standort-Einstellungen eingeschaltet sind.</string>
+    <string name="location_services_required_title">Standort-Einstellungen</string>
+    <string name="material_clock_toggle_content_description">Vormittags oder Nachmittags auswählen</string>
+    <string name="material_hour_selection">Stunde auswählen</string>
+    <string name="material_hour_suffix">%1$s Uhr</string>
+    <string name="material_minute_selection">Minuten auswählen</string>
+    <string name="material_minute_suffix">%1$s Minuten</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">In den Uhrzeitmodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="material_timepicker_hour">Stunde</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Uhrzeit auswählen</string>
+    <string name="material_timepicker_text_input_mode_description">In den Texteingabemodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
+    <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+    <string name="mtrl_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Datum auswählen</string>
+    <string name="mtrl_picker_date_header_unselected">Ausgewähltes Datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Spalte \"Wochentag\": %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ungültiges Format.</string>
+    <string name="mtrl_picker_invalid_format_example">Beispiel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Format: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ungültiger Bereich.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Zum Jahr %1$s wechseln</string>
+    <string name="mtrl_picker_out_of_range">Außerhalb des Bereichs: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Enddatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Zeitraum auswählen</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum – Enddatum</string>
+    <string name="mtrl_picker_save">Speichern</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Enddatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">T</string>
+    <string name="mtrl_picker_text_input_month_abbr">M</string>
+    <string name="mtrl_picker_text_input_year_abbr">J</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">In den Kalendereingabemodus wechseln</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">In den Texteingabemodus wechseln</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Nach oben"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Navigationsleiste öffnen"</string>
+    <string msgid="478774118347071097" name="not_set">"Nicht festgelegt"</string>
+    <string name="notification_channel_description">Nachrichten über möglichen Kontakt mit dem Coronavirus</string>
+    <string name="notification_channel_name">Kontaktnachrichten</string>
+    <string name="notification_message">Sie waren %1$s in der Nähe einer Person mit Corona. Lesen Sie mehr in der App.</string>
+    <string name="notification_message_reminder_dismiss">Keine Erinnerungen mehr</string>
+    <string name="notification_message_reminder_prefix">Erinnerung: %1$s</string>
+    <string name="notification_title">Möglicher Kontakt mit dem Coronavirus</string>
+    <string name="onboarding_consent_check_1">Bluetooth-Daten werden 14 Tage auf Ihrem Telefon gespeichert. Sie können sie jederzeit selbst löschen.</string>
+    <string name="onboarding_consent_check_2"><![CDATA[Ihr Name wird <strong>nicht</strong> verwendet oder gespeichert.]]></string>
+    <string name="onboarding_consent_check_3"><![CDATA[Ihre GPS- oder Standortdaten werden <strong>nicht</strong> verwendet oder gespeichert.]]></string>
+    <string name="onboarding_consent_explain">Wie funktioniert die App genau?</string>
+    <string name="onboarding_consent_headline">Nachrichten über möglichen Kontakt mit dem Coronavirus aktivieren</string>
+    <string name="onboarding_consent_request">Aktivieren</string>
+    <string name="onboarding_consent_skip">Überspringen</string>
+    <string name="onboarding_consent_skip_dialog_enable">Aktivieren</string>
+    <string name="onboarding_consent_skip_dialog_message">Ohne Zustimmung kann die App Ihnen keine Nachrichten schicken, wenn für Sie eine erhöhte Ansteckungsgefahr bestand.</string>
+    <string name="onboarding_consent_skip_dialog_skip">Überspringen</string>
+    <string name="onboarding_consent_skip_dialog_title">Sollen diese Nachrichten wirklich nicht aktiviert werden?</string>
+    <string name="onboarding_enable_description">CoronaMelder braucht Ihre Erlaubnis, um:&lt;br/>&lt;br/>&lt;ul>&lt;li>Begegnungen mit anderen App-Nutzern zu registrieren&lt;/li>&lt;li>die Batterie-Optimierung nur für diese App zu deaktivieren (für die optimale App-Funktion)&lt;/li>&lt;/ul></string>
+    <string name="onboarding_enable_description_location"><![CDATA[CoronaMelder braucht Ihre Erlaubnis, um:<br/><br/><ul><li>Begegnungen mit anderen App-Nutzern zu registrieren</li><li>Ihre Standort-Einstellungen zu aktivieren (CoronaMelder kennt Ihren Standort nicht)</li><li>die Batterie-Optimierung nur für diese App zu deaktivieren (für eine optimale App-Funktion)</li></ul>]]></string>
+    <string name="onboarding_enable_headline">Aktivieren Sie CoronaMelder</string>
+    <string name="onboarding_example">Beispiel</string>
+    <string name="onboarding_example_1_description">Das Bluetooth-Signal war stark genug, da Sie dicht beieinander waren. Diese Begegnung war jedoch so kurz, dass die Ansteckungsgefahr sehr gering ist.</string>
+    <string name="onboarding_example_1_headline">Fuhr jemand mit dem Rad vorbei? Dann bekommen Sie später <u>keine</u> Nachricht.</string>
+    <string name="onboarding_example_2_description">Das Bluetooth-Signal war stark genug, und Sie saßen längere Zeit dicht beieinander.</string>
+    <string name="onboarding_example_2_headline">Saßen Sie im Zug dicht neben jemandem? Dann können Sie <u>später</u> eine Nachricht bekommen.</string>
+    <string name="onboarding_explanation_1_description">Diese App warnt Sie, wenn Sie in der Nähe einer Person mit Corona waren. So können Sie verhindern, dass Sie Personen in Ihrer Umgebung unbewusst anstecken.</string>
+    <string name="onboarding_explanation_1_headline">Helfen Sie dabei, die Verbreitung des Coronavirus zu stoppen.</string>
+    <string name="onboarding_explanation_2_description">Die App schickt eine Nachricht, wenn Sie mindestens 15 Minuten in der Nähe einer Person waren, bei der später Corona festgestellt wurde. Diese Person muss auch die App nutzen.</string>
+    <string name="onboarding_explanation_2_headline">Sie erhalten eine Nachricht, <u>wenn</u> für Sie eine erhöhte Ansteckungsgefahr bestand.</string>
+    <string name="onboarding_explanation_3_description">Die App erkennt über Bluetooth, ob Sie in der Nähe einer anderen Person waren. Je näher, desto stärker ist das Bluetooth-Signal. Die App weiß nicht, wo Sie waren und wer Sie sind.</string>
+    <string name="onboarding_explanation_3_headline">Die App verwendet Bluetooth, <u>keine</u> Standortdaten.</string>
+    <string name="onboarding_how_it_works_detail_toolbar_title">Häufig gestellte Frage</string>
+    <string name="onboarding_how_it_works_request_consent">App aktivieren</string>
+    <string name="onboarding_how_it_works_toolbar_title">Wie funktioniert die App?</string>
+    <string name="onboarding_next">Weiter</string>
+    <string name="onboarding_privacy_policy_bt_keys">Ihre App versendet verschlüsselte Bluetooth-Daten.</string>
+    <string name="onboarding_privacy_policy_check_1">Die App sendet verschlüsselte Bluetooth-Daten.</string>
+    <string name="onboarding_privacy_policy_check_2">Andere Benutzer, mit denen Sie Kontakt hatten, speichern diese Daten höchstens 14 Tage.</string>
+    <string name="onboarding_privacy_policy_check_3">Ergibt ein Coronatest, dass Sie Corona haben? Dann können Sie dies in der App melden, um andere Benutzer zu warnen.</string>
+    <string name="onboarding_privacy_policy_check_4">Sie können die Daten auf Ihrem Telefon jederzeit löschen.</string>
+    <string name="onboarding_privacy_policy_consent_label">Ich habe die Datenschutzerklärung gelesen und verstehe, wie CoronaMelder meine Daten verwendet.</string>
+    <string name="onboarding_privacy_policy_data_removal">Sie können die Daten auf Ihrem Telefon jederzeit löschen.</string>
+    <string name="onboarding_privacy_policy_headline">So verwendet CoronaMelder Ihre Daten</string>
+    <string name="onboarding_privacy_policy_identity"><![CDATA[Ihr Name wird <b>nicht</b> verwendet oder gespeichert.]]></string>
+    <string name="onboarding_privacy_policy_location"><![CDATA[Ihre GPS- oder Standortdaten werden <b>nicht</b> verwendet oder gespeichert.]]></string>
+    <string name="onboarding_privacy_policy_paragraph"><![CDATA[In der <a href="">Datenschutzerklärung</a> steht, wie CoronaMelder Ihre Daten verwendet. Das sind die wichtigsten Punkte:]]></string>
+    <string name="onboarding_privacy_policy_retention">Andere Benutzer, mit denen Sie Kontakt hatten, speichern diese Daten höchstens 14 Tage.</string>
+    <string name="onboarding_privacy_policy_send_alert">Wenn ein Coronatest ergibt, dass Sie Corona haben, können Sie dies in der App melden, um andere Benutzer zu warnen.</string>
+    <string name="onboarding_privacy_policy_voluntary">Die Verwendung von CoronaMelder ist immer freiwillig.</string>
+    <string name="onboarding_share_continue">Weiter</string>
+    <string name="onboarding_share_description">Je mehr Menschen CoronaMelder nutzen, desto besser funktioniert die App. Nur gemeinsam bekommen wir Corona unter Kontrolle. Teilen Sie die App deshalb mit möglichst vielen anderen.</string>
+    <string name="onboarding_share_headline">Teilen Sie anderen mit, dass Sie dazu beitragen, das Virus zu stoppen.</string>
+    <string name="onboarding_share_share">App teilen</string>
+    <string name="password_toggle_content_description">Passwort anzeigen</string>
+    <string name="pause_confirmation_accept_button">Ja, anhalten</string>
+    <string name="pause_confirmation_decline_button">Nein, nicht anhalten</string>
+    <string name="pause_confirmation_description">Die App registriert während der Pause vorübergehend keine Begegnungen mit anderen App-Benutzern. Sie erhalten auch keine Nachricht, wenn Sie in der Nähe einer Person waren, bei der später Corona festgestellt wurde.\n\nHalten Sie nur dann die App an, wenn Ihr Telefon in die Nähe von Telefonen anderer Personen kommt, aber keine Ansteckungsgefahr besteht. Zum Beispiel, weil medizinische Schutzausrüstung verwendet wird.</string>
+    <string name="pause_confirmation_title">Sind Sie sicher, dass die App angehalten werden soll?</string>
+    <string name="paused_en_api_description"><![CDATA[Sie erhalten in <b>%1$s</b> eine Meldung, um die App wieder zu aktivieren.]]></string>
+    <string name="paused_en_api_duration_reached">CoronaMelder ist noch nicht aktiv. Sie müssen die App selbst aktivieren.</string>
+    <string name="phone_call_not_supported_dialog_close">Ich verstehe</string>
+    <string name="phone_call_not_supported_dialog_message">Nehmen Sie Ihr Telefon und rufen Sie %1$s an.</string>
+    <string name="phone_call_not_supported_dialog_title">Sie können mit diesem Gerät nicht anrufen.</string>
+    <string name="post_keys_options_coronatest_subtitle">Das geht nur, wenn Sie das Testergebnis über coronatest.nl erhalten.</string>
+    <string name="post_keys_options_coronatest_title">Über coronatest.nl</string>
+    <string name="post_keys_options_description">Sie können nur eine Nachricht schicken, wenn ein Coronatest ergibt, dass Sie Corona haben.</string>
+    <string name="post_keys_options_ggd_subtitle">Das geht nur, wenn Sie jetzt mit dem GGD telefonieren.</string>
+    <string name="post_keys_options_ggd_title">Wenn der GGD Sie anruft</string>
+    <string name="post_keys_options_header">Wählen Sie, wie Sie eine Nachricht verschicken möchten.</string>
+    <string name="post_notification_button">Coronatest anfordern</string>
+    <string name="post_notification_message">Sie brauchen dazu Ihre Bürgerservicenummer. Diese steht auf Ihrem Pass oder Personalausweis.</string>
+    <string name="post_notification_toolbar_title">Ansteckungsgefahr</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" in Zwischenablage kopiert."</string>
+    <string name="reminder_channel_description">Erinnerunngen, wenn Sie die App angehalten haben</string>
+    <string name="reminder_channel_name">Erinnerungen</string>
+    <string name="request_test_button_call">Rufen Sie %1$s an</string>
+    <string name="request_test_button_website">Gehen Sie zu coronatest.nl</string>
+    <string name="request_test_header_1">Haben Sie Beschwerden, die zu Corona passen? Fordern Sie dann einen Test an.</string>
+    <string name="request_test_header_5">Coronatest anfordern</string>
+    <string name="request_test_paragraph_2">Haben Sie (leichte) Beschwerden, die zu Corona passen? Lassen Sie sich kostenlos testen. Es dauert nicht lange und Sie können meistens schnell einen Termin vereinbaren. \n\nDas Ergebnis ist innerhalb von 48 Stunden bekannt. Bleiben Sie zu Hause, bis Sie das Ergebnis haben.</string>
+    <string name="request_test_paragraph_3">Lassen Sie sich kostenlos testen. Es dauert nicht lange und Sie können meistens schnell einen Termin vereinbaren. Das Ergebnis ist innerhalb von 48 Stunden bekannt. Bleiben Sie zu Hause, bis Sie das Ergebnis haben.</string>
+    <string name="request_test_paragraph_4">Haben Sie ernste Symptome wie hohes Fieber oder Atembeschwerden? Oder gehören Sie zu einer Risikogruppe und bekommen Sie Fieber? Rufen Sie dann zuerst den Hausarzt an.</string>
+    <string name="request_test_toolbar_title">Coronatest anfordern</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Suche"</string>
+    <string name="settings_pause_action_disable">App aktivieren</string>
+    <string name="settings_pause_action_enable">App anhalten</string>
+    <string name="settings_pause_app_description">Wenn Sie die App anhalten, werden Ihre Begegnungen vorübergehend nicht registriert. Sie erhalten auch keine Nachricht, wenn Sie in der Nähe einer Person waren, bei der später Corona festgestellt wurde. Nach der Pause erhalten Sie sofort eine Nachricht, um die App wieder zu aktivieren.</string>
+    <string name="settings_pause_app_title">App anhalten</string>
+    <string name="settings_use_nl_language_summary">Für Ihr Gerät ist nicht Niederländisch festgelegt. Wenn Sie CoronaMelder lieber auf Niederländisch verwenden, können Sie das hier aktivieren.</string>
+    <string name="settings_use_nl_language_title">App auf Niederländisch verwenden</string>
+    <string name="settings_wifi_only_summary">CoronaMelder kontrolliert mehrmals pro Tag, ob Sie in der Nähe einer Person mit Corona waren. Wenn Sie mobile Daten deaktivieren, kontrolliert die App nur noch, wenn Sie WLAN nutzen. Ihre Begegnungen werden auch registriert, wenn Sie keine Internetverbindung haben.</string>
+    <string name="settings_wifi_only_title">Nur Codes über WLAN kontrollieren</string>
+    <string name="share_content">Ich helfe dabei, Corona mit CoronaMelder unter Kontrolle zu bekommen. Machen Sie auch mit? %1$s</string>
+    <string name="share_title">App mit anderen teilen</string>
+    <string name="skip_confirmation_checkbox">Dieses Fenster nicht mehr anzeigen</string>
+    <string name="status_app_version">Version %1$s Build %2$s</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_dialog_remove_exposure_cancel">Abbrechen</string>
+    <string name="status_dialog_remove_exposure_confirm">Löschen</string>
+    <string name="status_dialog_remove_exposure_message">Soll diese Nachricht wirklich gelöscht werden? Sie können das Datum danach nicht mehr in der App finden. Merken Sie es sich deshalb gut.</string>
+    <string name="status_dialog_remove_exposure_title">Possible infection on %1$s</string>
+    <string name="status_disabled_headline">Die App ist nicht aktiv.</string>
+    <string name="status_en_api_disabled_description">%1$s funktioniert nur, wenn die erforderlichen Einstellungen aktiviert sind.</string>
+    <string name="status_en_api_disabled_enable">App aktivieren</string>
+    <string name="status_error_action_consent">App aktivieren</string>
+    <string name="status_error_action_disable_battery_optimisation">Problem lösen</string>
+    <string name="status_error_action_notifications_disabled">Nachrichten aktivieren</string>
+    <string name="status_error_action_sync_issues">Versuchen Sie es erneut.</string>
+    <string name="status_error_battery_optimisation">Ihr Telefon besitzt eine Funktion zur Batterieoptimierung. Durch diese Funktion funktioniert die App vielleicht nicht gut. Es ist also wichtig, diese Funktion für CoronaMelder zu deaktivieren.</string>
+    <string name="status_error_bluetooth"><![CDATA[Bluetooth ist deaktiviert. Die App registriert deshalb <b>keine</b> neuen Begegnungen. Die App <b>kontrolliert aber noch</b>, ob bei den Personen, denen Sie früher begegnet sind, Corona festgestellt wurde.]]></string>
+    <string name="status_error_bluetooth_action">Bluetooth aktivieren</string>
+    <string name="status_error_bluetooth_card">Bluetooth ist deaktiviert. Die App kann keine neuen Begegnungen registrieren.</string>
+    <string name="status_error_consent_required">%1$s funktioniert nur, wenn die erforderlichen Einstellungen aktiviert sind.</string>
+    <string name="status_error_location"><![CDATA[Ihre Standorteinstellungen sind deaktiviert. Die App registriert deshalb <b>keine</b> neuen Begegnungen. Die App kontrolliert aber <b>immer noch</b> , ob bei den Personen, denen Sie früher begegnet sind, Corona festgestellt wurde.]]></string>
+    <string name="status_error_location_action">Standort aktivieren</string>
+    <string name="status_error_location_card">Ihre Standorteinstellungen sind deaktiviert. Die App kann keine neuen Begegnungen registrieren.</string>
+    <string name="status_error_notifications_disabled">Bei Ihnen sind Nachrichten deaktiviert. Sie erhalten also keine Nachricht, wenn Sie in der Nähe einer Person mit Corona waren.</string>
+    <string name="status_error_notifications_disabled_headline">Nachrichten sind <u>deaktiviert</u></string>
+    <string name="status_error_sync_issues">Die App konnte in den letzten 24 Stunden nicht überprüfen, ob Sie Personen begegnet sind, bei denen später Corona festgestellt wurde. Stellen Sie sicher, dass WLAN bzw. Mobildaten aktiviert sind. Versuchen Sie es dann erneut.</string>
+    <string name="status_error_sync_issues_wifi_only"><![CDATA[Die App hat keine Internetverbindung. Deshalb konnte die App 24 Stunden lang <b>nicht</b> prüfen, ob bei den Personen, denen Sie begegnet sind, später Corona festgestellt wurde. Die App <b>registriert aber weiter</b> Ihre Begegnungen.<br/><br/><b>Nutzen Sie ein WLAN oder legen Sie fest, dass die App mobile Daten nutzen darf.</b>]]></string>
+    <string name="status_exposure_detected_description">Am %1$s (%2$s) sind Sie möglicherweise angesteckt worden.</string>
+    <string name="status_exposure_detected_headline">Sie waren in der Nähe einer Person mit Corona</string>
+    <string name="status_exposure_what_next">Was kann ich jetzt machen?</string>
+    <string name="status_info_about_subtitle">Schauen Sie sich an, wie die App funktioniert und was das für den Datenschutz bedeutet.</string>
+    <string name="status_info_about_title">Fragen über die App</string>
+    <string name="status_info_lab_subtitle">Gehen Sie hierhin, wenn der GGD Sie mit dem Corona-Testergebnis anruft.</string>
+    <string name="status_info_lab_title">GGD-Schlüssel weiterleiten</string>
+    <string name="status_info_notification_subtitle">Entdecken Sie, wie eine Nachricht aussieht und was Sie tun können, wenn Sie eine Nachricht bekommen.</string>
+    <string name="status_info_notification_title">Wie erkenne ich eine Nachricht?</string>
+    <string name="status_info_settings_subtitle">App anhalten und mobile Daten einrichten</string>
+    <string name="status_info_settings_title">Einstellungen</string>
+    <string name="status_info_share_subtitle">Teilen Sie die App mit anderen, damit wir gemeinsam Corona unter Kontrolle bekommen.</string>
+    <string name="status_info_share_title">Andere einladen, die App zu verwenden</string>
+    <string name="status_info_test_subtitle">Erfahren Sie schnellstmöglich, ob Sie selbst Corona haben.</string>
+    <string name="status_info_test_title">Coronatest anfordern</string>
+    <string name="status_last_keys_processed">CoronaMelder registriert ständig Begegnungen. Die App kontrolliert auch alle paar Stunden, ob Personen, denen Sie begegnet sind, zu diesem Zeitpunkt ansteckend waren. Wenn ja, erhalten Sie eine Nachricht. Die letzte Kontrolle war am %1$s.</string>
+    <string name="status_no_exposure_detected_description">Ihre Begegnungen werden nachverfolgt, auch wenn Sie die App schließen.</string>
+    <string name="status_no_exposure_detected_headline">Die App ist aktiv.</string>
+    <string name="status_no_keys_processed">CoronaMelder registriert ständig Begegnungen. Die App kontrolliert auch alle paar Stunden, ob Personen, denen Sie begegnet sind, zu diesem Zeitpunkt ansteckend waren. Wenn ja, erhalten Sie eine Nachricht.</string>
+    <string name="status_old_exposure_card_action_delete">Löschen</string>
+    <string name="status_old_exposure_card_action_more_info">Mehr Informationen</string>
+    <string name="status_old_exposure_card_message">Am %1$s (%2$s) waren Sie in der Nähe einer Person mit Corona</string>
+    <string name="status_old_exposure_card_title">Kontakt vor mehr als 14 Tagen</string>
+    <string name="status_partly_active_headline">Die App ist teilweise aktiviert.</string>
+    <string name="status_paused_duration_reached_headline">App wieder aktivieren</string>
+    <string name="status_paused_headline">Die App wurde angehalten.</string>
+    <string name="status_reset_exposure">Nachricht löschen</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="sync_issue_channel_description">Nachrichten, wenn die App nicht gut funktioniert</string>
+    <string name="sync_issue_channel_name">Fehlermeldungen</string>
+    <string name="sync_issue_notification_message">Die App konnte in den vergangenen 24 Stunden nicht überprüfen, ob Sie Personen begegnet sind, bei denen später Corona festgestellt wurde.</string>
+    <string name="sync_issue_notification_title">Technisches Problem</string>
+    <string name="today">heute</string>
+    <string name="treat_perspective_header_1">Beschwerden, die zum Coronavirus passen</string>
+    <string name="treat_perspective_list_2"><![CDATA[<ul><li>Erkältungsbeschwerden wie Schnupfen, laufende Nase, Niesen, Halsschmerzen</li><li>Husten</li><li>Atemschwierigkeiten</li><li>erhöhte Temperatur oder Fieber</li><li>plötzlicher Geruchs- und/oder Geschmacksverlust (ohne verstopfte Nase)</li></ul>]]></string>
+    <string name="update_app_description">Aktualisieren Sie die App auf Ihrem Telefon, damit CoronaMelder weiterhin gut funktioniert.</string>
+    <string name="update_app_headline">Sie haben eine veraltete Version von CoronaMelder</string>
+    <string name="update_channel_description">Nachricht, wenn die App-Version zu alt ist</string>
+    <string name="update_channel_name">App-Updates</string>
+    <string name="update_google_play_services">Aktualisieren</string>
+    <string name="update_google_play_services_description">%1$s benötigt die neueste Version von Google Play Services für eine weiterhin gute Funktion auf Ihrem Telefon.</string>
+    <string name="update_google_play_services_headline">Google Play Services wurde nicht aktualisiert.</string>
+    <string name="update_notification_message">Aktualisieren Sie die App, damit diese weiterhin einwandfrei funktioniert.</string>
+    <string name="update_notification_title">Die App muss aktualisiert werden.</string>
+    <string name="upload_keys_failed_message">Es ist nicht gelungen, anderen eine Nachricht zu schicken. Rufen Sie deshalb den GGD an. Lesen Sie mehr in der App.</string>
+    <string name="upload_keys_failed_notification_header">Es ist nicht gelungen, anderen eine Nachricht zu schicken.</string>
+    <string name="upload_keys_failed_notification_paragraph">Wir haben versucht, die Nachricht zu schicken. Aber das ist fehlgeschlagen. Rufen Sie den GGD an, um die Nachricht erneut zu schicken. Es ist sehr wichtig, dass Sie das schnell tun. Sonst können sich noch mehr Menschen anstecken.</string>
+    <string name="upload_keys_failed_notification_toolbar_title">Rufen Sie den GGD an.</string>
+    <string name="upload_keys_failed_title">Schicken von Nachrichten fehlgeschlagen</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"AUS"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AN"</string>
+</resources>

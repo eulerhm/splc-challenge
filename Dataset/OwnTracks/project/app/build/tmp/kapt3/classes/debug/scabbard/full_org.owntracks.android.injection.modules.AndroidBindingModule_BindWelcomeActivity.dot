@@ -1,0 +1,29 @@
+digraph "org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity" {
+  graph [rankdir="LR", labeljust="l", label="AndroidBindingModule_BindWelcomeActivity", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "56ba000f-a3fe-4792-a1f2-63308c2d0c7e" [label="AndroidBindingModule_BindWelcomeActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "74ba71c6-db2c-4ab4-bcdb-f88817afeca0" [label="WelcomeActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "cc65d166-f16c-4dde-94e0-5e591a46d3cb" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "6032a7b0-70c2-416f-887d-d63f09f72b1e" [label="java.util.Map<java.lang.String,javax.inject.Provider<dagger.android.AndroidInjector.Factory<?>>>", color="firebrick1"]
+    "d89efadb-0758-47c8-a3cc-e614c46bd3a0" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "e07061da-7b9e-40e1-8b5f-b838d72eae1b" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "4421ef0c-5a1b-4059-aad8-990f78d8fb85" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "56ba000f-a3fe-4792-a1f2-63308c2d0c7e" [label="AndroidBindingModule_BindWelcomeActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "bdaa46cd-0182-4938-967a-c7e1e48f33ac" [label="@PerActivity\nAndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent.svg", color="aquamarine"]
+  }
+  "4421ef0c-5a1b-4059-aad8-990f78d8fb85" -> "56ba000f-a3fe-4792-a1f2-63308c2d0c7e"
+  "56ba000f-a3fe-4792-a1f2-63308c2d0c7e" -> "74ba71c6-db2c-4ab4-bcdb-f88817afeca0" [style="dotted", label="delegates"]
+  "74ba71c6-db2c-4ab4-bcdb-f88817afeca0" -> "bdaa46cd-0182-4938-967a-c7e1e48f33ac" [style="dashed", label="subcomponent", headport="w"]
+}

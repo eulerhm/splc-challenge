@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout-land/include_search_appbar.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout-land/include_search_appbar.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout-land/include_schedule_appbar.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/iosched/mobile/src/main/res/layout-land/include_schedule_appbar.xml"
+    }
+]

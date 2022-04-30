@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/preferencesUserInterfaceCategoryTitle"
+        app:key="user_interface">
+        <ListPreference
+            android:defaultValue="auto"
+            android:entries="@array/theme_modes"
+            android:entryValues="@array/theme_modes_values"
+            android:title="@string/preferencesThemeTitle"
+            app:icon="@drawable/ic_round_palette_24px"
+            app:key="theme-mode"
+            app:summary="@string/preferencesThemeSummary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="notifications_category"
+        app:title="@string/preferencesNotificationsCategoryTitle">
+
+        <SwitchPreferenceCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:defaultValue="true"
+            android:summary="@string/preferencesNotificationsSwitchSummary"
+            app:icon="@drawable/ic_round_notifications_24px"
+            app:key="launch-notifications"
+            app:title="@string/preferencesNotificationsSwitchTitle" />
+
+        <SeekBarPreference
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:defaultValue="30"
+            android:dependency="launch-notifications"
+            android:key="notification-padding"
+            android:max="60"
+            android:summary="@string/preferencesNotificationsMinutesSummary"
+            android:title="@string/preferencesNotificationsMinutesTitle"
+            app:icon="@drawable/ic_round_history_24px"
+            app:min="0"
+            app:showSeekBarValue="true" />
+
+        <SwitchPreferenceCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:defaultValue="true"
+            android:summary="@string/preferencesNotificationsDayBeforeLaunchSwitchDescription"
+            app:icon="@drawable/ic_round_notifications_24px"
+            app:key="day-before-launch-notifications"
+            app:title="@string/preferencesNotificationsDayBeforeLaunchSwitchTitle" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="sync-category"
+        app:title="@string/preferencesSyncCategoryTitle">
+        <SwitchPreferenceCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:defaultValue="true"
+            android:icon="@drawable/ic_round_sync_24px"
+            android:summary="@string/preferencesBackgroundSyncSummary"
+            app:key="background-sync"
+            app:title="@string/preferencesBackgroundSyncTitle" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/preferencesPrivacyCategoryTitle"
+        app:key="Privacy">
+
+        <SwitchPreferenceCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:defaultValue="true"
+            app:icon="@drawable/ic_round_bug_report_24px"
+            app:key="crash-reports"
+            app:summary="@string/preferencesCrashReportingSummary"
+            app:title="Crash Reporting" />
+    </PreferenceCategory>
+</PreferenceScreen>

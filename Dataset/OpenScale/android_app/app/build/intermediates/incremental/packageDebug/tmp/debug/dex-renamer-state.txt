@@ -1,0 +1,10 @@
+#Thu Aug 05 14:49:47 BRT 2021
+path.2=classes1000.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=/home/eulerhm/Documents/workspaceSQJ/openScale/android_app/app/build/intermediates/desugar_lib_dex/debug/classes1000.dex
+base.1=/home/eulerhm/Documents/workspaceSQJ/openScale/android_app/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+base.0=/home/eulerhm/Documents/workspaceSQJ/openScale/android_app/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex

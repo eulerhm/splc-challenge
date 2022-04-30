@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="ch.threema.app.emojis.MarkupParserTest" tests="54" failures="0" errors="0" skipped="0" time="1630.586" timestamp="2021-12-24T06:19:11" hostname="localhost">
+  <properties>
+    <property name="device" value="POCO F1 - 10" />
+    <property name="flavor" value="noneDebugAndroidTest" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="atWordBoundaries1" classname="ch.threema.app.emojis.MarkupParserTest" time="0.026" />
+  <testcase name="atWordBoundaries2" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="atWordBoundaries3" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="atWordBoundaries4" classname="ch.threema.app.emojis.MarkupParserTest" time="0.025" />
+  <testcase name="atWordBoundaries5" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="atWordBoundaries6" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="parseMixedMarkupNested" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="parseBold" classname="ch.threema.app.emojis.MarkupParserTest" time="0.025" />
+  <testcase name="parseTwoStrikethrough" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="parseItalic" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="avoidBreakingUrls1" classname="ch.threema.app.emojis.MarkupParserTest" time="0.026" />
+  <testcase name="avoidBreakingUrls2" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="avoidBreakingUrls3" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="avoidBreakingUrls4" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="avoidBreakingUrls5" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="avoidBreakingUrls6" classname="ch.threema.app.emojis.MarkupParserTest" time="0.025" />
+  <testcase name="ignoreInvalidMarkup1" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="ignoreInvalidMarkup2" classname="ch.threema.app.emojis.MarkupParserTest" time="0.025" />
+  <testcase name="onlyWordBoundaries1" classname="ch.threema.app.emojis.MarkupParserTest" time="0.025" />
+  <testcase name="onlyWordBoundaries2" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="onlyWordBoundaries3" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="onlyWordBoundaries4" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="onlyWordBoundaries5" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="onlyWordBoundaries6" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="parseMixedMarkup" classname="ch.threema.app.emojis.MarkupParserTest" time="0.025" />
+  <testcase name="parseTwoItalic" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="parseTwoBold" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="parseStrikethrough" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="notAcrossNewlines1" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="notAcrossNewlines2" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="notAcrossNewlines3" classname="ch.threema.app.emojis.MarkupParserTest" time="0.025" />
+  <testcase name="notAcrossNewlines4" classname="ch.threema.app.emojis.MarkupParserTest" time="0.0" />
+  <testcase name="testNotificationWithoutAction" classname="ch.threema.app.utils.BackgroundErrorNotificationTest" time="4.386" />
+  <testcase name="testCheckBadPasswordBlacklisted" classname="ch.threema.app.utils.TextUtilTest" time="0.026" />
+  <testcase name="testCheckBadPasswordSameCharacter" classname="ch.threema.app.utils.TextUtilTest" time="0.05" />
+  <testcase name="testCheckBadPasswordNumericOnly" classname="ch.threema.app.utils.TextUtilTest" time="0.025" />
+  <testcase name="testAnswerVideo" classname="ch.threema.app.voip.SdpTest" time="0.353" />
+  <testcase name="testOfferAudioOnly" classname="ch.threema.app.voip.SdpTest" time="0.152" />
+  <testcase name="testAnswerAudioOnly" classname="ch.threema.app.voip.SdpTest" time="0.277" />
+  <testcase name="testOfferVideo" classname="ch.threema.app.voip.SdpTest" time="0.202" />
+  <testcase name="testIncomingRejectedUnknown" classname="ch.threema.app.voip.VoipStatusMessageTest" time="0.0" />
+  <testcase name="testIncomingRejectedRejected" classname="ch.threema.app.voip.VoipStatusMessageTest" time="0.025" />
+  <testcase name="testIncomingRejectedBusy" classname="ch.threema.app.voip.VoipStatusMessageTest" time="0.0" />
+  <testcase name="testIncomingMissed" classname="ch.threema.app.voip.VoipStatusMessageTest" time="0.0" />
+  <testcase name="testIncomingRejectedDisabled" classname="ch.threema.app.voip.VoipStatusMessageTest" time="0.0" />
+  <testcase name="testOutgoingRejectedRejected" classname="ch.threema.app.voip.VoipStatusMessageTest" time="0.0" />
+  <testcase name="testOutgoingRejectedTimeout" classname="ch.threema.app.voip.VoipStatusMessageTest" time="0.025" />
+  <testcase name="testOutgoingRejectedBusy" classname="ch.threema.app.voip.VoipStatusMessageTest" time="0.0" />
+  <testcase name="testOutgoingRejectedDisabled" classname="ch.threema.app.voip.VoipStatusMessageTest" time="0.026" />
+  <testcase name="testOutgoingRejectedUnknown" classname="ch.threema.app.voip.VoipStatusMessageTest" time="0.0" />
+  <testcase name="testIncomingRejectedTimeout" classname="ch.threema.app.voip.VoipStatusMessageTest" time="0.025" />
+  <testcase name="testFixFileName" classname="ch.threema.app.webclient.converter.MessageTest" time="0.051" />
+  <testcase name="testMaybePutFile" classname="ch.threema.app.webclient.converter.MessageTest" time="0.051" />
+  <testcase name="testPutString" classname="ch.threema.app.webclient.converter.MsgpackTest" time="0.025" />
+</testsuite>

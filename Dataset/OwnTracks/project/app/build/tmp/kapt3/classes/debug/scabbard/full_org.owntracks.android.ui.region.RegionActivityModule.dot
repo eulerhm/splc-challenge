@@ -1,0 +1,29 @@
+digraph "org.owntracks.android.ui.region.RegionActivityModule" {
+  graph [rankdir="LR", labeljust="l", label="RegionActivityModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "1bcf7094-bd21-4ba3-985b-9b1e850b7f88" [label="@PerActivity\nAppCompatActivity", color="aquamarine"]
+    "eb790dce-0f94-46d7-80e1-149112cf9a31" [label="org.owntracks.android.ui.region.RegionActivity", color="firebrick1"]
+    "b0464968-0542-49fd-8a8d-fa927e4223df" [label="RegionMvvm.ViewModel<RegionMvvm.View>", color="turquoise"]
+    "64442b4c-e00a-481c-80da-db166f1edaad" [label="@PerActivity\nRegionViewModel", color="aquamarine"]
+    "3c53d3ee-2d1f-4e2a-9fd5-b85326ccea03" [label="org.owntracks.android.data.repos.WaypointsRepo", color="firebrick1"]
+    "1105ee19-8c79-4ae8-9fa1-8bc9d02262fa" [label="@Singleton\nLocationRepo", color="bisque"]
+    "db59b40a-5a29-4879-b533-c597981c4059" [label="@PerActivity\nNavigator", color="aquamarine"]
+    "99fa70f0-1602-43c6-8be0-76443ef630bb" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "db59b40a-5a29-4879-b533-c597981c4059" -> "1bcf7094-bd21-4ba3-985b-9b1e850b7f88"
+  "1bcf7094-bd21-4ba3-985b-9b1e850b7f88" -> "eb790dce-0f94-46d7-80e1-149112cf9a31" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+  "b0464968-0542-49fd-8a8d-fa927e4223df" -> "64442b4c-e00a-481c-80da-db166f1edaad" [style="dotted", label="delegates"]
+  "64442b4c-e00a-481c-80da-db166f1edaad" -> "1105ee19-8c79-4ae8-9fa1-8bc9d02262fa"
+  "64442b4c-e00a-481c-80da-db166f1edaad" -> "3c53d3ee-2d1f-4e2a-9fd5-b85326ccea03" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "64442b4c-e00a-481c-80da-db166f1edaad" -> "db59b40a-5a29-4879-b533-c597981c4059"
+  "1105ee19-8c79-4ae8-9fa1-8bc9d02262fa" -> "99fa70f0-1602-43c6-8be0-76443ef630bb" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+}

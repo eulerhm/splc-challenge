@@ -1,0 +1,25 @@
+digraph "org.owntracks.android.ui.welcome.StatusActivityModule" {
+  graph [rankdir="LR", labeljust="l", label="StatusActivityModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "2c65d5b6-1c59-4613-8840-b3cf301e2587" [label="@PerActivity\nAppCompatActivity", color="aquamarine"]
+    "c965f9cd-fe8e-4d2a-afb4-bcd6dbee58fa" [label="org.owntracks.android.ui.status.StatusActivity", color="firebrick1"]
+    "53641d36-f00a-4d8c-83c9-a12b3a8fd416" [label="StatusMvvm.ViewModel<StatusMvvm.View>", color="turquoise"]
+    "b4bf6f39-eed2-4de1-bd27-e6af2501cfa9" [label="@PerActivity\nStatusViewModel", color="aquamarine"]
+    "2c67e0ca-9f15-475f-9754-dc9a8a7ba077" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "8b184e58-f2a9-494c-a469-2e44009a580e" [label="@PerActivity\nNavigator", color="aquamarine"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "8b184e58-f2a9-494c-a469-2e44009a580e" -> "2c65d5b6-1c59-4613-8840-b3cf301e2587"
+  "2c65d5b6-1c59-4613-8840-b3cf301e2587" -> "c965f9cd-fe8e-4d2a-afb4-bcd6dbee58fa" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+  "53641d36-f00a-4d8c-83c9-a12b3a8fd416" -> "b4bf6f39-eed2-4de1-bd27-e6af2501cfa9" [style="dotted", label="delegates"]
+  "b4bf6f39-eed2-4de1-bd27-e6af2501cfa9" -> "2c67e0ca-9f15-475f-9754-dc9a8a7ba077" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "b4bf6f39-eed2-4de1-bd27-e6af2501cfa9" -> "8b184e58-f2a9-494c-a469-2e44009a580e"
+}

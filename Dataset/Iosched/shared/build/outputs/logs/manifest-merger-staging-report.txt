@@ -1,0 +1,71 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:18:1-40:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:18:1-40:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:18:1-40:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:18:1-40:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:18:1-40:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:18:1-40:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:18:1-40:12
+	package
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:19:5-53
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:18:1-40:12
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:18:1-40:12
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:22:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:23:5-76
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:23:22-73
+application
+ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:25:5-38:19
+	android:label
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:25:18-50
+service#com.google.samples.apps.iosched.shared.data.job.ConferenceDataService
+ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:27:9-29:72
+	android:permission
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:28:13-59
+service#com.google.samples.apps.iosched.shared.fcm.IoschedFirebaseMessagingService
+ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:30:9-36:19
+	android:exported
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:31:13-64
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:33:13-35:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:34:17-78
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:34:25-75
+uses-sdk
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml

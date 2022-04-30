@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.google.samples.apps.iosched.tests.ui.AgendaTest" tests="6" failures="0" errors="0" skipped="0" time="0.0" timestamp="2021-12-18T03:13:09" hostname="localhost">
+  <properties>
+    <property name="device" value="XT1097 - 10" />
+    <property name="flavor" value="" />
+    <property name="project" value="mobile" />
+  </properties>
+  <testcase name="agenda_basicViewsDisplayed" classname="com.google.samples.apps.iosched.tests.ui.AgendaTest" time="8.848" />
+  <testcase name="codelab_basicViewsDisplayed" classname="com.google.samples.apps.iosched.tests.ui.CodelabTest" time="9.553" />
+  <testcase name="home_basicViewsDisplayed" classname="com.google.samples.apps.iosched.tests.ui.HomeTest" time="9.099" />
+  <testcase name="info_basicViewsDisplayed" classname="com.google.samples.apps.iosched.tests.ui.InfoTest" time="11.444" />
+  <testcase name="map_basicViewsDisplayed" classname="com.google.samples.apps.iosched.tests.ui.MapTest" time="11.117" />
+  <testcase name="showFirstDay_sessionOnFirstDayShown" classname="com.google.samples.apps.iosched.tests.ui.ScheduleTestSensorConditionsTest" time="5.294" />
+</testsuite>

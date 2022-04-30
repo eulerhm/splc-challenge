@@ -1,0 +1,28 @@
+digraph "org.owntracks.android.ui.preferences.PreferencesActivityModule_BindReportingPreferencesFragment" {
+  graph [rankdir="LR", labeljust="l", label="PreferencesActivityModule_BindReportingPreferencesFragment", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "e500dce6-0504-4cf0-bcdc-9ea0ebcbcdfe" [label="PreferencesActivityModule_BindReportingPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "6fef3e78-f23f-4d6f-8632-efdf8c3c1043" [label="ReportingFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "0ad2c63c-09d0-47a0-abaa-814c61fed749" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "5e777047-d036-496c-9122-002a188a1d33" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "72f02504-f29f-4635-a386-ecc61b2cfc80" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "312cd564-be26-4a46-b30b-5432af841a83" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "e500dce6-0504-4cf0-bcdc-9ea0ebcbcdfe" [label="PreferencesActivityModule_BindReportingPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "92cfbbb6-789d-4699-99cc-6731117e43c9" [label="@PerFragment\nPreferencesActivityModule_BindReportingPreferencesFragment.ReportingFragmentSubcomponent", href="full_org.owntracks.android.ui.preferences.PreferencesActivityModule_BindReportingPreferencesFragment.ReportingFragmentSubcomponent.svg", color="aquamarine"]
+  }
+  "312cd564-be26-4a46-b30b-5432af841a83" -> "e500dce6-0504-4cf0-bcdc-9ea0ebcbcdfe"
+  "e500dce6-0504-4cf0-bcdc-9ea0ebcbcdfe" -> "6fef3e78-f23f-4d6f-8632-efdf8c3c1043" [style="dotted", label="delegates"]
+  "6fef3e78-f23f-4d6f-8632-efdf8c3c1043" -> "92cfbbb6-789d-4699-99cc-6731117e43c9" [style="dashed", label="subcomponent", headport="w"]
+}

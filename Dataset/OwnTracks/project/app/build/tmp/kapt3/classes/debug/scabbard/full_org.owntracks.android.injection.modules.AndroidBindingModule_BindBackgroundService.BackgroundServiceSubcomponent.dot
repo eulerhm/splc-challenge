@@ -1,0 +1,74 @@
+digraph "org.owntracks.android.injection.modules.AndroidBindingModule → org.owntracks.android.injection.modules.AndroidBindingModule_BindBackgroundService.BackgroundServiceSubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AndroidBindingModule → AndroidBindingModule_BindBackgroundService.BackgroundServiceSubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "9feb3fc3-32b2-43f2-911c-8734ffbc33d1" [label="inject (BackgroundService)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9" [label="@Singleton\nPreferences", color="chartreuse2"]
+    "8cc75a8e-acc1-49f4-bfd4-68a77270b5d8" [label="@Singleton\nScheduler", color="chartreuse2"]
+    "769b7c4e-c5dd-41f8-9285-04719bc9394d" [label="@Singleton\nLocationProcessor", color="chartreuse2"]
+    "241bae12-3de2-450d-86de-d5a315941fa0" [label="@Singleton\nGeocoderProvider", color="chartreuse2"]
+    "03e05b20-677f-48ea-bd0a-5350d36b3192" [label="@Singleton\nLocationRepo", color="chartreuse2"]
+    "62d3f782-f4e6-4546-8fe0-6d94a966b635" [label="@Singleton\nRunThingsOnOtherThreads", color="chartreuse2"]
+    "97961e2c-f6a4-46e1-9a45-5d7bc67e1101" [label="@Singleton\nServiceBridge", color="chartreuse2"]
+    "08c1e1fe-7c04-46c0-a6ec-c706e425c291" [label="@Singleton\nMessageProcessor", color="chartreuse2"]
+    "ab55cacf-40d8-4a8d-9823-caf8955b9581" [label="@Singleton\nDeviceMetricsProvider", color="chartreuse2"]
+    "ca5f9b24-9435-4d20-bfed-1430495acfe9" [label="@Singleton\nParser", color="chartreuse2"]
+    "dd865d82-617f-40d0-9c1e-8beefab6d6d3" [label="@Singleton\nEncryptionProvider", color="chartreuse2"]
+    "e7870db2-9f58-4515-a346-88f326b7d55b" [label="@ServiceContext\n@PerService\nContext", color="bisque"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_AndroidBindingModule → AndroidBindingModule_BindBackgroundService.BackgroundServiceSubcomponent" {
+    graph [labeljust="c", label="Inherited from AndroidBindingModule_BindBackgroundService.BackgroundServiceSubcomponent\n@PerService", style="dashed", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindBackgroundService.BackgroundServiceSubcomponent.svg", color="bisque"]
+    "03e05b20-677f-48ea-bd0a-5350d36b3192" [label="@Singleton\nLocationRepo", color="chartreuse2"]
+    "241bae12-3de2-450d-86de-d5a315941fa0" [label="@Singleton\nGeocoderProvider", color="chartreuse2"]
+    "769b7c4e-c5dd-41f8-9285-04719bc9394d" [label="@Singleton\nLocationProcessor", color="chartreuse2"]
+    "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9" [label="@Singleton\nPreferences", color="chartreuse2"]
+    "97961e2c-f6a4-46e1-9a45-5d7bc67e1101" [label="@Singleton\nServiceBridge", color="chartreuse2"]
+    "08c1e1fe-7c04-46c0-a6ec-c706e425c291" [label="@Singleton\nMessageProcessor", color="chartreuse2"]
+    "62d3f782-f4e6-4546-8fe0-6d94a966b635" [label="@Singleton\nRunThingsOnOtherThreads", color="chartreuse2"]
+    "8cc75a8e-acc1-49f4-bfd4-68a77270b5d8" [label="@Singleton\nScheduler", color="chartreuse2"]
+    "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9" [label="@Singleton\nPreferences", color="chartreuse2"]
+    "03e05b20-677f-48ea-bd0a-5350d36b3192" [label="@Singleton\nLocationRepo", color="chartreuse2"]
+    "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9" [label="@Singleton\nPreferences", color="chartreuse2"]
+    "08c1e1fe-7c04-46c0-a6ec-c706e425c291" [label="@Singleton\nMessageProcessor", color="chartreuse2"]
+    "ab55cacf-40d8-4a8d-9823-caf8955b9581" [label="@Singleton\nDeviceMetricsProvider", color="chartreuse2"]
+    "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9" [label="@Singleton\nPreferences", color="chartreuse2"]
+    "ca5f9b24-9435-4d20-bfed-1430495acfe9" [label="@Singleton\nParser", color="chartreuse2"]
+    "769b7c4e-c5dd-41f8-9285-04719bc9394d" [label="@Singleton\nLocationProcessor", color="chartreuse2"]
+    "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9" [label="@Singleton\nPreferences", color="chartreuse2"]
+    "97961e2c-f6a4-46e1-9a45-5d7bc67e1101" [label="@Singleton\nServiceBridge", color="chartreuse2"]
+    "62d3f782-f4e6-4546-8fe0-6d94a966b635" [label="@Singleton\nRunThingsOnOtherThreads", color="chartreuse2"]
+    "8cc75a8e-acc1-49f4-bfd4-68a77270b5d8" [label="@Singleton\nScheduler", color="chartreuse2"]
+    "dd865d82-617f-40d0-9c1e-8beefab6d6d3" [label="@Singleton\nEncryptionProvider", color="chartreuse2"]
+    "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9" [label="@Singleton\nPreferences", color="chartreuse2"]
+  }
+  "9feb3fc3-32b2-43f2-911c-8734ffbc33d1" -> "769b7c4e-c5dd-41f8-9285-04719bc9394d"
+  "9feb3fc3-32b2-43f2-911c-8734ffbc33d1" -> "8cc75a8e-acc1-49f4-bfd4-68a77270b5d8"
+  "9feb3fc3-32b2-43f2-911c-8734ffbc33d1" -> "03e05b20-677f-48ea-bd0a-5350d36b3192"
+  "9feb3fc3-32b2-43f2-911c-8734ffbc33d1" -> "62d3f782-f4e6-4546-8fe0-6d94a966b635"
+  "9feb3fc3-32b2-43f2-911c-8734ffbc33d1" -> "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9"
+  "9feb3fc3-32b2-43f2-911c-8734ffbc33d1" -> "97961e2c-f6a4-46e1-9a45-5d7bc67e1101"
+  "9feb3fc3-32b2-43f2-911c-8734ffbc33d1" -> "08c1e1fe-7c04-46c0-a6ec-c706e425c291"
+  "9feb3fc3-32b2-43f2-911c-8734ffbc33d1" -> "241bae12-3de2-450d-86de-d5a315941fa0"
+  "769b7c4e-c5dd-41f8-9285-04719bc9394d" -> "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9"
+  "8cc75a8e-acc1-49f4-bfd4-68a77270b5d8" -> "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9"
+  "08c1e1fe-7c04-46c0-a6ec-c706e425c291" -> "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9"
+  "dd865d82-617f-40d0-9c1e-8beefab6d6d3" -> "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9"
+  "241bae12-3de2-450d-86de-d5a315941fa0" -> "d7e878fc-b7d7-45f1-92e8-7e9cc89db2d9"
+  "08c1e1fe-7c04-46c0-a6ec-c706e425c291" -> "8cc75a8e-acc1-49f4-bfd4-68a77270b5d8"
+  "08c1e1fe-7c04-46c0-a6ec-c706e425c291" -> "769b7c4e-c5dd-41f8-9285-04719bc9394d"
+  "769b7c4e-c5dd-41f8-9285-04719bc9394d" -> "03e05b20-677f-48ea-bd0a-5350d36b3192"
+  "769b7c4e-c5dd-41f8-9285-04719bc9394d" -> "08c1e1fe-7c04-46c0-a6ec-c706e425c291"
+  "769b7c4e-c5dd-41f8-9285-04719bc9394d" -> "ab55cacf-40d8-4a8d-9823-caf8955b9581"
+  "08c1e1fe-7c04-46c0-a6ec-c706e425c291" -> "62d3f782-f4e6-4546-8fe0-6d94a966b635"
+  "08c1e1fe-7c04-46c0-a6ec-c706e425c291" -> "97961e2c-f6a4-46e1-9a45-5d7bc67e1101"
+  "08c1e1fe-7c04-46c0-a6ec-c706e425c291" -> "ca5f9b24-9435-4d20-bfed-1430495acfe9"
+  "ca5f9b24-9435-4d20-bfed-1430495acfe9" -> "dd865d82-617f-40d0-9c1e-8beefab6d6d3"
+}

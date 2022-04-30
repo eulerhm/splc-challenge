@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mikepenz:iconics-views:4.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1ebd0966130e07b299352b41cb69cff/jetified-iconics-views-4.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1ebd0966130e07b299352b41cb69cff/jetified-iconics-views-4.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1ebd0966130e07b299352b41cb69cff/jetified-iconics-views-4.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/iconics-views/4.0.2/e8195d35d4d0a52a58d3d047f0250ba5f77e263f/iconics-views-4.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/iconics-views/4.0.2/79aa68887b07a7eb965f96d3f5c461c508da0f7a/iconics-views-4.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

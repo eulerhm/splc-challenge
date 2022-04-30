@@ -1,0 +1,21 @@
+digraph "org.owntracks.android.ui.preferences.PreferencesActivityModule → org.owntracks.android.ui.preferences.PreferencesActivityModule_BindAdvancedPreferencesFragment.AdvancedFragmentSubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="PreferencesActivityModule → PreferencesActivityModule_BindAdvancedPreferencesFragment.AdvancedFragmentSubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "269b1f45-3729-4b10-ab3b-4dddd832a364" [label="inject (AdvancedFragment)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "a7ef9caf-e480-48ac-bd11-e05362abf640" [label="@Singleton\nPreferences", color="yellow1"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_PreferencesActivityModule → PreferencesActivityModule_BindAdvancedPreferencesFragment.AdvancedFragmentSubcomponent" {
+    graph [labeljust="c", label="Inherited from PreferencesActivityModule_BindAdvancedPreferencesFragment.AdvancedFragmentSubcomponent\n@PerFragment", style="dashed", href="full_org.owntracks.android.ui.preferences.PreferencesActivityModule_BindAdvancedPreferencesFragment.AdvancedFragmentSubcomponent.svg", color="bisque"]
+    "a7ef9caf-e480-48ac-bd11-e05362abf640" [label="@Singleton\nPreferences", color="yellow1"]
+  }
+  "269b1f45-3729-4b10-ab3b-4dddd832a364" -> "a7ef9caf-e480-48ac-bd11-e05362abf640"
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class net.programmierecke.radiodroid2.tests.UIFavouritesFragmentTest</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class net.programmierecke.radiodroid2.tests.UIFavouritesFragmentTest</h1>
+<div class="breadcrumbs">
+<a href="index.html">all</a> &gt; 
+<a href="net.programmierecke.radiodroid2.tests.html">net.programmierecke.radiodroid2.tests</a> &gt; UIFavouritesFragmentTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">52.858s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">83%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="stationsRecyclerFavourites_ShouldRecycleItems[orientation=1]"></a>
+<h3 class="failures">stationsRecyclerFavourites_ShouldRecycleItems[orientation=1]</h3>
+<span class="code">
+<pre>java.util.ConcurrentModificationException
+at java.util.ArrayList$Itr.next(ArrayList.java:860)
+at net.programmierecke.radiodroid2.StationSaveManager.getById(StationSaveManager.java:121)
+at net.programmierecke.radiodroid2.StationSaveManager.has(StationSaveManager.java:238)
+at net.programmierecke.radiodroid2.station.ItemAdapterStation.onBindViewHolder(ItemAdapterStation.java:285)
+at net.programmierecke.radiodroid2.station.ItemAdapterStation.onBindViewHolder(ItemAdapterStation.java:49)
+at androidx.recyclerview.widget.RecyclerView$Adapter.onBindViewHolder(RecyclerView.java:7065)
+at androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(RecyclerView.java:7107)
+at androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(RecyclerView.java:6012)
+at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6279)
+at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6118)
+at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6114)
+at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2303)
+at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1627)
+at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1587)
+at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:665)
+at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4134)
+at androidx.recyclerview.widget.RecyclerView.onMeasure(RecyclerView.java:3540)
+at android.view.View.measure(View.java:25086)
+at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6872)
+at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+at android.view.View.measure(View.java:25086)
+at androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+at android.view.View.measure(View.java:25086)
+at androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1638)
+at android.view.View.measure(View.java:25086)
+at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6872)
+at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+at android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+at android.view.View.measure(View.java:25086)
+at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6872)
+at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+at android.view.View.measure(View.java:25086)
+at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6872)
+at androidx.coordinatorlayout.widget.CoordinatorLayout.onMeasureChild(CoordinatorLayout.java:760)
+at com.google.android.material.appbar.HeaderScrollingViewBehavior.onMeasureChild(HeaderScrollingViewBehavior.java:99)
+at com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior.onMeasureChild(AppBarLayout.java:2003)
+at androidx.coordinatorlayout.widget.CoordinatorLayout.onMeasure(CoordinatorLayout.java:831)
+at android.view.View.measure(View.java:25086)
+at androidx.drawerlayout.widget.DrawerLayout.onMeasure(DrawerLayout.java:1119)
+at android.view.View.measure(View.java:25086)
+at android.widget.LinearLayout.measureVertical(LinearLayout.java:995)
+at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+at android.view.View.measure(View.java:25086)
+at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6872)
+at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+at androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:146)
+at android.view.View.measure(View.java:25086)
+at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6872)
+at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+at android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+at android.view.View.measure(View.java:25086)
+at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6872)
+at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+at android.view.View.measure(View.java:25086)
+at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6872)
+at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+at android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+at android.view.View.measure(View.java:25086)
+at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6872)
+at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+at com.android.internal.policy.DecorView.onMeasure(DecorView.java:742)
+at android.view.View.measure(View.java:25086)
+at android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3083)
+at android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:1857)
+at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2146)
+at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1745)
+at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:7768)
+at android.view.Choreographer$CallbackRecord.run(Choreographer.java:967)
+at android.view.Choreographer.doCallbacks(Choreographer.java:791)
+at android.view.Choreographer.doFrame(Choreographer.java:726)
+at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:952)
+at android.os.Handler.handleCallback(Handler.java:883)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at android.os.Looper.loop(Looper.java:214)
+at android.app.ActivityThread.main(ActivityThread.java:7356)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:491)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:940)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>POCO F1 - 10</th>
+</tr>
+</thead>
+<tr>
+<td>stationInFavourites_ShouldBeDeleted_WithSwipeRight[orientation=0]</td>
+<td class="success">passed (9.285s)</td>
+</tr>
+<tr>
+<td>stationInFavourites_ShouldBeDeleted_WithSwipeRight[orientation=1]</td>
+<td class="success">passed (10.615s)</td>
+</tr>
+<tr>
+<td>stationInFavourites_ShouldBeReordered_WithDragAndDrop[orientation=0]</td>
+<td class="success">passed (0.001s)</td>
+</tr>
+<tr>
+<td>stationInFavourites_ShouldBeReordered_WithDragAndDrop[orientation=1]</td>
+<td class="success">passed (0s)</td>
+</tr>
+<tr>
+<td>stationsRecyclerFavourites_ShouldRecycleItems[orientation=0]</td>
+<td class="success">passed (7.027s)</td>
+</tr>
+<tr>
+<td>stationsRecyclerFavourites_ShouldRecycleItems[orientation=1]</td>
+<td class="failures">failed (25.930s)</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 6.5</a> at Oct 8, 2021, 12:57:31 PM</p>
+</div>
+</div>
+</body>

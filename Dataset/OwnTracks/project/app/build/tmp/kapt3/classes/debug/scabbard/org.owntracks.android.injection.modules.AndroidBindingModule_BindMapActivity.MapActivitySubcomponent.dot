@@ -1,0 +1,75 @@
+digraph "org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindMapActivity.MapActivitySubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AppComponent → AndroidBindingModule_BindMapActivity.MapActivitySubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "9f5cf3fc-bdad-4876-9240-c9b828520b48" [label="inject (MapActivity)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "6817c28b-2081-4018-9e88-76407951d69c" [label="MapMvvm.ViewModel<MapMvvm.View>", color="turquoise"]
+    "0f4d5c3f-71c2-47e4-8542-ae7675f09f29" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "1fe1b0dd-6d30-45c2-9893-7ec33ca4452e" [label="@PerActivity\nNavigator", color="bisque"]
+    "dc316944-0ad4-49f2-ba6d-7044cc5f3eba" [label="@PerActivity\nRequirementsChecker", color="bisque"]
+    "c34ebdf2-9d7a-42c8-8e75-58ff366112d7" [label="@PerActivity\nMapViewModel", color="bisque"]
+    "a7070bb0-bc1f-475a-97e4-9c282c1f2367" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "ec822c33-d519-4b48-87c1-10b7c3293fc8" [label="MapActivity", color="turquoise", shape="parallelogram"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindMapActivity.MapActivitySubcomponent" {
+    graph [labeljust="c", label="Inherited from AndroidBindingModule_BindMapActivity.MapActivitySubcomponent\n@PerActivity", style="dashed", href="org.owntracks.android.injection.modules.AndroidBindingModule_BindMapActivity.MapActivitySubcomponent.svg", color="bisque"]
+    "1fe1b0dd-6d30-45c2-9893-7ec33ca4452e" [label="@PerActivity\nNavigator", color="bisque"]
+    "6817c28b-2081-4018-9e88-76407951d69c" [label="MapMvvm.ViewModel<MapMvvm.View>", color="turquoise"]
+    "0f4d5c3f-71c2-47e4-8542-ae7675f09f29" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "dc316944-0ad4-49f2-ba6d-7044cc5f3eba" [label="@PerActivity\nRequirementsChecker", color="bisque"]
+    "c34ebdf2-9d7a-42c8-8e75-58ff366112d7" [label="@PerActivity\nMapViewModel", color="bisque"]
+    "a7070bb0-bc1f-475a-97e4-9c282c1f2367" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "a7070bb0-bc1f-475a-97e4-9c282c1f2367" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "a7070bb0-bc1f-475a-97e4-9c282c1f2367" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "1fe1b0dd-6d30-45c2-9893-7ec33ca4452e" [label="@PerActivity\nNavigator", color="bisque"]
+    "ec822c33-d519-4b48-87c1-10b7c3293fc8" [label="MapActivity", color="turquoise", shape="parallelogram"]
+  }
+  subgraph "cluster_AppComponent" {
+    graph [labeljust="c", label="Inherited from AppComponent\n@Singleton", style="dashed", href="org.owntracks.android.injection.components.AppComponent.svg", color="aquamarine"]
+    "c688db9b-0add-4d4d-84f9-1a8707afcdc4" [label="@Singleton\nCountingIdlingResource", color="aquamarine"]
+    "1791a035-4f9e-4386-8e67-4ee2de8b7a04" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "7060165e-593e-4c93-bdb1-98150d17b696" [label="@Singleton\nGeocoderProvider", color="aquamarine"]
+    "b29c1d27-cdad-4ce2-ac54-c5a8ab5c5625" [label="@Singleton\nLocationRepo", color="aquamarine"]
+    "7f4a69b3-cad5-4bd5-a51d-d70049493cfa" [label="@Singleton\nRunThingsOnOtherThreads", color="aquamarine"]
+    "3b70041e-6722-4a34-9ae9-4a53950eefa4" [label="@Singleton\nContactImageProvider", color="aquamarine"]
+    "05936459-1df6-4ed5-8d57-c8395dfe7219" [label="@Singleton\nEventBus", color="aquamarine"]
+    "53bdb5f7-6d60-4e34-bd1f-51636c7f7b97" [label="@Singleton\nPreferences", color="aquamarine"]
+    "4c46eadc-69e6-4555-8c08-4ceed3c7cc13" [label="@Singleton\nScheduler", color="aquamarine"]
+    "53bdb5f7-6d60-4e34-bd1f-51636c7f7b97" [label="@Singleton\nPreferences", color="aquamarine"]
+    "8185df49-c400-469d-9269-18439a104100" [label="@Singleton\nContactsRepo", color="aquamarine"]
+    "70749136-1715-4e4d-928a-d9774347d978" [label="@Singleton\nMessageProcessor", color="aquamarine"]
+    "2c6424ad-d284-4792-ae16-fd595dc135d7" [label="@Singleton\nLocationProcessor", color="aquamarine"]
+  }
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "53bdb5f7-6d60-4e34-bd1f-51636c7f7b97"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "6817c28b-2081-4018-9e88-76407951d69c"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "c688db9b-0add-4d4d-84f9-1a8707afcdc4"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "1791a035-4f9e-4386-8e67-4ee2de8b7a04"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "0f4d5c3f-71c2-47e4-8542-ae7675f09f29"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "7f4a69b3-cad5-4bd5-a51d-d70049493cfa"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "dc316944-0ad4-49f2-ba6d-7044cc5f3eba"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "b29c1d27-cdad-4ce2-ac54-c5a8ab5c5625"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "05936459-1df6-4ed5-8d57-c8395dfe7219"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "7060165e-593e-4c93-bdb1-98150d17b696"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "05936459-1df6-4ed5-8d57-c8395dfe7219"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "3b70041e-6722-4a34-9ae9-4a53950eefa4"
+  "9f5cf3fc-bdad-4876-9240-c9b828520b48" -> "1fe1b0dd-6d30-45c2-9893-7ec33ca4452e"
+  "6817c28b-2081-4018-9e88-76407951d69c" -> "c34ebdf2-9d7a-42c8-8e75-58ff366112d7" [style="dotted", label="delegates"]
+  "0f4d5c3f-71c2-47e4-8542-ae7675f09f29" -> "a7070bb0-bc1f-475a-97e4-9c282c1f2367"
+  "0f4d5c3f-71c2-47e4-8542-ae7675f09f29" -> "4c46eadc-69e6-4555-8c08-4ceed3c7cc13"
+  "c34ebdf2-9d7a-42c8-8e75-58ff366112d7" -> "1fe1b0dd-6d30-45c2-9893-7ec33ca4452e"
+  "1fe1b0dd-6d30-45c2-9893-7ec33ca4452e" -> "a7070bb0-bc1f-475a-97e4-9c282c1f2367"
+  "dc316944-0ad4-49f2-ba6d-7044cc5f3eba" -> "a7070bb0-bc1f-475a-97e4-9c282c1f2367"
+  "dc316944-0ad4-49f2-ba6d-7044cc5f3eba" -> "53bdb5f7-6d60-4e34-bd1f-51636c7f7b97"
+  "c34ebdf2-9d7a-42c8-8e75-58ff366112d7" -> "2c6424ad-d284-4792-ae16-fd595dc135d7"
+  "c34ebdf2-9d7a-42c8-8e75-58ff366112d7" -> "70749136-1715-4e4d-928a-d9774347d978"
+  "c34ebdf2-9d7a-42c8-8e75-58ff366112d7" -> "8185df49-c400-469d-9269-18439a104100"
+  "a7070bb0-bc1f-475a-97e4-9c282c1f2367" -> "ec822c33-d519-4b48-87c1-10b7c3293fc8" [style="dotted", label="delegates"]
+}

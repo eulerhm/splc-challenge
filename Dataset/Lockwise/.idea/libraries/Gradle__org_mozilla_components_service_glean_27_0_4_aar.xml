@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.components:service-glean:27.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/790402369f39b0f7ed16d1bc155f73d8/jetified-service-glean-27.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/790402369f39b0f7ed16d1bc155f73d8/jetified-service-glean-27.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/790402369f39b0f7ed16d1bc155f73d8/jetified-service-glean-27.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.components/service-glean/27.0.4/185d626dbb57463fee412c4b1a14fc9907191563/service-glean-27.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

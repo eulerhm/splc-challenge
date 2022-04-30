@@ -1,0 +1,117 @@
+digraph "org.owntracks.android.injection.modules.AndroidBindingModule" {
+  graph [rankdir="LR", labeljust="l", label="AndroidBindingModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "d9800033-3971-4fad-aae3-adbe211a19a7" [label="AndroidBindingModule_BindContactsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "1fccde69-a283-4c62-873a-ff68ba48e61c" [label="AndroidBindingModule_BindMapActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "fec25b42-dc3c-4b99-9cc5-3b14e5db5b02" [label="AndroidBindingModule_BindPreferencesActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "df4f0745-34b1-4d22-8bf3-79e8b3c9f6e7" [label="AndroidBindingModule_BindConnectionActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "8873a77c-77ed-47f3-9f6c-fa4c2d0fe1a0" [label="AndroidBindingModule_BindLogViewerActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "eb951f54-6485-4ce3-a139-138fd8233c7c" [label="AndroidBindingModule_BindEditorActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "7c22e134-20c7-4d32-b557-193244c6a392" [label="AndroidBindingModule_BindLoadActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "e2f719e4-d182-4adf-b943-f1907a81bf41" [label="AndroidBindingModule_BindStatusActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "38957a63-8561-48e5-a39e-9e99b4b46f88" [label="AndroidBindingModule_BindWelcomeActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "ca5c8528-0ebe-489f-8485-a8bf274a9a56" [label="AndroidBindingModule_BindRegionsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "29c81582-c252-438c-a064-c8a76701589e" [label="AndroidBindingModule_BindRegionActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "be3c61cb-c35d-49b1-8223-524837277a90" [label="AndroidBindingModule_BindBackgroundService.bindAndroidInjectorFactory()", color="turquoise"]
+    "a63df616-969f-469b-adcc-8af902514891" [label="AndroidBindingModule_BindBackgroundServiceReceiver.bindAndroidInjectorFactory()", color="turquoise"]
+    "a7690b32-3a2c-4033-b241-ead4fb05065c" [label="ContactsActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "e10ec2a9-b71e-44cc-9b33-acb2348d11d1" [label="MapActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "03b31295-3170-42a0-ab69-2f2e1de8c049" [label="PreferencesActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "75cdb9ce-42ea-4b73-8946-57fd591f0d45" [label="ConnectionActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "19163ad9-255c-4853-a37f-cc7551205773" [label="LogViewerActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "72fd2324-2b27-4437-a436-9148e03d5fdd" [label="EditorActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "ebb41b5a-7166-4d69-ae6b-d80b7e22dbba" [label="LoadActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "15601751-7f63-4224-969d-5c35a898edae" [label="StatusActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "6771c658-4efd-4b00-ae5a-2602668555a6" [label="WelcomeActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "814c91f4-8cfa-485d-a106-fc894a7b6e1f" [label="RegionsActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "3f911a8c-b18b-4e6c-a820-8330d9bcf8e3" [label="RegionActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "c3bcf1e7-4d62-4124-a631-5781ce47f589" [label="BackgroundServiceSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "c44721c6-690c-42f0-87dc-e57e38bfd44a" [label="StartBackgroundServiceReceiverSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "e27be055-40f4-4b9c-aaf7-d151f96776f9" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "48bb3ae5-ab37-4731-8b65-2ff88eb07e5b" [label="java.util.Map<java.lang.String,javax.inject.Provider<dagger.android.AndroidInjector.Factory<?>>>", color="firebrick1"]
+    "e8e163e6-69a0-43ab-9f8b-154e5b1830d4" [label="org.owntracks.android.data.repos.ContactsRepo", color="firebrick1"]
+    "09f07d6a-fe4c-4745-8552-32e64bf77bd3" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "9d896f2e-ecb2-4adc-939a-1f412d6b130d" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    "fd70937f-bc22-4715-ba5d-d7f948221c49" [label="androidx.test.espresso.idling.CountingIdlingResource", color="firebrick1"]
+    "5edfd436-b55f-4688-9b5b-0cdf5c4f52ea" [label="org.owntracks.android.data.repos.WaypointsRepo", color="firebrick1"]
+    "ccd4f9f4-4550-465f-886a-43b8e151eb61" [label="android.app.Service", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "eb951f54-6485-4ce3-a139-138fd8233c7c" [label="AndroidBindingModule_BindEditorActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "38957a63-8561-48e5-a39e-9e99b4b46f88" [label="AndroidBindingModule_BindWelcomeActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "df4f0745-34b1-4d22-8bf3-79e8b3c9f6e7" [label="AndroidBindingModule_BindConnectionActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "e2f719e4-d182-4adf-b943-f1907a81bf41" [label="AndroidBindingModule_BindStatusActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "ca5c8528-0ebe-489f-8485-a8bf274a9a56" [label="AndroidBindingModule_BindRegionsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "a63df616-969f-469b-adcc-8af902514891" [label="AndroidBindingModule_BindBackgroundServiceReceiver.bindAndroidInjectorFactory()", color="turquoise"]
+      "29c81582-c252-438c-a064-c8a76701589e" [label="AndroidBindingModule_BindRegionActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "be3c61cb-c35d-49b1-8223-524837277a90" [label="AndroidBindingModule_BindBackgroundService.bindAndroidInjectorFactory()", color="turquoise"]
+      "1fccde69-a283-4c62-873a-ff68ba48e61c" [label="AndroidBindingModule_BindMapActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "fec25b42-dc3c-4b99-9cc5-3b14e5db5b02" [label="AndroidBindingModule_BindPreferencesActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "7c22e134-20c7-4d32-b557-193244c6a392" [label="AndroidBindingModule_BindLoadActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "d9800033-3971-4fad-aae3-adbe211a19a7" [label="AndroidBindingModule_BindContactsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+      "8873a77c-77ed-47f3-9f6c-fa4c2d0fe1a0" [label="AndroidBindingModule_BindLogViewerActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "08efe0c4-7002-4ef9-aa20-a7c1a7b8121e" [label="@PerActivity\nAndroidBindingModule_BindContactsActivity.ContactsActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindContactsActivity.ContactsActivitySubcomponent.svg", color="aquamarine"]
+    "64c421a2-20fa-4e40-b13a-8c31194d5af4" [label="@PerActivity\nAndroidBindingModule_BindMapActivity.MapActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindMapActivity.MapActivitySubcomponent.svg", color="aquamarine"]
+    "943f9f75-098f-4af1-bf15-98587537c525" [label="@PerActivity\nAndroidBindingModule_BindPreferencesActivity.PreferencesActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindPreferencesActivity.PreferencesActivitySubcomponent.svg", color="aquamarine"]
+    "814456cf-219a-4e97-aa61-4aef69d40086" [label="@PerActivity\nAndroidBindingModule_BindConnectionActivity.ConnectionActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindConnectionActivity.ConnectionActivitySubcomponent.svg", color="aquamarine"]
+    "b37b51ae-3def-4813-adc7-768804a56a83" [label="@PerActivity\nAndroidBindingModule_BindLogViewerActivity.LogViewerActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindLogViewerActivity.LogViewerActivitySubcomponent.svg", color="aquamarine"]
+    "2eddd991-87d5-48c9-866c-c1c25f3a63d9" [label="@PerActivity\nAndroidBindingModule_BindEditorActivity.EditorActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindEditorActivity.EditorActivitySubcomponent.svg", color="aquamarine"]
+    "fbf1c187-4b1b-43c6-a031-78410b637aa0" [label="@PerActivity\nAndroidBindingModule_BindLoadActivity.LoadActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindLoadActivity.LoadActivitySubcomponent.svg", color="aquamarine"]
+    "65955b86-225b-4923-ac64-868f162b061b" [label="@PerActivity\nAndroidBindingModule_BindStatusActivity.StatusActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindStatusActivity.StatusActivitySubcomponent.svg", color="aquamarine"]
+    "8a730b77-087b-45bd-9c66-a8ff1f48f5e5" [label="@PerActivity\nAndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent.svg", color="aquamarine"]
+    "9a44abfa-6cfc-404a-8e81-1a777f66b6e5" [label="@PerActivity\nAndroidBindingModule_BindRegionsActivity.RegionsActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindRegionsActivity.RegionsActivitySubcomponent.svg", color="aquamarine"]
+    "b2e2f487-dc6c-44eb-8411-da822d0492f3" [label="@PerActivity\nAndroidBindingModule_BindRegionActivity.RegionActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindRegionActivity.RegionActivitySubcomponent.svg", color="aquamarine"]
+    "e3d131d1-4ddf-4014-8bed-dfdfb11ebdb1" [label="@PerService\nAndroidBindingModule_BindBackgroundService.BackgroundServiceSubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindBackgroundService.BackgroundServiceSubcomponent.svg", color="bisque"]
+    "b9475d59-94ea-4103-b0b1-5116e64f9242" [label="@PerReceiver\nAndroidBindingModule_BindBackgroundServiceReceiver.StartBackgroundServiceReceiverSubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindBackgroundServiceReceiver.StartBackgroundServiceReceiverSubcomponent.svg", color="yellow1"]
+  }
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "a63df616-969f-469b-adcc-8af902514891"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "d9800033-3971-4fad-aae3-adbe211a19a7"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "38957a63-8561-48e5-a39e-9e99b4b46f88"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "29c81582-c252-438c-a064-c8a76701589e"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "be3c61cb-c35d-49b1-8223-524837277a90"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "fec25b42-dc3c-4b99-9cc5-3b14e5db5b02"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "7c22e134-20c7-4d32-b557-193244c6a392"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "1fccde69-a283-4c62-873a-ff68ba48e61c"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "df4f0745-34b1-4d22-8bf3-79e8b3c9f6e7"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "eb951f54-6485-4ce3-a139-138fd8233c7c"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "e2f719e4-d182-4adf-b943-f1907a81bf41"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "ca5c8528-0ebe-489f-8485-a8bf274a9a56"
+  "e38e30ca-1a90-4ca7-850d-a85d8e8a8f5a" -> "8873a77c-77ed-47f3-9f6c-fa4c2d0fe1a0"
+  "d9800033-3971-4fad-aae3-adbe211a19a7" -> "a7690b32-3a2c-4033-b241-ead4fb05065c" [style="dotted", label="delegates"]
+  "1fccde69-a283-4c62-873a-ff68ba48e61c" -> "e10ec2a9-b71e-44cc-9b33-acb2348d11d1" [style="dotted", label="delegates"]
+  "fec25b42-dc3c-4b99-9cc5-3b14e5db5b02" -> "03b31295-3170-42a0-ab69-2f2e1de8c049" [style="dotted", label="delegates"]
+  "df4f0745-34b1-4d22-8bf3-79e8b3c9f6e7" -> "75cdb9ce-42ea-4b73-8946-57fd591f0d45" [style="dotted", label="delegates"]
+  "8873a77c-77ed-47f3-9f6c-fa4c2d0fe1a0" -> "19163ad9-255c-4853-a37f-cc7551205773" [style="dotted", label="delegates"]
+  "eb951f54-6485-4ce3-a139-138fd8233c7c" -> "72fd2324-2b27-4437-a436-9148e03d5fdd" [style="dotted", label="delegates"]
+  "7c22e134-20c7-4d32-b557-193244c6a392" -> "ebb41b5a-7166-4d69-ae6b-d80b7e22dbba" [style="dotted", label="delegates"]
+  "e2f719e4-d182-4adf-b943-f1907a81bf41" -> "15601751-7f63-4224-969d-5c35a898edae" [style="dotted", label="delegates"]
+  "38957a63-8561-48e5-a39e-9e99b4b46f88" -> "6771c658-4efd-4b00-ae5a-2602668555a6" [style="dotted", label="delegates"]
+  "ca5c8528-0ebe-489f-8485-a8bf274a9a56" -> "814c91f4-8cfa-485d-a106-fc894a7b6e1f" [style="dotted", label="delegates"]
+  "29c81582-c252-438c-a064-c8a76701589e" -> "3f911a8c-b18b-4e6c-a820-8330d9bcf8e3" [style="dotted", label="delegates"]
+  "be3c61cb-c35d-49b1-8223-524837277a90" -> "c3bcf1e7-4d62-4124-a631-5781ce47f589" [style="dotted", label="delegates"]
+  "a63df616-969f-469b-adcc-8af902514891" -> "c44721c6-690c-42f0-87dc-e57e38bfd44a" [style="dotted", label="delegates"]
+  "a7690b32-3a2c-4033-b241-ead4fb05065c" -> "08efe0c4-7002-4ef9-aa20-a7c1a7b8121e" [style="dashed", label="subcomponent", headport="w"]
+  "e10ec2a9-b71e-44cc-9b33-acb2348d11d1" -> "64c421a2-20fa-4e40-b13a-8c31194d5af4" [style="dashed", label="subcomponent", headport="w"]
+  "03b31295-3170-42a0-ab69-2f2e1de8c049" -> "943f9f75-098f-4af1-bf15-98587537c525" [style="dashed", label="subcomponent", headport="w"]
+  "75cdb9ce-42ea-4b73-8946-57fd591f0d45" -> "814456cf-219a-4e97-aa61-4aef69d40086" [style="dashed", label="subcomponent", headport="w"]
+  "19163ad9-255c-4853-a37f-cc7551205773" -> "b37b51ae-3def-4813-adc7-768804a56a83" [style="dashed", label="subcomponent", headport="w"]
+  "72fd2324-2b27-4437-a436-9148e03d5fdd" -> "2eddd991-87d5-48c9-866c-c1c25f3a63d9" [style="dashed", label="subcomponent", headport="w"]
+  "ebb41b5a-7166-4d69-ae6b-d80b7e22dbba" -> "fbf1c187-4b1b-43c6-a031-78410b637aa0" [style="dashed", label="subcomponent", headport="w"]
+  "15601751-7f63-4224-969d-5c35a898edae" -> "65955b86-225b-4923-ac64-868f162b061b" [style="dashed", label="subcomponent", headport="w"]
+  "6771c658-4efd-4b00-ae5a-2602668555a6" -> "8a730b77-087b-45bd-9c66-a8ff1f48f5e5" [style="dashed", label="subcomponent", headport="w"]
+  "814c91f4-8cfa-485d-a106-fc894a7b6e1f" -> "9a44abfa-6cfc-404a-8e81-1a777f66b6e5" [style="dashed", label="subcomponent", headport="w"]
+  "3f911a8c-b18b-4e6c-a820-8330d9bcf8e3" -> "b2e2f487-dc6c-44eb-8411-da822d0492f3" [style="dashed", label="subcomponent", headport="w"]
+  "c3bcf1e7-4d62-4124-a631-5781ce47f589" -> "e3d131d1-4ddf-4014-8bed-dfdfb11ebdb1" [style="dashed", label="subcomponent", headport="w"]
+  "c44721c6-690c-42f0-87dc-e57e38bfd44a" -> "b9475d59-94ea-4103-b0b1-5116e64f9242" [style="dashed", label="subcomponent", headport="w"]
+}

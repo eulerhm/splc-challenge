@@ -1,0 +1,78 @@
+<svg width="1052px" height="231px"
+ viewBox="0.00 0.00 1051.86 230.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(14.4 216.2)">
+<title>org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent → org.owntracks.android.ui.welcome.WelcomeActivityModule_BindIntroFragment.IntroFragmentSubcomponent</title>
+<polygon fill="#ffffff" stroke="transparent" points="-14.4,14.4 -14.4,-216.2 1037.455,-216.2 1037.455,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="511.5275" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent → WelcomeActivityModule_BindIntroFragment.IntroFragmentSubcomponent</text>
+<g id="clust4" class="cluster">
+<title>cluster_AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent</title>
+<g id="a_clust4"><a xlink:href="org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent.svg" xlink:title="Inherited from AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent\n@PerActivity">
+<polygon fill="none" stroke="#ffe4c4" stroke-dasharray="5,2" points="402.4881,-32.8 402.4881,-185.8 958.4359,-185.8 958.4359,-32.8 402.4881,-32.8"/>
+<text text-anchor="middle" x="680.462" y="-169.2" font-family="Times,serif" font-size="14.00" fill="#000000">Inherited from AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent</text>
+<text text-anchor="middle" x="680.462" y="-152.4" font-family="Times,serif" font-size="14.00" fill="#000000">@PerActivity</text>
+</a>
+</g>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_Dependency Graph</title>
+<polygon fill="none" stroke="#000000" points="249.4067,-116.8 249.4067,-193.8 382.4881,-193.8 382.4881,-116.8 249.4067,-116.8"/>
+<text text-anchor="middle" x="311.6301" y="-177.2" font-family="Times,serif" font-size="14.00" fill="#000000">Dependency Graph</text>
+</g>
+<g id="clust1" class="cluster">
+<title>cluster_Entry Points</title>
+<polygon fill="none" stroke="#000000" points="72.6191,-70.8 72.6191,-147.8 229.4067,-147.8 229.4067,-70.8 72.6191,-70.8"/>
+<text text-anchor="middle" x="115.4252" y="-131.2" font-family="Times,serif" font-size="14.00" fill="#000000">Entry Points</text>
+</g>
+<!-- 57e05e0e&#45;ff03&#45;4566&#45;90ad&#45;32c6184a6ff6 -->
+<g id="node1" class="node">
+<title>57e05e0e&#45;ff03&#45;4566&#45;90ad&#45;32c6184a6ff6</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" stroke-width="2" points="221.3007,-114.8 80.7251,-114.8 80.7251,-110.8 76.7251,-110.8 76.7251,-106.8 80.7251,-106.8 80.7251,-86.8 76.7251,-86.8 76.7251,-82.8 80.7251,-82.8 80.7251,-78.8 221.3007,-78.8 221.3007,-114.8"/>
+<polyline fill="none" stroke="#40e0d0" stroke-width="2" points="80.7251,-110.8 84.7251,-110.8 84.7251,-106.8 80.7251,-106.8 "/>
+<polyline fill="none" stroke="#40e0d0" stroke-width="2" points="80.7251,-86.8 84.7251,-86.8 84.7251,-82.8 80.7251,-82.8 "/>
+<text text-anchor="middle" x="151.0129" y="-92.6" font-family="Times,serif" font-size="14.00" fill="#000000">inject (IntroFragment)</text>
+</g>
+<!-- 81a0d1aa&#45;8eea&#45;4c85&#45;8056&#45;83822c333ba5 -->
+<g id="node2" class="node">
+<title>81a0d1aa&#45;8eea&#45;4c85&#45;8056&#45;83822c333ba5</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="374.5288,-160.8 257.366,-160.8 257.366,-124.8 374.5288,-124.8 374.5288,-160.8"/>
+<text text-anchor="middle" x="315.9474" y="-138.6" font-family="Times,serif" font-size="14.00" fill="#000000">NoOpViewModel</text>
+</g>
+<!-- 57e05e0e&#45;ff03&#45;4566&#45;90ad&#45;32c6184a6ff6&#45;&gt;81a0d1aa&#45;8eea&#45;4c85&#45;8056&#45;83822c333ba5 -->
+<g id="edge3" class="edge">
+<title>57e05e0e&#45;ff03&#45;4566&#45;90ad&#45;32c6184a6ff6&#45;&gt;81a0d1aa&#45;8eea&#45;4c85&#45;8056&#45;83822c333ba5</title>
+<path fill="none" stroke="#000000" d="M215.726,-114.8484C226.1215,-117.7477 236.9122,-120.7572 247.394,-123.6806"/>
+<polygon fill="#000000" stroke="#000000" points="246.7533,-127.1354 257.326,-126.4506 248.6339,-120.3927 246.7533,-127.1354"/>
+</g>
+<!-- 2e2b6fba&#45;3c4c&#45;4a0d&#45;a8f3&#45;cc0e0bcd0f35 -->
+<g id="node3" class="node">
+<title>2e2b6fba&#45;3c4c&#45;4a0d&#45;a8f3&#45;cc0e0bcd0f35</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="793.4098,-76.8 566.5142,-76.8 566.5142,-40.8 793.4098,-40.8 793.4098,-76.8"/>
+<text text-anchor="middle" x="679.962" y="-54.6" font-family="Times,serif" font-size="14.00" fill="#000000">DispatchingAndroidInjector&lt;Object&gt;</text>
+</g>
+<!-- 57e05e0e&#45;ff03&#45;4566&#45;90ad&#45;32c6184a6ff6&#45;&gt;2e2b6fba&#45;3c4c&#45;4a0d&#45;a8f3&#45;cc0e0bcd0f35 -->
+<g id="edge1" class="edge">
+<title>57e05e0e&#45;ff03&#45;4566&#45;90ad&#45;32c6184a6ff6&#45;&gt;2e2b6fba&#45;3c4c&#45;4a0d&#45;a8f3&#45;cc0e0bcd0f35</title>
+<path fill="none" stroke="#000000" d="M221.5267,-91.7343C306.8627,-85.6037 452.039,-75.1741 556.1712,-67.6932"/>
+<polygon fill="#000000" stroke="#000000" points="556.7102,-71.1636 566.4337,-66.9559 556.2085,-64.1816 556.7102,-71.1636"/>
+</g>
+<!-- 5992e2c5&#45;bd42&#45;4dea&#45;a97d&#45;c4a56fa88282 -->
+<g id="node4" class="node">
+<title>5992e2c5&#45;bd42&#45;4dea&#45;a97d&#45;c4a56fa88282</title>
+<polygon fill="#ffe4c4" stroke="#ffe4c4" points="726.897,-136.4019 633.027,-136.4019 633.027,-95.1981 726.897,-95.1981 726.897,-136.4019"/>
+<text text-anchor="middle" x="679.962" y="-120" font-family="Times,serif" font-size="14.00" fill="#000000">@PerActivity</text>
+<text text-anchor="middle" x="679.962" y="-103.2" font-family="Times,serif" font-size="14.00" fill="#000000">Navigator</text>
+</g>
+<!-- 57e05e0e&#45;ff03&#45;4566&#45;90ad&#45;32c6184a6ff6&#45;&gt;5992e2c5&#45;bd42&#45;4dea&#45;a97d&#45;c4a56fa88282 -->
+<g id="edge2" class="edge">
+<title>57e05e0e&#45;ff03&#45;4566&#45;90ad&#45;32c6184a6ff6&#45;&gt;5992e2c5&#45;bd42&#45;4dea&#45;a97d&#45;c4a56fa88282</title>
+<path fill="none" stroke="#000000" d="M221.5267,-99.3329C327.3649,-103.1346 525.2512,-110.2427 622.719,-113.7438"/>
+<polygon fill="#000000" stroke="#000000" points="622.8449,-117.2505 632.9641,-114.1118 623.0962,-110.255 622.8449,-117.2505"/>
+</g>
+<!-- 81a0d1aa&#45;8eea&#45;4c85&#45;8056&#45;83822c333ba5&#45;&gt;5992e2c5&#45;bd42&#45;4dea&#45;a97d&#45;c4a56fa88282 -->
+<g id="edge4" class="edge">
+<title>81a0d1aa&#45;8eea&#45;4c85&#45;8056&#45;83822c333ba5&#45;&gt;5992e2c5&#45;bd42&#45;4dea&#45;a97d&#45;c4a56fa88282</title>
+<path fill="none" stroke="#000000" d="M374.8372,-138.432C443.2604,-133.3568 555.3857,-125.0402 622.9828,-120.0263"/>
+<polygon fill="#000000" stroke="#000000" points="623.3154,-123.5114 633.029,-119.2812 622.7975,-116.5305 623.3154,-123.5114"/>
+</g>
+</g>
+</svg>

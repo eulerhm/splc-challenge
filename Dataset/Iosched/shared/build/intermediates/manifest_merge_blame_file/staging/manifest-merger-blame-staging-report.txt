@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2018 Google LLC
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     https://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.google.samples.apps.iosched.shared"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:21:5-79
+26-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:21:22-76
+27    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+27-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:22:5-76
+27-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:22:22-73
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+28-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:23:5-76
+28-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:23:22-73
+29
+30    <application android:label="@string/app_name" >
+30-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:25:5-38:19
+30-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:25:18-50
+31        <service
+31-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:27:9-29:72
+32            android:name="com.google.samples.apps.iosched.shared.data.job.ConferenceDataService"
+32-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:28:13-59
+33            android:permission="android.permission.BIND_JOB_SERVICE" />
+33-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:29:13-69
+34        <service
+34-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:30:9-36:19
+35            android:name="com.google.samples.apps.iosched.shared.fcm.IoschedFirebaseMessagingService"
+35-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:31:13-64
+36            android:exported="false" >
+36-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:32:13-37
+37            <intent-filter>
+37-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:33:13-35:29
+38                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+38-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:34:17-78
+38-->/home/eulerhm/Documents/workspaceSQJ/iosched/shared/src/main/AndroidManifest.xml:34:25-75
+39            </intent-filter>
+40        </service>
+41    </application>
+42
+43</manifest>

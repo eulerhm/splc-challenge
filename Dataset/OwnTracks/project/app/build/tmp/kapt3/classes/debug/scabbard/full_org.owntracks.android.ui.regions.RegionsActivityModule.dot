@@ -1,0 +1,67 @@
+digraph "org.owntracks.android.ui.regions.RegionsActivityModule" {
+  graph [rankdir="LR", labeljust="l", label="RegionsActivityModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "6fe45713-e90e-4ff2-9986-1d2ae329d872" [label="@PerActivity\nAppCompatActivity", color="aquamarine"]
+    "904f28a3-11da-4752-837d-d2d771d47b00" [label="org.owntracks.android.ui.regions.RegionsActivity", color="firebrick1"]
+    "0a328bb5-0437-45ef-b8c7-7b1139e24296" [label="RegionsMvvm.ViewModel<RegionsMvvm.View>", color="turquoise"]
+    "4ff9dd79-e891-40a9-bc40-3a060e76a103" [label="@PerActivity\nRegionsViewModel", color="aquamarine"]
+    "f6f95012-63db-4197-b8b5-fe843ca32950" [label="org.owntracks.android.data.repos.WaypointsRepo", color="firebrick1"]
+    "657af0f5-4b3d-44c1-a248-ef1ebbf2e718" [label="@Singleton\nLocationProcessor", color="bisque"]
+    "c8f2b4c1-986b-40a8-8725-1bbfd19208b6" [label="@PerActivity\nNavigator", color="aquamarine"]
+    "2bd0af4e-3276-4e34-9b3e-25ba93133190" [label="@Singleton\nMessageProcessor", color="bisque"]
+    "16671e07-d383-4136-a2f6-f408f8f6467b" [label="@Singleton\nPreferences", color="bisque"]
+    "6ed82d41-bb73-40a3-bf78-0c2748701e08" [label="@Singleton\nLocationRepo", color="bisque"]
+    "17815fa5-e3b6-4dec-ab1a-103ebc75048e" [label="@Singleton\nDeviceMetricsProvider", color="bisque"]
+    "0a7e61b3-da9d-4574-b3e6-ddc4cb924771" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "9296a9ff-46bf-4bc9-8a21-2163d701ea15" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "e39398cf-481c-44b0-bc02-cd63a93afc52" [label="org.owntracks.android.data.repos.ContactsRepo", color="firebrick1"]
+    "008dabfb-a9ab-4ddf-bacb-0afe6615664b" [label="@Singleton\nParser", color="bisque"]
+    "7efb194b-980e-4a5c-87e3-eff3a17a29f3" [label="@Singleton\nScheduler", color="bisque"]
+    "980162f6-ed6d-4e26-97eb-69651987e60f" [label="@Singleton\nServiceBridge", color="bisque"]
+    "76c6be62-b603-44ec-abcc-caabd3f82f0e" [label="@Singleton\nRunThingsOnOtherThreads", color="bisque"]
+    "d06c7bf4-cd8e-4273-b2bb-4c9797f662f8" [label="androidx.test.espresso.idling.CountingIdlingResource", color="firebrick1"]
+    "d8fde96b-932a-4dbc-bb44-ad0f4943aa6e" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    "dd476f5d-60dc-45e3-a7e7-f896c01b5f66" [label="@Singleton\nEncryptionProvider", color="bisque"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "c8f2b4c1-986b-40a8-8725-1bbfd19208b6" -> "6fe45713-e90e-4ff2-9986-1d2ae329d872"
+  "6fe45713-e90e-4ff2-9986-1d2ae329d872" -> "904f28a3-11da-4752-837d-d2d771d47b00" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+  "0a328bb5-0437-45ef-b8c7-7b1139e24296" -> "4ff9dd79-e891-40a9-bc40-3a060e76a103" [style="dotted", label="delegates"]
+  "4ff9dd79-e891-40a9-bc40-3a060e76a103" -> "f6f95012-63db-4197-b8b5-fe843ca32950" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "4ff9dd79-e891-40a9-bc40-3a060e76a103" -> "c8f2b4c1-986b-40a8-8725-1bbfd19208b6"
+  "4ff9dd79-e891-40a9-bc40-3a060e76a103" -> "657af0f5-4b3d-44c1-a248-ef1ebbf2e718"
+  "657af0f5-4b3d-44c1-a248-ef1ebbf2e718" -> "f6f95012-63db-4197-b8b5-fe843ca32950" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "2bd0af4e-3276-4e34-9b3e-25ba93133190" -> "f6f95012-63db-4197-b8b5-fe843ca32950" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "2bd0af4e-3276-4e34-9b3e-25ba93133190" -> "657af0f5-4b3d-44c1-a248-ef1ebbf2e718"
+  "657af0f5-4b3d-44c1-a248-ef1ebbf2e718" -> "16671e07-d383-4136-a2f6-f408f8f6467b"
+  "657af0f5-4b3d-44c1-a248-ef1ebbf2e718" -> "17815fa5-e3b6-4dec-ab1a-103ebc75048e"
+  "657af0f5-4b3d-44c1-a248-ef1ebbf2e718" -> "2bd0af4e-3276-4e34-9b3e-25ba93133190"
+  "657af0f5-4b3d-44c1-a248-ef1ebbf2e718" -> "6ed82d41-bb73-40a3-bf78-0c2748701e08"
+  "2bd0af4e-3276-4e34-9b3e-25ba93133190" -> "980162f6-ed6d-4e26-97eb-69651987e60f"
+  "2bd0af4e-3276-4e34-9b3e-25ba93133190" -> "0a7e61b3-da9d-4574-b3e6-ddc4cb924771" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "2bd0af4e-3276-4e34-9b3e-25ba93133190" -> "76c6be62-b603-44ec-abcc-caabd3f82f0e"
+  "2bd0af4e-3276-4e34-9b3e-25ba93133190" -> "008dabfb-a9ab-4ddf-bacb-0afe6615664b"
+  "2bd0af4e-3276-4e34-9b3e-25ba93133190" -> "7efb194b-980e-4a5c-87e3-eff3a17a29f3"
+  "2bd0af4e-3276-4e34-9b3e-25ba93133190" -> "e39398cf-481c-44b0-bc02-cd63a93afc52" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "2bd0af4e-3276-4e34-9b3e-25ba93133190" -> "9296a9ff-46bf-4bc9-8a21-2163d701ea15" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "2bd0af4e-3276-4e34-9b3e-25ba93133190" -> "d06c7bf4-cd8e-4273-b2bb-4c9797f662f8" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "2bd0af4e-3276-4e34-9b3e-25ba93133190" -> "16671e07-d383-4136-a2f6-f408f8f6467b"
+  "7efb194b-980e-4a5c-87e3-eff3a17a29f3" -> "16671e07-d383-4136-a2f6-f408f8f6467b"
+  "dd476f5d-60dc-45e3-a7e7-f896c01b5f66" -> "16671e07-d383-4136-a2f6-f408f8f6467b"
+  "16671e07-d383-4136-a2f6-f408f8f6467b" -> "0a7e61b3-da9d-4574-b3e6-ddc4cb924771" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "16671e07-d383-4136-a2f6-f408f8f6467b" -> "9296a9ff-46bf-4bc9-8a21-2163d701ea15" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "16671e07-d383-4136-a2f6-f408f8f6467b" -> "d8fde96b-932a-4dbc-bb44-ad0f4943aa6e" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "6ed82d41-bb73-40a3-bf78-0c2748701e08" -> "9296a9ff-46bf-4bc9-8a21-2163d701ea15" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "17815fa5-e3b6-4dec-ab1a-103ebc75048e" -> "0a7e61b3-da9d-4574-b3e6-ddc4cb924771" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "76c6be62-b603-44ec-abcc-caabd3f82f0e" -> "0a7e61b3-da9d-4574-b3e6-ddc4cb924771" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "7efb194b-980e-4a5c-87e3-eff3a17a29f3" -> "0a7e61b3-da9d-4574-b3e6-ddc4cb924771" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "008dabfb-a9ab-4ddf-bacb-0afe6615664b" -> "dd476f5d-60dc-45e3-a7e7-f896c01b5f66"
+}

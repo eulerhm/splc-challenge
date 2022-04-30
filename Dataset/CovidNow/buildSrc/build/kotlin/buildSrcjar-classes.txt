@@ -1,0 +1,1 @@
+/home/eulerhm/Documents/workspaceSQJ/CovidNow-new/buildSrc/build/classes/kotlin/main/App.class:/home/eulerhm/Documents/workspaceSQJ/CovidNow-new/buildSrc/build/classes/kotlin/main/Libs.class:/home/eulerhm/Documents/workspaceSQJ/CovidNow-new/buildSrc/build/classes/kotlin/main/Versions.class

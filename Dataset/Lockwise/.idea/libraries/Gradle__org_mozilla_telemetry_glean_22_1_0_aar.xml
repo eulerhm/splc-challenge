@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.telemetry:glean:22.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/87dc60e1a73d10e786d60e097946b75f/jetified-glean-22.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/87dc60e1a73d10e786d60e097946b75f/jetified-glean-22.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/87dc60e1a73d10e786d60e097946b75f/jetified-glean-22.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.telemetry/glean/22.1.0/5b3067e36ff86461ad9015734d4d252bd7d45346/glean-22.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

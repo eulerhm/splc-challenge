@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.components:lib-dataprotect:27.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72b0529b7942090c54d4acdcebdb6fe6/jetified-lib-dataprotect-27.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72b0529b7942090c54d4acdcebdb6fe6/jetified-lib-dataprotect-27.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72b0529b7942090c54d4acdcebdb6fe6/jetified-lib-dataprotect-27.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.components/lib-dataprotect/27.0.4/d4e6ea687656c774741ac2aa9266d5c1ac0a23a3/lib-dataprotect-27.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

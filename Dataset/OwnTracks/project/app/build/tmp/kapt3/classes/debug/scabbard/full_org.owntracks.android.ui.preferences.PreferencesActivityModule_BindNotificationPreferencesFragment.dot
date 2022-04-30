@@ -1,0 +1,28 @@
+digraph "org.owntracks.android.ui.preferences.PreferencesActivityModule_BindNotificationPreferencesFragment" {
+  graph [rankdir="LR", labeljust="l", label="PreferencesActivityModule_BindNotificationPreferencesFragment", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "ca9b5406-3a59-4537-ac16-56c0881bf69d" [label="PreferencesActivityModule_BindNotificationPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "98bc9895-36ef-492f-ad66-3d636f45a3f9" [label="NotificationFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "afce4e2f-4329-4653-9c33-086c9c2053e9" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "e51ba558-693b-4f7a-bbb5-28b9dba553cf" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "c88a61c0-7e0f-49cb-89da-ada3d75f0d10" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "4f73c5c4-d954-4115-ade2-35de97dd0a58" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "ca9b5406-3a59-4537-ac16-56c0881bf69d" [label="PreferencesActivityModule_BindNotificationPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "ff414225-569d-420b-adb4-ee85e6a7e98d" [label="@PerFragment\nPreferencesActivityModule_BindNotificationPreferencesFragment.NotificationFragmentSubcomponent", href="full_org.owntracks.android.ui.preferences.PreferencesActivityModule_BindNotificationPreferencesFragment.NotificationFragmentSubcomponent.svg", color="aquamarine"]
+  }
+  "4f73c5c4-d954-4115-ade2-35de97dd0a58" -> "ca9b5406-3a59-4537-ac16-56c0881bf69d"
+  "ca9b5406-3a59-4537-ac16-56c0881bf69d" -> "98bc9895-36ef-492f-ad66-3d636f45a3f9" [style="dotted", label="delegates"]
+  "98bc9895-36ef-492f-ad66-3d636f45a3f9" -> "ff414225-569d-420b-adb4-ee85e6a7e98d" [style="dashed", label="subcomponent", headport="w"]
+}

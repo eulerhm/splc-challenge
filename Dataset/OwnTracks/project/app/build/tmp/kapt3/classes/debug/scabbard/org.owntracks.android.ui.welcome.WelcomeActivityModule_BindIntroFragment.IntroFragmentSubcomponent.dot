@@ -1,0 +1,30 @@
+digraph "org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent → org.owntracks.android.ui.welcome.WelcomeActivityModule_BindIntroFragment.IntroFragmentSubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent → WelcomeActivityModule_BindIntroFragment.IntroFragmentSubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "57e05e0e-ff03-4566-90ad-32c6184a6ff6" [label="inject (IntroFragment)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "81a0d1aa-8eea-4c85-8056-83822c333ba5" [label="NoOpViewModel", color="turquoise"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent" {
+    graph [labeljust="c", label="Inherited from AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent\n@PerActivity", style="dashed", href="org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent.svg", color="bisque"]
+    "2e2b6fba-3c4c-4a0d-a8f3-cc0e0bcd0f35" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "5992e2c5-bd42-4dea-a97d-c4a56fa88282" [label="@PerActivity\nNavigator", color="bisque"]
+    "5992e2c5-bd42-4dea-a97d-c4a56fa88282" [label="@PerActivity\nNavigator", color="bisque"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent → WelcomeActivityModule_BindIntroFragment.IntroFragmentSubcomponent" {
+    graph [labeljust="c", label="Inherited from WelcomeActivityModule_BindIntroFragment.IntroFragmentSubcomponent\n@PerFragment", style="dashed", href="org.owntracks.android.ui.welcome.WelcomeActivityModule_BindIntroFragment.IntroFragmentSubcomponent.svg", color="coral"]
+    "81a0d1aa-8eea-4c85-8056-83822c333ba5" [label="NoOpViewModel", color="turquoise"]
+  }
+  "57e05e0e-ff03-4566-90ad-32c6184a6ff6" -> "2e2b6fba-3c4c-4a0d-a8f3-cc0e0bcd0f35"
+  "57e05e0e-ff03-4566-90ad-32c6184a6ff6" -> "5992e2c5-bd42-4dea-a97d-c4a56fa88282"
+  "57e05e0e-ff03-4566-90ad-32c6184a6ff6" -> "81a0d1aa-8eea-4c85-8056-83822c333ba5"
+  "81a0d1aa-8eea-4c85-8056-83822c333ba5" -> "5992e2c5-bd42-4dea-a97d-c4a56fa88282"
+}

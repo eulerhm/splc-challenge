@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b8a3dc3-20a6-4e76-83e7-05bec3101bac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.github/FUNDING.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/FUNDING.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/dependabot.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/android.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/android.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/beta.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/beta.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/release.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" afterPath="$PROJECT_DIR$/../.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lint/lint-baseline.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lint/lint-baseline.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/objectbox-models/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/objectbox-models/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/objectbox-models/default.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/app/objectbox-models/default.json.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ScreenshotTakingOnTestEndRule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ScreenshotTakingOnTestEndRule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/e2e/ContactActivityTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/e2e/ContactActivityTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/LoadActivityTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/LoadActivityTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/LogViewerActivityTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/LogViewerActivityTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/PreferencesActivityTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/PreferencesActivityTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/StatusActivityTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/StatusActivityTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/map/MapActivityTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/map/MapActivityTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/preferences/clickOnPreference.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/org/owntracks/android/ui/preferences/clickOnPreference.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/resources/jacoco-agent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/resources/jacoco-agent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/WaypointModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/WaypointModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/ContactsRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/ContactsRepo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/LocationRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/LocationRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/MemoryContactsRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/MemoryContactsRepo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/ObjectboxWaypointsModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/ObjectboxWaypointsModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/ObjectboxWaypointsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/ObjectboxWaypointsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/WaypointsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/data/repos/WaypointsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/CachingGeocoder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/CachingGeocoder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/Geocoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/Geocoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/GeocoderNone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/GeocoderNone.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/GeocoderProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/GeocoderProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/GoogleGeocoder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/GoogleGeocoder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/OpenCageGeocoder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/geocoding/OpenCageGeocoder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/components/AppComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/components/AppComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/modules/AndroidBindingModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/modules/AndroidBindingModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/modules/SingletonModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/modules/SingletonModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/qualifier/AppContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/qualifier/AppContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/qualifier/ServiceContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/qualifier/ServiceContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/scopes/PerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/scopes/PerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/scopes/PerFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/scopes/PerFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/scopes/PerReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/scopes/PerReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/scopes/PerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/injection/scopes/PerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/BatteryStatus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/BatteryStatus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/CommandAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/CommandAction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/FusedContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/FusedContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageCard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageCard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageClear.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageClear.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageCmd.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageCmd.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageConfiguration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageEncrypted.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageEncrypted.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageLocation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageLocation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageLwt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageLwt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageTransition.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageTransition.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageUnknown.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageUnknown.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageWaypoint.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageWaypoint.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageWaypoints.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageWaypoints.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageWithCreatedAt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/model/messages/MessageWithCreatedAt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/BackgroundService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/BackgroundService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/BackgroundServiceModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/BackgroundServiceModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/LocationProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/LocationProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/MessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/MessageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/MessageProcessorEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/MessageProcessorEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/MessageProcessorEndpointHttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/MessageProcessorEndpointHttp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/MessageProcessorEndpointMqtt.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/MessageProcessorEndpointMqtt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/MqttHostnameVerifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/MqttHostnameVerifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/BackgroundWorkerFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/BackgroundWorkerFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/ChildWorkerFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/ChildWorkerFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/MQTTMaybeReconnectAndPingWorker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/MQTTMaybeReconnectAndPingWorker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/MQTTReconnectWorker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/MQTTReconnectWorker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/SendLocationPingWorker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/SendLocationPingWorker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/WorkerModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/services/worker/WorkerModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/ContactImageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/ContactImageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/DateFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/DateFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/DeviceMetricsProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/DeviceMetricsProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/DrawerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/DrawerProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/EncryptionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/EncryptionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/Events.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/MessageWaypointCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/MessageWaypointCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/Preferences.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/Preferences.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/RequirementsChecker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/RequirementsChecker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/RunThingsOnOtherThreads.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/RunThingsOnOtherThreads.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/ServiceBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/ServiceBridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/SimpleIdlingResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/SimpleIdlingResource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/SimpleTextChangeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/SimpleTextChangeListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/SocketFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/SocketFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/TidBitmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/TidBitmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/TimberDebugLogTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/TimberDebugLogTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/interfaces/ConfigurationIncompleteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/interfaces/ConfigurationIncompleteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/interfaces/OutgoingMessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/interfaces/OutgoingMessageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/interfaces/StatefulServiceMessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/interfaces/StatefulServiceMessageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/preferences/OnModeChangedPreferenceChangedListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/preferences/OnModeChangedPreferenceChangedListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/preferences/PreferencesStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/preferences/PreferencesStore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/preferences/SharedPreferencesStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/preferences/SharedPreferencesStore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/receiver/StartBackgroundServiceReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/receiver/StartBackgroundServiceReceiver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/receiver/TaskerReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/receiver/TaskerReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/BindingConversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/BindingConversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/EditIntegerPreference.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/EditIntegerPreference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/EditStringPreference.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/EditStringPreference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/RecyclerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/RecyclerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/TextDrawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/TextDrawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/ToolbarPreference.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/support/widgets/ToolbarPreference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/BaseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/BaseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/BaseAdapterItemView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/BaseAdapterItemView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/BaseSupportFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/BaseSupportFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/navigator/Navigator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/navigator/Navigator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/view/MvvmView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/view/MvvmView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/viewmodel/BaseViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/viewmodel/BaseViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/viewmodel/MvvmViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/viewmodel/MvvmViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/viewmodel/NoOpViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/base/viewmodel/NoOpViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/contacts/ContactsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/contacts/ContactsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/contacts/ContactsActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/contacts/ContactsActivityModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/contacts/ContactsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/contacts/ContactsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/contacts/ContactsMvvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/contacts/ContactsMvvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/contacts/ContactsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/contacts/ContactsViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/map/MapActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/map/MapActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/map/MapActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/map/MapActivityModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/map/MapMvvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/map/MapMvvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/map/MapViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/map/MapViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/AbstractPreferenceFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/AbstractPreferenceFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/AdvancedFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/AdvancedFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/InfoFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/InfoFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/LicenseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/LicenseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/NotificationFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/NotificationFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/PreferencesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/PreferencesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/PreferencesActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/PreferencesActivityModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/PreferencesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/PreferencesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/PreferencesFragmentMvvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/PreferencesFragmentMvvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/PreferencesFragmentViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/PreferencesFragmentViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/ReportingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/ReportingFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/ConnectionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/ConnectionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/ConnectionActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/ConnectionActivityModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/ConnectionMvvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/ConnectionMvvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/ConnectionViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/ConnectionViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/BaseDialogViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/BaseDialogViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionHostHttpDialogViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionHostHttpDialogViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionHostMqttDialogViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionHostMqttDialogViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionIdentificationViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionIdentificationViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionModeDialogViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionModeDialogViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionParametersViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionParametersViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionSecurityViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/connection/dialog/ConnectionSecurityViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/editor/EditorActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/editor/EditorActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/editor/EditorActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/editor/EditorActivityModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/editor/EditorMvvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/editor/EditorMvvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/editor/EditorViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/editor/EditorViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/load/ImportStatus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/load/ImportStatus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/load/LoadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/load/LoadActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/load/LoadActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/load/LoadActivityModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/load/LoadMvvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/load/LoadMvvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/load/LoadViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/preferences/load/LoadViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/region/RegionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/region/RegionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/region/RegionActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/region/RegionActivityModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/region/RegionMvvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/region/RegionMvvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/region/RegionViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/region/RegionViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/regions/RegionsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/regions/RegionsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/regions/RegionsActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/regions/RegionsActivityModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/regions/RegionsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/regions/RegionsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/regions/RegionsMvvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/regions/RegionsMvvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/regions/RegionsViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/regions/RegionsViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/status/LogViewerActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/status/LogViewerActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/status/LogViewerActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/status/LogViewerActivityModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/status/StatusActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/status/StatusActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/status/StatusMvvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/status/StatusMvvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/status/StatusViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/status/StatusViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/StatusActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/StatusActivityModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeActivityModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeFragmentMvvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeFragmentMvvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeMvvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeMvvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/WelcomeViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/finish/FinishFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/finish/FinishFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/finish/FinishFragmentModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/finish/FinishFragmentModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/intro/IntroFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/intro/IntroFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/intro/IntroFragmentModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/intro/IntroFragmentModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/permission/PermissionFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/permission/PermissionFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/permission/PermissionFragmentModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/permission/PermissionFragmentModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/permission/PermissionFragmentMvvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/permission/PermissionFragmentMvvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/permission/PermissionFragmentViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/permission/PermissionFragmentViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/play/PlayFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/play/PlayFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/play/PlayFragmentModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/play/PlayFragmentModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/play/PlayFragmentMvvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/play/PlayFragmentMvvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/play/PlayFragmentViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/play/PlayFragmentViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/version/VersionFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/version/VersionFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/version/VersionFragmentModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/owntracks/android/ui/welcome/version/VersionFragmentModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/contact-email.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/contact-email.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/contact-website.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/contact-website.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/default-language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/default-language.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/listings/en-US/full-description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/listings/en-US/full-description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/feature-graphic/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/feature-graphic/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/icon/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/icon/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/phone-screenshots/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/phone-screenshots/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/phone-screenshots/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/phone-screenshots/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/phone-screenshots/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/phone-screenshots/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/phone-screenshots/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/phone-screenshots/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/phone-screenshots/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/listings/en-US/graphics/phone-screenshots/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/listings/en-US/short-description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/listings/en-US/short-description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/listings/en-US/title.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/listings/en-US/title.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/play/release-notes/en-US/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/play/release-notes/en-US/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/none.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/none.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/push_up_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/push_up_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cursor_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cursor_white.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_add_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_add_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_adjust_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_adjust_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_android_48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_android_48.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_assignment_late_48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_assignment_late_48.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_autorenew_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_autorenew_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_close_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_close_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_done_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_done_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_done_all_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_done_all_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_fiber_manual_record_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_fiber_manual_record_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_info_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_info_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_layers_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_layers_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_more_horiz_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_more_horiz_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_my_location_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_my_location_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_pause_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_pause_36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_play_arrow_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_play_arrow_36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_publish_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_publish_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_settings_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_settings_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_share_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_share_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_stop_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_stop_36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_supervisor_account_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_supervisor_account_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_info_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_info_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_owntracks_80.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_owntracks_80.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_step_forward_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_step_forward_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/log_viewer_entry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/log_viewer_entry.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/settings_toolbar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/settings_toolbar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_contacts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_map.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_map.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_host_http.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_host_http.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_host_mqtt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_host_mqtt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_identification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_identification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_mode.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_mode.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_parameters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_parameters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_connection_security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_editor_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_editor_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_load.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_load.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_logs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_preferences_logs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_region.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_region.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_regions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_regions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_row_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_row_contact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_row_region.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_row_region.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_status.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_status.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome_finish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome_finish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome_intro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome_intro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome_permissions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome_permissions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome_play.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome_play.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome_version.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_welcome_version.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_configuration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_load.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_load.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_map.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_map.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_waypoint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_waypoint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_waypoints.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_waypoints.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/log_viewer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/log_viewer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_popup_contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_popup_contacts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/picker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/picker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/preferences_connection_http.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/preferences_connection_http.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/preferences_connection_mqtt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/preferences_connection_mqtt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-de/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-de/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-fr/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-fr/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/bools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/bools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/defaults.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/defaults.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/donottranslate-preference_keys.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/donottranslate-preference_keys.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/integers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/integers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/urls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/urls.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_descriptor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/backup_descriptor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/filepaths.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/filepaths.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/preferences_advanced.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences_advanced.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/preferences_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/preferences_licenses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences_licenses.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/preferences_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/preferences_reporting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences_reporting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/preferences_root.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences_root.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/data/repos/MemoryContactsRepoTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/data/repos/MemoryContactsRepoTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/geocoding/TestOpenCageGeocoder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/geocoding/TestOpenCageGeocoder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/services/MessageProcessorEndpointHttpTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/services/MessageProcessorEndpointHttpTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/services/MessageProcessorEndpointMqttTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/services/MessageProcessorEndpointMqttTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/services/MqttHostnameVerifierTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/services/MqttHostnameVerifierTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/support/InMemoryPreferencesStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/support/InMemoryPreferencesStore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/support/ParserTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/support/ParserTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/support/PreferenceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/support/PreferenceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/support/PreferencesGettersAndSetters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/support/PreferencesGettersAndSetters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/ui/contacts/ContactsViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/ui/contacts/ContactsViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/ui/preferences/load/InMemoryWaypointsRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/ui/preferences/load/InMemoryWaypointsRepo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/ui/preferences/load/LoadViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/owntracks/android/ui/preferences/load/LoadViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/resources/letsEncryptRootCA.pem" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/resources/letsEncryptRootCA.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/resources/letsEncryptSignedLeafX509Certificate.pem" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/resources/letsEncryptSignedLeafX509Certificate.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/resources/opencageResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/resources/opencageResult.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/resources/selfSignedX509Certificate.pem" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/resources/selfSignedX509Certificate.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@0010695445]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1oZ6jFSemkpnN4mZ2tC9clvzf5K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager" selected="Android Instrumented Tests.LoadActivityTests">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="owntracks-android.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadActivityTests" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="owntracks-android.app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="org.owntracks.android.ui.LoadActivityTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapActivityTests" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="owntracks-android.app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="org.owntracks.android.ui.map.MapActivityTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.LoadActivityTests" />
+        <item itemvalue="Android Instrumented Tests.MapActivityTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b8a3dc3-20a6-4e76-83e7-05bec3101bac" name="Default Changelist" comment="" />
+      <created>1613481898538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613481898538</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1874" height="272" key="GridCell.Tab.0.bottom" timestamp="1626572896879">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1874" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1626572896879" />
+    <state width="1874" height="272" key="GridCell.Tab.0.center" timestamp="1626572896879">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1874" height="272" key="GridCell.Tab.0.center/0.0.1920.1036@0.0.1920.1036" timestamp="1626572896879" />
+    <state width="1874" height="272" key="GridCell.Tab.0.left" timestamp="1626572896878">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1874" height="272" key="GridCell.Tab.0.left/0.0.1920.1036@0.0.1920.1036" timestamp="1626572896878" />
+    <state width="1874" height="272" key="GridCell.Tab.0.right" timestamp="1626572896879">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1874" height="272" key="GridCell.Tab.0.right/0.0.1920.1036@0.0.1920.1036" timestamp="1626572896879" />
+  </component>
+</project>

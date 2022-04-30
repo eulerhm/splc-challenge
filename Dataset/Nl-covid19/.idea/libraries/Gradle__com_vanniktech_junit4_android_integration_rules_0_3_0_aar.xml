@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vanniktech:junit4-android-integration-rules:0.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dd9d3ef4664c8bfdab529e24fecdea62/transformed/junit4-android-integration-rules-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dd9d3ef4664c8bfdab529e24fecdea62/transformed/junit4-android-integration-rules-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dd9d3ef4664c8bfdab529e24fecdea62/transformed/junit4-android-integration-rules-0.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vanniktech/junit4-android-integration-rules/0.3.0/4921cc2c78ca7b13de0b1b27804a9288d4144cda/junit4-android-integration-rules-0.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vanniktech/junit4-android-integration-rules/0.3.0/dfa3e8dbcf7623338f4b9a50d0e59be1eb7045d6/junit4-android-integration-rules-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

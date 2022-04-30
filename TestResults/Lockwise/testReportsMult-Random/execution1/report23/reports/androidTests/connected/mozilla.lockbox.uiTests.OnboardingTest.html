@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class mozilla.lockbox.uiTests.OnboardingTest</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class mozilla.lockbox.uiTests.OnboardingTest</h1>
+<div class="breadcrumbs">
+<a href="index.html">all</a> &gt; 
+<a href="mozilla.lockbox.uiTests.html">mozilla.lockbox.uiTests</a> &gt; OnboardingTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">40.635s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">85%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="autofillSkipButtonNavigatesToItemList"></a>
+<h3 class="failures">autofillSkipButtonNavigatesToItemList</h3>
+<span class="code">
+<pre>androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with id: mozilla.lockbox:id/iconFingerprint
+
+View Hierarchy:
++&gt;DecorView{id=-1, visibility=VISIBLE, width=1080, height=2246, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) sim={adjust=pan} ty=BASE_APPLICATION wanim=0x10302fe
+fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS
+pfl=FORCE_DRAW_STATUS_BAR_BACKGROUND}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}
+|
++-&gt;LinearLayout{id=-1, visibility=VISIBLE, width=1080, height=2114, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@67fc4ce, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+|
++--&gt;ViewStub{id=16908692, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@7b1bfef, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+|
++--&gt;FrameLayout{id=-1, visibility=VISIBLE, width=1080, height=2028, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@103bafc, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=86.0, child-count=1}
+|
++---&gt;FitWindowsLinearLayout{id=2131230772, res-name=action_bar_root, visibility=VISIBLE, width=1080, height=2028, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@8575fda, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+|
++----&gt;ViewStubCompat{id=2131230819, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@9046c0b, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+|
++----&gt;ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1080, height=2028, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@b4f8ae8, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}
+|
++-----&gt;ConstraintLayout{id=2131231105, res-name=root_content, visibility=VISIBLE, width=1080, height=2028, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@4a10501, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}
+|
++------&gt;FrameLayout{id=2131230961, res-name=fragment_nav_host, visibility=VISIBLE, width=1080, height=2028, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@7db9fa6, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}
+|
++-------&gt;ConstraintLayout{id=2131231081, res-name=onboardingAutofill, visibility=VISIBLE, width=1080, height=2028, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@38bbde7, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=6}
+|
++--------&gt;AppCompatImageView{id=2131230983, res-name=iconAutofill, desc=Lockwise Autofill, visibility=VISIBLE, width=1080, height=822, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@e066d94, tag=null, root-is-layout-requested=false, has-input-connection=false, x=96.25, y=-96.25}
+|
++--------&gt;AppCompatImageView{id=-1, visibility=VISIBLE, width=2200, height=2200, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@297f03d, tag=null, root-is-layout-requested=false, has-input-connection=false, x=-687.5, y=536.0}
+|
++--------&gt;AppCompatTextView{id=2131230846, res-name=autofillTitle, visibility=VISIBLE, width=770, height=182, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@2121032, tag=null, root-is-layout-requested=false, has-input-connection=false, x=155.0, y=770.0, text=Let Lockwise fill in your passwords for you., input-type=0, ime-target=false, has-links=false}
+|
++--------&gt;AppCompatTextView{id=2131230845, res-name=autofillDescription, visibility=VISIBLE, width=825, height=118, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@b4c5183, tag=null, root-is-layout-requested=false, has-input-connection=false, x=128.0, y=985.0, text=Easily fill usernames and passwords where you need them most., input-type=0, ime-target=false, has-links=false}
+|
++--------&gt;AppCompatButton{id=2131230969, res-name=goToSettings, visibility=VISIBLE, width=495, height=132, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@ea6cf00, tag=null, root-is-layout-requested=false, has-input-connection=false, x=293.0, y=1637.0, text=Go to settings, input-type=0, ime-target=false, has-links=false}
+|
++--------&gt;AppCompatButton{id=2131231140, res-name=skipButton, visibility=VISIBLE, width=380, height=132, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@a185339, tag=null, root-is-layout-requested=false, has-input-connection=false, x=350.0, y=1824.0, text=Skip for now, input-type=0, ime-target=false, has-links=false}
+|
++-&gt;View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1080, height=132, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@cccfd7e, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=2114.0}
+|
++-&gt;View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1080, height=86, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@5f882df, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+|
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1720)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:96)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:59)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:322)
+at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:306)
+at br.com.concretesolutions.kappuccino.BaseViewInteractions.check(BaseViewInteractions.kt:14)
+at br.com.concretesolutions.kappuccino.assertions.VisibilityAssertions.displayed(VisibilityAssertions.kt:14)
+at br.com.concretesolutions.kappuccino.assertions.VisibilityAssertions.displayed$default(VisibilityAssertions.kt:12)
+at mozilla.lockbox.robots.FingerprintOnboardingRobot.exists(FingerprintOnboardingRobot.kt:8)
+at mozilla.lockbox.uiTests.Navigator$checkAtFingerprintOnboarding$1.invoke(Navigator.kt:113)
+at mozilla.lockbox.uiTests.Navigator$checkAtFingerprintOnboarding$1.invoke(Navigator.kt:48)
+at mozilla.lockbox.robots.FingerprintOnboardingRobotKt.fingerprintOnboardingScreen(FingerprintOnboardingRobot.kt:16)
+at mozilla.lockbox.uiTests.Navigator.checkAtFingerprintOnboarding(Navigator.kt:113)
+at mozilla.lockbox.uiTests.Navigator.gotoAutofillOnboarding(Navigator.kt:120)
+at mozilla.lockbox.uiTests.OnboardingTest.autofillSkipButtonNavigatesToItemList(OnboardingTest.kt:74)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:134)
+at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:531)
+at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:104)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2196)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>POCO F1 - 10</th>
+</tr>
+</thead>
+<tr>
+<td>autofillGoToSettingsNavigatesToSystemSettings</td>
+<td class="success">passed (0s)</td>
+</tr>
+<tr>
+<td>autofillSkipButtonNavigatesToItemList</td>
+<td class="failures">failed (9.655s)</td>
+</tr>
+<tr>
+<td>fingerprintSkipButtonNavigatesToItemList</td>
+<td class="success">passed (0s)</td>
+</tr>
+<tr>
+<td>fingerprintSuccessNavigatesToItemList</td>
+<td class="success">passed (0s)</td>
+</tr>
+<tr>
+<td>fxaLoginToOnboardingToItemList</td>
+<td class="success">passed (10.762s)</td>
+</tr>
+<tr>
+<td>testFxALogin</td>
+<td class="success">passed (9.503s)</td>
+</tr>
+<tr>
+<td>testOnboardingConfirmation</td>
+<td class="success">passed (10.715s)</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at Dec 20, 2021, 6:14:53 PM</p>
+</div>
+</div>
+</body>

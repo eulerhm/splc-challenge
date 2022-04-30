@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="textSetCustomImages">Custom Images</string>
+  <string name="textSetCustomImagesDescription">Pick your own poster and fanart that are going to be used across the app.</string>
+  <string name="textPoster">Poster</string>
+  <string name="textFanart">Fanart</string>
+  <string name="textGalleryEmpty">No images available</string>
+
+  <string name="textUrlDialogTitle">Download Image</string>
+  <string name="textUrlDialogHint">Image\'s URL</string>
+  <string name="textUrlDialogInvalidUrl">Invalid image URL format.\nExample: https://test.com/image.jpg</string>
+  <string name="textUrlDialogInvalidImage">Sorry. This image could not be loaded.</string>
+
+</resources>

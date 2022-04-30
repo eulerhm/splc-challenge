@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/data-local" />
+            <option value="$PROJECT_DIR$/data-remote" />
+            <option value="$PROJECT_DIR$/repository" />
+            <option value="$PROJECT_DIR$/ui-base" />
+            <option value="$PROJECT_DIR$/ui-comments" />
+            <option value="$PROJECT_DIR$/ui-discover" />
+            <option value="$PROJECT_DIR$/ui-discover-movies" />
+            <option value="$PROJECT_DIR$/ui-episodes" />
+            <option value="$PROJECT_DIR$/ui-gallery" />
+            <option value="$PROJECT_DIR$/ui-lists" />
+            <option value="$PROJECT_DIR$/ui-model" />
+            <option value="$PROJECT_DIR$/ui-movie" />
+            <option value="$PROJECT_DIR$/ui-my-movies" />
+            <option value="$PROJECT_DIR$/ui-my-shows" />
+            <option value="$PROJECT_DIR$/ui-navigation" />
+            <option value="$PROJECT_DIR$/ui-news" />
+            <option value="$PROJECT_DIR$/ui-premium" />
+            <option value="$PROJECT_DIR$/ui-progress" />
+            <option value="$PROJECT_DIR$/ui-progress-movies" />
+            <option value="$PROJECT_DIR$/ui-search" />
+            <option value="$PROJECT_DIR$/ui-settings" />
+            <option value="$PROJECT_DIR$/ui-show" />
+            <option value="$PROJECT_DIR$/ui-statistics" />
+            <option value="$PROJECT_DIR$/ui-statistics-movies" />
+            <option value="$PROJECT_DIR$/ui-streamings" />
+            <option value="$PROJECT_DIR$/ui-trakt-sync" />
+            <option value="$PROJECT_DIR$/ui-widgets" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

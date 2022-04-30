@@ -1,0 +1,38 @@
+digraph "org.owntracks.android.ui.preferences.load.LoadActivityModule" {
+  graph [rankdir="LR", labeljust="l", label="LoadActivityModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "f3432593-dde7-4ea0-b630-1cdca579e657" [label="@PerActivity\nAppCompatActivity", color="aquamarine"]
+    "034b6cdb-9087-402f-a596-57d8ebc0e214" [label="org.owntracks.android.ui.preferences.load.LoadActivity", color="firebrick1"]
+    "6fedeb5e-6e40-4cdc-9bfc-5e357411b074" [label="LoadMvvm.ViewModel<LoadMvvm.View>", color="turquoise"]
+    "233c61b7-6699-4309-99e8-2a7cc59de111" [label="@PerActivity\nLoadViewModel", color="aquamarine"]
+    "5c709983-b430-4fd8-99d2-26a08567f74c" [label="@Singleton\nPreferences", color="bisque"]
+    "b439a65b-e816-4f54-b220-a1262b58367f" [label="@Singleton\nParser", color="bisque"]
+    "7d85031a-b87e-4def-a7fd-33e79a522a2a" [label="org.owntracks.android.data.repos.WaypointsRepo", color="firebrick1"]
+    "9b5c9944-72fd-4e64-b383-0ee73e00bd02" [label="@PerActivity\nNavigator", color="aquamarine"]
+    "17f428aa-af41-49f0-b30a-5790d15075d1" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "417abe90-6146-4cd9-8eea-f2876317a375" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "5fabb8a1-644b-4d9e-92c5-4b1657d91289" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    "b0b092bb-dbd2-4d7f-bdf7-027f7c0ffd29" [label="@Singleton\nEncryptionProvider", color="bisque"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "9b5c9944-72fd-4e64-b383-0ee73e00bd02" -> "f3432593-dde7-4ea0-b630-1cdca579e657"
+  "f3432593-dde7-4ea0-b630-1cdca579e657" -> "034b6cdb-9087-402f-a596-57d8ebc0e214" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+  "6fedeb5e-6e40-4cdc-9bfc-5e357411b074" -> "233c61b7-6699-4309-99e8-2a7cc59de111" [style="dotted", label="delegates"]
+  "233c61b7-6699-4309-99e8-2a7cc59de111" -> "7d85031a-b87e-4def-a7fd-33e79a522a2a" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "233c61b7-6699-4309-99e8-2a7cc59de111" -> "9b5c9944-72fd-4e64-b383-0ee73e00bd02"
+  "233c61b7-6699-4309-99e8-2a7cc59de111" -> "b439a65b-e816-4f54-b220-a1262b58367f"
+  "233c61b7-6699-4309-99e8-2a7cc59de111" -> "5c709983-b430-4fd8-99d2-26a08567f74c"
+  "b0b092bb-dbd2-4d7f-bdf7-027f7c0ffd29" -> "5c709983-b430-4fd8-99d2-26a08567f74c"
+  "5c709983-b430-4fd8-99d2-26a08567f74c" -> "417abe90-6146-4cd9-8eea-f2876317a375" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "5c709983-b430-4fd8-99d2-26a08567f74c" -> "5fabb8a1-644b-4d9e-92c5-4b1657d91289" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "5c709983-b430-4fd8-99d2-26a08567f74c" -> "17f428aa-af41-49f0-b30a-5790d15075d1" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "b439a65b-e816-4f54-b220-a1262b58367f" -> "b0b092bb-dbd2-4d7f-bdf7-027f7c0ffd29"
+}

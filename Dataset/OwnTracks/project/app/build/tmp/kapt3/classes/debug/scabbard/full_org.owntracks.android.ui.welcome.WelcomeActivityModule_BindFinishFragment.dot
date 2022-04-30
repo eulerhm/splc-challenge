@@ -1,0 +1,27 @@
+digraph "org.owntracks.android.ui.welcome.WelcomeActivityModule_BindFinishFragment" {
+  graph [rankdir="LR", labeljust="l", label="WelcomeActivityModule_BindFinishFragment", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "93218920-029e-453b-b20f-fdf37425babf" [label="WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "2d6782b1-91a7-4bc1-8615-138683af57e3" [label="FinishFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "b0086f7d-8b55-42e8-91ac-119287eccc32" [label="java.util.Map<java.lang.String,javax.inject.Provider<dagger.android.AndroidInjector.Factory<?>>>", color="firebrick1"]
+    "3d4260e5-24be-42e7-b409-5c00ac112b97" [label="androidx.appcompat.app.AppCompatActivity", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "421d3879-7694-4b58-8e1f-00b3b60c636c" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "93218920-029e-453b-b20f-fdf37425babf" [label="WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "4d73ff3a-b538-4f10-b570-f893e95960aa" [label="@PerFragment\nWelcomeActivityModule_BindFinishFragment.FinishFragmentSubcomponent", href="full_org.owntracks.android.ui.welcome.WelcomeActivityModule_BindFinishFragment.FinishFragmentSubcomponent.svg", color="aquamarine"]
+  }
+  "421d3879-7694-4b58-8e1f-00b3b60c636c" -> "93218920-029e-453b-b20f-fdf37425babf"
+  "93218920-029e-453b-b20f-fdf37425babf" -> "2d6782b1-91a7-4bc1-8615-138683af57e3" [style="dotted", label="delegates"]
+  "2d6782b1-91a7-4bc1-8615-138683af57e3" -> "4d73ff3a-b538-4f10-b570-f893e95960aa" [style="dashed", label="subcomponent", headport="w"]
+}

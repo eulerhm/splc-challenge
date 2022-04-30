@@ -1,0 +1,29 @@
+digraph "org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent → org.owntracks.android.ui.welcome.WelcomeActivityModule_BindPermissionFragment.PermissionFragmentSubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent → WelcomeActivityModule_BindPermissionFragment.PermissionFragmentSubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "84627d66-fb57-4797-ba57-fb8ff90b4d56" [label="inject (PermissionFragment)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent" {
+    graph [labeljust="c", label="Inherited from AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent\n@PerActivity", style="dashed", href="org.owntracks.android.injection.modules.AndroidBindingModule_BindWelcomeActivity.WelcomeActivitySubcomponent.svg", color="bisque"]
+    "70287c29-be1c-4af1-9dc0-27a07de59697" [label="@PerActivity\nPermissionFragmentViewModel", color="bisque"]
+    "5dd685c4-8c35-45cc-a21d-de5d513bf514" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "5d54f1c2-7679-4ddd-8f44-bb6fbb1be13f" [label="@PerActivity\nNavigator", color="bisque"]
+  }
+  subgraph "cluster_AppComponent" {
+    graph [labeljust="c", label="Inherited from AppComponent\n@Singleton", style="dashed", href="org.owntracks.android.injection.components.AppComponent.svg", color="aquamarine"]
+    "9a978414-1230-4456-86c4-4b86202c5489" [label="@Singleton\nEventBus", color="aquamarine"]
+  }
+  "84627d66-fb57-4797-ba57-fb8ff90b4d56" -> "70287c29-be1c-4af1-9dc0-27a07de59697"
+  "84627d66-fb57-4797-ba57-fb8ff90b4d56" -> "5d54f1c2-7679-4ddd-8f44-bb6fbb1be13f"
+  "84627d66-fb57-4797-ba57-fb8ff90b4d56" -> "9a978414-1230-4456-86c4-4b86202c5489"
+  "84627d66-fb57-4797-ba57-fb8ff90b4d56" -> "5dd685c4-8c35-45cc-a21d-de5d513bf514"
+}

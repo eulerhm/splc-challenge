@@ -1,0 +1,17 @@
+digraph "org.owntracks.android.ui.welcome.permission.PermissionFragmentModule" {
+  graph [rankdir="LR", labeljust="l", label="PermissionFragmentModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "01509af0-0a69-480f-9065-64a9ed304c6b" [label="Fragment", color="turquoise"]
+    "c2429545-60d1-4fb4-8cb9-20477ba39149" [label="org.owntracks.android.ui.welcome.permission.PermissionFragment", color="firebrick1"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "01509af0-0a69-480f-9065-64a9ed304c6b" -> "c2429545-60d1-4fb4-8cb9-20477ba39149" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+}

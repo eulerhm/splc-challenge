@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryLight">#ffffff</color>
+    <color name="colorPrimaryDark">#cccccc</color>
+    <color name="colorOnPrimary">#212121</color>
+    <color name="colorSecondary">#ffab91</color>
+    <color name="colorSecondaryLight">#ffddc1</color>
+    <color name="colorSecondaryDark">#c97b63</color>
+    <color name="colorOnSecondary">#212121</color>
+
+    <color name="colorError">#b00020</color>
+    <color name="colorOnError">#ffffff</color>
+    <color name="colorSurface">#ffffff</color>
+    <color name="colorOnSurface">#212121</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorOnBackground">#212121</color>
+
+    <color name="colorChipBackgroundUnchecked">#e8e8e8</color>
+    <color name="colorChipBackgroundChecked">@color/colorSecondaryLight</color>
+    <color name="colorChipTextUnchecked">#3b3b3b</color>
+    <color name="colorChipTextChecked">#212121</color>
+
+    <color name="horizontalDividerBackground">#dadce0</color>
+
+    <color name="navDrawerItemBg">#ffddc1</color>
+    <color name="navDrawerTextOnSecondary">@color/colorOnSecondary</color>
+    <color name="navDrawerTextOnSurface">@color/colorOnSurface</color>
+
+    <!-- Colors used as a palette for pie chart -->
+    <color name="pieChartColor1">#80ba68c8</color>
+    <color name="pieChartColor2">#804dd0e1</color>
+    <color name="pieChartColor3">#8066bb6a</color>
+    <color name="pieChartColor4">#80ffb74d</color>
+    <color name="pieChartColor5">#80e57373</color>
+
+    <color name="pieChartTextColor">#212121</color>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/nl-covid19-notification-app-android-new.iml" filepath="$PROJECT_DIR$/.idea/nl-covid19-notification-app-android-new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/nl-covid19-notification-app-android-new.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/nl-covid19-notification-app-android-new.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/nl-covid19-notification-app-android-new.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/nl-covid19-notification-app-android-new.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/en-api/nl-covid19-notification-app-android-new.en-api.iml" filepath="$PROJECT_DIR$/.idea/modules/en-api/nl-covid19-notification-app-android-new.en-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/play-services-nearby-eap/nl-covid19-notification-app-android-new.play-services-nearby-eap.iml" filepath="$PROJECT_DIR$/.idea/modules/play-services-nearby-eap/nl-covid19-notification-app-android-new.play-services-nearby-eap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/signing/nl-covid19-notification-app-android-new.signing.iml" filepath="$PROJECT_DIR$/.idea/modules/signing/nl-covid19-notification-app-android-new.signing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-support/nl-covid19-notification-app-android-new.test-support.iml" filepath="$PROJECT_DIR$/.idea/modules/test-support/nl-covid19-notification-app-android-new.test-support.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="net.programmierecke.radiodroid2.tests.UIFavouritesFragmentTest" tests="48" failures="0" errors="0" skipped="3" time="1835.177" timestamp="2021-12-31T02:38:23" hostname="localhost">
+  <properties>
+    <property name="device" value="POCO F1 - 10" />
+    <property name="flavor" value="freeDebugAndroidTest" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="stationInFavourites_ShouldBeDeleted_WithSwipeRight[orientation=1]" classname="net.programmierecke.radiodroid2.tests.UIFavouritesFragmentTest" time="8.799" />
+  <testcase name="stationsRecyclerFavourites_ShouldRecycleItems[orientation=1]" classname="net.programmierecke.radiodroid2.tests.UIFavouritesFragmentTest" time="6.58" />
+  <testcase name="stationInFavourites_ShouldBeReordered_WithDragAndDrop[orientation=1]" classname="net.programmierecke.radiodroid2.tests.UIFavouritesFragmentTest" time="0.001">
+    <skipped />
+  </testcase>
+  <testcase name="stationInFavourites_ShouldBeDeleted_WithSwipeRight[orientation=0]" classname="net.programmierecke.radiodroid2.tests.UIFavouritesFragmentTest" time="8.722" />
+  <testcase name="stationsRecyclerFavourites_ShouldRecycleItems[orientation=0]" classname="net.programmierecke.radiodroid2.tests.UIFavouritesFragmentTest" time="6.906" />
+  <testcase name="stationInFavourites_ShouldBeReordered_WithDragAndDrop[orientation=0]" classname="net.programmierecke.radiodroid2.tests.UIFavouritesFragmentTest" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase name="stationsRecyclerHistory_ShouldRecycleItems[orientation=1]" classname="net.programmierecke.radiodroid2.tests.UIHistoryFragmentTest" time="6.53" />
+  <testcase name="stationInHistory_ShouldBeDeleted_WithSwipeRight[orientation=1]" classname="net.programmierecke.radiodroid2.tests.UIHistoryFragmentTest" time="8.445" />
+  <testcase name="stationsInHistory_ShouldNotBeReordered_WithDragAndDrop[orientation=1]" classname="net.programmierecke.radiodroid2.tests.UIHistoryFragmentTest" time="9.076" />
+  <testcase name="stationsRecyclerHistory_ShouldRecycleItems[orientation=0]" classname="net.programmierecke.radiodroid2.tests.UIHistoryFragmentTest" time="6.933" />
+  <testcase name="stationInHistory_ShouldBeDeleted_WithSwipeRight[orientation=0]" classname="net.programmierecke.radiodroid2.tests.UIHistoryFragmentTest" time="8.621" />
+  <testcase name="stationsInHistory_ShouldNotBeReordered_WithDragAndDrop[orientation=0]" classname="net.programmierecke.radiodroid2.tests.UIHistoryFragmentTest" time="8.999" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=en]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.648" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=ca]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.594" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=cs]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.773" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=da]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.595" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=de]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.773" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=el]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.596" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=es]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.545" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=fi]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.597" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=fr]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.546" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=hu]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.596" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=in]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.621" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=it]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.673" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=nl]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.696" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=nn]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.647" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=pl]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.646" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=pt_BR]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.647" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=ru]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.497" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=sk]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.672" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=tr]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.672" />
+  <testcase name="application_ShouldNotCrash_WithLanguage[locale=zh_CN]" classname="net.programmierecke.radiodroid2.tests.UILangTest" time="8.595" />
+  <testcase name="playback_ShouldPause_OnPauseFromNotification" classname="net.programmierecke.radiodroid2.tests.UINotificationTests" time="8.445" />
+  <testcase name="playback_ShouldStart_OnResumeFromNotification" classname="net.programmierecke.radiodroid2.tests.UINotificationTests" time="8.595" />
+  <testcase name="error_ShouldAppear_OnStreamPayWall" classname="net.programmierecke.radiodroid2.tests.UIPlaybackTest" time="6.378" />
+  <testcase name="error_ShouldAppear_OnStreamErrorCode" classname="net.programmierecke.radiodroid2.tests.UIPlaybackTest" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase name="stationsFragment_ShouldNotCrash_WhenScreenRotated" classname="net.programmierecke.radiodroid2.tests.UIRotationTest" time="6.605" />
+  <testcase name="settingsFragment_ShouldNotCrash_WhenScreenRotated" classname="net.programmierecke.radiodroid2.tests.UIRotationTest" time="6.907" />
+  <testcase name="favouritesFragment_ShouldNotCrash_WhenScreenRotated" classname="net.programmierecke.radiodroid2.tests.UIRotationTest" time="6.959" />
+  <testcase name="historyFragment_ShouldNotCrash_WhenScreenRotated" classname="net.programmierecke.radiodroid2.tests.UIRotationTest" time="6.934" />
+  <testcase name="playback_ShouldNotStop_WhenScreenRotated" classname="net.programmierecke.radiodroid2.tests.UIRotationTest" time="7.612" />
+  <testcase name="playBackState_ShouldBeCorrect_AfterRapidToggling" classname="net.programmierecke.radiodroid2.tests.UISmallPlayerTest" time="11.873" />
+  <testcase name="stationListItem_ShouldStartPlayBack_WhenClicked" classname="net.programmierecke.radiodroid2.tests.UISmallPlayerTest" time="6.428" />
+  <testcase name="mainActivity_ShouldNotCrash_WhenLaunched[orientation=1]" classname="net.programmierecke.radiodroid2.tests.UIStationListsTest" time="5.95" />
+  <testcase name="stationTabs_DoWork_WhenSwiped[orientation=1]" classname="net.programmierecke.radiodroid2.tests.UIStationListsTest" time="12.83" />
+  <testcase name="mainActivity_ShouldNotCrash_WhenLaunched[orientation=0]" classname="net.programmierecke.radiodroid2.tests.UIStationListsTest" time="6.505" />
+  <testcase name="stationTabs_DoWork_WhenSwiped[orientation=0]" classname="net.programmierecke.radiodroid2.tests.UIStationListsTest" time="11.446" />
+  <testcase name="stationTag_ShouldSearchStationsByTag_WhenClicked" classname="net.programmierecke.radiodroid2.tests.UIStationTagsTest" time="6.63" />
+</testsuite>

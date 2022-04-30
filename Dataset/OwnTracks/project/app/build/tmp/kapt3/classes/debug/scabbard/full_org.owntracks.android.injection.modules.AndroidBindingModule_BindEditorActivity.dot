@@ -1,0 +1,30 @@
+digraph "org.owntracks.android.injection.modules.AndroidBindingModule_BindEditorActivity" {
+  graph [rankdir="LR", labeljust="l", label="AndroidBindingModule_BindEditorActivity", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "c4e87d6e-5ee2-4608-85b2-7cc1a858cf6c" [label="AndroidBindingModule_BindEditorActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "7873f219-bc95-4696-ab5a-6a56dabaf253" [label="EditorActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "8dd767f1-32e8-4597-8916-bbf51494b92f" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "41d7812b-3fd2-4734-a516-8b08730d9020" [label="org.owntracks.android.data.repos.WaypointsRepo", color="firebrick1"]
+    "7b0ba004-1889-4f43-bd2f-af3067268049" [label="java.util.Map<java.lang.String,javax.inject.Provider<dagger.android.AndroidInjector.Factory<?>>>", color="firebrick1"]
+    "12e861c0-fb01-40fa-b200-0c3d4d1f1f47" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "743fbd09-5f47-4e66-b8d1-3ad68467cd9e" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "1a8e1fef-c9c4-4bb6-b2e2-3ce31c732764" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "c4e87d6e-5ee2-4608-85b2-7cc1a858cf6c" [label="AndroidBindingModule_BindEditorActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "2fab6c86-de8e-4638-b26f-fab9aa4d55bd" [label="@PerActivity\nAndroidBindingModule_BindEditorActivity.EditorActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindEditorActivity.EditorActivitySubcomponent.svg", color="aquamarine"]
+  }
+  "1a8e1fef-c9c4-4bb6-b2e2-3ce31c732764" -> "c4e87d6e-5ee2-4608-85b2-7cc1a858cf6c"
+  "c4e87d6e-5ee2-4608-85b2-7cc1a858cf6c" -> "7873f219-bc95-4696-ab5a-6a56dabaf253" [style="dotted", label="delegates"]
+  "7873f219-bc95-4696-ab5a-6a56dabaf253" -> "2fab6c86-de8e-4638-b26f-fab9aa4d55bd" [style="dashed", label="subcomponent", headport="w"]
+}

@@ -1,0 +1,20 @@
+digraph "org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindPreferencesActivity.PreferencesActivitySubcomponent → org.owntracks.android.ui.preferences.PreferencesActivityModule_BindNotificationPreferencesFragment.NotificationFragmentSubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AppComponent → AndroidBindingModule_BindPreferencesActivity.PreferencesActivitySubcomponent → PreferencesActivityModule_BindNotificationPreferencesFragment.NotificationFragmentSubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "60d0ba45-1b57-4747-bcde-9c4a492e3647" [label="inject (NotificationFragment)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_AppComponent" {
+    graph [labeljust="c", label="Inherited from AppComponent\n@Singleton", style="dashed", href="org.owntracks.android.injection.components.AppComponent.svg", color="aquamarine"]
+    "3d11930c-6476-44d3-b5d5-9f77a89299dc" [label="@Singleton\nPreferences", color="aquamarine"]
+  }
+  "60d0ba45-1b57-4747-bcde-9c4a492e3647" -> "3d11930c-6476-44d3-b5d5-9f77a89299dc"
+}

@@ -1,0 +1,27 @@
+digraph "org.owntracks.android.data.repos.ObjectboxWaypointsModule" {
+  graph [rankdir="LR", labeljust="l", label="ObjectboxWaypointsModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "c2236278-7b35-465d-9861-52c78c658ee9" [label="WaypointsRepo", color="turquoise"]
+    "391fbfc3-6be2-4a33-b320-28c4964d95a7" [label="@Singleton\nObjectboxWaypointsRepo", color="aquamarine"]
+    "837ef4cf-f616-4808-a3aa-65e64d444c14" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "d23177c1-2d78-4b2e-a637-9f2d05fa651c" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "4eacff62-28ba-490e-8f57-691f9b6a3b32" [label="@Singleton\nPreferences", color="aquamarine"]
+    "144fbf74-e37f-4d97-811f-46c346fad09e" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "c2236278-7b35-465d-9861-52c78c658ee9" -> "391fbfc3-6be2-4a33-b320-28c4964d95a7" [style="dotted", label="delegates"]
+  "391fbfc3-6be2-4a33-b320-28c4964d95a7" -> "837ef4cf-f616-4808-a3aa-65e64d444c14" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "391fbfc3-6be2-4a33-b320-28c4964d95a7" -> "d23177c1-2d78-4b2e-a637-9f2d05fa651c" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "391fbfc3-6be2-4a33-b320-28c4964d95a7" -> "4eacff62-28ba-490e-8f57-691f9b6a3b32"
+  "4eacff62-28ba-490e-8f57-691f9b6a3b32" -> "837ef4cf-f616-4808-a3aa-65e64d444c14" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "4eacff62-28ba-490e-8f57-691f9b6a3b32" -> "d23177c1-2d78-4b2e-a637-9f2d05fa651c" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "4eacff62-28ba-490e-8f57-691f9b6a3b32" -> "144fbf74-e37f-4d97-811f-46c346fad09e" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+}

@@ -1,0 +1,7 @@
+#Sat Dec 18 08:41:30 BRT 2021
+base.1=/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/owntracks/project/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/classes.dex
+path.1=classes.dex
+base.0=/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/owntracks/project/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

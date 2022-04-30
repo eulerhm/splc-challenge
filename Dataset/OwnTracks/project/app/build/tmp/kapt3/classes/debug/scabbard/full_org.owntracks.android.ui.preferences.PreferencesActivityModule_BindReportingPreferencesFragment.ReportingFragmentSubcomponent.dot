@@ -1,0 +1,21 @@
+digraph "org.owntracks.android.ui.preferences.PreferencesActivityModule → org.owntracks.android.ui.preferences.PreferencesActivityModule_BindReportingPreferencesFragment.ReportingFragmentSubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="PreferencesActivityModule → PreferencesActivityModule_BindReportingPreferencesFragment.ReportingFragmentSubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "9d6d2043-c138-4098-9e72-0bf8d0742bc9" [label="inject (ReportingFragment)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "2d7f3412-d9e7-4a48-8a73-e08d2c34d973" [label="@Singleton\nPreferences", color="yellow1"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_PreferencesActivityModule → PreferencesActivityModule_BindReportingPreferencesFragment.ReportingFragmentSubcomponent" {
+    graph [labeljust="c", label="Inherited from PreferencesActivityModule_BindReportingPreferencesFragment.ReportingFragmentSubcomponent\n@PerFragment", style="dashed", href="full_org.owntracks.android.ui.preferences.PreferencesActivityModule_BindReportingPreferencesFragment.ReportingFragmentSubcomponent.svg", color="bisque"]
+    "2d7f3412-d9e7-4a48-8a73-e08d2c34d973" [label="@Singleton\nPreferences", color="yellow1"]
+  }
+  "9d6d2043-c138-4098-9e72-0bf8d0742bc9" -> "2d7f3412-d9e7-4a48-8a73-e08d2c34d973"
+}

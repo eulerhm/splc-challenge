@@ -1,0 +1,840 @@
+-- Merging decision tree log ---
+provider#androidx.work.impl.WorkManagerInitializer
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:74:9-77:35
+REJECTED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+	android:authorities
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:2:1-80:12
+MERGED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:2:1-80:12
+MERGED from [androidx.databinding:databinding-adapters:4.2.1] /home/eulerhm/.gradle/caches/transforms-3/33b9ead96ac6b5d612505f0a4ebd5340/transformed/databinding-adapters-4.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:databinding-runtime:4.2.1] /home/eulerhm/.gradle/caches/transforms-3/a02c1e98ebe362b6631d048faf430dc0/transformed/databinding-runtime-4.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:4.2.1] /home/eulerhm/.gradle/caches/transforms-3/b30efd97a0d921042f3a20f3948ce578/transformed/viewbinding-4.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [:api] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/api/build/intermediates/merged_manifest/accDebug/AndroidManifest.xml:2:1-9:12
+MERGED from [:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:1-28:12
+MERGED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:17:1-40:12
+MERGED from [:en-api] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/en-api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:signing] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/signing/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:1-18:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/e721d7dae39dee4358868d17ae03a0a5/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/a7fde552c5708cb1679fbcf14f99a9e6/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/9fd5770b9dff6036e7cedbf17f66f767/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/eulerhm/.gradle/caches/transforms-3/967e9e06cacd8439299efbd44bc5245b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:3.4.1] /home/eulerhm/.gradle/caches/transforms-3/27fb96f2018e233e18890466c7720095/transformed/lottie-3.4.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference-ktx:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/f4ca289f68e6a898e45b163117d91f1e/transformed/preference-ktx-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/999f88b3b1b803fefc2e9d26cf1b799a/transformed/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/4caf9101772b0f09faf7c5ede17ac0c2/transformed/appcompat-1.3.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/1c63c108b447a77689b1886a30bce47b/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/5bc7ee1b2aa360c94205e0ad632c0a06/transformed/fragment-ktx-1.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-testing:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/5ae5a11c0c3eaead7fbd2526e48b7d70/transformed/navigation-testing-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/7d24739d622d13c2a8589230956da417/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.3] /home/eulerhm/.gradle/caches/transforms-3/12d5d5b81683e715d8ecc7129517113f/transformed/activity-ktx-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [dev.chrisbanes.insetter:insetter:0.5.0] /home/eulerhm/.gradle/caches/transforms-3/eba4074c10c48202455b482e9ee9ba5c/transformed/insetter-0.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/c44259b7a051356c58df87e847eb8ba9/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.5.0-beta01] /home/eulerhm/.gradle/caches/transforms-3/ee6f89c803b6afb3c2a61199175d63dd/transformed/core-ktx-1.5.0-beta01/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.browser:browser:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/37f13951b449dfc0172cf6cb48f7eb77/transformed/browser-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/248fbebc7451b021e90f5fd922962132/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/115f3d568e687d89dd83d107fdb3f376/transformed/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/a3913c08c0355f36de7a445371ee752c/transformed/work-runtime-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /home/eulerhm/.gradle/caches/transforms-3/0b4c3955c25f116b9912935f2522c820/transformed/security-crypto-1.1.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/eulerhm/.gradle/caches/transforms-3/6685ea1a63bde9011ab577c61a4f8998/transformed/timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.play:core-ktx:1.8.1] /home/eulerhm/.gradle/caches/transforms-3/bb5d514e605b943263c728c9c5250788/transformed/core-ktx-1.8.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /home/eulerhm/.gradle/caches/transforms-3/0aae8b78eefc0351889b9aea7afc24b3/transformed/play-services-tasks-17.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/ee0381ecb3796d31f9c86897c9dba637/transformed/play-services-basement-17.6.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.xwray:groupie:2.8.1] /home/eulerhm/.gradle/caches/transforms-3/ff9b3aad3129b211ccca6beba3fd9ba2/transformed/groupie-2.8.1/AndroidManifest.xml:2:1-14:12
+MERGED from [com.xwray:groupie-viewbinding:2.8.1] /home/eulerhm/.gradle/caches/transforms-3/772bbfd8d736ca811dbb163e7e61d3bc/transformed/groupie-viewbinding-2.8.1/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.test:core-ktx:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/744ced549f9594c3ec224e3ac65170a9/transformed/core-ktx-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:17:1-50:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/720b1ace29d2270c099ff063952725a7/transformed/appcompat-resources-1.3.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/566c14bdf701c3142cf5cba0b27bd272/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/6fd03d4692fb8b921ef7fc239bc8111c/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/5b85f90a4a904b32d78b2eee6c1cfee7/transformed/fragment-1.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/b4300dea06fc5c70c840b0730dc8b6e6/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /home/eulerhm/.gradle/caches/transforms-3/d8ff1556b0c913827e4dab36a526dfc1/transformed/activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:17:1-143:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/f296cbfb9dc744f3af89b60a423dbf98/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/587bbddf2e99f7c04dcf5398666fc867/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/849c14d2787347c9ad1f1532471df95c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/cd73b8dd3fd8533e614eeebb3bfe117b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8463a92bb5b2d08f8edff52ccf8072a0/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/22b37c2bace38ba8e6a92dc6dd1ab44b/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/696503bc8109ac3f4807780eb4648c96/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/11f17ca0bf460def93c58cd8b1b88a8b/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/9479d2cb8366d503d66a9a4f61bb9489/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/2b5b4f4f1214401c322db4e22d32a327/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/ad98553c148b6f7f077551384fff6c54/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/da0181d2342f80991df651af8556f66f/transformed/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/7d89cdc6479e8ac6238ccf21f147edbc/transformed/core-1.5.0-rc01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/4e21ff5e5404ac2925d3bd5f65e806f7/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/2bcf2db66f40fca326d95d8de9212d34/transformed/lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/1359691d3c3540c3c3e5c8e2752e3d85/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/8245c1f8e03e60b689015970883727d9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/af054a041ac3ccec29889e26b1681ff9/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/1e93cd4f7ba654814a418db93063d940/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/6ef125906762ab5c6250585038da36bb/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/e7cba5b855809f76dad9201b192cfd13/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/35a5d18d6dfc253cb13751a5674ecf80/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/c65270c467ccf96f3bfc923c7fb1ed2c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/9881d90c413fde705953915a7ab461d3/transformed/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/7a066605de794324270b1a59e6fc8dce/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/6532c969f20fe8840af18c5adb1a7a91/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/74fb18803271b1387511204512f7e027/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test:monitor:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/79b1db7f10ee41b96773bfeb9cc0cef7/transformed/monitor-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/170e8e13eb33d9d2d256e11f96ea2cdc/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/e02fb0f255f603398f70e43f0b27ab4c/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/4971cd63b5997f146a7d2ec9fb38332c/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/e6c30086b40884607b2fd499acfe8aaa/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/76ff6fa2afeea3832a0c8956819ed80e/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/ffe399445e18073d8d2147af2eb76866/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/b5eca99be58d528cfe0c05f9dab0c49d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/1d97f1892b732e31d9b728c77ad8de86/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:2:1-80:12
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:2:1-80:12
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.bluetooth_le
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:6:5-8:35
+	android:required
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:8:9-32
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:7:9-53
+uses-feature#android.hardware.bluetooth
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:9:5-63
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:9:19-60
+uses-permission#android.permission.INTERNET
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:11:5-67
+MERGED from [:signing] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/signing/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-67
+MERGED from [:signing] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/signing/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:13:5-95
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:13:22-92
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:14:5-81
+MERGED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+MERGED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:16:5-73
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:16:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:18:5-79
+MERGED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:26:5-79
+MERGED from [:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:7:5-79
+MERGED from [:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:19:22-73
+application
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:22:5-78:19
+MERGED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:22:5-78:19
+MERGED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:22:5-78:19
+MERGED from [:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-26:19
+MERGED from [:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-26:19
+MERGED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:27:5-38:19
+MERGED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.android.material:material:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/9fd5770b9dff6036e7cedbf17f66f767/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/9fd5770b9dff6036e7cedbf17f66f767/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/eulerhm/.gradle/caches/transforms-3/967e9e06cacd8439299efbd44bc5245b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/eulerhm/.gradle/caches/transforms-3/967e9e06cacd8439299efbd44bc5245b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.1] /home/eulerhm/.gradle/caches/transforms-3/27fb96f2018e233e18890466c7720095/transformed/lottie-3.4.1/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.1] /home/eulerhm/.gradle/caches/transforms-3/27fb96f2018e233e18890466c7720095/transformed/lottie-3.4.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:24:5-30:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/eulerhm/.gradle/caches/transforms-3/6685ea1a63bde9011ab577c61a4f8998/transformed/timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/eulerhm/.gradle/caches/transforms-3/6685ea1a63bde9011ab577c61a4f8998/transformed/timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.play:core-ktx:1.8.1] /home/eulerhm/.gradle/caches/transforms-3/bb5d514e605b943263c728c9c5250788/transformed/core-ktx-1.8.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.play:core-ktx:1.8.1] /home/eulerhm/.gradle/caches/transforms-3/bb5d514e605b943263c728c9c5250788/transformed/core-ktx-1.8.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:10:3-21:17
+MERGED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:10:3-21:17
+MERGED from [com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /home/eulerhm/.gradle/caches/transforms-3/0aae8b78eefc0351889b9aea7afc24b3/transformed/play-services-tasks-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /home/eulerhm/.gradle/caches/transforms-3/0aae8b78eefc0351889b9aea7afc24b3/transformed/play-services-tasks-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/ee0381ecb3796d31f9c86897c9dba637/transformed/play-services-basement-17.6.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/ee0381ecb3796d31f9c86897c9dba637/transformed/play-services-basement-17.6.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.xwray:groupie:2.8.1] /home/eulerhm/.gradle/caches/transforms-3/ff9b3aad3129b211ccca6beba3fd9ba2/transformed/groupie-2.8.1/AndroidManifest.xml:11:5-12:19
+MERGED from [com.xwray:groupie:2.8.1] /home/eulerhm/.gradle/caches/transforms-3/ff9b3aad3129b211ccca6beba3fd9ba2/transformed/groupie-2.8.1/AndroidManifest.xml:11:5-12:19
+MERGED from [com.xwray:groupie-viewbinding:2.8.1] /home/eulerhm/.gradle/caches/transforms-3/772bbfd8d736ca811dbb163e7e61d3bc/transformed/groupie-viewbinding-2.8.1/AndroidManifest.xml:11:5-12:19
+MERGED from [com.xwray:groupie-viewbinding:2.8.1] /home/eulerhm/.gradle/caches/transforms-3/772bbfd8d736ca811dbb163e7e61d3bc/transformed/groupie-viewbinding-2.8.1/AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:26:5-48:19
+MERGED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:26:5-48:19
+MERGED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.core:core:1.5.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/7d89cdc6479e8ac6238ccf21f147edbc/transformed/core-1.5.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/7d89cdc6479e8ac6238ccf21f147edbc/transformed/core-1.5.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/35a5d18d6dfc253cb13751a5674ecf80/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/35a5d18d6dfc253cb13751a5674ecf80/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:9:5-14:19
+MERGED from [:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:9:5-14:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/7d89cdc6479e8ac6238ccf21f147edbc/transformed/core-1.5.0-rc01/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:28:9-35
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:26:9-41
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:26:9-41
+	android:roundIcon
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:27:9-54
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:27:9-54
+	tools:targetApi
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml:7:9-28
+	android:icon
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:25:9-43
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:25:9-43
+	android:allowBackup
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:24:9-36
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:24:9-36
+	android:networkSecurityConfig
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml:5:9-60
+	android:theme
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:29:9-49
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:29:9-49
+	android:usesCleartextTraffic
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml:6:9-44
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:23:9-57
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:23:9-57
+activity#nl.rijksoverheid.en.MainActivity
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:30:9-35:20
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:30:19-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:31:13-34:29
+action#android.intent.action.MAIN
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:33:27-74
+receiver#nl.rijksoverheid.en.notifier.DismissReminderReceiver
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:37:9-70
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:37:19-67
+receiver#nl.rijksoverheid.en.job.SyncIssuesReceiver
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:38:9-60
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:38:19-57
+receiver#nl.rijksoverheid.en.update.UpdateReceiver
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:40:9-44:20
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:40:19-56
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:41:13-43:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:42:17-84
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:42:25-81
+receiver#nl.rijksoverheid.en.settings.ExposureNotificationsStateChangeReceiver
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:46:9-52:20
+	android:permission
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:48:13-102
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:47:13-78
+intent-filter#action:name:com.google.android.gms.exposurenotification.ACTION_SERVICE_STATE_UPDATED
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:49:13-51:29
+action#com.google.android.gms.exposurenotification.ACTION_SERVICE_STATE_UPDATED
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:50:17-115
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:50:25-112
+receiver#nl.rijksoverheid.en.settings.ExposureNotificationsPausedReminderReceiver
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:55:13-81
+receiver#nl.rijksoverheid.en.settings.ExposureNotificationsPausedBootReceiver
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:58:9-62:20
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:58:19-83
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:59:13-61:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:60:17-79
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:60:25-76
+receiver#nl.rijksoverheid.en.notification.ExposureNotificationReceiver
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:64:9-71:20
+	android:permission
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:66:13-102
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:65:13-70
+intent-filter#action:name:com.google.android.gms.exposurenotification.ACTION_EXPOSURE_NOT_FOUND+action:name:com.google.android.gms.exposurenotification.ACTION_EXPOSURE_STATE_UPDATED
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:67:13-70:29
+action#com.google.android.gms.exposurenotification.ACTION_EXPOSURE_STATE_UPDATED
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:68:17-116
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:68:25-113
+action#com.google.android.gms.exposurenotification.ACTION_EXPOSURE_NOT_FOUND
+ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:69:17-112
+	android:name
+		ADDED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:69:25-109
+uses-sdk
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.2.1] /home/eulerhm/.gradle/caches/transforms-3/33b9ead96ac6b5d612505f0a4ebd5340/transformed/databinding-adapters-4.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.2.1] /home/eulerhm/.gradle/caches/transforms-3/33b9ead96ac6b5d612505f0a4ebd5340/transformed/databinding-adapters-4.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.2.1] /home/eulerhm/.gradle/caches/transforms-3/a02c1e98ebe362b6631d048faf430dc0/transformed/databinding-runtime-4.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.2.1] /home/eulerhm/.gradle/caches/transforms-3/a02c1e98ebe362b6631d048faf430dc0/transformed/databinding-runtime-4.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.1] /home/eulerhm/.gradle/caches/transforms-3/b30efd97a0d921042f3a20f3948ce578/transformed/viewbinding-4.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.1] /home/eulerhm/.gradle/caches/transforms-3/b30efd97a0d921042f3a20f3948ce578/transformed/viewbinding-4.2.1/AndroidManifest.xml:20:5-44
+MERGED from [:api] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/api/build/intermediates/merged_manifest/accDebug/AndroidManifest.xml:5:5-7:41
+MERGED from [:api] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/api/build/intermediates/merged_manifest/accDebug/AndroidManifest.xml:5:5-7:41
+MERGED from [:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-14:41
+MERGED from [:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:20:5-23:54
+MERGED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:20:5-23:54
+MERGED from [:en-api] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/en-api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:en-api] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/en-api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:signing] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/signing/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-14:41
+MERGED from [:signing] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/signing/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/e721d7dae39dee4358868d17ae03a0a5/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/e721d7dae39dee4358868d17ae03a0a5/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/a7fde552c5708cb1679fbcf14f99a9e6/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/a7fde552c5708cb1679fbcf14f99a9e6/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/9fd5770b9dff6036e7cedbf17f66f767/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/9fd5770b9dff6036e7cedbf17f66f767/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/eulerhm/.gradle/caches/transforms-3/967e9e06cacd8439299efbd44bc5245b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/eulerhm/.gradle/caches/transforms-3/967e9e06cacd8439299efbd44bc5245b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.1] /home/eulerhm/.gradle/caches/transforms-3/27fb96f2018e233e18890466c7720095/transformed/lottie-3.4.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.1] /home/eulerhm/.gradle/caches/transforms-3/27fb96f2018e233e18890466c7720095/transformed/lottie-3.4.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/f4ca289f68e6a898e45b163117d91f1e/transformed/preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/f4ca289f68e6a898e45b163117d91f1e/transformed/preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/999f88b3b1b803fefc2e9d26cf1b799a/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/999f88b3b1b803fefc2e9d26cf1b799a/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/4caf9101772b0f09faf7c5ede17ac0c2/transformed/appcompat-1.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/4caf9101772b0f09faf7c5ede17ac0c2/transformed/appcompat-1.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/1c63c108b447a77689b1886a30bce47b/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/1c63c108b447a77689b1886a30bce47b/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/5bc7ee1b2aa360c94205e0ad632c0a06/transformed/fragment-ktx-1.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/5bc7ee1b2aa360c94205e0ad632c0a06/transformed/fragment-ktx-1.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-testing:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/5ae5a11c0c3eaead7fbd2526e48b7d70/transformed/navigation-testing-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-testing:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/5ae5a11c0c3eaead7fbd2526e48b7d70/transformed/navigation-testing-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/7d24739d622d13c2a8589230956da417/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/7d24739d622d13c2a8589230956da417/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] /home/eulerhm/.gradle/caches/transforms-3/12d5d5b81683e715d8ecc7129517113f/transformed/activity-ktx-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] /home/eulerhm/.gradle/caches/transforms-3/12d5d5b81683e715d8ecc7129517113f/transformed/activity-ktx-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [dev.chrisbanes.insetter:insetter:0.5.0] /home/eulerhm/.gradle/caches/transforms-3/eba4074c10c48202455b482e9ee9ba5c/transformed/insetter-0.5.0/AndroidManifest.xml:20:5-44
+MERGED from [dev.chrisbanes.insetter:insetter:0.5.0] /home/eulerhm/.gradle/caches/transforms-3/eba4074c10c48202455b482e9ee9ba5c/transformed/insetter-0.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/c44259b7a051356c58df87e847eb8ba9/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/c44259b7a051356c58df87e847eb8ba9/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.5.0-beta01] /home/eulerhm/.gradle/caches/transforms-3/ee6f89c803b6afb3c2a61199175d63dd/transformed/core-ktx-1.5.0-beta01/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0-beta01] /home/eulerhm/.gradle/caches/transforms-3/ee6f89c803b6afb3c2a61199175d63dd/transformed/core-ktx-1.5.0-beta01/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.browser:browser:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/37f13951b449dfc0172cf6cb48f7eb77/transformed/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/37f13951b449dfc0172cf6cb48f7eb77/transformed/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/248fbebc7451b021e90f5fd922962132/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/248fbebc7451b021e90f5fd922962132/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/115f3d568e687d89dd83d107fdb3f376/transformed/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/115f3d568e687d89dd83d107fdb3f376/transformed/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/a3913c08c0355f36de7a445371ee752c/transformed/work-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/a3913c08c0355f36de7a445371ee752c/transformed/work-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /home/eulerhm/.gradle/caches/transforms-3/0b4c3955c25f116b9912935f2522c820/transformed/security-crypto-1.1.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /home/eulerhm/.gradle/caches/transforms-3/0b4c3955c25f116b9912935f2522c820/transformed/security-crypto-1.1.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/eulerhm/.gradle/caches/transforms-3/6685ea1a63bde9011ab577c61a4f8998/transformed/timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/eulerhm/.gradle/caches/transforms-3/6685ea1a63bde9011ab577c61a4f8998/transformed/timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.play:core-ktx:1.8.1] /home/eulerhm/.gradle/caches/transforms-3/bb5d514e605b943263c728c9c5250788/transformed/core-ktx-1.8.1/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.play:core-ktx:1.8.1] /home/eulerhm/.gradle/caches/transforms-3/bb5d514e605b943263c728c9c5250788/transformed/core-ktx-1.8.1/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /home/eulerhm/.gradle/caches/transforms-3/0aae8b78eefc0351889b9aea7afc24b3/transformed/play-services-tasks-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /home/eulerhm/.gradle/caches/transforms-3/0aae8b78eefc0351889b9aea7afc24b3/transformed/play-services-tasks-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/ee0381ecb3796d31f9c86897c9dba637/transformed/play-services-basement-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/ee0381ecb3796d31f9c86897c9dba637/transformed/play-services-basement-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.xwray:groupie:2.8.1] /home/eulerhm/.gradle/caches/transforms-3/ff9b3aad3129b211ccca6beba3fd9ba2/transformed/groupie-2.8.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie:2.8.1] /home/eulerhm/.gradle/caches/transforms-3/ff9b3aad3129b211ccca6beba3fd9ba2/transformed/groupie-2.8.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie-viewbinding:2.8.1] /home/eulerhm/.gradle/caches/transforms-3/772bbfd8d736ca811dbb163e7e61d3bc/transformed/groupie-viewbinding-2.8.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie-viewbinding:2.8.1] /home/eulerhm/.gradle/caches/transforms-3/772bbfd8d736ca811dbb163e7e61d3bc/transformed/groupie-viewbinding-2.8.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.test:core-ktx:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/744ced549f9594c3ec224e3ac65170a9/transformed/core-ktx-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core-ktx:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/744ced549f9594c3ec224e3ac65170a9/transformed/core-ktx-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/720b1ace29d2270c099ff063952725a7/transformed/appcompat-resources-1.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/720b1ace29d2270c099ff063952725a7/transformed/appcompat-resources-1.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/566c14bdf701c3142cf5cba0b27bd272/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/566c14bdf701c3142cf5cba0b27bd272/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/6fd03d4692fb8b921ef7fc239bc8111c/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/6fd03d4692fb8b921ef7fc239bc8111c/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/5b85f90a4a904b32d78b2eee6c1cfee7/transformed/fragment-1.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/5b85f90a4a904b32d78b2eee6c1cfee7/transformed/fragment-1.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/b4300dea06fc5c70c840b0730dc8b6e6/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/b4300dea06fc5c70c840b0730dc8b6e6/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /home/eulerhm/.gradle/caches/transforms-3/d8ff1556b0c913827e4dab36a526dfc1/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /home/eulerhm/.gradle/caches/transforms-3/d8ff1556b0c913827e4dab36a526dfc1/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/f296cbfb9dc744f3af89b60a423dbf98/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/f296cbfb9dc744f3af89b60a423dbf98/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/587bbddf2e99f7c04dcf5398666fc867/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/587bbddf2e99f7c04dcf5398666fc867/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/849c14d2787347c9ad1f1532471df95c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/849c14d2787347c9ad1f1532471df95c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/cd73b8dd3fd8533e614eeebb3bfe117b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/cd73b8dd3fd8533e614eeebb3bfe117b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8463a92bb5b2d08f8edff52ccf8072a0/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8463a92bb5b2d08f8edff52ccf8072a0/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/22b37c2bace38ba8e6a92dc6dd1ab44b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/22b37c2bace38ba8e6a92dc6dd1ab44b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/696503bc8109ac3f4807780eb4648c96/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/696503bc8109ac3f4807780eb4648c96/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/11f17ca0bf460def93c58cd8b1b88a8b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/11f17ca0bf460def93c58cd8b1b88a8b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/9479d2cb8366d503d66a9a4f61bb9489/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/9479d2cb8366d503d66a9a4f61bb9489/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/2b5b4f4f1214401c322db4e22d32a327/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/2b5b4f4f1214401c322db4e22d32a327/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/ad98553c148b6f7f077551384fff6c54/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/ad98553c148b6f7f077551384fff6c54/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/da0181d2342f80991df651af8556f66f/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/eulerhm/.gradle/caches/transforms-3/da0181d2342f80991df651af8556f66f/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/7d89cdc6479e8ac6238ccf21f147edbc/transformed/core-1.5.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/7d89cdc6479e8ac6238ccf21f147edbc/transformed/core-1.5.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/4e21ff5e5404ac2925d3bd5f65e806f7/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/4e21ff5e5404ac2925d3bd5f65e806f7/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/2bcf2db66f40fca326d95d8de9212d34/transformed/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/2bcf2db66f40fca326d95d8de9212d34/transformed/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/1359691d3c3540c3c3e5c8e2752e3d85/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/1359691d3c3540c3c3e5c8e2752e3d85/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/8245c1f8e03e60b689015970883727d9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/8245c1f8e03e60b689015970883727d9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/af054a041ac3ccec29889e26b1681ff9/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/af054a041ac3ccec29889e26b1681ff9/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/1e93cd4f7ba654814a418db93063d940/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/1e93cd4f7ba654814a418db93063d940/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/6ef125906762ab5c6250585038da36bb/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/6ef125906762ab5c6250585038da36bb/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/e7cba5b855809f76dad9201b192cfd13/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/e7cba5b855809f76dad9201b192cfd13/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/35a5d18d6dfc253cb13751a5674ecf80/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/35a5d18d6dfc253cb13751a5674ecf80/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/c65270c467ccf96f3bfc923c7fb1ed2c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/c65270c467ccf96f3bfc923c7fb1ed2c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/9881d90c413fde705953915a7ab461d3/transformed/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/9881d90c413fde705953915a7ab461d3/transformed/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/7a066605de794324270b1a59e6fc8dce/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/7a066605de794324270b1a59e6fc8dce/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/6532c969f20fe8840af18c5adb1a7a91/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/6532c969f20fe8840af18c5adb1a7a91/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/74fb18803271b1387511204512f7e027/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/74fb18803271b1387511204512f7e027/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:monitor:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/79b1db7f10ee41b96773bfeb9cc0cef7/transformed/monitor-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/79b1db7f10ee41b96773bfeb9cc0cef7/transformed/monitor-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/170e8e13eb33d9d2d256e11f96ea2cdc/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/170e8e13eb33d9d2d256e11f96ea2cdc/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/e02fb0f255f603398f70e43f0b27ab4c/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/e02fb0f255f603398f70e43f0b27ab4c/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/4971cd63b5997f146a7d2ec9fb38332c/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/4971cd63b5997f146a7d2ec9fb38332c/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/e6c30086b40884607b2fd499acfe8aaa/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/eulerhm/.gradle/caches/transforms-3/e6c30086b40884607b2fd499acfe8aaa/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/76ff6fa2afeea3832a0c8956819ed80e/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/76ff6fa2afeea3832a0c8956819ed80e/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/ffe399445e18073d8d2147af2eb76866/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/ffe399445e18073d8d2147af2eb76866/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/b5eca99be58d528cfe0c05f9dab0c49d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/b5eca99be58d528cfe0c05f9dab0c49d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:5:5-44
+MERGED from [:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/1d97f1892b732e31d9b728c77ad8de86/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/1d97f1892b732e31d9b728c77ad8de86/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml
+INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml
+activity#nl.rijksoverheid.en.test.TestMainActivity
+ADDED from [:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-25:20
+	android:multiprocess
+		ADDED from [:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-40
+	android:exported
+		ADDED from [:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-36
+	android:taskAffinity
+		ADDED from [:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from [:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-69
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-24:29
+uses-permission#android.permission.REORDER_TASKS
+ADDED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:25:5-72
+MERGED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:24:5-72
+MERGED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:25:22-69
+activity#androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity
+ADDED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:28:9-37:20
+	android:multiprocess
+		ADDED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:31:13-40
+	android:exported
+		ADDED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:33:13-78
+	android:taskAffinity
+		ADDED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from [androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:29:13-96
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:26:13-79
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:8:3-74
+MERGED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:8:20-72
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:5-271
+	android:process
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:152-203
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:103-126
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:240-269
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:204-239
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:127-151
+	android:name
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:15-102
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:5-226
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:96-119
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:145-174
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:120-144
+	android:theme
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:175-224
+	android:name
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:15-95
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:16:5-18:15
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:16:96-119
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:16:120-143
+	android:name
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:16:14-95
+meta-data#com.google.android.play.core.assetpacks.versionCode
+ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:17:7-108
+	android:value
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:17:85-106
+	android:name
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:17:18-84
+service#com.google.android.play.core.assetpacks.ExtractionForegroundService
+ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:19:5-147
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:19:97-120
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:19:121-145
+	android:name
+		ADDED from [com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:19:14-96
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/ee0381ecb3796d31f9c86897c9dba637/transformed/play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/ee0381ecb3796d31f9c86897c9dba637/transformed/play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/ee0381ecb3796d31f9c86897c9dba637/transformed/play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+ADDED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:27:9-33:20
+	android:theme
+		ADDED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:28:13-99
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+ADDED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:34:9-40:20
+	android:theme
+		ADDED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:35:13-95
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+ADDED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:41:9-47:20
+	android:theme
+		ADDED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from [androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:42:13-103
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:25:22-65
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:136:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+service#com.google.android.gms.nearby.exposurenotification.WakeUpService
+ADDED from [:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:10:9-13:105
+	android:exported
+		ADDED from [:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:12:13-36
+	android:permission
+		ADDED from [:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:13:13-102
+	android:name
+		ADDED from [:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:11:13-92

@@ -1,0 +1,68 @@
+digraph "org.owntracks.android.ui.map.MapActivityModule" {
+  graph [rankdir="LR", labeljust="l", label="MapActivityModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "ccc1fa8f-072c-444d-b62e-3ab84a5859ec" [label="@PerActivity\nAppCompatActivity", color="aquamarine"]
+    "332d49ea-efb9-47ab-9115-3a47ab58fc7c" [label="org.owntracks.android.ui.map.MapActivity", color="firebrick1"]
+    "482670d3-3dd3-4849-87a3-9072b7976dd6" [label="MapMvvm.ViewModel<MapMvvm.View>", color="turquoise"]
+    "4f6ec8e4-df58-47d9-8ec0-8ccc3f71d7a2" [label="@PerActivity\nMapViewModel", color="aquamarine"]
+    "d8f87db7-319b-4d68-b2d7-e3bfa38f111e" [label="org.owntracks.android.data.repos.ContactsRepo", color="firebrick1"]
+    "df0686f0-360a-443c-8789-c8b0c04f5271" [label="@Singleton\nLocationProcessor", color="bisque"]
+    "75289873-957b-45ea-884a-60600c95a626" [label="@Singleton\nMessageProcessor", color="bisque"]
+    "370fdd78-9a08-4010-bff7-b133f52c23cc" [label="@PerActivity\nNavigator", color="aquamarine"]
+    "d01de733-a68b-442d-9464-d3ccca36911c" [label="@Singleton\nPreferences", color="bisque"]
+    "beb21407-0abf-4b84-9500-19657aaf4e7a" [label="@Singleton\nLocationRepo", color="bisque"]
+    "3a3ff147-44a2-4723-a97d-7bdd83c0c053" [label="org.owntracks.android.data.repos.WaypointsRepo", color="firebrick1"]
+    "464f6b9f-d947-4bf1-b699-a4393745327c" [label="@Singleton\nDeviceMetricsProvider", color="bisque"]
+    "d331af34-96fe-4d24-ac2f-f1a122679d24" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "487c6c6c-dff2-4d51-b876-25a1ab027773" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "bc350922-0b8d-49c4-9038-a5910a512e8e" [label="@Singleton\nParser", color="bisque"]
+    "ecb90439-47e3-4238-8da1-85d5e7a2cb1d" [label="@Singleton\nScheduler", color="bisque"]
+    "882d8be3-4f51-4495-9a68-4a21c79929ae" [label="@Singleton\nServiceBridge", color="bisque"]
+    "33c0bfc6-c8f4-4dac-9c6c-859e2e7381c5" [label="@Singleton\nRunThingsOnOtherThreads", color="bisque"]
+    "f3be3597-7d81-4a68-b8fa-7417a378eaae" [label="androidx.test.espresso.idling.CountingIdlingResource", color="firebrick1"]
+    "8adc2de9-4615-41f2-867e-e04ebb029a2f" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    "c4917804-3fc3-4f74-bf3c-07315dbcf212" [label="@Singleton\nEncryptionProvider", color="bisque"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "370fdd78-9a08-4010-bff7-b133f52c23cc" -> "ccc1fa8f-072c-444d-b62e-3ab84a5859ec"
+  "ccc1fa8f-072c-444d-b62e-3ab84a5859ec" -> "332d49ea-efb9-47ab-9115-3a47ab58fc7c" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+  "482670d3-3dd3-4849-87a3-9072b7976dd6" -> "4f6ec8e4-df58-47d9-8ec0-8ccc3f71d7a2" [style="dotted", label="delegates"]
+  "4f6ec8e4-df58-47d9-8ec0-8ccc3f71d7a2" -> "370fdd78-9a08-4010-bff7-b133f52c23cc"
+  "4f6ec8e4-df58-47d9-8ec0-8ccc3f71d7a2" -> "d8f87db7-319b-4d68-b2d7-e3bfa38f111e" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "4f6ec8e4-df58-47d9-8ec0-8ccc3f71d7a2" -> "df0686f0-360a-443c-8789-c8b0c04f5271"
+  "4f6ec8e4-df58-47d9-8ec0-8ccc3f71d7a2" -> "75289873-957b-45ea-884a-60600c95a626"
+  "75289873-957b-45ea-884a-60600c95a626" -> "d8f87db7-319b-4d68-b2d7-e3bfa38f111e" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "75289873-957b-45ea-884a-60600c95a626" -> "df0686f0-360a-443c-8789-c8b0c04f5271"
+  "df0686f0-360a-443c-8789-c8b0c04f5271" -> "75289873-957b-45ea-884a-60600c95a626"
+  "df0686f0-360a-443c-8789-c8b0c04f5271" -> "3a3ff147-44a2-4723-a97d-7bdd83c0c053" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "df0686f0-360a-443c-8789-c8b0c04f5271" -> "beb21407-0abf-4b84-9500-19657aaf4e7a"
+  "df0686f0-360a-443c-8789-c8b0c04f5271" -> "d01de733-a68b-442d-9464-d3ccca36911c"
+  "df0686f0-360a-443c-8789-c8b0c04f5271" -> "464f6b9f-d947-4bf1-b699-a4393745327c"
+  "75289873-957b-45ea-884a-60600c95a626" -> "d01de733-a68b-442d-9464-d3ccca36911c"
+  "75289873-957b-45ea-884a-60600c95a626" -> "3a3ff147-44a2-4723-a97d-7bdd83c0c053" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "75289873-957b-45ea-884a-60600c95a626" -> "487c6c6c-dff2-4d51-b876-25a1ab027773" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "75289873-957b-45ea-884a-60600c95a626" -> "d331af34-96fe-4d24-ac2f-f1a122679d24" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "75289873-957b-45ea-884a-60600c95a626" -> "882d8be3-4f51-4495-9a68-4a21c79929ae"
+  "75289873-957b-45ea-884a-60600c95a626" -> "f3be3597-7d81-4a68-b8fa-7417a378eaae" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "75289873-957b-45ea-884a-60600c95a626" -> "ecb90439-47e3-4238-8da1-85d5e7a2cb1d"
+  "75289873-957b-45ea-884a-60600c95a626" -> "33c0bfc6-c8f4-4dac-9c6c-859e2e7381c5"
+  "75289873-957b-45ea-884a-60600c95a626" -> "bc350922-0b8d-49c4-9038-a5910a512e8e"
+  "c4917804-3fc3-4f74-bf3c-07315dbcf212" -> "d01de733-a68b-442d-9464-d3ccca36911c"
+  "ecb90439-47e3-4238-8da1-85d5e7a2cb1d" -> "d01de733-a68b-442d-9464-d3ccca36911c"
+  "d01de733-a68b-442d-9464-d3ccca36911c" -> "8adc2de9-4615-41f2-867e-e04ebb029a2f" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "d01de733-a68b-442d-9464-d3ccca36911c" -> "d331af34-96fe-4d24-ac2f-f1a122679d24" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "d01de733-a68b-442d-9464-d3ccca36911c" -> "487c6c6c-dff2-4d51-b876-25a1ab027773" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "beb21407-0abf-4b84-9500-19657aaf4e7a" -> "487c6c6c-dff2-4d51-b876-25a1ab027773" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "464f6b9f-d947-4bf1-b699-a4393745327c" -> "d331af34-96fe-4d24-ac2f-f1a122679d24" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "33c0bfc6-c8f4-4dac-9c6c-859e2e7381c5" -> "d331af34-96fe-4d24-ac2f-f1a122679d24" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "ecb90439-47e3-4238-8da1-85d5e7a2cb1d" -> "d331af34-96fe-4d24-ac2f-f1a122679d24" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "bc350922-0b8d-49c4-9038-a5910a512e8e" -> "c4917804-3fc3-4f74-bf3c-07315dbcf212"
+}

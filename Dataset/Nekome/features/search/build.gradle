@@ -1,0 +1,61 @@
+plugins {
+    id "com.android.library"
+    id "kotlin-android"
+    id "kotlin-kapt"
+    id "kotlin-parcelize"
+    id "dagger.hilt.android.plugin"
+    id "androidx.navigation.safeargs.kotlin"
+}
+
+android {
+    compileSdkVersion sdk_version
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion sdk_version
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    implementation project(":libraries:core")
+    implementation project(":libraries:datasource:search")
+    implementation project(":libraries:datasource:series")
+
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
+    implementation "androidx.core:core-ktx:$core_version"
+    implementation "androidx.fragment:fragment-ktx:$fragment_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$livedata_version"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    implementation "com.chesire.lintrules:lint-gradle:$lintrules_version"
+    implementation "com.chesire.lintrules:lint-xml:$lintrules_version"
+    implementation "com.github.hadilq:live-event:$liveevent_version"
+    implementation "com.google.android.material:material:$material_version"
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    implementation "com.jakewharton.timber:timber:$timber_version"
+    implementation "io.coil-kt:coil:$coil_version"
+
+    testImplementation project(":testing")
+    testImplementation "androidx.arch.core:core-testing:$coretesting_version"
+    testImplementation "io.mockk:mockk:$mockk_version"
+    testImplementation "junit:junit:$junit_version"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version"
+
+    kapt "com.google.dagger:hilt-compiler:$hilt_version"
+}

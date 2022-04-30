@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.google.samples.apps.iosched",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "INSTANT_APP_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 70153,
+        "versionName": "7.0.15-staging",
+        "outputFile": "mobile-staging.apk",
+        "fullName": "staging",
+        "baseName": "staging",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.google.samples.apps.iosched",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}

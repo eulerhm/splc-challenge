@@ -1,0 +1,17 @@
+digraph "org.owntracks.android.services.BackgroundServiceModule" {
+  graph [rankdir="LR", labeljust="l", label="BackgroundServiceModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "d9e1b5d7-aad8-4d07-973f-edbbb06a8f82" [label="@ServiceContext\n@PerService\nContext", color="aquamarine"]
+    "e9dd22c6-d9f5-4493-8d04-1db55e6670e2" [label="android.app.Service", color="firebrick1"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "d9e1b5d7-aad8-4d07-973f-edbbb06a8f82" -> "e9dd22c6-d9f5-4493-8d04-1db55e6670e2" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+}

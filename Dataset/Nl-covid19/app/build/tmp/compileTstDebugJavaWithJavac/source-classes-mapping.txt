@@ -1,0 +1,210 @@
+nl/rijksoverheid/en/databinding/ItemLabTestButtonBinding.java
+ nl.rijksoverheid.en.databinding.ItemLabTestButtonBinding
+nl/rijksoverheid/en/databinding/FragmentEndOfLifeBinding.java
+ nl.rijksoverheid.en.databinding.FragmentEndOfLifeBinding
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+nl/rijksoverheid/en/databinding/FragmentListWithTwoButtonsBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentListWithTwoButtonsBindingImpl
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+nl/rijksoverheid/en/databinding/ItemBottomSheetBinding.java
+ nl.rijksoverheid.en.databinding.ItemBottomSheetBinding
+nl/rijksoverheid/en/databinding/ItemIllustratedBoxBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemIllustratedBoxBindingImpl
+nl/rijksoverheid/en/databinding/FragmentEnableApiBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentEnableApiBindingImpl
+nl/rijksoverheid/en/databinding/ItemParagraphBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemParagraphBindingImpl
+nl/rijksoverheid/en/databinding/ItemFaqBinding.java
+ nl.rijksoverheid.en.databinding.ItemFaqBinding
+nl/rijksoverheid/en/databinding/ItemMessageBoxBinding.java
+ nl.rijksoverheid.en.databinding.ItemMessageBoxBinding
+nl/rijksoverheid/en/databinding/ItemLabTestKeyBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemLabTestKeyBindingImpl
+nl/rijksoverheid/en/databinding/FragmentAppUpdateRequiredBinding.java
+ nl.rijksoverheid.en.databinding.FragmentAppUpdateRequiredBinding
+nl/rijksoverheid/en/databinding/IncludeSettingsPauseStateBinding.java
+ nl.rijksoverheid.en.databinding.IncludeSettingsPauseStateBinding
+nl/rijksoverheid/en/databinding/ItemLabTestShareKeysBinding.java
+ nl.rijksoverheid.en.databinding.ItemLabTestShareKeysBinding
+nl/rijksoverheid/en/databinding/FragmentInternetRequiredBinding.java
+ nl.rijksoverheid.en.databinding.FragmentInternetRequiredBinding
+nl/rijksoverheid/en/databinding/ItemStatusHeaderBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemStatusHeaderBindingImpl
+nl/rijksoverheid/en/databinding/FragmentStatusBinding.java
+ nl.rijksoverheid.en.databinding.FragmentStatusBinding
+nl/rijksoverheid/en/databinding/ItemBottomSheetBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemBottomSheetBindingImpl
+nl/rijksoverheid/en/databinding/FragmentBottomSheetListBinding.java
+ nl.rijksoverheid.en.databinding.FragmentBottomSheetListBinding
+nl/rijksoverheid/en/databinding/ItemStatusExposureOver14DaysAgoBinding.java
+ nl.rijksoverheid.en.databinding.ItemStatusExposureOver14DaysAgoBinding
+nl/rijksoverheid/en/databinding/FragmentPrivacyPolicyConsentBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentPrivacyPolicyConsentBindingImpl
+nl/rijksoverheid/en/databinding/FragmentEndOfLifeBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentEndOfLifeBindingImpl
+nl/rijksoverheid/en/databinding/ItemInlineIllustrationBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemInlineIllustrationBindingImpl
+nl/rijksoverheid/en/databinding/FragmentAppUpdateRequiredBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentAppUpdateRequiredBindingImpl
+nl/rijksoverheid/en/databinding/FragmentShareBinding.java
+ nl.rijksoverheid.en.databinding.FragmentShareBinding
+nl/rijksoverheid/en/databinding/ItemFaqHeaderBinding.java
+ nl.rijksoverheid.en.databinding.ItemFaqHeaderBinding
+nl/rijksoverheid/en/databinding/FragmentPauseConfirmationBinding.java
+ nl.rijksoverheid.en.databinding.FragmentPauseConfirmationBinding
+nl/rijksoverheid/en/databinding/FragmentStatusBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentStatusBindingImpl
+nl/rijksoverheid/en/databinding/ItemParagraphBinding.java
+ nl.rijksoverheid.en.databinding.ItemParagraphBinding
+nl/rijksoverheid/en/databinding/FragmentExplanationBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentExplanationBindingImpl
+nl/rijksoverheid/en/databinding/ItemStatusErrorBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemStatusErrorBindingImpl
+nl/rijksoverheid/en/databinding/ItemLabTestUsedKeyBinding.java
+ nl.rijksoverheid.en.databinding.ItemLabTestUsedKeyBinding
+nl/rijksoverheid/en/databinding/ItemStatusFooterBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemStatusFooterBindingImpl
+nl/rijksoverheid/en/databinding/ItemErrorBoxBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemErrorBoxBindingImpl
+nl/rijksoverheid/en/databinding/FragmentListWithTwoButtonsBinding.java
+ nl.rijksoverheid.en.databinding.FragmentListWithTwoButtonsBinding
+nl/rijksoverheid/en/databinding/ItemMessageBoxBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemMessageBoxBindingImpl
+nl/rijksoverheid/en/databinding/ItemLabTestUsedKeyBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemLabTestUsedKeyBindingImpl
+nl/rijksoverheid/en/databinding/ItemErrorBoxBinding.java
+ nl.rijksoverheid.en.databinding.ItemErrorBoxBinding
+nl/rijksoverheid/en/databinding/ItemStatusActionBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemStatusActionBindingImpl
+nl/rijksoverheid/en/databinding/FragmentSettingsBinding.java
+ nl.rijksoverheid.en.databinding.FragmentSettingsBinding
+nl/rijksoverheid/en/databinding/FragmentListWithButtonBinding.java
+ nl.rijksoverheid.en.databinding.FragmentListWithButtonBinding
+nl/rijksoverheid/en/databinding/FragmentInternetRequiredBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentInternetRequiredBindingImpl
+nl/rijksoverheid/en/databinding/ItemLabTestStepDescriptionBinding.java
+ nl.rijksoverheid.en.databinding.ItemLabTestStepDescriptionBinding
+nl/rijksoverheid/en/databinding/ItemFaqOnboardingBinding.java
+ nl.rijksoverheid.en.databinding.ItemFaqOnboardingBinding
+nl/rijksoverheid/en/databinding/ItemButtonBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemButtonBindingImpl
+nl/rijksoverheid/en/databinding/ItemLabTestStepBinding.java
+ nl.rijksoverheid.en.databinding.ItemLabTestStepBinding
+nl/rijksoverheid/en/databinding/FragmentListBinding.java
+ nl.rijksoverheid.en.databinding.FragmentListBinding
+nl/rijksoverheid/en/databinding/FragmentShareBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentShareBindingImpl
+nl/rijksoverheid/en/BR.java
+ nl.rijksoverheid.en.BR
+nl/rijksoverheid/en/databinding/ItemLabTestShareKeysBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemLabTestShareKeysBindingImpl
+nl/rijksoverheid/en/databinding/ItemFaqBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemFaqBindingImpl
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+nl/rijksoverheid/en/databinding/ItemLoadingBinding.java
+ nl.rijksoverheid.en.databinding.ItemLoadingBinding
+nl/rijksoverheid/en/databinding/ItemFaqHeaderBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemFaqHeaderBindingImpl
+nl/rijksoverheid/en/databinding/ItemSpacingBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemSpacingBindingImpl
+nl/rijksoverheid/en/databinding/FragmentLocationServicesRequiredBinding.java
+ nl.rijksoverheid.en.databinding.FragmentLocationServicesRequiredBinding
+nl/rijksoverheid/en/databinding/FragmentExplanationBinding.java
+ nl.rijksoverheid.en.databinding.FragmentExplanationBinding
+nl/rijksoverheid/en/databinding/IncludeEnableApiStepBindingImpl.java
+ nl.rijksoverheid.en.databinding.IncludeEnableApiStepBindingImpl
+nl/rijksoverheid/en/databinding/ItemFaqOnboardingExplanationBinding.java
+ nl.rijksoverheid.en.databinding.ItemFaqOnboardingExplanationBinding
+nl/rijksoverheid/en/databinding/ItemButtonBinding.java
+ nl.rijksoverheid.en.databinding.ItemButtonBinding
+nl/rijksoverheid/en/databinding/ItemSpacingBinding.java
+ nl.rijksoverheid.en.databinding.ItemSpacingBinding
+nl/rijksoverheid/en/databinding/FragmentPrivacyPolicyConsentBinding.java
+ nl.rijksoverheid.en.databinding.FragmentPrivacyPolicyConsentBinding
+nl/rijksoverheid/en/databinding/ItemLabTestStepBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemLabTestStepBindingImpl
+nl/rijksoverheid/en/databinding/FragmentPauseConfirmationBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentPauseConfirmationBindingImpl
+nl/rijksoverheid/en/databinding/ItemStatusFooterBinding.java
+ nl.rijksoverheid.en.databinding.ItemStatusFooterBinding
+nl/rijksoverheid/en/databinding/ItemStatusHeaderBinding.java
+ nl.rijksoverheid.en.databinding.ItemStatusHeaderBinding
+nl/rijksoverheid/en/databinding/ItemStatusPausedBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemStatusPausedBindingImpl
+nl/rijksoverheid/en/databinding/ItemCenteredIllustrationBinding.java
+ nl.rijksoverheid.en.databinding.ItemCenteredIllustrationBinding
+nl/rijksoverheid/en/databinding/FragmentListBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentListBindingImpl
+nl/rijksoverheid/en/databinding/ItemInlineIllustrationBinding.java
+ nl.rijksoverheid.en.databinding.ItemInlineIllustrationBinding
+nl/rijksoverheid/en/databinding/FragmentListWithButtonBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentListWithButtonBindingImpl
+nl/rijksoverheid/en/databinding/ItemCenteredIllustrationBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemCenteredIllustrationBindingImpl
+nl/rijksoverheid/en/databinding/ItemStatusActionBinding.java
+ nl.rijksoverheid.en.databinding.ItemStatusActionBinding
+nl/rijksoverheid/en/databinding/ItemHeaderBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemHeaderBindingImpl
+nl/rijksoverheid/en/databinding/ItemFaqOnboardingExplanationBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemFaqOnboardingExplanationBindingImpl
+nl/rijksoverheid/en/databinding/FragmentEnableApiBinding.java
+ nl.rijksoverheid.en.databinding.FragmentEnableApiBinding
+nl/rijksoverheid/en/databinding/ItemStatusBatteryOptimizationEnabledBinding.java
+ nl.rijksoverheid.en.databinding.ItemStatusBatteryOptimizationEnabledBinding
+nl/rijksoverheid/en/generated/callback/OnClickListener.java
+ nl.rijksoverheid.en.generated.callback.OnClickListener
+ nl.rijksoverheid.en.generated.callback.OnClickListener$Listener
+nl/rijksoverheid/en/databinding/ItemIllustrationBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemIllustrationBindingImpl
+nl/rijksoverheid/en/databinding/ItemStatusPausedBinding.java
+ nl.rijksoverheid.en.databinding.ItemStatusPausedBinding
+nl/rijksoverheid/en/databinding/ItemLabTestButtonBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemLabTestButtonBindingImpl
+nl/rijksoverheid/en/databinding/ActivityMainBinding.java
+ nl.rijksoverheid.en.databinding.ActivityMainBinding
+nl/rijksoverheid/en/databinding/FragmentSettingsBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentSettingsBindingImpl
+ nl.rijksoverheid.en.databinding.FragmentSettingsBindingImpl$1
+nl/rijksoverheid/en/databinding/ItemFaqOnboardingBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemFaqOnboardingBindingImpl
+nl/rijksoverheid/en/databinding/ItemIllustratedBoxBinding.java
+ nl.rijksoverheid.en.databinding.ItemIllustratedBoxBinding
+nl/rijksoverheid/en/databinding/FragmentLocationServicesRequiredBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentLocationServicesRequiredBindingImpl
+nl/rijksoverheid/en/databinding/ItemLoadingBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemLoadingBindingImpl
+nl/rijksoverheid/en/databinding/FragmentBottomSheetListBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentBottomSheetListBindingImpl
+nl/rijksoverheid/en/BuildConfig.java
+ nl.rijksoverheid.en.BuildConfig
+nl/rijksoverheid/en/DataBinderMapperImpl.java
+ nl.rijksoverheid.en.DataBinderMapperImpl
+ nl.rijksoverheid.en.DataBinderMapperImpl$InnerBrLookup
+ nl.rijksoverheid.en.DataBinderMapperImpl$InnerLayoutIdLookup
+nl/rijksoverheid/en/databinding/ItemStatusExposureOver14DaysAgoBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemStatusExposureOver14DaysAgoBindingImpl
+nl/rijksoverheid/en/databinding/FragmentGooglePlayServicesUpgradeRequiredBinding.java
+ nl.rijksoverheid.en.databinding.FragmentGooglePlayServicesUpgradeRequiredBinding
+nl/rijksoverheid/en/databinding/ItemStatusBatteryOptimizationEnabledBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemStatusBatteryOptimizationEnabledBindingImpl
+nl/rijksoverheid/en/databinding/ItemStatusErrorBinding.java
+ nl.rijksoverheid.en.databinding.ItemStatusErrorBinding
+nl/rijksoverheid/en/databinding/ItemLabTestStepDescriptionBindingImpl.java
+ nl.rijksoverheid.en.databinding.ItemLabTestStepDescriptionBindingImpl
+nl/rijksoverheid/en/DataBindingTriggerClass.java
+ nl.rijksoverheid.en.DataBindingTriggerClass
+nl/rijksoverheid/en/databinding/IncludeSettingsPauseStateBindingImpl.java
+ nl.rijksoverheid.en.databinding.IncludeSettingsPauseStateBindingImpl
+nl/rijksoverheid/en/databinding/IncludeEnableApiStepBinding.java
+ nl.rijksoverheid.en.databinding.IncludeEnableApiStepBinding
+nl/rijksoverheid/en/databinding/ItemIllustrationBinding.java
+ nl.rijksoverheid.en.databinding.ItemIllustrationBinding
+nl/rijksoverheid/en/databinding/ItemHeaderBinding.java
+ nl.rijksoverheid.en.databinding.ItemHeaderBinding
+nl/rijksoverheid/en/databinding/FragmentGooglePlayServicesUpgradeRequiredBindingImpl.java
+ nl.rijksoverheid.en.databinding.FragmentGooglePlayServicesUpgradeRequiredBindingImpl
+nl/rijksoverheid/en/databinding/ItemLabTestKeyBinding.java
+ nl.rijksoverheid.en.databinding.ItemLabTestKeyBinding

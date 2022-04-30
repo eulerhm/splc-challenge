@@ -1,0 +1,32 @@
+digraph "org.owntracks.android.injection.modules.AndroidBindingModule_BindBackgroundService" {
+  graph [rankdir="LR", labeljust="l", label="AndroidBindingModule_BindBackgroundService", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "e60cb95e-0cb0-404b-9a19-79fd3858a5b2" [label="AndroidBindingModule_BindBackgroundService.bindAndroidInjectorFactory()", color="turquoise"]
+    "70c50bfe-42bf-4844-b5ed-bed2260764bc" [label="BackgroundServiceSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "ebe5a70e-6abc-421a-9c3e-5b96fc3c399b" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "713151a2-57e2-4dbf-9a5e-77dc12f3863f" [label="org.owntracks.android.data.repos.ContactsRepo", color="firebrick1"]
+    "13f22ba8-1b85-41a2-83de-ccb52d5485e5" [label="org.owntracks.android.data.repos.WaypointsRepo", color="firebrick1"]
+    "97518b3d-2daf-4251-8efd-cac2874e1281" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "cc29910d-c5de-4b25-98b3-9c0ceef8520b" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    "0848344d-2ac4-430f-9363-2ac2f44ab28d" [label="androidx.test.espresso.idling.CountingIdlingResource", color="firebrick1"]
+    "3533235e-9a14-4c3f-934a-dd3311d243d0" [label="android.app.Service", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "5fc2b61f-8b7e-4e3b-afa1-d045a2325991" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "e60cb95e-0cb0-404b-9a19-79fd3858a5b2" [label="AndroidBindingModule_BindBackgroundService.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "976537dc-1bea-4fae-a8c9-ea6834ae90fd" [label="@PerService\nAndroidBindingModule_BindBackgroundService.BackgroundServiceSubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindBackgroundService.BackgroundServiceSubcomponent.svg", color="aquamarine"]
+  }
+  "5fc2b61f-8b7e-4e3b-afa1-d045a2325991" -> "e60cb95e-0cb0-404b-9a19-79fd3858a5b2"
+  "e60cb95e-0cb0-404b-9a19-79fd3858a5b2" -> "70c50bfe-42bf-4844-b5ed-bed2260764bc" [style="dotted", label="delegates"]
+  "70c50bfe-42bf-4844-b5ed-bed2260764bc" -> "976537dc-1bea-4fae-a8c9-ea6834ae90fd" [style="dashed", label="subcomponent", headport="w"]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoonShot.iml" filepath="$PROJECT_DIR$/.idea/modules/MoonShot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MoonShot.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MoonShot.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/MoonShot.base.iml" filepath="$PROJECT_DIR$/.idea/modules/base/MoonShot.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoonShot.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/MoonShot.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/MoonShot.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/MoonShot.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database/MoonShot.database.iml" filepath="$PROJECT_DIR$/.idea/modules/database/MoonShot.database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/db/MoonShot.db.iml" filepath="$PROJECT_DIR$/.idea/modules/db/MoonShot.db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/db/spacex/MoonShot.db.spacex.iml" filepath="$PROJECT_DIR$/.idea/modules/db/spacex/MoonShot.db.spacex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/MoonShot.features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/MoonShot.features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/about/MoonShot.features.about.iml" filepath="$PROJECT_DIR$/.idea/modules/features/about/MoonShot.features.about.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/launchDetails/MoonShot.features.launchDetails.iml" filepath="$PROJECT_DIR$/.idea/modules/features/launchDetails/MoonShot.features.launchDetails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/launchPad/MoonShot.features.launchPad.iml" filepath="$PROJECT_DIR$/.idea/modules/features/launchPad/MoonShot.features.launchPad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/launches/MoonShot.features.launches.iml" filepath="$PROJECT_DIR$/.idea/modules/features/launches/MoonShot.features.launches.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/missions/MoonShot.features.missions.iml" filepath="$PROJECT_DIR$/.idea/modules/features/missions/MoonShot.features.missions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/nextLaunch/MoonShot.features.nextLaunch.iml" filepath="$PROJECT_DIR$/.idea/modules/features/nextLaunch/MoonShot.features.nextLaunch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/rocketDetails/MoonShot.features.rocketDetails.iml" filepath="$PROJECT_DIR$/.idea/modules/features/rocketDetails/MoonShot.features.rocketDetails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/rockets/MoonShot.features.rockets.iml" filepath="$PROJECT_DIR$/.idea/modules/features/rockets/MoonShot.features.rockets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/search/MoonShot.features.search.iml" filepath="$PROJECT_DIR$/.idea/modules/features/search/MoonShot.features.search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/settings/MoonShot.features.settings.iml" filepath="$PROJECT_DIR$/.idea/modules/features/settings/MoonShot.features.settings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logger/MoonShot.logger.iml" filepath="$PROJECT_DIR$/.idea/modules/logger/MoonShot.logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/models/MoonShot.models.iml" filepath="$PROJECT_DIR$/.idea/modules/models/MoonShot.models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/moonshot-repository/MoonShot.moonshot-repository.iml" filepath="$PROJECT_DIR$/.idea/modules/moonshot-repository/MoonShot.moonshot-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/MoonShot.navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/MoonShot.navigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/MoonShot.services.iml" filepath="$PROJECT_DIR$/.idea/modules/services/MoonShot.services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/spacex/MoonShot.services.spacex.iml" filepath="$PROJECT_DIR$/.idea/modules/services/spacex/MoonShot.services.spacex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spacex-api-wrapper/MoonShot.spacex-api-wrapper.iml" filepath="$PROJECT_DIR$/.idea/modules/spacex-api-wrapper/MoonShot.spacex-api-wrapper.iml" />
+    </modules>
+  </component>
+</project>

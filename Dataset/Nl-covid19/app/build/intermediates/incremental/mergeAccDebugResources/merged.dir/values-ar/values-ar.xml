@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="days_ago">
+        <item quantity="one">يوم واحد</item>
+        <item quantity="other">آخر</item>
+        <item quantity="few">قليلة</item>
+        <item quantity="many">كثيرة</item>
+        <item quantity="two">يومين</item>
+        <item quantity="zero">صفر</item>
+    </plurals>
+    <plurals name="duration_hours_plurals">
+        <item quantity="one">%d ساعة</item>
+        <item quantity="other">%d ساعات</item>
+        <item quantity="few">%d ساعات</item>
+        <item quantity="many">%d ساعات</item>
+        <item quantity="two">%d ساعات</item>
+        <item quantity="zero">صفر</item>
+    </plurals>
+    <plurals name="duration_minutes_plurals">
+        <item quantity="one">%d دقيقة</item>
+        <item quantity="other">%d دقائق</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقائق</item>
+        <item quantity="two">%d دقائق</item>
+        <item quantity="zero">%d دقائق</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="zero">%d إشعار جديد</item>
+    <item quantity="one">إشعار جديد واحد (%d)</item>
+    <item quantity="two">إشعاران جديدان (%d)</item>
+    <item quantity="few">%d إشعارات جديدة</item>
+    <item quantity="many">%d إشعارًا جديدًا</item>
+    <item quantity="other">%d إشعار جديد</item>
+  </plurals>
+    <plurals name="pause_duration_hours_option_plurals">
+        <item quantity="one">الإيقاف مؤقتًا لمدة %d ساعة</item>
+        <item quantity="other">الإيقاف مؤقتًا لمدة %d ساعات</item>
+        <item quantity="few">الإيقاف مؤقتًا لمدة %d ساعات</item>
+        <item quantity="many">الإيقاف مؤقتًا لمدة %d ساعات</item>
+        <item quantity="two">الإيقاف مؤقتًا لمدة %d ساعات</item>
+        <item quantity="zero">الإيقاف مؤقتًا لمدة %d ساعات</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"خيارات أكثر"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"تم"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"تفعيل"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"فضاء"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"طلب بحث"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"البحث"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"بحث صوتي"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="about_accessibility">قابلية الوصول</string>
+    <string name="about_colofon">الكولوفون</string>
+    <string name="about_helpdesk_subtitle" ns2:ignore="TypographyDashes">اتصل بالمجان برقم 1280 - 0800</string>
+    <string name="about_helpdesk_title">سؤال آخر عن التطبيق؟</string>
+    <string name="about_onboarding_subtitle">راجع كيف يمكنك المساهمة في وقف كورنا باستخدام هذا التطبيق</string>
+    <string name="about_onboarding_title">ما الذي يفعله CoronaMelder؟</string>
+    <string name="about_privacy_statement">شهادة حماية الخصوصية</string>
+    <string name="about_review">قم بتقييم التطبيق</string>
+    <string name="about_technical_explanation_subtitle">راجع الشرح التقني</string>
+    <string name="about_technical_explanation_title">كيف يعمل التطبيق؟</string>
+    <string name="about_toolbar_title">حوْل التطبيق</string>
+    <string name="about_website_link_subtitle">راجع موقع Coronamelder.nl</string>
+    <string name="about_website_link_title">للمزيد من المعلومات حول التطبيق</string>
+    <string name="app_inactive_message">راجع إعداداتك</string>
+    <string name="app_inactive_paused_message">انتبه: التطبيق غير نشط بعد. يجب عليك تشغيله مرة أخرى بنفسك.</string>
+    <string name="app_inactive_paused_title">قم بتشغيل CoronaMelder من جديد</string>
+    <string name="app_inactive_title">CoronaMelder غير نشط الآن</string>
+    <string name="app_language">ar</string>
+    <string name="app_name">CoronaMelder</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="cd_back">رجوع</string>
+    <string name="cd_close">إغلاق</string>
+    <string name="cd_error_box">تحذير</string>
+    <string name="cd_info_box">هام</string>
+    <string name="cd_status_active">دائرة خضراء مع علامة الصح تشير إلى أنه قد تم إعداد التطبيق بشكل صحيح</string>
+    <string name="cd_status_disabled">دائرة صفراء مع علامة تعجب تشير إلى تحذير</string>
+    <string name="cd_status_exposed">دائرة حمراء مع جرس الإنذار تشير إلى أنه ينبغي عليك التصرف الآن</string>
+    <string name="cd_status_paused">دائرة رمادية اللون عليها رمز الإيقاف  يشير إلى أنه تم إيقاف التطبيق مؤقتًا</string>
+    <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
+    <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
+    <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تفعيل"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تفعيل خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تفعيل خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏مدى توفّر خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. يُرجى إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string msgid="3209159573327985035" name="copy">"نسخ"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"تم نسخ الرابط إلى الحافظة."</string>
+    <string name="coronatest_description"><![CDATA[هل اكتشفت عبر coronatest.nl أنك مصاب بكورونا؟ يمكنك إذًا إرسال إشعار على الفور عبرCoronamelder. 
+<a href="">  كيف يحدث ذلك؟ </a>]]></string>
+    <string name="coronatest_finish_button">لقد انتهيت</string>
+    <string name="coronatest_finish_confirmation_accept">نعم، أكمل</string>
+    <string name="coronatest_finish_confirmation_cancel">إلغاء</string>
+    <string name="coronatest_finish_confirmation_text">هل قمت بملء رمز الـ GGD في coronatest.nl وتلقيت تأكيدًا؟ إذا كانت الإجابة نعم فيمكنك استكمال العملية.</string>
+    <string name="coronatest_finish_confirmation_title">هل أنت متأكد من أنك انتهيت؟</string>
+    <string name="coronatest_keys_shared">تمت مشاركة الرموز</string>
+    <string name="coronatest_share_keys">مشاركة الرموز</string>
+    <string name="coronatest_step_1">شارك الرموز التي أنشأها CoronaMelder</string>
+    <string name="coronatest_step_2">اكتب أو انسخ رمز الـ GGD الخاص بك</string>
+    <string name="coronatest_step_3">أدخل مفتاح الـ GGD الخاص بك في coronatest.nl. هذه هي الطريقة التي تحذر بها الأشخاص الذين كنت قريبًا منهم.</string>
+    <string name="coronatest_step_3_nodeeplink">انتقل إلى coronatest.nl وأدخل رمز الـ GGD الخاص بك. تحذّر بهذه الطريقة الأشخاص الآخرين الذين كنت على مقربة منهم.</string>
+    <string name="coronatest_step_4">هل تم ملء رمز الـ GGD؟</string>
+    <string name="coronatest_step_4_subtitle">لقد انتهيت. سيتلقى الأشخاص الذين كنت على مقربة منهم عندما كنت ناقلاً للعدوى إشعارًا. يحدث هذا في غضون 8 ساعات.</string>
+    <string name="coronatest_webpage_button">راجع الموقع Coronatest.nl</string>
+    <string name="cross_links_header">إقرأ أيضًا</string>
+    <string name="dialog_error_api_not_available_message">لا يمكن تسجيل احتمالية التعرض لفيروس كورونا إلا بعد تحديث خدمات غوغل بلاي. حاول مرة أخرى في وقت لاحق.</string>
+    <string name="dialog_error_api_not_available_title">لا يزال يتم تحديث خدمات غوغل بلاي</string>
+    <string name="dialog_error_confirm">إغلاق</string>
+    <string name="duration_format_hours_and_minutes">الساعة %1$s و%2$s</string>
+    <string name="enable_internet_description">يحتاج التطبيق إلى الاتصال بالإنترنت للتحقق مما إذا كان الأشخاص الذين قابلتهم لاحقًا مصابين بكورونا.\n\nاتصل بـالـ WiFi أو أوقف \"التحقق من الرموز فقط عبرالـ WiFi \"  في إعدادات التطبيق.</string>
+    <string name="enable_internet_footer">هل  لا يزال التطبيق غير نشط بشكل كامل؟ ربما هناك مشكلة فنية. لا يمكنك فعل أي شيء حيال هذا بنفسك في الوقت الراهن.</string>
+    <string name="enable_internet_open_settings_button">فتح الإعدادات</string>
+    <string name="enable_internet_title">اتصل بالإنترنت</string>
+    <string name="end_of_life_action">إقرأ المزيد</string>
+    <string name="end_of_life_description">قررت وزارة الصحة والرعاية والرياضة بأن التطبيق لم يعد ضروريًا. لذلك لن تتلقى إشعارات بعد تواجدك بالقرب من شخص مصاب بكورونا.</string>
+    <string name="end_of_life_headline">توقف CoronaMelder عن العمل</string>
+    <string name="error_api_not_available">حدثت خطأ ما في التطبيق. حاول مرة أخرى في وقت لاحق.</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string name="error_upload_not_available">تستطيع إرسال الإشعار فقط إذا قمت بتشغيل الإعدادات اللازمة.</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"إعدادات متقدمة"</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"نسخ الرابط"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"فتح في المتصفح"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"مشاركة الرابط"</string>
+    <string name="faq_anonymous">هل يعرف التطبيق من أكون ومن قابلت؟</string>
+    <string name="faq_anonymous_paragraph_1">يقوم التطبيق بتبادل رموز عشوائية مع الهواتف الأخرى. لا تحتوي هذه الرموز على أي معلومات شخصية أو معلومات عن الموقع الجغرافي. يحدث تبادل الرموز عندما تكون قريبًا من شخص لديه التطبيق أيضًا.</string>
+    <string name="faq_anonymous_paragraph_2">هل تبين لاحقًا أن هذا الشخص مصاب بكورونا؟ يستطيع هذا الشخص بمساعدة GGD إضافة رمزه أو رمزها إلى قائمة رموز الأشخاص المصابين بالفيروس. يمكن بهذه الطريقة تأكيد الإصابة. \n\nبعد هذا التأكيد، يتم إرسال إشعار إلى جميع الأشخاص الآخرين الذين لديهم هذه الرموز على هواتفهم. يمكن من خلال هذا الإشعار فقط معرفة متى كانوا متواجدين بالقرب من شخص مصاب. لا يذكر الإشعار من يكون هذا الشخص وأين التقوا به.</string>
+    <string name="faq_bluetooth">هل من الممكن أن تخترق إشارة البلوتوث الجدران؟</string>
+    <string name="faq_bluetooth_paragraph_1">"نعم، إلا أن الإشارة تصبح ضعيفة جدًا. يعمل البلوتوث على أكمل وجه عندما يتواجد هاتفك في نفس الغرفة التي يتواجد فيها هاتف الشخص الآخر. \n\nاحتمالية استلامك لإشارة البلوتوث من الجيران على سبيل المثال ضئيلة جداً.\n\nوتصبح احتمالية استلامك لتحذير ضئيلة أيضًا بعد أن تبين أن جارك مصاب بكورونا ولم تكن متواجدًا معه في نفس الغرفة."</string>
+    <string name="faq_deletion">كيف أحذف بيانات بلوتوث من هاتفي المحمول؟</string>
+    <string name="faq_deletion_button">فتح الإعدادات</string>
+    <string name="faq_deletion_paragraph_1">"يمكنك حذف بيانات البلوتوث التي خزّنها CoronaMelder بنفسك. انقر على الزر أدناه ثم على &lt;strong>حذف الهويات العشوائية&lt;/strong>.\n\nهل تريد أن يتوقف التطبيق عن تخزين بيانات البلوثوث الجديدة؟ احذف التطبيق إذًا."</string>
+    <string name="faq_detail_toolbar_title">سؤال متكرر</string>
+    <string name="faq_header">الأسئلة المتكررة</string>
+    <string name="faq_interop_countries">ما هي التطبيقات الأجنبية التي يعمل معها CoronaMelder؟</string>
+    <string name="faq_interoperability">هل يعمل CoronaMelder أيضًا مع تطبيقات من دول أخرى؟</string>
+    <string name="faq_interoperability_paragraph_1">يعمل CoronaMelder مع عدد من التطبيقات من دول أوروبية أخرى. من بين هذه الدول ألمانيا وأيرلندا وإيطاليا.</string>
+    <string name="faq_interoperability_paragraph_2">لنفرض أنك كنت على مقربة من أحد مستخدمي تطبيق Corona-Warn-App الألماني لفترة طويلة. تم اختبار هذا الشخص في ألمانيا وتبين أنه مصاب بكورونا. إذا شارك هذا الشخص الرموز الخاصة به مع الـ GGD الألماني، فستتلقى إشعارًا عبر CoronaMelder. وعكس الشيء ينطبق أيضًا. نظرًا لأن تطبيقات كورونا تعمل معًا، فأنت تحتاج فقط إلى تشغيل تطبيق واحد.</string>
+    <string name="faq_interoperability_paragraph_3">اعتبارًا من 30 نوفمبر/تشرين الثاني 2020، يتحقق CoronaMelder من رموز المستخدمين من مختلف البلدان يوميًا. نتيجة لذلك، يستخدم التطبيق خدمة تجوال البيانات في الهواتف أكثر من ذي قبل. يمكنك من خلال &lt;strong> الإعدادات &lt;/strong> على الشاشة الرئيسية ضبط التطبيق بحيث يتم التحقق فقط عبرالـ WiFi  مما إذا كنت على مقربة من شخص مصاب بكورونا.</string>
+    <string name="faq_location">هل يستطيع التطبيق التعرف على موقعي الجغرافي؟</string>
+    <string name="faq_location_paragraph_1">كلا، يرى التطبيق عبر البلوتوث فقط ما إذا كنت بالقرب من أشخاص آخرين لديهم التطبيق على هواتفهم أيضًا. لا يرى التطبيق مكانك أبدًا. \n\n الهدف من تقنية البلوتوث هو إجراء اتصال لاسلكي بين جهازين قريبين من بعضهما البعض. مثل الهاتف ومكبر الصوت أو سماعات الرأس. \n\nيمكن للتطبيق تقدير المسافة بين هاتفين من خلال قوة إشارة البلوتوث.</string>
+    <string name="faq_location_permission">لماذا يجب عليّ أن أشغل إعدادات موقعي؟</string>
+    <string name="faq_location_permission_paragraph_1">لا يعرف CoronaMelder مكانك، ولكن يجب تشغيل إعدادات موقعك الجغرافي. وإلا فإن التطبيق لن يعمل. قد يبدو هذا غريبًا بعض الشيء. الأمر كالتالي:\n\nCoronaMelder يستخدم \"مسح البلوتوث\". تقنية البلوتوث هذه مختلفة عن التي يمكنك استخدامها للاتصال بسماعات رأس لاسلكية، على سبيل المثال. إنها تقنية تتطلب القليل من الطاقة. يتبادل التطبيق الرموز العشوائية مع الهواتف القريبة عبر مسح البلوتوث.\n\nتستخدم بعض التطبيقات (غير CoronaMelder) مسح البلوتوث لتحديد موقعك الجغرافي. لهذا السبب يجب أن تكون إعدادات موقعك الجغرافي قيد التشغيل دائمًا لاستخدام مسح البلوتوث. حتى إذا كان التطبيق لا يستخدم موقعك الجغرافي.\n\nمن المهم أن تتذكر: لا يستطيع CoronaMelder الوصول إلى موقعك الجغرافي مطلقًا. اعتبارًا من الإصدار 11 من Android، لا داعي لأن تكون إعدادات موقعك مشغلة.</string>
+    <string name="faq_notification">متى يقوم التطبيق بإرسالي إشعارًا؟</string>
+    <string name="faq_notification_message">كيف أتعرف على الإشعار؟</string>
+    <string name="faq_notification_paragraph_1">"ستتلقى إشعارًا بعد تعرضك لموقف قد يجعلك أكثر عرضة للإصابة. يحدث ذلك عند تواجدك لمدة 15 دقيقة على الأقل بالقرب من شخص  مصاب بكورونا. قد يكون هذا شخص واحد أو أكثر. يحدث ذلك بطبيعة الحال فقط إن كان ذلك الشخص من مستخدمي التطبيق أيضًا.\n\n يعتمد ما إذا كنت ستتلقى إشعارًا أم لا على قوة إشارة البلوتوث ومدة اختلاطكم.\n\nهل مر بجوارك شخص  بدراجة هوائية؟ لن يصلك إشعار لاحقًا. كنتما قريبين من بعضكما وكانت إشارة البلوتوث قوية، إلا أن الاختلاط استمر لفترة وجيزة لدرجة أن يكون خطر الإصابة بالعدوى ضئيلا للغاية.\n\nهل كنت جالسًا بالقرب من شخص ما في القطار أو في المكتب؟ يمكنك أن تتلقى إشعار لاحقًا. كانت إشارة البلوتوث قوية بما يكفي وكنتما قريبين من بعضكما لفترة طويلة.
+
+"</string>
+    <string name="faq_pause">هل يمكنني إيقاف التطبيق مؤقتًا؟</string>
+    <string name="faq_pause_paragraph_1"><![CDATA[نعم، يمكنك إيقاف التطبيق مؤقتًا. يمكنك القيام بذلك من الصفحة الرئيسية من خلال <strong> الإعدادات> إيقاف التطبيق مؤقتًا </ strong>. إذا قمت بإيقاف التطبيق مؤقتًا، فلن يتم تعقب أثر المخالطات مؤقتًا. لا يمكنك أيضًا تلقي إشعار إذا كنت مع شخص تبين لاحقًا أنه مصاب بكورونا.]]></string>
+    <string name="faq_pause_paragraph_2">عند انتهاء الإيقاف المؤقت، سيتم إخطارك على الفور لإعادة تشغيل التطبيق. بعد تشغيل التطبيق، لا يزال بإمكانك تلقي إشعارات المخالطات قبل إيقاف التطبيق مؤقتًا.</string>
+    <string name="faq_pause_paragraph_3">"لا يُنصح عادةً بإيقاف التطبيق مؤقتًا لأنك قد تنسى إعادة تشغيله. يمكنك إيقاف التطبيق مؤقتًا في حالات خاصة. إذا اقتربت من مرضى كورونا (محتملين) على سبيل المثال، لكنك متأكد من أنك ترتدي معدات الوقاية الطبية اللازمة.
+"</string>
+    <string name="faq_power_usage">ما كمية الطاقة التي يستهلكها التطبيق؟</string>
+    <string name="faq_power_usage_paragraph_1">"يستخدم التطبيق البلوتوث منخفض الطاقة (Bluetooth Low Energy). هذا نوع خاص من البلوتوث يستهلك كمية قليلة جدًا من الطاقة. أن كمية الطاقة التي يتطلبها من بطارية التليفون تختلف من هاتف لآخر. "</string>
+    <string name="faq_reason">لماذا يعتبرهذا التطبيق مهم؟</string>
+    <string name="faq_reason_paragraph_1">"يستطيع التطبيق تحذيرك بسرعة بعد تواجدك بالقرب من شخص مصاب بكورونا. حتى قبل أن تظهر عليك الأعراض. يمكن أن تكون مصابًا بكورونا وتكون معديًا دون أن تدرك ذلك."</string>
+    <string name="faq_reason_paragraph_2">" إذا تلقيت تحذيرًا عبر التطبيق، فتستطيع في التطبيق قراءة ما يمكنك فعله او فيما إذا كان عليك إجراء القحص.  يمكنك بذلك تجنب تعرض الآخرين في محيطك للإصابة بدون قصد."</string>
+    <string name="faq_reason_paragraph_3">"هل أجريت الاختبار وتبين أنك مصابًا بكورونا؟ يمكنك بمساعدة الـ GGD تحذير الأشخاص الذين تواجدوا بالقرب منك لفترة طويلة. حتى الأشخاص الذين لا تعرفهم، في مطعم أو سينما أو غرفة انتظار. طالما أن هؤلاء الأشخاص يستخدمون التطبيق أيضًا."</string>
+    <string name="faq_reason_paragraph_4">يمكننا بفضل CoronaMelder التدخل بسرعة أكبر ومنع حدوث إصابات جديدة. معًا فقط يمكننا السيطرة على كورونا.</string>
+    <string name="faq_technical">كيف يعمل التطبيق بالضبط؟</string>
+    <string name="faq_technical_github_subtitle">انتقل إلى GitHub</string>
+    <string name="faq_technical_github_title">راجع الشفرة المصدرية</string>
+    <string name="faq_technical_header_1">1. يقوم التطبيق بإنشاء رمز خاص لكل هاتف</string>
+    <string name="faq_technical_header_3">2. تتبادل الهواتف رموزها عند تواجدها بالقرب من بعضها</string>
+    <string name="faq_technical_header_5">3. إذا كان شخصًا ما مصابًا بكورونا، فيستطيع هذا الشخص وضع رموزه أو رموزها على قائمة</string>
+    <string name="faq_technical_header_7">يتأكد كل هاتف فيما إذا لاحظ الرموز على القائمة من قبل.</string>
+    <string name="faq_technical_header_9">5. تستلم تحذيرًا في حال وجود رموز شخص مصاب على هاتفك.</string>
+    <string name="faq_technical_paragraph_10">ستعرف من خلال هذا الإشعار متى تواجدت بالقرب من الشخص المصاب بالعدوى. ليس من يكون هذا الشخص ولا مكان تواجده. كما أن التطبيق يعرّفك على أفضل شيء تستطيع القيام به الآن. رموزك غير موجودة على قائمة رموز المصابين، إلا أنه يتم تخزينها لمدة 14 يومًا على هاتفك.</string>
+    <string name="faq_technical_paragraph_2">لا يحتوي هذا الرمزعلى معلومات عنك أو عن هاتفك. الرمز عشوائي تمامًا ويتغير كل ربع ساعة.</string>
+    <string name="faq_technical_paragraph_4">هل لدى الشخص الذي تقابله التطبيق أيضًا؟ سوف تتبادل هواتفكم في تلك الحالة رموزها عن طريق البلوتوث منخفض الطاقة. بهذه الطريقة يعرف التطبيق ما هي الهواتف التي تواجدت بالقرب منه. لا يعرف التطبيق من هم أصحاب هذه الهواتف ولا مكان تواجدكم.</string>
+    <string name="faq_technical_paragraph_6">تتضمن هذه القائمة رموز الأشخاص المصابين بالعدوى فقط. من أجل إضافة الرموز، يجب على الشخص المصاب إرسال رمزالـ GGD إلى الـ GGD. بهذه الطريقة يمكن التأكد من أن الرموز المضافة تنتمي بالفعل إلى شخص مصاب بكورونا. يتم حذف كل الرموز التي يتجاوز عمرها 14 يوماً.</string>
+    <string name="faq_technical_paragraph_8">يشاهد التطبيق قائمة رموز الأشخاص المصابين عدة مرات في اليوم. يقارن التطبيق هذه القائمة مع الرموز المحفوظة على هاتفك. هكذا يرى التطبيق ما إذا كنت معرضًا إلى زيادة خطر الإصابة بالعدوى.</string>
+    <string name="faq_technical_toolbar_title">الشرح التقني</string>
+    <string name="faq_upload_keys">هل أستطيع إرسال أشعار للآخرين إذا كنت مصابًا بكورونا؟</string>
+    <string name="faq_upload_keys_generic_paragraph_1">يمكنك فقط إرسال إشعار للآخرين إذا تم اختبارك من قبل الـ GGD وتبين أنك مصاب بكورونا. يمكنك إرسال الإشعار مع الـ GGD الذي يتصل بك هاتفيًا أو بنفسك عبر coronatest.nl.\n\nإذا كنت تريد إرسال إشعار، فستُسئل عن رمز الـ GGD الخاص بك. ستجده في التطبيق. يضمن رمز الـ GGD أن الأشخاص المصابين حقًا هم فقط من يمكنهم إرسال الإشعار.</string>
+    <string name="faq_upload_keys_generic_paragraph_2">بعد التحقق من مفتاح الـ GGD، ستتم مشاركة الرموز التي أرسلها هاتفك إلى الهواتف الأخرى خلال الـ 14 يومًا الماضية.\n\nبهذه الطريقة يمكن للأشخاص الذين كنت على مقربة منهم عندما كنت ناقلاً للعدوى تلقي إشعار. فقط إذا كان هؤلاء الأشخاص يستخدمون التطبيق أيضًا.</string>
+    <string name="faq_upload_keys_paragraph_1">لا يمكنك إرسال إشعار للآخرين إلا إذا قمتَ بإجراء فحص وتبين أنك مصاب بكورونا. في هذه الحالة، ستتصل بك الـ GGD لإبلاغك بنتيجة الاختبار.\n\nأثناء هذه المحادثة الهاتفية، سيتحقق موظف الـ GGD من مفتاح الـ GGD الخاص بك. تجد هذا المفتاح في التطبيق. بهذه الطريقة، من المؤكد دائمًا أن الأشخاص المصابين حقًا هم فقط من يقومون بإرسال الإشعارات.</string>
+    <string name="faq_upload_keys_paragraph_2">بعد التحقق من مفتاح  الـ GGD،  يمكنك مشاركة الرموز التي أرسلها هاتفك إلى الهواتف الأخرى خلال الـ 14 يومًا الماضية.\n\nبهذه الطريقة، يمكن للأشخاص الذين تواجدت بالقرب منهم عندما كنت ناقلاً للعدوى أن يتلقوا إشعارًا. لكن فقط إذا كان هؤلاء الأشخاص يستخدمون التطبيق أيضًا.</string>
+    <string name="generic_notification_advice_stay_home">إبق في المنزل على أي حال حتى تتأكد من عدم إصابتك بكورونا. فتتفادى بهذه الطريقة من نقل العدوى إلى الآخرين دون قصد.</string>
+    <string name="generic_notification_alt_text_6">شاشة حمراء مع جرس إنذار يشير إلى أنه ينبغي عليك التصرف الآن.</string>
+    <string name="generic_notification_caption_7">مثال: هذا ما يبدو عليه التطبيق عندما تتلقى إشعارًا</string>
+    <string name="generic_notification_exposure_summaries">"تتلقى في بعض الأحيان أيضًا إشعارات تخبرك أن هاتفك يجري فحوصات COVID-19. قم بفتح CoronaMelder. من المهم أن تعرف: في العادة لا يوجد هناك شيء يدعو إلى القلق."</string>
+    <string name="generic_notification_header_1">كيف أتعرف على الإشعار؟</string>
+    <string name="generic_notification_header_11">إشعارات أخرى</string>
+    <string name="generic_notification_header_3">كيف يبدو الإشعار؟</string>
+    <string name="generic_notification_header_8">ما الذي يمكنك القيام به إذا تواجدت بالقرب من شخص مصاب بكورونا؟</string>
+    <string name="generic_notification_paragraph_10">هل تعطيك الـ GGD عبر الهاتف نصائح مختلفة عن النصائح الموجودة في التطبيق؟ اتبع إذًا نصيحة الـ GGD.</string>
+    <string name="generic_notification_paragraph_12">يمكن لـ CoronaMelder أيضًا أن يرسل لك إشعارًا في حالة وجود مشكلة فنية. إذا تم إيقاف تشغيل البلوتوث على سبيل المثال. أو في حالة عدم وجود اتصال بالإنترنت لأكثر من يوم. سيساعدك التطبيق في حل هذه المشكلة.</string>
+    <string name="generic_notification_paragraph_13">هل تلقيت مثل هذا الإشعار، وهل لا يزال التطبيق نشطًا؟ تم بالفعل حل المشكلة في هذه الأثناء.</string>
+    <string name="generic_notification_paragraph_2">يرسل التطبيق إشعارًا عند تواجدك لمدة 15 دقائق على الأقل بالقرب من شخص أو أشخاص تبين لاحقاً أنهم مصابون بكورونا. يمكن أن يكون هذا شخصًا واحدًا أو عدة أشخاص.</string>
+    <string name="generic_notification_paragraph_4">"يظهر الإشعار في ملف الإشعارات الخاصة بك. تمامًا مثل الرسائل الواردة من التطبيقات الأخرى. يحتوي الإشعار على رمز CoronaMelder.\n\nهل تلقيت إشعارًا؟ قم بفتح CoronaMelder. هناك يمكنك قراءة ما يمكنك القيام به بعد ذلك. "</string>
+    <string name="generic_notification_paragraph_5">" انقر على الإشعار لفتح تطبيق CoronaMelder. هناك يمكنك قراءة ما يمكنك القيام به بعد ذلك."</string>
+    <string name="generic_notification_paragraph_9">اتبع النصيحة في التطبيق. تعتمد النصيحة على حالتك. فيما إذا كانت لديك أعراض تتناسب مع أعراض كورونا. وفي أي يوم كنت بالقرب من الشخص المصاب.</string>
+    <string name="generic_notification_sample_notification_content_description">مثال على الإشعار</string>
+    <string name="generic_notification_toolbar_title">استلام إشعار</string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="lab_test_button">استمر</string>
+    <string name="lab_test_copy_key_to_clipboard">تم نسخ رمز الـ GGD</string>
+    <string name="lab_test_done_box_4">يتم إرسال التحذير فقط بعد أن قامت الـ GGD بفحصك وتبين بأنك مصاب بكورونا.</string>
+    <string name="lab_test_done_button">إغلاق</string>
+    <string name="lab_test_done_generic_box_4">سيتم إرسال الإشعار فقط إذا قمت بإرسال رمز الـ GGD إلى الـ GGD أو من خلال coronatest.nl.</string>
+    <string name="lab_test_done_generic_header_1">شكرًا لك لإرسالك الإشعار</string>
+    <string name="lab_test_done_generic_paragraph_2">"ستخبرك الـ GGD بما يمكنك فعله لتجنب نقل العدوى إلى الآخرين. نتمنى لك الشفاء العاجل والتحلي بالقوة في مواجهة المرض. "</string>
+    <string name="lab_test_done_header_1">شكراً لك، ستساعدك الـ GGD  فيما بعد</string>
+    <string name="lab_test_done_paragraph_2">سيشرح لك موظف الـ GGD ما الذي تستطيع القيام به لتجنب نقل العدوى إلى الآخرين. نتمنى لك الشفاء العاجل واستعادة عافيتك بسرعة.</string>
+    <string name="lab_test_done_toolbar_title">شكرًا لك</string>
+    <string name="lab_test_done_used_key">رمز الـ GGD هو: %1$s</string>
+    <string name="lab_test_generic_toolbar_title">إرسال إشعار</string>
+    <string name="lab_test_how_does_it_work">كيف يعمل هذا؟</string>
+    <string name="lab_test_paragraph_1"><![CDATA[هل خضعت للاختبار وتبين أنك مصاب بكورونا؟ سيتصل بك موظف الـ GGD. سيساعدك الموظف لتحذير الآخرين الذين كانوا بالقرب منك . تحتاج حينئذ إلى مفتاح الـ GGD الخاص بك.
+<a href="">كيف يعمل ذلك؟</a>]]></string>
+    <string name="lab_test_step_1">اعط هذا الرمز إلى موظف الـ GGD :</string>
+    <string name="lab_test_step_2">انتظر موظف الـ GGD من أجل الخطوة التالية</string>
+    <string name="lab_test_step_3">حذر الآخرين عن طريق إرسال إشعار</string>
+    <string name="lab_test_token_error">لم ينجح التطبيق في تحميل رمز الـ GGD. تأكد من اتصالك بالإنترنت.</string>
+    <string name="lab_test_token_loading">الرمز قيد التحميل</string>
+    <string name="lab_test_token_retry">حاول مجددًا</string>
+    <string name="lab_test_toolbar_title">رمزالـ GGD</string>
+    <string name="lab_test_upload_error">لم ننجح في إرسال إشعار إلى الآخرين. حاول مجددًا في وقت لاحق.</string>
+    <string name="location_services_required_description">تستخدم بعض التطبيقات البلوتوث لتحديد موقعك الجغرافي. وبالتالي، هذا جزء من إعدادات الموقع. يحتاج CoronaMelder إلى تقنية البلوتوث ليعمل، ولكن لا يمكنه الوصول إلى موقعك الجغرافي على الإطلاق.</string>
+    <string name="location_services_required_enable_error">لا يمكن فتح إعدادات موقعك الجغرافي.</string>
+    <string name="location_services_required_explain">كيف يعمل ذلك بالضبط؟</string>
+    <string name="location_services_required_headline">التطبيق يعمل فقط إذا قمت بتشغيل إعدادات موقعك الجغرافي</string>
+    <string name="location_services_required_title">إعدادات الموقع الجغرافي</string>
+    <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_selection">تحديد الساعة</string>
+    <string name="material_hour_suffix">الساعة %1$s</string>
+    <string name="material_minute_selection">تحديد الدقائق</string>
+    <string name="material_minute_suffix">%1$s دقيقة</string>
+    <string name="material_timepicker_am">صباحًا</string>
+    <string name="material_timepicker_clock_mode_description">يُرجى التبديل إلى وضع الساعة لإدخال الوقت.</string>
+    <string name="material_timepicker_hour">الساعة</string>
+    <string name="material_timepicker_minute">دقيقة</string>
+    <string name="material_timepicker_pm">مساءً</string>
+    <string name="material_timepicker_select_time">اختيار الوقت</string>
+    <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
+    <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
+    <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
+    <string name="mtrl_picker_day_of_week_column_header">عمود الأيام: %1$s</string>
+    <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
+    <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$s</string>
+    <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
+    <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
+    <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
+    <string name="mtrl_picker_text_input_day_abbr">ي</string>
+    <string name="mtrl_picker_text_input_month_abbr">ش</string>
+    <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">انقر للتبديل إلى اختيار يوم</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">انقر للتبديل إلى اختيار عام</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"فتح لائحة التنقل"</string>
+    <string msgid="478774118347071097" name="not_set">"لم يتمّ تحديد قيمة."</string>
+    <string name="notification_channel_description">إشعارات حول تعرض محتمل لفيروس كورونا</string>
+    <string name="notification_channel_name">إشعارات التعرض للإصابة</string>
+    <string name="notification_message">تواجدت %1$s بالقرب من شخص مصاب بفيروس كورونا.</string>
+    <string name="notification_message_reminder_dismiss">وقف التذكير</string>
+    <string name="notification_message_reminder_prefix">تذكير: %1$s</string>
+    <string name="notification_title">تعرض محتمل لفيروس كورونا</string>
+    <string name="onboarding_consent_check_1">يتم تخزين بيانات البلوتوث على هاتفك لمدة 14 يومًا. تستطيع أن تقوم بحذفها بنفسك دائمًا.</string>
+    <string name="onboarding_consent_check_2"><![CDATA[<strong>لا </strong>يتم استخدام أو حفظ اسمك.]]></string>
+    <string name="onboarding_consent_check_3"><![CDATA[<strong>لا</strong> يتم استخدام أو تخزين بيانات موقعك الجغرافي.]]></string>
+    <string name="onboarding_consent_explain">كيف يعمل التطبيق بالضبط؟</string>
+    <string name="onboarding_consent_headline">تشغيل إشعارات حول الإصابة المحتملة بفيروس كورونا</string>
+    <string name="onboarding_consent_request">تشغيل</string>
+    <string name="onboarding_consent_skip">تخطى</string>
+    <string name="onboarding_consent_skip_dialog_enable">شغل</string>
+    <string name="onboarding_consent_skip_dialog_message">بدون الموافقة لا يستطيع التطبيق إرسال الإشعارات بعد مواجهتك لموقف قد يجعلك أكثر عرضة للإصابة.</string>
+    <string name="onboarding_consent_skip_dialog_skip">تخطى</string>
+    <string name="onboarding_consent_skip_dialog_title">هل أنت متأكد من أنك لا تريد تشغيل هذه الإشعارات؟</string>
+    <string name="onboarding_enable_description">يحتاج CoronaMelder إلى إذن لـ: &lt;br/>&lt;br/>&lt;ul> &lt;li> تتبع المخالطات مع مستخدمي التطبيق الآخرين&lt;/li>&lt;li> إيقاف تشغيل تحسين البطارية لهذا التطبيق فقط (للحصول على أداء أفضل للتطبيق) &lt;/li> &lt;/ul></string>
+    <string name="onboarding_enable_description_location"><![CDATA[يحتاج CoronaMelder إلى إذن لـ: <br/><br/><ul> <li> تتبع المخالطات مع مستخدمي التطبيق الآخرين </li><li> تشغيل إعدادات موقعك (لا يعرف CoronaMelder موقعك الجغرافي) </li><li> إيقاف تشغيل تحسين البطارية لهذا التطبيق فقط (للحصول على أداء أفضل للتطبيق) </li> </ul>]]></string>
+    <string name="onboarding_enable_headline">قم بتشغيل CoronaMelder</string>
+    <string name="onboarding_example">مثال</string>
+    <string name="onboarding_example_1_description">كانت إشارة البلوتوث قوية بما يكفي بسبب تواجدكم بالقرب من بعضكم. إلا أن المدة كانت قصيرة جدًا بحيث يصبح احتمال الإصابة ضئيلاً جدًا.</string>
+    <string name="onboarding_example_1_headline">هل مر بجوارك شخص يقود دراجة هوائية؟ <u>لن</u> يصلك إشعار في وقت لاحق إذًا.</string>
+    <string name="onboarding_example_2_description">إشارة البلوتوث كانت قوية بما يكفي وكنتم متواجدين بالقرب من بعضكما لفترة طويلة.</string>
+    <string name="onboarding_example_2_headline">هل كنت جالساً بالقرب من شخص ما في القطار؟ في هذه الحالة <u>من الممكن </u> أن يصلك إشعار في وقت لاحق.</string>
+    <string name="onboarding_explanation_1_description">يقوم هذا التطبيق بتحذيرك بعد تواجدك بالقرب من شخص مصاب بفيروس كورونا. هكذا تتفادى الاصابة بالفيروس ونقله الى الأشخاص في محيطك بدون قصد.</string>
+    <string name="onboarding_explanation_1_headline">ساعد على وقف انتشار فيروس كورونا</string>
+    <string name="onboarding_explanation_2_description">يرسل هذا التطبيق تحذيرًا في حال تواجدك لمدة 15 دقيقة على الأقل بالقرب من شخص تبين لاحقاً إصابته بفايروس كورونا.
+يجب أن يكون هذا الشخص من مستخدمي هذا التطبيق أيضًا.</string>
+    <string name="onboarding_explanation_2_headline">ستستلم إشعارًا <u>بعد </u>تعرضك لموقف قد يجعلك أكثر عرضة للإصابة</string>
+    <string name="onboarding_explanation_3_description">يسجل التطبيق ما إذا كنت قد تواجدت بالقرب من شخص ما عن طريق البلوتوث، كلما اقتربت من هذا الشخص كلما صارت إشارة البلوتوث أقوى. لا يسجل التطبيق أين كنت أو من أنت إطلاقاً.</string>
+    <string name="onboarding_explanation_3_headline">"<u>لا </u> يستخدم التطبيق بيانات الموقع الجغرافي وإنما تقنية البلوتوث "</string>
+    <string name="onboarding_how_it_works_detail_toolbar_title">سؤال متكرر</string>
+    <string name="onboarding_how_it_works_request_consent">تشغيل التطبيق</string>
+    <string name="onboarding_how_it_works_toolbar_title">كيف يعمل التطبيق؟</string>
+    <string name="onboarding_next">متابعة</string>
+    <string name="onboarding_privacy_policy_bt_keys">يرسل تطبيقك بيانات بلوتوث مشفرة.</string>
+    <string name="onboarding_privacy_policy_check_1">يرسل تطبيقك بيانات بلوتوث مشفرة.</string>
+    <string name="onboarding_privacy_policy_check_2">يحتفظ المستخدمون الآخرون الذين كانوا بالقرب منك بهذه البيانات لمدة أقصاها 14 يومًا.</string>
+    <string name="onboarding_privacy_policy_check_3">إذا تبين من اختبار كورونا أنك مصاب بكورونا، يمكنك الإبلاغ عن ذلك من خلال التطبيق لتحذير المستخدمين الآخرين.</string>
+    <string name="onboarding_privacy_policy_check_4">يمكنك حذف البيانات من هاتفك في أي وقت.</string>
+    <string name="onboarding_privacy_policy_consent_label">لقد قرأت بيان حماية الخصوصية وأفهم الطريقة التي يقوم فيها CoronaMelder باستخدام بياناتي.</string>
+    <string name="onboarding_privacy_policy_data_removal">يمكنك حذف البيانات من هاتفك في أي وقت.</string>
+    <string name="onboarding_privacy_policy_headline">بهذه الطريقة يقوم CoronaMelder باستخدام بياناتك.</string>
+    <string name="onboarding_privacy_policy_identity"><![CDATA[<b>لا </b>يتم استخدام أو تخزين اسمك.]]></string>
+    <string name="onboarding_privacy_policy_location"><![CDATA[<b> لا</ b>يتم استخدام أوتخزين بيانات الجي بي إس الخاصة بك أو بيانات موقعك الجغرافي.]]></string>
+    <string name="onboarding_privacy_policy_paragraph"><![CDATA[يتم في<a href=""> بيان حماية الخصوصية </a> توضيح كيفية تعامل CoronaMelder مع بياناتك. النقاط الرئيسية هي:]]></string>
+    <string name="onboarding_privacy_policy_retention">يحتفظ المستخدمون الآخرون الذين كانوا بالقرب منك بهذه البيانات لمدة أقصاها 14 يومًا.</string>
+    <string name="onboarding_privacy_policy_send_alert">إذا تبين من اختبار كورونا أنك مصاب بكورونا، يمكنك الإبلاغ عن ذلك من خلال التطبيق لتحذير المستخدمين الآخرين.</string>
+    <string name="onboarding_privacy_policy_voluntary">استخدام CoronaMelder طوعي دائمًا</string>
+    <string name="onboarding_share_continue">متابعة</string>
+    <string name="onboarding_share_description">كلما قام عدد أكبر من الأشخاص باستخدام CoronaMelder، كلما أصبح التطبيق يعمل بصورة أفضل. معًا فقط نستطيع إيقاف انتشار فيروس كورونا. شارك التطبيق إذًا مع أكبر عدد ممكن من الأشخاص.</string>
+    <string name="onboarding_share_headline">عرّف الآخرين بإنك تساهم في وقف الفيروس.</string>
+    <string name="onboarding_share_share">مشاركة التطبيق</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="pause_confirmation_accept_button">نعم، قم بإيقاف التطبيق مؤقتًا</string>
+    <string name="pause_confirmation_decline_button">كلا، لا تقم بإيقاف التشغيل مؤقتًا</string>
+    <string name="pause_confirmation_description">لا يتتبع التطبيق المصادفات مع مستخدمي التطبيق الآخرين أثناء الإيقاف المؤقت. لا يمكنك أيضًا تلقي إشعار إذا كنت مع شخص تبين لاحقًا أنه مصاب بكورونا. \n\nقم بالإيقاف المؤقت فقط في الحالات التي يكون فيها هاتفك على مقربة من هواتف الآخرين لكن لم تكن عرضه للإصابة. بسبب استخدام معدات الوقاية الطبية على سبيل المثال.</string>
+    <string name="pause_confirmation_title">هل أنت متأكد من أنك تريد إيقاف التطبيق مؤقتًا؟</string>
+    <string name="paused_en_api_description"><![CDATA[سوف تتلقى إشعارًا بعد <b>%1$s</b> لتشغيل التطبيق من جديد]]></string>
+    <string name="paused_en_api_duration_reached">"التطبيق غير نشط بعد. يجب عليك تشغيله مرة أخرى بنفسك. "</string>
+    <string name="phone_call_not_supported_dialog_close">أفهم ذلك</string>
+    <string name="phone_call_not_supported_dialog_message">"اتصل هاتفيًا على الرقم %1$s "</string>
+    <string name="phone_call_not_supported_dialog_title">لا يمكنك الاتصال هاتفيًا من خلال هذا الجهاز</string>
+    <string name="post_keys_options_coronatest_subtitle">يمكن ذلك فقط إذا تلقيت نتيجة الاختبار عبر coronatest.nl</string>
+    <string name="post_keys_options_coronatest_title">من خلال coronatest.nl</string>
+    <string name="post_keys_options_description">يمكنك فقط إرسال إشعار إذا تبين من اختبار كورونا أنك ناقل للعدوى.</string>
+    <string name="post_keys_options_ggd_subtitle">يمكن ذلك فقط إذا كانت الـ GGD معك على الهاتف الآن</string>
+    <string name="post_keys_options_ggd_title">عندما تتصل بك الـ GGD</string>
+    <string name="post_keys_options_header">اختر كيف تريد إرسال إشعار</string>
+    <string name="post_notification_button">طلب إجراء فحص كورونا</string>
+    <string name="post_notification_message">تأكد من وجود رقم خدمات المواطن (BSN) في متناول اليد. تجد هذا الرقم في جواز سفرك أو بطاقة هويتك.</string>
+    <string name="post_notification_toolbar_title">احتمالية الإصابة بالعدوى</string>
+    <string msgid="7961817945132860002" name="preference_copied">"تم نسخ \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" إلى الحافظة."</string>
+    <string name="reminder_channel_description">تذكير عندما قمت بإيقاف التطبيق مؤقتًا</string>
+    <string name="reminder_channel_name">تذكير</string>
+    <string name="request_test_button_call">اتصل بالرقم%1$s</string>
+    <string name="request_test_button_website">راجع الموقع Coronatest.nl</string>
+    <string name="request_test_header_1">هل لديك أعراض تتوافق مع أعراض كورونا؟ قم بطلب إجراء فحص</string>
+    <string name="request_test_header_5">طلب إجراء فحص كورونا</string>
+    <string name="request_test_paragraph_2">"هل لديك أعراض (خفيفة) تناسب مع أعراض فيروس كورونا؟ اخضع لاختبار كورونا مجانًا. لا يستغرق الأمر وقتًا طويلاً ويمكنك عادةً تحديد موعد بسرعة.\n\n ستعرف النتيجة في غضون 48 ساعة. الزم المنزل حتى تعرف النتيجة. "</string>
+    <string name="request_test_paragraph_3">ستعرف النتيجة في غضون 48 ساعة. إبق في المنزل حتى تعرف النتيجة.</string>
+    <string name="request_test_paragraph_4">هل لديك أعراض خطيرة كارتفاع في درجة الحرارة أو حمى أو صعوبة في التنفس؟ أو هل أنت من ضمن مجموعة معرضة للخطر ولديك حمى؟ اتصل بطبيب العائلة الخاص بك أولاً.</string>
+    <string name="request_test_toolbar_title">طلب إجراء فحص كورونا</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"البحث"</string>
+    <string name="settings_pause_action_disable">تشغيل التطبيق</string>
+    <string name="settings_pause_action_enable">إيقاف التطبيق مؤقتًا</string>
+    <string name="settings_pause_app_description">"إذا قمت بإيقاف التطبيق مؤقتًا، فلن يتم تعقب مصادفاتك مؤقتًا. أيضًا لا يمكنك تلقي إشعار إذا كنت مع شخص تبين لاحقًا أنه مصاب بكورونا. بعد انتهاء فترة التشغيل المؤقت، سيتم إشعارك على الفور لإعادة تشغيل التطبيق.
+"</string>
+    <string name="settings_pause_app_title">إيقاف التطبيق مؤقتًا</string>
+    <string name="settings_use_nl_language_summary">لم يتم ضبط جهازك باللغة الهولندية. إذا كنت تفضّل استخدام CoronaMelder باللغة الهولندية، فيمكنك تشغيله هنا.</string>
+    <string name="settings_use_nl_language_title">استخدم التطبيق باللغة الهولندية</string>
+    <string name="settings_wifi_only_summary">يتحقق CoronaMelder عدة مرات في اليوم ما إذا كنت على مقربة من شخص مصاب بكورونا. إذا قمت بإيقاف تجوال البيانات، فسيقوم التطبيق بذلك فقط عند استخدام الـ WiFi. يتم تتبع الاحتكاك كذلك إذا لم يكن لديك اتصال بالإنترنت.</string>
+    <string name="settings_wifi_only_title">تحقق فقط من الرموز عبرالـ WiFi</string>
+    <string name="share_content">أساهم في إبقاء كورونا تحت السيطرة باستخدام CoronaMelder. هل تشارك أنت أيضًا؟ %1$s</string>
+    <string name="share_title">شارك التطبيق مع الآخرين</string>
+    <string name="skip_confirmation_checkbox">لا تقم بإظهار هذه الشاشة مرة أخرى</string>
+    <string name="status_app_version">الإصدار %1$s إنشاء %2$s</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_dialog_remove_exposure_cancel">إلغاء</string>
+    <string name="status_dialog_remove_exposure_confirm">حذف</string>
+    <string name="status_dialog_remove_exposure_message">هل أنت متأكد من أنك تريد حذف هذا الإشعار؟ لا يمكنك العثور على التاريخ في التطبيق بعد ذلك. لذا تذكره جيدًا.</string>
+    <string name="status_dialog_remove_exposure_title">عدوى محتملة في %1$s</string>
+    <string name="status_disabled_headline">التطبيق غير نشط</string>
+    <string name="status_en_api_disabled_description">%1$s لا يعمل إلا إذا قمت بضبط الإعدادات اللازمة.</string>
+    <string name="status_en_api_disabled_enable">تشغيل التطبيق</string>
+    <string name="status_error_action_consent">تشغيل التطبيق</string>
+    <string name="status_error_action_disable_battery_optimisation">"حل المشكلة "</string>
+    <string name="status_error_action_notifications_disabled">تشغيل الإشعارات</string>
+    <string name="status_error_action_sync_issues">حاول مجددًا</string>
+    <string name="status_error_battery_optimisation">يحتوي هاتفك على وظيفة تسمى تحسين البطارية. قد يتسبب هذا في حدوث خلل في التطبيق. لذلك من المهم أن تقوم بتعطيل هذه الوظيفة في CoronaMelder.</string>
+    <string name="status_error_bluetooth"><![CDATA[البلوتوث غير مشغّل. وبالتالي فإن التطبيق <b>لا</ b> يستطيع تتبع أي مخالطات جديدة. سيقوم التطبيق <b> بفحص</ b> ما إذا كان الأشخاص الذين قابلتهم من قبل مصابين بكورونا.]]></string>
+    <string name="status_error_bluetooth_action">تشغيل البلوتوث</string>
+    <string name="status_error_bluetooth_card">"البلوتوث غير مشغّل. وبالتالي فإن التطبيق لا يستطيع تتبع أي مخالطات جديدة. "</string>
+    <string name="status_error_consent_required">%1$s يعمل فقط إذا قمت بتشغيل الإعدادات اللازمة.</string>
+    <string name="status_error_location"><![CDATA[إعدادات الموقع غير مشغّلة. وبالتالي فإن التطبيق<b> لا</ b> يتتبع أي مخالطات . سيقوم التطبيق <b> بفحص </ b> ما إذا كان الأشخاص الذين قابلتهم من قبل مصابين بكورونا.]]></string>
+    <string name="status_error_location_action">تشغيل الموقع</string>
+    <string name="status_error_location_card">إعدادات الموقع غير مشغّلة. لا يمكن للتطبيق تتبع مخالطات جديدة.</string>
+    <string name="status_error_notifications_disabled">"لقد قمت بإيقاف استلام الإشعارات. لن تستلم إشعارات إذًا عند تواجدك بالقرب من شخص مصاب بكورونا. "</string>
+    <string name="status_error_notifications_disabled_headline">تم <u> إيقاف تشغيل</u> الإشعارات</string>
+    <string name="status_error_sync_issues">لم يتمكن التطبيق لمدة 24 ساعة من التحقق فيما إذا تبين لاحقًا أن الأشخاص الذين قابلتهم مصابين بكورونا. تأكد من تشغيل شبكة Wi-Fi أو بيانات الهاتف وحاول مجددًا.</string>
+    <string name="status_error_sync_issues_wifi_only"><![CDATA[التطبيق غير متصل بشبكة الإنترنت. ونتيجة لذلك <b>لم</b>  يتمكن التطبيق لمدة 24 ساعة من التحقق مما إذا كان الأشخاص الذين قابلتهم لاحقًا مصابين بكورونا. <b>سيتعقب</b> التطبيق المخالطات التي قمت بها.<br/><br/><b> اتصل بشبكة الـ Wi-Fi أو شغَل التطبيق للسماح باستخدام خدمة تجوال البيانات.</ b>]]></string>
+    <string name="status_exposure_detected_description">تعرضت في %1$s (%2$s) إلى موقف يجعلك أكثر عرضة للإصابة</string>
+    <string name="status_exposure_detected_headline">لقد تواجدت بالقرب من شخص مصاب بكورونا</string>
+    <string name="status_exposure_what_next">ما الذي يمكنني فعله الآن؟</string>
+    <string name="status_info_about_subtitle">شاهد كيف يعمل التطبيق وما معنى ذلك بالنسبة لخصوصيتك.</string>
+    <string name="status_info_about_title">" أسئلة حول التطبيق"</string>
+    <string name="status_info_lab_subtitle">اذهب إلى هنا عندما تتصل بك الـ GGD لإبلاغك بنتيجة اختبار كورونا التي أجريته.</string>
+    <string name="status_info_lab_title">تمرير رمز الـ GGD</string>
+    <string name="status_info_notification_subtitle">تعرف على شكل الإشعار وما الذي تستطيع القيام به بعد أن تلقيت إشعارًا.</string>
+    <string name="status_info_notification_title">كيف أتعرف على الإشعار؟</string>
+    <string name="status_info_settings_subtitle">إيقاف التطبيق مؤقتًا وضبط خدمة تجوال البيانات</string>
+    <string name="status_info_settings_title">الإعدادات</string>
+    <string name="status_info_share_subtitle">شارك التطبيق مع الآخرين للسيطرة معًا على كورونا.</string>
+    <string name="status_info_share_title">دعوة الناس إلى استخدام للتطبيق</string>
+    <string name="status_info_test_subtitle">اكتشف ما إذا كنت قد أصبت بالفيروس في أسرع وقت ممكن</string>
+    <string name="status_info_test_title">طلب إجراء فحص كورونا</string>
+    <string name="status_last_keys_processed">" يتتبع CoronaMelder المصادفات باستمرار. يتحقق التطبيق أيضًا كل بضع ساعات مما إذا كان الشخص الذي قابلته ناقلاً للعدوى في ذلك الوقت. سيتم إبلاغك إذا كان الأمر كذلك. آخر فحص كان قيد التشغيل في %1$s"</string>
+    <string name="status_no_exposure_detected_description">يتم تخزين المصادفات حتى إذا قمت بإغلاق التطبيق.</string>
+    <string name="status_no_exposure_detected_headline">التطبيق نشط</string>
+    <string name="status_no_keys_processed">يتتبع CoronaMelder المصادفات باستمرار. يتحقق التطبيق أيضًا كل بضع ساعات مما إذا كان الشخص الذي قابلته ناقلاً للعدوى في ذلك الوقت. سيتم إبلاغك إذا كان الامر كذلك.</string>
+    <string name="status_old_exposure_card_action_delete">حذف</string>
+    <string name="status_old_exposure_card_action_more_info">المزيد من المعلومات</string>
+    <string name="status_old_exposure_card_message">في  %1$s  %2$s كنت على مقربة من شخص مصاب بكورونا</string>
+    <string name="status_old_exposure_card_title">مخالطة منذ أكثر من 14 يومًا</string>
+    <string name="status_partly_active_headline">التطبيق نشط جزئيًا</string>
+    <string name="status_paused_duration_reached_headline">قم بتشغيل التطبيق مرة أخرة</string>
+    <string name="status_paused_headline">تم إيقاف التطبيق مؤقتًا</string>
+    <string name="status_reset_exposure">حذف الإشعار</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>، <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="sync_issue_channel_description">إشعارات عندما لا يعمل التطبيق بصورة صحيحة</string>
+    <string name="sync_issue_channel_name">رسائل الإشعار بالخطأ</string>
+    <string name="sync_issue_notification_message">لم يتمكن التطبيق من التحقق لمدة 24 ساعة فيما إذا تبين لاحقًا أن الأشخاص الذين قابلتهم مصابين بكورونا.</string>
+    <string name="sync_issue_notification_title">مشكلة تقنية</string>
+    <string name="today">اليوم</string>
+    <string name="treat_perspective_header_1">"الأعراض التي تتناسب مع فيروس كورونا "</string>
+    <string name="treat_perspective_list_2"><![CDATA[<ul><li>أعراص الزكام مثل حساسية الأنف وسيلان الأنف والعطس وألم في الحلق</li><li>السعال </li><li>ضيق في التنفس</li><li>ارتفاع في درجة حرارة الجسم</li><li>فقدان مفاجئ لحاسة الشم و/أو التذوق (بدون احتقان في الأنف)</li></ul>]]></string>
+    <string name="update_app_description">حدّث التطبيق في هاتفك لكي يستمر في العمل بشكل صحيح.</string>
+    <string name="update_app_headline">إصدار CoronaMelder هذا أصبح قديمًا.</string>
+    <string name="update_channel_description">رسائل تفيد أن إصدار التطبيق قد أصبح قديمًا</string>
+    <string name="update_channel_name">تحديثات التطبيق</string>
+    <string name="update_google_play_services">تحديث</string>
+    <string name="update_google_play_services_description">%1$s يحتاج إلى أحدث إصدار من خدمات غوغل بلاي لكي يستمر في العمل بشكل صحيح في هاتفك.</string>
+    <string name="update_google_play_services_headline">لم يتم تحديث تطبيق غوغل بلاي (Google Play Services) الخاص بك.</string>
+    <string name="update_notification_message">حدّث التطبيق للتاكد من أنه ما يزال يعمل بصورة صحيحة.</string>
+    <string name="update_notification_title">التطبيق بحاجة إلى التحديث</string>
+    <string name="upload_keys_failed_message">لم تنجح في إرسال الإشعار إلى الآخرين. اتصل بالـ GGD . اقرأ المزيد في التطبيق.</string>
+    <string name="upload_keys_failed_notification_header">لم ننجح في إرسال إشعار إلى الآخرين.</string>
+    <string name="upload_keys_failed_notification_paragraph">حاولنا إرسالك إشعار إلا أننا لم ننجح في ذلك. اتصل بالـ GGD لتعاود المحاولة. من المهم جدًا أن تقوم بذلك بسرعة وإلا قد يصاب عدد أكبر من الأشخاص بالعدوى.</string>
+    <string name="upload_keys_failed_notification_toolbar_title">اتصل بالـ GGD</string>
+    <string name="upload_keys_failed_title">لم تنجح في إرسال الإشعار</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"إيقاف"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"تفعيل"</string>
+</resources>

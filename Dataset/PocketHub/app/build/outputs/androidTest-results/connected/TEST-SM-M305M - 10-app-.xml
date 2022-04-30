@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.github.pockethub.android.tests.NewsEventTextTest" tests="15" failures="0" errors="0" skipped="0" time="2879.111" timestamp="2021-12-11T17:36:33" hostname="localhost">
+  <properties>
+    <property name="device" value="SM-M305M - 10" />
+    <property name="flavor" value="" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="testTeamAdd" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.376" />
+  <testcase name="testPullRequest" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.377" />
+  <testcase name="testIssue" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.351" />
+  <testcase name="testWatch" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.351" />
+  <testcase name="testGist" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.352" />
+  <testcase name="testPush" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.352" />
+  <testcase name="testWiki" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.351" />
+  <testcase name="testCommitCommentEvent" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.376" />
+  <testcase name="testAddMember" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.352" />
+  <testcase name="testDelete" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.327" />
+  <testcase name="testFollow" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.327" />
+  <testcase name="testOpenSourced" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.351" />
+  <testcase name="testIssueComment" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.351" />
+  <testcase name="testCreateBranchEvent" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.326" />
+  <testcase name="testCreateRepositoryEvent" classname="com.github.pockethub.android.tests.NewsEventTextTest" time="0.326" />
+</testsuite>

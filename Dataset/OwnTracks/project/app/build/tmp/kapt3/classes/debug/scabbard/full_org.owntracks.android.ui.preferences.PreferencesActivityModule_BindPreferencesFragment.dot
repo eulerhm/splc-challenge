@@ -1,0 +1,28 @@
+digraph "org.owntracks.android.ui.preferences.PreferencesActivityModule_BindPreferencesFragment" {
+  graph [rankdir="LR", labeljust="l", label="PreferencesActivityModule_BindPreferencesFragment", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "dca157dd-bdab-4805-a6d7-ad3dce2212f0" [label="PreferencesActivityModule_BindPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "5a2b0b25-df71-4a28-914b-bd1c0fac9512" [label="PreferencesFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "022f1a5f-d375-4b50-8e81-49e5f8046a31" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "e32039c0-1630-4983-b7b3-d911078ed333" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "42560508-b1d6-4386-be87-66e0f6808b78" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "fdbb692c-023f-43ad-aca9-92003df27fca" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "dca157dd-bdab-4805-a6d7-ad3dce2212f0" [label="PreferencesActivityModule_BindPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "fe0e9234-4e58-424b-8d08-a2c75f85c95f" [label="@PerFragment\nPreferencesActivityModule_BindPreferencesFragment.PreferencesFragmentSubcomponent", href="full_org.owntracks.android.ui.preferences.PreferencesActivityModule_BindPreferencesFragment.PreferencesFragmentSubcomponent.svg", color="aquamarine"]
+  }
+  "fdbb692c-023f-43ad-aca9-92003df27fca" -> "dca157dd-bdab-4805-a6d7-ad3dce2212f0"
+  "dca157dd-bdab-4805-a6d7-ad3dce2212f0" -> "5a2b0b25-df71-4a28-914b-bd1c0fac9512" [style="dotted", label="delegates"]
+  "5a2b0b25-df71-4a28-914b-bd1c0fac9512" -> "fe0e9234-4e58-424b-8d08-a2c75f85c95f" [style="dashed", label="subcomponent", headport="w"]
+}

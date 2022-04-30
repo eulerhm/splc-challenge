@@ -1,0 +1,21 @@
+digraph "org.owntracks.android.ui.preferences.PreferencesActivityModule → org.owntracks.android.ui.preferences.PreferencesActivityModule_BindNotificationPreferencesFragment.NotificationFragmentSubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="PreferencesActivityModule → PreferencesActivityModule_BindNotificationPreferencesFragment.NotificationFragmentSubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "c8b4407a-0c51-4114-bea8-d2993c6c081f" [label="inject (NotificationFragment)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "f6e7d35c-f4bc-4023-a245-decc4894e4ea" [label="@Singleton\nPreferences", color="yellow1"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_PreferencesActivityModule → PreferencesActivityModule_BindNotificationPreferencesFragment.NotificationFragmentSubcomponent" {
+    graph [labeljust="c", label="Inherited from PreferencesActivityModule_BindNotificationPreferencesFragment.NotificationFragmentSubcomponent\n@PerFragment", style="dashed", href="full_org.owntracks.android.ui.preferences.PreferencesActivityModule_BindNotificationPreferencesFragment.NotificationFragmentSubcomponent.svg", color="bisque"]
+    "f6e7d35c-f4bc-4023-a245-decc4894e4ea" [label="@Singleton\nPreferences", color="yellow1"]
+  }
+  "c8b4407a-0c51-4114-bea8-d2993c6c081f" -> "f6e7d35c-f4bc-4023-a245-decc4894e4ea"
+}

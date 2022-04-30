@@ -1,0 +1,28 @@
+digraph "org.owntracks.android.ui.preferences.PreferencesActivityModule_BindAdvancedPreferencesFragment" {
+  graph [rankdir="LR", labeljust="l", label="PreferencesActivityModule_BindAdvancedPreferencesFragment", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "17a8c014-7e20-42e6-8b86-d76f522fabcc" [label="PreferencesActivityModule_BindAdvancedPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "00263910-5129-4666-9eeb-e10b2f6ba466" [label="AdvancedFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "675a5f12-ac88-442b-a44b-8fd899e597e0" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "6dc200b4-b093-4c6d-b6a5-1d8624f5e1ad" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "8b72e15f-e98e-4b46-8c5d-2ce934b469d3" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "5dc512aa-c556-49fb-92a9-b92b6e3b1b5e" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "17a8c014-7e20-42e6-8b86-d76f522fabcc" [label="PreferencesActivityModule_BindAdvancedPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "7ad11beb-34f9-4f7b-a3b4-903968220017" [label="@PerFragment\nPreferencesActivityModule_BindAdvancedPreferencesFragment.AdvancedFragmentSubcomponent", href="full_org.owntracks.android.ui.preferences.PreferencesActivityModule_BindAdvancedPreferencesFragment.AdvancedFragmentSubcomponent.svg", color="aquamarine"]
+  }
+  "5dc512aa-c556-49fb-92a9-b92b6e3b1b5e" -> "17a8c014-7e20-42e6-8b86-d76f522fabcc"
+  "17a8c014-7e20-42e6-8b86-d76f522fabcc" -> "00263910-5129-4666-9eeb-e10b2f6ba466" [style="dotted", label="delegates"]
+  "00263910-5129-4666-9eeb-e10b2f6ba466" -> "7ad11beb-34f9-4f7b-a3b4-903968220017" [style="dashed", label="subcomponent", headport="w"]
+}

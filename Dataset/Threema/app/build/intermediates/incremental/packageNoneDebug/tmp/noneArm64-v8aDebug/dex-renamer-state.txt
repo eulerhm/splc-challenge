@@ -1,0 +1,13 @@
+#Wed Dec 22 09:29:27 BRT 2021
+path.3=classes4.dex
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+base.3=/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/threema-android/app/build/intermediates/dex/noneDebug/mergeDexNoneDebug/classes4.dex
+base.2=/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/threema-android/app/build/intermediates/dex/noneDebug/mergeDexNoneDebug/classes3.dex
+base.1=/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/threema-android/app/build/intermediates/dex/noneDebug/mergeDexNoneDebug/classes2.dex
+base.0=/home/eulerhm/Documents/workspaceSQJ/NOVAS_EXECUCOES/threema-android/app/build/intermediates/dex/noneDebug/mergeDexNoneDebug/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex

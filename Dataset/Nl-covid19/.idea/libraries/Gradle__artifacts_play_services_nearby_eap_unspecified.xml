@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:play-services-nearby-eap:unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/res" />
+      <root url="file://$PROJECT_DIR$/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

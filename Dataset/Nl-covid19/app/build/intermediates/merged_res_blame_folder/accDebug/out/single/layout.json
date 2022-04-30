@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_bottom_sheet.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_bottom_sheet.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_spacing.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_spacing.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/include_enable_api_step.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/include_enable_api_step.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_button.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_button.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_header.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_bottom_sheet_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_bottom_sheet_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_illustrated_box.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_illustrated_box.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/include_settings_pause_state.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/include_settings_pause_state.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_status_footer.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_status_footer.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_status_paused.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_status_paused.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_list_with_two_buttons.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_list_with_two_buttons.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_settings.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_centered_illustration.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_centered_illustration.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_faq_onboarding.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_faq_onboarding.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_loading.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_loading.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_pause_confirmation.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_pause_confirmation.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_lab_test_step_description.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_lab_test_step_description.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_error_box.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_error_box.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_status_error.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_status_error.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_status_exposure_over_14_days_ago.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_status_exposure_over_14_days_ago.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_lab_test_button.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_lab_test_button.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_privacy_policy_consent.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_privacy_policy_consent.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_end_of_life.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_end_of_life.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_faq_onboarding_explanation.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_faq_onboarding_explanation.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_status_header.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_status_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_message_box.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_message_box.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_inline_illustration.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_inline_illustration.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_status_action.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_status_action.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_lab_test_share_keys.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_lab_test_share_keys.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_faq_header.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_faq_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_paragraph.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_paragraph.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_google_play_services_upgrade_required.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_google_play_services_upgrade_required.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_location_services_required.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_location_services_required.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_lab_test_key.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_lab_test_key.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_faq.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_faq.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_list_with_button.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_list_with_button.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_share.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_share.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_app_update_required.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_app_update_required.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_lab_test_used_key.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_lab_test_used_key.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_internet_required.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_internet_required.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_enable_api.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_enable_api.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_status_battery_optimization_enabled.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_status_battery_optimization_enabled.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_lab_test_step.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_lab_test_step.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_explanation.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_explanation.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/item_illustration.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/item_illustration.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_status.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_status.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/build/intermediates/incremental/mergeAccDebugResources/stripped.dir/layout/fragment_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/res/layout/fragment_list.xml"
+    }
+]

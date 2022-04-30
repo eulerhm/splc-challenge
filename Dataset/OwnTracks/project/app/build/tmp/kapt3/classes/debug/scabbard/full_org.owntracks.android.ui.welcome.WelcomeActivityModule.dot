@@ -1,0 +1,71 @@
+digraph "org.owntracks.android.ui.welcome.WelcomeActivityModule" {
+  graph [rankdir="LR", labeljust="l", label="WelcomeActivityModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "3a993c41-a78d-4f32-b358-45c750a409d5" [label="@PerActivity\nAppCompatActivity", color="aquamarine"]
+    "ce0c0ca2-f5dd-4875-ad87-7ee9fe3640ab" [label="org.owntracks.android.ui.welcome.WelcomeActivity", color="firebrick1"]
+    "e157d70c-6976-4d0a-a48a-fd1d9a8aadb9" [label="@PerActivity\nBaseViewModel<WelcomeMvvm.View>", color="aquamarine"]
+    "4c55e090-553e-442a-81d4-9f643d981114" [label="@PerActivity\nWelcomeViewModel", color="aquamarine"]
+    "74b3f2d4-f8a2-4b59-aa1b-f65969f5edb9" [label="@Singleton\nPreferences", color="bisque"]
+    "ad6a166a-663b-4a4c-99dd-1bb3cdf9570d" [label="@PerActivity\nNavigator", color="aquamarine"]
+    "f1c21771-3c0c-479c-9586-37d0b73f5386" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "f46e5041-7a4f-43a3-9758-544a82acd7e4" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "ebb982f0-91e5-435a-bacf-b034c421e594" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    "48483905-6d13-4bd4-83b0-e6577b918430" [label="WelcomeActivityModule_BindPlayFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "98739f9c-726c-445b-b1e1-ca1046b6016a" [label="WelcomeActivityModule_BindIntroFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "3dc80a3c-87c1-43e9-bbc3-2d13187428bb" [label="WelcomeActivityModule_BindVersionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "e8d4f4b9-2290-42c8-8b3b-85df0159037b" [label="WelcomeActivityModule_BindPermissionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "973d32ea-d62c-4329-b6df-58cd705c8381" [label="WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "12a1213e-e034-4637-acda-5a4d3e367c5b" [label="PlayFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "9caea6a3-2557-4f67-92e7-9e88a0c03bd3" [label="IntroFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "2cc216a7-f823-40a2-85b7-a545d36431e5" [label="VersionFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "c11489ca-9ec2-44c0-aa08-4a4dd5eae888" [label="PermissionFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "fbce6f97-e9ac-420a-b670-d5903a5e095e" [label="FinishFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "214d0999-402a-4166-8958-30e3d8e9981c" [label="java.util.Map<java.lang.String,javax.inject.Provider<dagger.android.AndroidInjector.Factory<?>>>", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "00090d9d-61f6-43e3-89e2-625e5267da9d" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "e8d4f4b9-2290-42c8-8b3b-85df0159037b" [label="WelcomeActivityModule_BindPermissionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "98739f9c-726c-445b-b1e1-ca1046b6016a" [label="WelcomeActivityModule_BindIntroFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "973d32ea-d62c-4329-b6df-58cd705c8381" [label="WelcomeActivityModule_BindFinishFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "3dc80a3c-87c1-43e9-bbc3-2d13187428bb" [label="WelcomeActivityModule_BindVersionFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "48483905-6d13-4bd4-83b0-e6577b918430" [label="WelcomeActivityModule_BindPlayFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "4c8797b3-48fe-4dfb-bb0e-22a99de7e76f" [label="@PerFragment\nWelcomeActivityModule_BindPlayFragment.PlayFragmentSubcomponent", href="full_org.owntracks.android.ui.welcome.WelcomeActivityModule_BindPlayFragment.PlayFragmentSubcomponent.svg", color="yellow1"]
+    "26b7c26f-1d02-4ea0-9807-8f6c8bfbb093" [label="@PerFragment\nWelcomeActivityModule_BindIntroFragment.IntroFragmentSubcomponent", href="full_org.owntracks.android.ui.welcome.WelcomeActivityModule_BindIntroFragment.IntroFragmentSubcomponent.svg", color="yellow1"]
+    "7786f9ab-a81c-4cb9-9354-a04661ee38d6" [label="@PerFragment\nWelcomeActivityModule_BindVersionFragment.VersionFragmentSubcomponent", href="full_org.owntracks.android.ui.welcome.WelcomeActivityModule_BindVersionFragment.VersionFragmentSubcomponent.svg", color="yellow1"]
+    "c876694b-e970-4d8b-a2ea-ba516b1c6aa0" [label="@PerFragment\nWelcomeActivityModule_BindPermissionFragment.PermissionFragmentSubcomponent", href="full_org.owntracks.android.ui.welcome.WelcomeActivityModule_BindPermissionFragment.PermissionFragmentSubcomponent.svg", color="yellow1"]
+    "f9906086-833f-4be0-93df-0818f4526e3c" [label="@PerFragment\nWelcomeActivityModule_BindFinishFragment.FinishFragmentSubcomponent", href="full_org.owntracks.android.ui.welcome.WelcomeActivityModule_BindFinishFragment.FinishFragmentSubcomponent.svg", color="yellow1"]
+  }
+  "ad6a166a-663b-4a4c-99dd-1bb3cdf9570d" -> "3a993c41-a78d-4f32-b358-45c750a409d5"
+  "3a993c41-a78d-4f32-b358-45c750a409d5" -> "ce0c0ca2-f5dd-4875-ad87-7ee9fe3640ab" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+  "e157d70c-6976-4d0a-a48a-fd1d9a8aadb9" -> "4c55e090-553e-442a-81d4-9f643d981114" [style="dotted", label="delegates"]
+  "4c55e090-553e-442a-81d4-9f643d981114" -> "ad6a166a-663b-4a4c-99dd-1bb3cdf9570d"
+  "4c55e090-553e-442a-81d4-9f643d981114" -> "74b3f2d4-f8a2-4b59-aa1b-f65969f5edb9"
+  "74b3f2d4-f8a2-4b59-aa1b-f65969f5edb9" -> "f46e5041-7a4f-43a3-9758-544a82acd7e4" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "74b3f2d4-f8a2-4b59-aa1b-f65969f5edb9" -> "ebb982f0-91e5-435a-bacf-b034c421e594" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "74b3f2d4-f8a2-4b59-aa1b-f65969f5edb9" -> "f1c21771-3c0c-479c-9586-37d0b73f5386" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+  "00090d9d-61f6-43e3-89e2-625e5267da9d" -> "48483905-6d13-4bd4-83b0-e6577b918430"
+  "00090d9d-61f6-43e3-89e2-625e5267da9d" -> "3dc80a3c-87c1-43e9-bbc3-2d13187428bb"
+  "00090d9d-61f6-43e3-89e2-625e5267da9d" -> "973d32ea-d62c-4329-b6df-58cd705c8381"
+  "00090d9d-61f6-43e3-89e2-625e5267da9d" -> "98739f9c-726c-445b-b1e1-ca1046b6016a"
+  "00090d9d-61f6-43e3-89e2-625e5267da9d" -> "e8d4f4b9-2290-42c8-8b3b-85df0159037b"
+  "48483905-6d13-4bd4-83b0-e6577b918430" -> "12a1213e-e034-4637-acda-5a4d3e367c5b" [style="dotted", label="delegates"]
+  "98739f9c-726c-445b-b1e1-ca1046b6016a" -> "9caea6a3-2557-4f67-92e7-9e88a0c03bd3" [style="dotted", label="delegates"]
+  "3dc80a3c-87c1-43e9-bbc3-2d13187428bb" -> "2cc216a7-f823-40a2-85b7-a545d36431e5" [style="dotted", label="delegates"]
+  "e8d4f4b9-2290-42c8-8b3b-85df0159037b" -> "c11489ca-9ec2-44c0-aa08-4a4dd5eae888" [style="dotted", label="delegates"]
+  "973d32ea-d62c-4329-b6df-58cd705c8381" -> "fbce6f97-e9ac-420a-b670-d5903a5e095e" [style="dotted", label="delegates"]
+  "12a1213e-e034-4637-acda-5a4d3e367c5b" -> "4c8797b3-48fe-4dfb-bb0e-22a99de7e76f" [style="dashed", label="subcomponent", headport="w"]
+  "9caea6a3-2557-4f67-92e7-9e88a0c03bd3" -> "26b7c26f-1d02-4ea0-9807-8f6c8bfbb093" [style="dashed", label="subcomponent", headport="w"]
+  "2cc216a7-f823-40a2-85b7-a545d36431e5" -> "7786f9ab-a81c-4cb9-9354-a04661ee38d6" [style="dashed", label="subcomponent", headport="w"]
+  "c11489ca-9ec2-44c0-aa08-4a4dd5eae888" -> "c876694b-e970-4d8b-a2ea-ba516b1c6aa0" [style="dashed", label="subcomponent", headport="w"]
+  "fbce6f97-e9ac-420a-b670-d5903a5e095e" -> "f9906086-833f-4be0-93df-0818f4526e3c" [style="dashed", label="subcomponent", headport="w"]
+}

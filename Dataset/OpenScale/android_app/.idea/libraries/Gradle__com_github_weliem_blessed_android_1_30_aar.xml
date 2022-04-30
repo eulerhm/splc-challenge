@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.weliem:blessed-android:1.30@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99e4bdf195d9f207664ccb6e60ef9a93/jetified-blessed-android-1.30/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99e4bdf195d9f207664ccb6e60ef9a93/jetified-blessed-android-1.30/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99e4bdf195d9f207664ccb6e60ef9a93/jetified-blessed-android-1.30/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.weliem/blessed-android/1.30/ae609a13cc5d7a418020dd0a9698aea723c80130/blessed-android-1.30-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

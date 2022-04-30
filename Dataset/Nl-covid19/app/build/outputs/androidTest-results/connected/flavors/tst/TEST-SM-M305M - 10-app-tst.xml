@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="nl.rijksoverheid.en.onboarding.EnableApiFragmentTest" tests="20" failures="6" errors="0" skipped="0" time="866.072" timestamp="2021-12-07T19:48:30" hostname="localhost">
+  <properties>
+    <property name="device" value="SM-M305M - 10" />
+    <property name="flavor" value="tst" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="testExplanation" classname="nl.rijksoverheid.en.onboarding.EnableApiFragmentTest" time="7.506" />
+  <testcase name="testSkip" classname="nl.rijksoverheid.en.onboarding.EnableApiFragmentTest" time="7.28">
+    <failure>androidx.test.espresso.PerformException: Error performing 'single click' on view 'with id is &lt;nl.rijksoverheid.en:id/skip&gt;'.
+at androidx.test.espresso.PerformException$Builder.build(PerformException.java:5)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:25)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:36)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:106)
+at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:43)
+at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:94)
+at nl.rijksoverheid.en.onboarding.EnableApiFragmentTest$testSkip$1.invoke(EnableApiFragmentTest.kt:200)
+at nl.rijksoverheid.en.onboarding.EnableApiFragmentTest$testSkip$1.invoke(EnableApiFragmentTest.kt:55)
+at nl.rijksoverheid.en.test.TestMainActivityKt.withFragment(TestMainActivity.kt:162)
+at nl.rijksoverheid.en.onboarding.EnableApiFragmentTest.testSkip(EnableApiFragmentTest.kt:194)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+at com.bartoszlipinski.disableanimationsrule.DisableAnimationsRule$1.evaluate(DisableAnimationsRule.java:44)
+at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
+at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:134)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:154)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2209)
+Caused by: java.lang.RuntimeException: Action will not be performed because the target view does not match one or more of the following constraints:
+at least 90 percent of the view's area is displayed to the user.
+Target view: "MaterialButton{id=2131231228, res-name=skip, visibility=VISIBLE, width=231, height=126, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.Toolbar$LayoutParams&#64;1156805, tag=null, root-is-layout-requested=false, has-input-connection=false, x=807.0, y=10.0, text=Skip, input-type=0, ime-target=false, has-links=false, is-checked=false}"
+at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:63)
+at androidx.test.espresso.ViewInteraction.access$100(ViewInteraction.java:15)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:3)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:2)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at android.os.Handler.handleCallback(Handler.java:883)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at android.os.Looper.loop(Looper.java:237)
+at android.app.ActivityThread.main(ActivityThread.java:7807)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1047)
+</failure>
+  </testcase>
+  <testcase name="testRequest" classname="nl.rijksoverheid.en.onboarding.EnableApiFragmentTest" time="7.73">
+    <failure>androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: Wanted to match 1 intents. Actually matched 0 intents.
+
+IntentMatcher: has action: is "android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+
+Matched intents:[]
+
+Recorded intents:
+-Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=nl.rijksoverheid.en/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) } handling packages:[[nl.rijksoverheid.en]], extras:[Bundle[{androidx.test.core.app.InstrumentationActivityInvoker.TARGET_ACTIVITY_OPTIONS_BUNDLE_KEY=null, androidx.test.core.app.InstrumentationActivityInvoker.START_TARGET_ACTIVITY_INTENT_KEY=PendingIntent{d5d115f: android.os.BinderProxy&#64;a6587ac}}]])
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1720)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:16)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:36)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:103)
+at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:31)
+at androidx.test.espresso.intent.Intents.intended(Intents.java:192)
+at androidx.test.espresso.intent.Intents.intended(Intents.java:172)
+at nl.rijksoverheid.en.onboarding.EnableApiFragmentTest$testRequest$1.invoke(EnableApiFragmentTest.kt:181)
+at nl.rijksoverheid.en.onboarding.EnableApiFragmentTest$testRequest$1.invoke(EnableApiFragmentTest.kt:55)
+at nl.rijksoverheid.en.test.TestMainActivityKt.withFragment(TestMainActivity.kt:162)
+at nl.rijksoverheid.en.onboarding.EnableApiFragmentTest.testRequest(EnableApiFragmentTest.kt:173)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+at com.bartoszlipinski.disableanimationsrule.DisableAnimationsRule$1.evaluate(DisableAnimationsRule.java:44)
+at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
+at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:134)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:154)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2209)
+Caused by: junit.framework.AssertionFailedError: Wanted to match 1 intents. Actually matched 0 intents.
+
+IntentMatcher: has action: is "android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+
+Matched intents:[]
+
+Recorded intents:
+-Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=nl.rijksoverheid.en/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) } handling packages:[[nl.rijksoverheid.en]], extras:[Bundle[{androidx.test.core.app.InstrumentationActivityInvoker.TARGET_ACTIVITY_OPTIONS_BUNDLE_KEY=null, androidx.test.core.app.InstrumentationActivityInvoker.START_TARGET_ACTIVITY_INTENT_KEY=PendingIntent{d5d115f: android.os.BinderProxy&#64;a6587ac}}]])
+at junit.framework.Assert.fail(Assert.java:50)
+at androidx.test.espresso.intent.VerificationModes$Times.verify(VerificationModes.java:80)
+at androidx.test.espresso.intent.Intents.internalIntended(Intents.java:348)
+at androidx.test.espresso.intent.Intents$2.check(Intents.java:196)
+at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:10)
+at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:11)
+at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:2)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at android.os.Handler.handleCallback(Handler.java:883)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at android.os.Looper.loop(Looper.java:237)
+at android.app.ActivityThread.main(ActivityThread.java:7807)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1047)
+</failure>
+  </testcase>
+  <testcase name="testExample1ToExample2" classname="nl.rijksoverheid.en.onboarding.ExplanationFragmentTest" time="7.607" />
+  <testcase name="testExample2ToConsent" classname="nl.rijksoverheid.en.onboarding.ExplanationFragmentTest" time="7.507" />
+  <testcase name="testExplanationStep3ToExample1" classname="nl.rijksoverheid.en.onboarding.ExplanationFragmentTest" time="7.781" />
+  <testcase name="testExplanationStep1To2" classname="nl.rijksoverheid.en.onboarding.ExplanationFragmentTest" time="7.107">
+    <failure>androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: 'view has effective visibility=GONE' doesn't match the selected view.
+Expected: view has effective visibility=GONE
+Got: "MaterialTextView{id=2131230973, res-name=example, visibility=VISIBLE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams&#64;69951f2, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, text=Example, input-type=0, ime-target=false, has-links=false}"
+
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1720)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:16)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:36)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:103)
+at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:31)
+at nl.rijksoverheid.en.onboarding.ExplanationFragmentTest$testExplanationStep1To2$1.invoke(ExplanationFragmentTest.kt:41)
+at nl.rijksoverheid.en.onboarding.ExplanationFragmentTest$testExplanationStep1To2$1.invoke(ExplanationFragmentTest.kt:29)
+at nl.rijksoverheid.en.test.TestMainActivityKt.withFragment(TestMainActivity.kt:162)
+at nl.rijksoverheid.en.test.TestMainActivityKt.withFragment$default(TestMainActivity.kt:146)
+at nl.rijksoverheid.en.onboarding.ExplanationFragmentTest.testExplanationStep1To2(ExplanationFragmentTest.kt:38)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at com.bartoszlipinski.disableanimationsrule.DisableAnimationsRule$1.evaluate(DisableAnimationsRule.java:44)
+at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
+at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:134)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:154)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2209)
+Caused by: junit.framework.AssertionFailedError: 'view has effective visibility=GONE' doesn't match the selected view.
+Expected: view has effective visibility=GONE
+Got: "MaterialTextView{id=2131230973, res-name=example, visibility=VISIBLE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams&#64;69951f2, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, text=Example, input-type=0, ime-target=false, has-links=false}"
+
+at androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:17)
+at androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:15)
+at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:10)
+at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:11)
+at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:2)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at android.os.Handler.handleCallback(Handler.java:883)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at android.os.Looper.loop(Looper.java:237)
+at android.app.ActivityThread.main(ActivityThread.java:7807)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1047)
+</failure>
+  </testcase>
+  <testcase name="testExplanationStep2To3" classname="nl.rijksoverheid.en.onboarding.ExplanationFragmentTest" time="7.68" />
+  <testcase name="testRequest" classname="nl.rijksoverheid.en.onboarding.HowItWorksDetailFragmentTest" time="7.129">
+    <failure>androidx.test.espresso.PerformException: Error performing 'single click' on view 'with id is &lt;nl.rijksoverheid.en:id/button&gt;'.
+at androidx.test.espresso.PerformException$Builder.build(PerformException.java:5)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:25)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:36)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:106)
+at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:43)
+at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:94)
+at nl.rijksoverheid.en.onboarding.HowItWorksDetailFragmentTest$testRequest$1.invoke(HowItWorksDetailFragmentTest.kt:153)
+at nl.rijksoverheid.en.onboarding.HowItWorksDetailFragmentTest$testRequest$1.invoke(HowItWorksDetailFragmentTest.kt:52)
+at nl.rijksoverheid.en.test.TestMainActivityKt.withFragment(TestMainActivity.kt:162)
+at nl.rijksoverheid.en.onboarding.HowItWorksDetailFragmentTest.testRequest(HowItWorksDetailFragmentTest.kt:147)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+at com.bartoszlipinski.disableanimationsrule.DisableAnimationsRule$1.evaluate(DisableAnimationsRule.java:44)
+at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
+at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:134)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:154)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2209)
+Caused by: java.lang.RuntimeException: Action will not be performed because the target view does not match one or more of the following constraints:
+at least 90 percent of the view's area is displayed to the user.
+Target view: "MaterialButton{id=2131230877, res-name=button, visibility=VISIBLE, width=996, height=126, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams&#64;aafae87, tag=null, root-is-layout-requested=false, has-input-connection=false, x=42.0, y=42.0, text=Turn on app, input-type=0, ime-target=false, has-links=false, is-checked=false}"
+at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:63)
+at androidx.test.espresso.ViewInteraction.access$100(ViewInteraction.java:15)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:3)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:2)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at android.os.Handler.handleCallback(Handler.java:883)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at android.os.Looper.loop(Looper.java:237)
+at android.app.ActivityThread.main(ActivityThread.java:7807)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1047)
+</failure>
+  </testcase>
+  <testcase name="testGotoDetail" classname="nl.rijksoverheid.en.onboarding.HowItWorksFragmentTest" time="7.404" />
+  <testcase name="testRequest" classname="nl.rijksoverheid.en.onboarding.HowItWorksFragmentTest" time="7.478">
+    <failure>androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: Wanted to match 1 intents. Actually matched 0 intents.
+
+IntentMatcher: has action: is "android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+
+Matched intents:[]
+
+Recorded intents:
+-Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=nl.rijksoverheid.en/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) } handling packages:[[nl.rijksoverheid.en]], extras:[Bundle[{androidx.test.core.app.InstrumentationActivityInvoker.TARGET_ACTIVITY_OPTIONS_BUNDLE_KEY=null, androidx.test.core.app.InstrumentationActivityInvoker.START_TARGET_ACTIVITY_INTENT_KEY=PendingIntent{e137cfa: android.os.BinderProxy&#64;1bc92ab}}]])
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1720)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:16)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:36)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:103)
+at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:31)
+at androidx.test.espresso.intent.Intents.intended(Intents.java:192)
+at androidx.test.espresso.intent.Intents.intended(Intents.java:172)
+at nl.rijksoverheid.en.onboarding.HowItWorksFragmentTest$testRequest$1.invoke(HowItWorksFragmentTest.kt:176)
+at nl.rijksoverheid.en.onboarding.HowItWorksFragmentTest$testRequest$1.invoke(HowItWorksFragmentTest.kt:53)
+at nl.rijksoverheid.en.test.TestMainActivityKt.withFragment(TestMainActivity.kt:162)
+at nl.rijksoverheid.en.onboarding.HowItWorksFragmentTest.testRequest(HowItWorksFragmentTest.kt:168)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+at com.bartoszlipinski.disableanimationsrule.DisableAnimationsRule$1.evaluate(DisableAnimationsRule.java:44)
+at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
+at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:134)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:154)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2209)
+Caused by: junit.framework.AssertionFailedError: Wanted to match 1 intents. Actually matched 0 intents.
+
+IntentMatcher: has action: is "android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+
+Matched intents:[]
+
+Recorded intents:
+-Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=nl.rijksoverheid.en/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) } handling packages:[[nl.rijksoverheid.en]], extras:[Bundle[{androidx.test.core.app.InstrumentationActivityInvoker.TARGET_ACTIVITY_OPTIONS_BUNDLE_KEY=null, androidx.test.core.app.InstrumentationActivityInvoker.START_TARGET_ACTIVITY_INTENT_KEY=PendingIntent{e137cfa: android.os.BinderProxy&#64;1bc92ab}}]])
+at junit.framework.Assert.fail(Assert.java:50)
+at androidx.test.espresso.intent.VerificationModes$Times.verify(VerificationModes.java:80)
+at androidx.test.espresso.intent.Intents.internalIntended(Intents.java:348)
+at androidx.test.espresso.intent.Intents$2.check(Intents.java:196)
+at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:10)
+at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:11)
+at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:2)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at android.os.Handler.handleCallback(Handler.java:883)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at android.os.Looper.loop(Looper.java:237)
+at android.app.ActivityThread.main(ActivityThread.java:7807)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1047)
+</failure>
+  </testcase>
+  <testcase name="testPrivacyPolicyConsentClickingCheckbox" classname="nl.rijksoverheid.en.onboarding.PrivacyPolicyConsentFragmentTest" time="7.755" />
+  <testcase name="testPrivacyPolicyConsentClickingContainer" classname="nl.rijksoverheid.en.onboarding.PrivacyPolicyConsentFragmentTest" time="8.032" />
+  <testcase name="testRequestTestShowsPhoneNumber" classname="nl.rijksoverheid.en.requesttest.RequestTestFragmentTest" time="6.976" />
+  <testcase name="takeStatusGreenScreenshot" classname="nl.rijksoverheid.en.screenshots.StoreScreenshotsTest" time="13.153" />
+  <testcase name="takeRequestScreenshot" classname="nl.rijksoverheid.en.screenshots.StoreScreenshotsTest" time="10.768" />
+  <testcase name="takeStatusRedScreenshot" classname="nl.rijksoverheid.en.screenshots.StoreScreenshotsTest" time="13.178" />
+  <testcase name="takeLabTestScreenshot" classname="nl.rijksoverheid.en.screenshots.StoreScreenshotsTest" time="13.077" />
+  <testcase name="testRemoveConnectionIssuesNotification" classname="nl.rijksoverheid.en.status.StatusFragmentTest" time="7.329">
+    <failure>androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: 'with string from resource id: &lt;2131820985&gt;' doesn't match the selected view.
+Expected: with string from resource id: &lt;2131820985&gt;[status_partly_active_headline] value: The app is partially active
+Got: "MaterialTextView{id=2131231258, res-name=status_headline, visibility=VISIBLE, width=996, height=92, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams&#64;a7db7e2, tag=null, root-is-layout-requested=false, has-input-connection=false, x=42.0, y=599.0, text=The app is not active, input-type=0, ime-target=false, has-links=false}"
+
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1720)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:16)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:36)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:103)
+at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:31)
+at nl.rijksoverheid.en.status.StatusFragmentTest$testRemoveConnectionIssuesNotification$3.invoke(StatusFragmentTest.kt:197)
+at nl.rijksoverheid.en.status.StatusFragmentTest$testRemoveConnectionIssuesNotification$3.invoke(StatusFragmentTest.kt:62)
+at nl.rijksoverheid.en.test.TestMainActivityKt.withFragment(TestMainActivity.kt:162)
+at nl.rijksoverheid.en.status.StatusFragmentTest.testRemoveConnectionIssuesNotification(StatusFragmentTest.kt:182)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at com.bartoszlipinski.disableanimationsrule.DisableAnimationsRule$1.evaluate(DisableAnimationsRule.java:44)
+at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
+at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:134)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:154)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2209)
+Caused by: junit.framework.AssertionFailedError: 'with string from resource id: &lt;2131820985&gt;' doesn't match the selected view.
+Expected: with string from resource id: &lt;2131820985&gt;[status_partly_active_headline] value: The app is partially active
+Got: "MaterialTextView{id=2131231258, res-name=status_headline, visibility=VISIBLE, width=996, height=92, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams&#64;a7db7e2, tag=null, root-is-layout-requested=false, has-input-connection=false, x=42.0, y=599.0, text=The app is not active, input-type=0, ime-target=false, has-links=false}"
+
+at androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:17)
+at androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:15)
+at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:10)
+at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:11)
+at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:2)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at android.os.Handler.handleCallback(Handler.java:883)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at android.os.Looper.loop(Looper.java:237)
+at android.app.ActivityThread.main(ActivityThread.java:7807)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1047)
+</failure>
+  </testcase>
+  <testcase name="testWaitingForPreferencesLoadedShowsLoadingScreen" classname="nl.rijksoverheid.en.status.StatusFragmentTest" time="6.902" />
+</testsuite>

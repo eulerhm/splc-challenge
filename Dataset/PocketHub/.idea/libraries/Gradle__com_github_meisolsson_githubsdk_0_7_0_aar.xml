@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.meisolsson:githubsdk:0.7.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1145f45f37eeaebc05b805033b6e7571/jetified-githubsdk-0.7.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1145f45f37eeaebc05b805033b6e7571/jetified-githubsdk-0.7.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1145f45f37eeaebc05b805033b6e7571/jetified-githubsdk-0.7.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f1254d6b51b990235fb73274e5eaf99/jetified-githubsdk-0.7.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f1254d6b51b990235fb73274e5eaf99/jetified-githubsdk-0.7.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f1254d6b51b990235fb73274e5eaf99/jetified-githubsdk-0.7.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.meisolsson/githubsdk/0.7.0/4bfab9f8f4dc8135b128ccfb2a5182b3b699fd28/githubsdk-0.7.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.meisolsson/githubsdk/0.7.0/44d1b7c28c2a81a6aba39376e0eb1135a9ee3733/githubsdk-0.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

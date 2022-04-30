@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="MoonShot.app" target="11" />
+      <module name="MoonShot.base" target="11" />
+      <module name="MoonShot.buildSrc" target="11" />
+      <module name="MoonShot.database" target="11" />
+      <module name="MoonShot.features.about" target="11" />
+      <module name="MoonShot.features.launchDetails" target="11" />
+      <module name="MoonShot.features.launches" target="11" />
+      <module name="MoonShot.features.launchPad" target="11" />
+      <module name="MoonShot.features.missions" target="11" />
+      <module name="MoonShot.features.nextLaunch" target="11" />
+      <module name="MoonShot.features.rocketDetails" target="11" />
+      <module name="MoonShot.features.rockets" target="11" />
+      <module name="MoonShot.features.search" target="11" />
+      <module name="MoonShot.features.settings" target="11" />
+      <module name="MoonShot.models" target="11" />
+      <module name="MoonShot.moonshot-repository" target="11" />
+      <module name="MoonShot.navigation" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

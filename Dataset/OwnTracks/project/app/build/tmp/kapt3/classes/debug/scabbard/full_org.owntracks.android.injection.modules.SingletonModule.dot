@@ -1,0 +1,22 @@
+digraph "org.owntracks.android.injection.modules.SingletonModule" {
+  graph [rankdir="LR", labeljust="l", label="SingletonModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "8e0e3cf1-eafa-4b53-8dc1-38ffe08e6e3f" [label="@Singleton\nEventBus", color="aquamarine"]
+    "72b9aae0-0231-407e-93be-b8cf0dcb21ed" [label="@Singleton\nContactsRepo", color="aquamarine"]
+    "9df40acf-b656-4ec8-a147-1250fb51984c" [label="@Singleton\nContactImageProvider", color="aquamarine"]
+    "dcc66ec6-337d-40d8-a9de-c82c89631937" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "1881e4b4-85b7-436a-ae6b-6004b656dc18" [label="@Singleton\nCountingIdlingResource", color="aquamarine"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "72b9aae0-0231-407e-93be-b8cf0dcb21ed" -> "8e0e3cf1-eafa-4b53-8dc1-38ffe08e6e3f"
+  "72b9aae0-0231-407e-93be-b8cf0dcb21ed" -> "9df40acf-b656-4ec8-a147-1250fb51984c"
+  "9df40acf-b656-4ec8-a147-1250fb51984c" -> "dcc66ec6-337d-40d8-a9de-c82c89631937" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+}

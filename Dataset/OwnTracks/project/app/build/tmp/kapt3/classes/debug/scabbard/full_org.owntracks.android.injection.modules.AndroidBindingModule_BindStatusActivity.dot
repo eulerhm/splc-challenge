@@ -1,0 +1,29 @@
+digraph "org.owntracks.android.injection.modules.AndroidBindingModule_BindStatusActivity" {
+  graph [rankdir="LR", labeljust="l", label="AndroidBindingModule_BindStatusActivity", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "efb22491-eb48-4b4c-9621-28355a12e70d" [label="AndroidBindingModule_BindStatusActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "11e9dc64-015d-4a56-955e-bd1652827913" [label="StatusActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "198408ba-d317-4a89-9fe1-ab5083b05f3f" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "ffe88994-f8f4-41e2-a541-88363a8a68ec" [label="java.util.Map<java.lang.String,javax.inject.Provider<dagger.android.AndroidInjector.Factory<?>>>", color="firebrick1"]
+    "7dfb678f-4b3f-48c0-a9b0-0c89e84f2d98" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "7c7bc101-79d5-496b-bf8b-fe11cf4e9db2" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "bdf0bcb7-91c2-488f-aa47-4a6d4bb99732" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "efb22491-eb48-4b4c-9621-28355a12e70d" [label="AndroidBindingModule_BindStatusActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "52e53e2c-470c-4420-93c2-ddc8c7b7bdd0" [label="@PerActivity\nAndroidBindingModule_BindStatusActivity.StatusActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindStatusActivity.StatusActivitySubcomponent.svg", color="aquamarine"]
+  }
+  "bdf0bcb7-91c2-488f-aa47-4a6d4bb99732" -> "efb22491-eb48-4b4c-9621-28355a12e70d"
+  "efb22491-eb48-4b4c-9621-28355a12e70d" -> "11e9dc64-015d-4a56-955e-bd1652827913" [style="dotted", label="delegates"]
+  "11e9dc64-015d-4a56-955e-bd1652827913" -> "52e53e2c-470c-4420-93c2-ddc8c7b7bdd0" [style="dashed", label="subcomponent", headport="w"]
+}

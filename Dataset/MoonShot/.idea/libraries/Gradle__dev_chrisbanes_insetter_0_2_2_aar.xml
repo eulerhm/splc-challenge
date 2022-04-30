@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: dev.chrisbanes:insetter:0.2.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21cd4f3fe9360058babb72a86680cd59/jetified-insetter-0.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21cd4f3fe9360058babb72a86680cd59/jetified-insetter-0.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21cd4f3fe9360058babb72a86680cd59/jetified-insetter-0.2.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.chrisbanes/insetter/0.2.2/9de9fa3ab1255e1b788d6805f0cf59e2f075ebc3/insetter-0.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.chrisbanes/insetter/0.2.2/4c3e49296f5445ba507dee3de5909039f7e3ef73/insetter-0.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

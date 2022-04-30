@@ -1,0 +1,30 @@
+digraph "org.owntracks.android.injection.modules.AndroidBindingModule_BindContactsActivity" {
+  graph [rankdir="LR", labeljust="l", label="AndroidBindingModule_BindContactsActivity", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "88e4cedf-b26c-4353-9f1f-aed5df140f32" [label="AndroidBindingModule_BindContactsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "e4028657-a7ee-4f8e-8c68-5f3a127e1756" [label="ContactsActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "a5d9a468-4c17-4711-9aaa-1d6497e7f298" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "7eb9d213-2bca-4873-9325-2b0197aa9263" [label="java.util.Map<java.lang.String,javax.inject.Provider<dagger.android.AndroidInjector.Factory<?>>>", color="firebrick1"]
+    "0cedff90-ac1d-453c-ba50-92eb3f8d7ba4" [label="org.owntracks.android.data.repos.ContactsRepo", color="firebrick1"]
+    "e8f2a5ee-a17c-4002-b066-2b39ba164f95" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "31ea9f28-5b4d-4c09-ac73-082312f8ade1" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "b1e51df1-7bb3-4537-8c30-085d54bf640e" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "88e4cedf-b26c-4353-9f1f-aed5df140f32" [label="AndroidBindingModule_BindContactsActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "73bb4d92-726e-42c9-9f34-6969216c8bb4" [label="@PerActivity\nAndroidBindingModule_BindContactsActivity.ContactsActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindContactsActivity.ContactsActivitySubcomponent.svg", color="aquamarine"]
+  }
+  "b1e51df1-7bb3-4537-8c30-085d54bf640e" -> "88e4cedf-b26c-4353-9f1f-aed5df140f32"
+  "88e4cedf-b26c-4353-9f1f-aed5df140f32" -> "e4028657-a7ee-4f8e-8c68-5f3a127e1756" [style="dotted", label="delegates"]
+  "e4028657-a7ee-4f8e-8c68-5f3a127e1756" -> "73bb4d92-726e-42c9-9f34-6969216c8bb4" [style="dashed", label="subcomponent", headport="w"]
+}

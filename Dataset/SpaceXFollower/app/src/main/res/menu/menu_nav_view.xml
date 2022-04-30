@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard_dest"
+        android:checkable="true"
+        android:title="@string/label_dashboard" />
+
+    <item
+        android:id="@id/launches_dest"
+        android:checkable="true"
+        android:title="@string/label_all_launches" />
+
+    <item
+        android:id="@id/capsules_dest"
+        android:checkable="true"
+        android:title="@string/label_capsules" />
+
+    <item
+        android:id="@id/cores_dest"
+        android:checkable="true"
+        android:title="@string/label_cores" />
+
+    <item
+        android:id="@id/launch_pads_dest"
+        android:checkable="true"
+        android:title="@string/label_launch_pads" />
+
+    <item
+        android:id="@id/company_dest"
+        android:checkable="true"
+        android:title="@string/label_company" />
+
+    <item
+        android:id="@id/settings_dest"
+        android:checkable="true"
+        android:title="@string/label_settings" />
+
+    <item
+        android:id="@id/about_dest"
+        android:checkable="true"
+        android:title="@string/label_about" />
+</menu>

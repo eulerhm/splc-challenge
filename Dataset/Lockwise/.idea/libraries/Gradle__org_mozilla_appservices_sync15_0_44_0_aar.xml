@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.appservices:sync15:0.44.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/189622a2862c528fdb46e751aac79746/jetified-sync15-0.44.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/189622a2862c528fdb46e751aac79746/jetified-sync15-0.44.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/189622a2862c528fdb46e751aac79746/jetified-sync15-0.44.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.appservices/sync15/0.44.0/849a00d88cf2671dcb5c1887f025148c01aa24cf/sync15-0.44.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,29 @@
+digraph "org.owntracks.android.injection.modules.AndroidBindingModule_BindLogViewerActivity" {
+  graph [rankdir="LR", labeljust="l", label="AndroidBindingModule_BindLogViewerActivity", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "7cad08cb-47b9-44aa-800b-bbba18fbe189" [label="AndroidBindingModule_BindLogViewerActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    "23380803-3527-4f78-8b96-62be440bcac9" [label="LogViewerActivitySubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "0da7c608-5435-425c-98ba-c71f59e88650" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "6a52d297-0ff9-4652-a339-4ac930c7a881" [label="java.util.Map<java.lang.String,javax.inject.Provider<dagger.android.AndroidInjector.Factory<?>>>", color="firebrick1"]
+    "1435b051-af1a-4395-8dd5-409eb4127f22" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "cb15be2b-42f4-42e7-965e-56f53092ef5a" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "b453f531-9f89-4871-8146-0d7a958b2b60" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "7cad08cb-47b9-44aa-800b-bbba18fbe189" [label="AndroidBindingModule_BindLogViewerActivity.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "5f9f4c4a-c752-417a-9961-be4e7b979989" [label="@PerActivity\nAndroidBindingModule_BindLogViewerActivity.LogViewerActivitySubcomponent", href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindLogViewerActivity.LogViewerActivitySubcomponent.svg", color="aquamarine"]
+  }
+  "b453f531-9f89-4871-8146-0d7a958b2b60" -> "7cad08cb-47b9-44aa-800b-bbba18fbe189"
+  "7cad08cb-47b9-44aa-800b-bbba18fbe189" -> "23380803-3527-4f78-8b96-62be440bcac9" [style="dotted", label="delegates"]
+  "23380803-3527-4f78-8b96-62be440bcac9" -> "5f9f4c4a-c752-417a-9961-be4e7b979989" [style="dashed", label="subcomponent", headport="w"]
+}

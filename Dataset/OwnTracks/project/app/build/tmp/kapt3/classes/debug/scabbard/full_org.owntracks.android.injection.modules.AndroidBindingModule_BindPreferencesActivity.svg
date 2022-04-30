@@ -1,0 +1,97 @@
+<svg width="2253px" height="396px"
+ viewBox="0.00 0.00 2253.04 395.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(14.4 381.2)">
+<title>org.owntracks.android.injection.modules.AndroidBindingModule_BindPreferencesActivity</title>
+<polygon fill="#ffffff" stroke="transparent" points="-14.4,14.4 -14.4,-381.2 2238.6402,-381.2 2238.6402,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="148.3591" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">AndroidBindingModule_BindPreferencesActivity</text>
+<g id="clust4" class="cluster">
+<title>cluster_Subcomponents</title>
+<polygon fill="none" stroke="#000000" points="1704.8634,-245.8 1704.8634,-328.8 2216.2402,-328.8 2216.2402,-245.8 1704.8634,-245.8"/>
+<text text-anchor="middle" x="1757.5822" y="-312.2" font-family="Times,serif" font-size="14.00" fill="#000000">Subcomponents</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_Dependency Graph</title>
+<polygon fill="none" stroke="#000000" points="8,-32.8 8,-358.8 1603.2084,-358.8 1603.2084,-32.8 8,-32.8"/>
+<text text-anchor="middle" x="70.2234" y="-342.2" font-family="Times,serif" font-size="14.00" fill="#000000">Dependency Graph</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_Map&lt;Class&lt;?&gt;, AndroidInjector.Factory&lt;?&gt;&gt;</title>
+<path fill="none" stroke="#000000" d="M171.0404,-248.8C171.0404,-248.8 1207.7026,-248.8 1207.7026,-248.8 1213.7026,-248.8 1219.7026,-254.8 1219.7026,-260.8 1219.7026,-260.8 1219.7026,-313.8 1219.7026,-313.8 1219.7026,-319.8 1213.7026,-325.8 1207.7026,-325.8 1207.7026,-325.8 171.0404,-325.8 171.0404,-325.8 165.0404,-325.8 159.0404,-319.8 159.0404,-313.8 159.0404,-313.8 159.0404,-260.8 159.0404,-260.8 159.0404,-254.8 165.0404,-248.8 171.0404,-248.8"/>
+<text text-anchor="middle" x="689.3715" y="-309.2" font-family="Times,serif" font-size="14.00" fill="#000000">Map&lt;Class&lt;?&gt;, AndroidInjector.Factory&lt;?&gt;&gt;</text>
+</g>
+<!-- 0055c2e3&#45;fd6c&#45;43cb&#45;bb87&#45;df9d5ee7d2f3 -->
+<g id="node1" class="node">
+<title>0055c2e3&#45;fd6c&#45;43cb&#45;bb87&#45;df9d5ee7d2f3</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="1211.894,-292.8 744.1288,-292.8 744.1288,-256.8 1211.894,-256.8 1211.894,-292.8"/>
+<text text-anchor="middle" x="978.0114" y="-270.6" font-family="Times,serif" font-size="14.00" fill="#000000">AndroidBindingModule_BindPreferencesActivity.bindAndroidInjectorFactory()</text>
+</g>
+<!-- 9ac5ef70&#45;fa9c&#45;4f14&#45;9afc&#45;24c137e5bf87 -->
+<g id="node2" class="node">
+<title>9ac5ef70&#45;fa9c&#45;4f14&#45;9afc&#45;24c137e5bf87</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="1595.4195,-303.4014 1337.5757,-303.4014 1337.5757,-246.1986 1595.4195,-246.1986 1595.4195,-303.4014"/>
+<text text-anchor="middle" x="1466.4976" y="-287" font-family="Times,serif" font-size="14.00" fill="#000000">PreferencesActivitySubcomponent.Factory</text>
+<text text-anchor="middle" x="1466.4976" y="-254.2" font-family="Times,serif" font-size="14.00" fill="#000000">Subcomponent Creator</text>
+</g>
+<!-- 0055c2e3&#45;fd6c&#45;43cb&#45;bb87&#45;df9d5ee7d2f3&#45;&gt;9ac5ef70&#45;fa9c&#45;4f14&#45;9afc&#45;24c137e5bf87 -->
+<g id="edge2" class="edge">
+<title>0055c2e3&#45;fd6c&#45;43cb&#45;bb87&#45;df9d5ee7d2f3&#45;&gt;9ac5ef70&#45;fa9c&#45;4f14&#45;9afc&#45;24c137e5bf87</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1211.8817,-274.8C1251.4205,-274.8 1291.3223,-274.8 1327.4327,-274.8"/>
+<polygon fill="#000000" stroke="#000000" points="1327.5137,-278.3001 1337.5137,-274.8 1327.5137,-271.3001 1327.5137,-278.3001"/>
+<text text-anchor="middle" x="1274.7447" y="-279" font-family="Times,serif" font-size="14.00" fill="#000000">delegates</text>
+</g>
+<!-- 7e7ea9af&#45;f5bc&#45;4c0e&#45;bc79&#45;132e2e07f9ba -->
+<g id="node8" class="node">
+<title>7e7ea9af&#45;f5bc&#45;4c0e&#45;bc79&#45;132e2e07f9ba</title>
+<g id="a_node8"><a xlink:href="full_org.owntracks.android.injection.modules.AndroidBindingModule_BindPreferencesActivity.PreferencesActivitySubcomponent.svg" xlink:title="@PerActivity\nAndroidBindingModule_BindPreferencesActivity.PreferencesActivitySubcomponent">
+<polygon fill="#7fffd4" stroke="#7fffd4" points="2208.4287,-295.4019 1712.6749,-295.4019 1712.6749,-254.1981 2208.4287,-254.1981 2208.4287,-295.4019"/>
+<text text-anchor="middle" x="1960.5518" y="-279" font-family="Times,serif" font-size="14.00" fill="#000000">@PerActivity</text>
+<text text-anchor="middle" x="1960.5518" y="-262.2" font-family="Times,serif" font-size="14.00" fill="#000000">AndroidBindingModule_BindPreferencesActivity.PreferencesActivitySubcomponent</text>
+</a>
+</g>
+</g>
+<!-- 9ac5ef70&#45;fa9c&#45;4f14&#45;9afc&#45;24c137e5bf87&#45;&gt;7e7ea9af&#45;f5bc&#45;4c0e&#45;bc79&#45;132e2e07f9ba -->
+<g id="edge3" class="edge">
+<title>9ac5ef70&#45;fa9c&#45;4f14&#45;9afc&#45;24c137e5bf87&#45;&gt;7e7ea9af&#45;f5bc&#45;4c0e&#45;bc79&#45;132e2e07f9ba:w</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M1595.475,-274.8C1629.8196,-274.8 1667.1367,-274.8 1702.2295,-274.8"/>
+<polygon fill="#000000" stroke="#000000" points="1702.5518,-278.3001 1712.5518,-274.8 1702.5518,-271.3001 1702.5518,-278.3001"/>
+<text text-anchor="middle" x="1654.0359" y="-279" font-family="Times,serif" font-size="14.00" fill="#000000">subcomponent</text>
+</g>
+<!-- 1023f576&#45;2e4a&#45;4a83&#45;92b2&#45;3f0c3209980c -->
+<g id="node3" class="node">
+<title>1023f576&#45;2e4a&#45;4a83&#45;92b2&#45;3f0c3209980c</title>
+<polygon fill="#ff3030" stroke="#ff3030" points="409.6651,-238.8 199.6551,-238.8 199.6551,-202.8 409.6651,-202.8 409.6651,-238.8"/>
+<text text-anchor="middle" x="304.6601" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">org.greenrobot.eventbus.EventBus</text>
+</g>
+<!-- cc6888f6&#45;0f6c&#45;4279&#45;b977&#45;105ec35f67c1 -->
+<g id="node4" class="node">
+<title>cc6888f6&#45;0f6c&#45;4279&#45;b977&#45;105ec35f67c1</title>
+<polygon fill="#ff3030" stroke="#ff3030" points="593.4804,-184.8 15.8398,-184.8 15.8398,-148.8 593.4804,-148.8 593.4804,-184.8"/>
+<text text-anchor="middle" x="304.6601" y="-162.6" font-family="Times,serif" font-size="14.00" fill="#000000">java.util.Map&lt;java.lang.String,javax.inject.Provider&lt;dagger.android.AndroidInjector.Factory&lt;?&gt;&gt;&gt;</text>
+</g>
+<!-- 07ee1f18&#45;edcd&#45;4966&#45;9a1e&#45;a659c37c45f8 -->
+<g id="node5" class="node">
+<title>07ee1f18&#45;edcd&#45;4966&#45;9a1e&#45;a659c37c45f8</title>
+<polygon fill="#ff3030" stroke="#ff3030" points="539.1721,-130.8 70.1481,-130.8 70.1481,-94.8 539.1721,-94.8 539.1721,-130.8"/>
+<text text-anchor="middle" x="304.6601" y="-108.6" font-family="Times,serif" font-size="14.00" fill="#000000">@org.owntracks.android.injection.qualifier.AppContext android.content.Context</text>
+</g>
+<!-- f146ca4f&#45;0b76&#45;4fea&#45;9287&#45;18b6278413b2 -->
+<g id="node6" class="node">
+<title>f146ca4f&#45;0b76&#45;4fea&#45;9287&#45;18b6278413b2</title>
+<polygon fill="#ff3030" stroke="#ff3030" points="481.4438,-76.8 127.8764,-76.8 127.8764,-40.8 481.4438,-40.8 481.4438,-76.8"/>
+<text text-anchor="middle" x="304.6601" y="-54.6" font-family="Times,serif" font-size="14.00" fill="#000000">org.owntracks.android.support.preferences.PreferencesStore</text>
+</g>
+<!-- b259b0fe&#45;6edb&#45;4d1e&#45;8813&#45;df9b487cd485 -->
+<g id="node7" class="node">
+<title>b259b0fe&#45;6edb&#45;4d1e&#45;8813&#45;df9b487cd485</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="442.3996,-292.8 178.9206,-292.8 178.9206,-296.8 166.9206,-296.8 166.9206,-256.8 442.3996,-256.8 442.3996,-292.8"/>
+<polyline fill="none" stroke="#40e0d0" points="166.9206,-292.8 178.9206,-292.8 "/>
+<text text-anchor="middle" x="304.6601" y="-270.6" font-family="Times,serif" font-size="14.00" fill="#000000">Map&lt;Class&lt;?&gt;, AndroidInjector.Factory&lt;?&gt;&gt;</text>
+</g>
+<!-- b259b0fe&#45;6edb&#45;4d1e&#45;8813&#45;df9b487cd485&#45;&gt;0055c2e3&#45;fd6c&#45;43cb&#45;bb87&#45;df9d5ee7d2f3 -->
+<g id="edge1" class="edge">
+<title>b259b0fe&#45;6edb&#45;4d1e&#45;8813&#45;df9b487cd485&#45;&gt;0055c2e3&#45;fd6c&#45;43cb&#45;bb87&#45;df9d5ee7d2f3</title>
+<path fill="none" stroke="#000000" d="M442.3313,-274.8C500.4944,-274.8 568.9574,-274.8 630.8202,-274.8 630.8202,-274.8 630.8202,-274.8 706.8202,-274.8 715.8099,-274.8 724.9672,-274.8 734.2171,-274.8"/>
+<polygon fill="#000000" stroke="#000000" points="734.2871,-278.3001 744.287,-274.8 734.287,-271.3001 734.2871,-278.3001"/>
+</g>
+</g>
+</svg>

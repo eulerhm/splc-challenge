@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/eulerhm/.gradle/caches/transforms-2/files-2.1/7ded27f4ee15e275bd03934065a7f33d/jetified-lottie-3.4.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,102",
+                        "endLines": "2,28",
+                        "endColumns": "46,24",
+                        "endOffsets": "97,1429"
+                    },
+                    "to": {
+                        "startLines": "2,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,1147",
+                        "endLines": "2,44",
+                        "endColumns": "46,24",
+                        "endOffsets": "97,2474"
+                    }
+                },
+                {
+                    "source": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,5,4,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "110,226,168,55",
+                        "endColumns": "57,64,57,54",
+                        "endOffsets": "163,286,221,105"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "102,160,225,283",
+                        "endColumns": "57,64,57,54",
+                        "endOffsets": "155,220,278,333"
+                    }
+                },
+                {
+                    "source": "/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "7,3,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "235,56,494",
+                        "endLines": "10,5,16",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "488,229,862"
+                    },
+                    "to": {
+                        "startLines": "7,11,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "338,596,774",
+                        "endLines": "10,13,18",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "591,769,1142"
+                    }
+                }
+            ]
+        }
+    ]
+}

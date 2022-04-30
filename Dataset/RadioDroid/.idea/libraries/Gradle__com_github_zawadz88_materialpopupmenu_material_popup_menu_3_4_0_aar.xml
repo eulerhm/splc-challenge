@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.zawadz88.materialpopupmenu:material-popup-menu:3.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5bdfbbbe98f48660b58d0b826045a681/jetified-material-popup-menu-3.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5bdfbbbe98f48660b58d0b826045a681/jetified-material-popup-menu-3.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5bdfbbbe98f48660b58d0b826045a681/jetified-material-popup-menu-3.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zawadz88.materialpopupmenu/material-popup-menu/3.4.0/30d1778ed06930eb223d1c72e12ac407dfcfa318/material-popup-menu-3.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zawadz88.materialpopupmenu/material-popup-menu/3.4.0/50a806ca8ed7cde7f2790f60d3fc5d9718af4b61/material-popup-menu-3.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

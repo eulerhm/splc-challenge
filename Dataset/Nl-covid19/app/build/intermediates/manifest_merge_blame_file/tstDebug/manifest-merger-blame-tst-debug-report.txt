@@ -1,0 +1,554 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="nl.rijksoverheid.en"
+4    android:versionCode="101424"
+5    android:versionName="2.3.0-tst" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-feature
+11-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:6:5-8:35
+12        android:name="android.hardware.bluetooth_le"
+12-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:7:9-53
+13        android:required="true" />
+13-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:8:9-32
+14    <uses-feature android:name="android.hardware.bluetooth" />
+14-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:9:5-63
+14-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:9:19-60
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:11:5-67
+16-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:12:5-68
+17-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:12:22-65
+18    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+18-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:13:5-95
+18-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:13:22-92
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:14:5-81
+19-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:14:22-78
+20    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+20-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:16:5-73
+20-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:16:22-71
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:17:5-78
+21-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:17:22-76
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:18:5-79
+22-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:18:22-76
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:19:5-75
+23-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:19:22-73
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:11:5-77
+24-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:11:22-74
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:12:5-66
+25-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:12:22-63
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:25:22-69
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:25:5-68
+27-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:25:22-65
+28
+29    <application
+29-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:22:5-78:19
+30        android:name="nl.rijksoverheid.en.EnApplication"
+30-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:23:9-57
+31        android:allowBackup="false"
+31-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:24:9-36
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.5.0-rc01] /home/eulerhm/.gradle/caches/transforms-3/7d89cdc6479e8ac6238ccf21f147edbc/transformed/core-1.5.0-rc01/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:25:9-43
+36        android:label="@string/app_name"
+36-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:26:9-41
+37        android:networkSecurityConfig="@xml/network_config"
+37-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml:5:9-60
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:27:9-54
+39        android:supportsRtl="true"
+39-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:28:9-35
+40        android:theme="@style/AppTheme.Launcher"
+40-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:29:9-49
+41        android:usesCleartextTraffic="true" >
+41-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/debug/AndroidManifest.xml:6:9-44
+42        <activity android:name="nl.rijksoverheid.en.MainActivity" >
+42-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:30:9-35:20
+42-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:30:19-66
+43            <intent-filter>
+43-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:31:13-34:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:17-69
+44-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:33:17-77
+46-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:33:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <receiver android:name="nl.rijksoverheid.en.notifier.DismissReminderReceiver" />
+50-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:37:9-70
+50-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:37:19-67
+51        <receiver android:name="nl.rijksoverheid.en.job.SyncIssuesReceiver" />
+51-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:38:9-60
+51-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:38:19-57
+52        <receiver android:name="nl.rijksoverheid.en.update.UpdateReceiver" >
+52-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:40:9-44:20
+52-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:40:19-56
+53            <intent-filter>
+53-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:41:13-43:29
+54                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+54-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:42:17-84
+54-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:42:25-81
+55            </intent-filter>
+56        </receiver>
+57        <receiver
+57-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:46:9-52:20
+58            android:name="nl.rijksoverheid.en.settings.ExposureNotificationsStateChangeReceiver"
+58-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:47:13-78
+59            android:permission="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK" >
+59-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:48:13-102
+60            <intent-filter>
+60-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:49:13-51:29
+61                <action android:name="com.google.android.gms.exposurenotification.ACTION_SERVICE_STATE_UPDATED" />
+61-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:50:17-115
+61-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:50:25-112
+62            </intent-filter>
+63        </receiver>
+64        <receiver
+64-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:54:9-56:40
+65            android:name="nl.rijksoverheid.en.settings.ExposureNotificationsPausedReminderReceiver"
+65-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:55:13-81
+66            android:exported="false" />
+66-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:56:13-37
+67        <receiver android:name="nl.rijksoverheid.en.settings.ExposureNotificationsPausedBootReceiver" >
+67-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:58:9-62:20
+67-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:58:19-83
+68            <intent-filter>
+68-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:59:13-61:29
+69                <action android:name="android.intent.action.BOOT_COMPLETED" />
+69-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:60:17-79
+69-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:60:25-76
+70            </intent-filter>
+71        </receiver>
+72        <receiver
+72-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:64:9-71:20
+73            android:name="nl.rijksoverheid.en.notification.ExposureNotificationReceiver"
+73-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:65:13-70
+74            android:permission="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK" >
+74-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:66:13-102
+75            <intent-filter>
+75-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:67:13-70:29
+76                <action android:name="com.google.android.gms.exposurenotification.ACTION_EXPOSURE_STATE_UPDATED" />
+76-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:68:17-116
+76-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:68:25-113
+77                <action android:name="com.google.android.gms.exposurenotification.ACTION_EXPOSURE_NOT_FOUND" />
+77-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:69:17-112
+77-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:69:25-109
+78            </intent-filter>
+79        </receiver>
+80
+81        <activity
+81-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:15:9-18:58
+82            android:name="com.pandulapeter.beagle.core.view.gallery.GalleryActivity"
+82-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:16:13-85
+83            android:launchMode="singleTop"
+83-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:17:13-43
+84            android:windowSoftInputMode="adjustResize" />
+84-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:18:13-55
+85        <activity
+85-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:19:9-22:58
+86            android:name="com.pandulapeter.beagle.core.view.bugReport.BugReportActivity"
+86-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:20:13-89
+87            android:launchMode="singleTop"
+87-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:21:13-43
+88            android:windowSoftInputMode="adjustResize" />
+88-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:22:13-55
+89
+90        <service
+90-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:24:9-27:63
+91            android:name="com.pandulapeter.beagle.core.util.ScreenCaptureService"
+91-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:25:13-82
+92            android:exported="false"
+92-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:26:13-37
+93            android:foregroundServiceType="mediaProjection" />
+93-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:27:13-60
+94
+95        <provider
+95-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:29:9-37:20
+96            android:name="com.pandulapeter.beagle.core.BeagleFileProvider"
+96-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:30:13-75
+97            android:authorities="nl.rijksoverheid.en.beagle.fileProvider"
+97-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:31:13-71
+98            android:exported="false"
+98-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:32:13-37
+99            android:grantUriPermissions="true" >
+99-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:33:13-47
+100            <meta-data
+100-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:34:13-36:61
+101                android:name="android.support.FILE_PROVIDER_PATHS"
+101-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:35:17-67
+102                android:resource="@xml/beagle_file_paths" />
+102-->[com.github.pandulapeter.beagle:internal-core:2.5.1] /home/eulerhm/.gradle/caches/transforms-3/f23104ebe43a5ced43113d2aef346298/transformed/internal-core-2.5.1/AndroidManifest.xml:36:17-58
+103        </provider>
+104
+105        <activity
+105-->[:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-25:20
+106            android:name="nl.rijksoverheid.en.test.TestMainActivity"
+106-->[:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-69
+107            android:exported="true"
+107-->[:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-36
+108            android:multiprocess="true"
+108-->[:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-40
+109            android:taskAffinity="" >
+109-->[:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+110            <intent-filter>
+110-->[:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-24:29
+111                <action android:name="android.intent.action.MAIN" />
+111-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:17-69
+111-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:25-66
+112            </intent-filter>
+113        </activity>
+114        <activity
+114-->[androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:28:9-37:20
+115            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+115-->[androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:29:13-96
+116            android:exported="true"
+116-->[androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:30:13-36
+117            android:multiprocess="true"
+117-->[androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:31:13-40
+118            android:taskAffinity=""
+118-->[androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:32:13-36
+119            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+119-->[androidx.fragment:fragment-testing:1.3.5] /home/eulerhm/.gradle/caches/transforms-3/9dee156bc8aafa54aae2c453b7eb39d0/transformed/fragment-testing-1.3.5/AndroidManifest.xml:33:13-78
+120            <intent-filter>
+120-->[:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-24:29
+121                <action android:name="android.intent.action.MAIN" />
+121-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:17-69
+121-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:25-66
+122            </intent-filter>
+123        </activity>
+124
+125        <provider
+125-->[androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:25:9-29:43
+126            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+126-->[androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:26:13-79
+127            android:authorities="nl.rijksoverheid.en.lifecycle-process"
+127-->[androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:27:13-69
+128            android:exported="false"
+128-->[androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:28:13-37
+129            android:multiprocess="true" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+129-->[androidx.lifecycle:lifecycle-process:2.3.1] /home/eulerhm/.gradle/caches/transforms-3/b86a60e7ce80f5eadd4d0df6b7a86927/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:29:13-40
+130        <activity
+130-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:5-271
+131            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+131-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:15-102
+132            android:enabled="false"
+132-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:103-126
+133            android:exported="false"
+133-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:127-151
+134            android:launchMode="singleInstance"
+134-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:204-239
+135            android:process=":playcore_missing_splits_activity"
+135-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:152-203
+136            android:stateNotNeeded="true" />
+136-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:12:240-269
+137        <activity
+137-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:5-226
+138            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+138-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:15-95
+139            android:enabled="false"
+139-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:96-119
+140            android:exported="false"
+140-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:120-144
+141            android:stateNotNeeded="true"
+141-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:145-174
+142            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+142-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:13:175-224
+143        <service
+143-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:16:5-18:15
+144            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+144-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:16:14-95
+145            android:enabled="false"
+145-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:16:96-119
+146            android:exported="true" >
+146-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:16:120-143
+147            <meta-data
+147-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:17:7-108
+148                android:name="com.google.android.play.core.assetpacks.versionCode"
+148-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:17:18-84
+149                android:value="11000" />
+149-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:17:85-106
+150        </service>
+151        <service
+151-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:19:5-147
+152            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+152-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:19:14-96
+153            android:enabled="false"
+153-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:19:97-120
+154            android:exported="false" />
+154-->[com.google.android.play:core:1.10.0] /home/eulerhm/.gradle/caches/transforms-3/530d7d48e3b08ae5158eb5772c41dcd0/transformed/core-1.10.0/AndroidManifest.xml:19:121-145
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/011dc91fa24899d6d6c57f8fbbb7751a/transformed/play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+160
+161        <meta-data
+161-->[com.google.android.gms:play-services-basement:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/ee0381ecb3796d31f9c86897c9dba637/transformed/play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+162            android:name="com.google.android.gms.version"
+162-->[com.google.android.gms:play-services-basement:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/ee0381ecb3796d31f9c86897c9dba637/transformed/play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+163            android:value="@integer/google_play_services_version" />
+163-->[com.google.android.gms:play-services-basement:17.6.0] /home/eulerhm/.gradle/caches/transforms-3/ee0381ecb3796d31f9c86897c9dba637/transformed/play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+164
+165        <activity
+165-->[androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:27:9-33:20
+166            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+166-->[androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:28:13-99
+167            android:theme="@android:style/Theme" >
+167-->[androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:29:13-49
+168            <intent-filter>
+168-->[:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-24:29
+169                <action android:name="android.intent.action.MAIN" />
+169-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:17-69
+169-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:25-66
+170            </intent-filter>
+171        </activity>
+172        <activity
+172-->[androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:34:9-40:20
+173            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+173-->[androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:35:13-95
+174            android:theme="@android:style/Theme" >
+174-->[androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:36:13-49
+175            <intent-filter>
+175-->[:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-24:29
+176                <action android:name="android.intent.action.MAIN" />
+176-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:17-69
+176-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:25-66
+177            </intent-filter>
+178        </activity>
+179        <activity
+179-->[androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:41:9-47:20
+180            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+180-->[androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:42:13-103
+181            android:theme="@android:style/Theme.Dialog" >
+181-->[androidx.test:core:1.3.0] /home/eulerhm/.gradle/caches/transforms-3/1aa82328ff5a3046668d153157071b04/transformed/core-1.3.0/AndroidManifest.xml:43:13-56
+182            <intent-filter>
+182-->[:test-support] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/test-support/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-24:29
+183                <action android:name="android.intent.action.MAIN" />
+183-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:17-69
+183-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:32:25-66
+184            </intent-filter>
+185        </activity>
+186
+187        <service
+187-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+188            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+188-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+189            android:directBootAware="false"
+189-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+190            android:enabled="@bool/enable_system_alarm_service_default"
+190-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+191            android:exported="false" />
+191-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+192        <service
+192-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+193            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+193-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+194            android:directBootAware="false"
+194-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+195            android:enabled="@bool/enable_system_job_service_default"
+195-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+196            android:exported="true"
+196-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+197            android:permission="android.permission.BIND_JOB_SERVICE" />
+197-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+198        <service
+198-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+199            android:name="androidx.work.impl.foreground.SystemForegroundService"
+199-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+200            android:directBootAware="false"
+200-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+201            android:enabled="@bool/enable_system_foreground_service_default"
+201-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+202            android:exported="false" />
+202-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+203
+204        <receiver
+204-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+205            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+205-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+206            android:directBootAware="false"
+206-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+207            android:enabled="true"
+207-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+208            android:exported="false" />
+208-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+209        <receiver
+209-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+210            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+210-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+211            android:directBootAware="false"
+211-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+212            android:enabled="false"
+212-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+213            android:exported="false" >
+213-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+214            <intent-filter>
+214-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+215                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+215-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+215-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+216                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+216-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+216-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+217            </intent-filter>
+218        </receiver>
+219        <receiver
+219-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+220            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+220-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+221            android:directBootAware="false"
+221-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+222            android:enabled="false"
+222-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+223            android:exported="false" >
+223-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+224            <intent-filter>
+224-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+225                <action android:name="android.intent.action.BATTERY_OKAY" />
+225-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+225-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+226                <action android:name="android.intent.action.BATTERY_LOW" />
+226-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+226-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+227            </intent-filter>
+228        </receiver>
+229        <receiver
+229-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+230            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+230-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+231            android:directBootAware="false"
+231-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+232            android:enabled="false"
+232-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+233            android:exported="false" >
+233-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+234            <intent-filter>
+234-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+235                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+235-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+235-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+236                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+236-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+236-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+237            </intent-filter>
+238        </receiver>
+239        <receiver
+239-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+240            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+240-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+241            android:directBootAware="false"
+241-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+242            android:enabled="false"
+242-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+243            android:exported="false" >
+243-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+244            <intent-filter>
+244-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+245                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+245-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+245-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+246            </intent-filter>
+247        </receiver>
+248        <receiver
+248-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+249            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+249-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+250            android:directBootAware="false"
+250-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+251            android:enabled="false"
+251-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+252            android:exported="false" >
+252-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+253            <intent-filter>
+253-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+254                <action android:name="android.intent.action.BOOT_COMPLETED" />
+254-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:60:17-79
+254-->/home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/app/src/main/AndroidManifest.xml:60:25-76
+255                <action android:name="android.intent.action.TIME_SET" />
+255-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+255-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+256                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+256-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+256-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+257            </intent-filter>
+258        </receiver>
+259        <receiver
+259-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+260            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+260-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+261            android:directBootAware="false"
+261-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+262            android:enabled="@bool/enable_system_alarm_service_default"
+262-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+263            android:exported="false" >
+263-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+264            <intent-filter>
+264-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+265                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+265-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+265-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+266            </intent-filter>
+267        </receiver>
+268        <receiver
+268-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+269            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+269-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+270            android:directBootAware="false"
+270-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+271            android:enabled="true"
+271-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+272            android:exported="true"
+272-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+273            android:permission="android.permission.DUMP" >
+273-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+274            <intent-filter>
+274-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+275                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+275-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+275-->[androidx.work:work-runtime:2.5.0] /home/eulerhm/.gradle/caches/transforms-3/bf603aaa32160fe3e4820579a2667f44/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+276            </intent-filter>
+277        </receiver>
+278
+279        <service
+279-->[androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+280            android:name="androidx.room.MultiInstanceInvalidationService"
+280-->[androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+281            android:directBootAware="true"
+281-->[androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+282            android:exported="false" />
+282-->[androidx.room:room-runtime:2.2.5] /home/eulerhm/.gradle/caches/transforms-3/dccca0229db2049ba3482c818570237f/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+283        <service
+283-->[:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:10:9-13:105
+284            android:name="com.google.android.gms.nearby.exposurenotification.WakeUpService"
+284-->[:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:11:13-92
+285            android:exported="true"
+285-->[:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:12:13-36
+286            android:permission="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK" />
+286-->[:play-services-nearby-eap] /home/eulerhm/Documents/workspaceSQJ/nl-covid19-notification-app-android-new/play-services-nearby-eap/build/.transforms/c2e41e05ab5e454ccf2fa9727209be16/transformed/play-services-nearby-exposurenotification-1.8.3-eap/AndroidManifest.xml:13:13-102
+287    </application>
+288
+289</manifest>

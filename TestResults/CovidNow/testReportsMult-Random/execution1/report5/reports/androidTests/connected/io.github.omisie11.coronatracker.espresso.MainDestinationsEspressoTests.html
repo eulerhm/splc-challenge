@@ -1,0 +1,275 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class io.github.omisie11.coronatracker.espresso.MainDestinationsEspressoTests</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class io.github.omisie11.coronatracker.espresso.MainDestinationsEspressoTests</h1>
+<div class="breadcrumbs">
+<a href="index.html">all</a> &gt; 
+<a href="io.github.omisie11.coronatracker.espresso.html">io.github.omisie11.coronatracker.espresso</a> &gt; MainDestinationsEspressoTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">2</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">42.859s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">60%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="clickOnBottomNavOpenGlobalScreen"></a>
+<h3 class="failures">clickOnBottomNavOpenGlobalScreen</h3>
+<span class="code">
+<pre>androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 179, 1080 and precision: 16, 16' on view 'with id: io.github.omisie11.coronatracker:id/stat_recovered'.
+at androidx.test.espresso.PerformException$Builder.build(PerformException.java:86)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:87)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:59)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:322)
+at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:178)
+at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:119)
+at io.github.omisie11.coronatracker.espresso.MainDestinationsEspressoTests.clickOnBottomNavOpenGlobalScreen(MainDestinationsEspressoTests.kt:36)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:531)
+at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:134)
+at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:104)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2209)
+Caused by: java.lang.IndexOutOfBoundsException: Empty list doesn't contain element at index 1.
+at kotlin.collections.EmptyList.get(Collections.kt:35)
+at kotlin.collections.EmptyList.get(Collections.kt:23)
+at com.github.mikephil.charting.data.DataSet.getEntryForIndex(DataSet.java:294)
+at com.github.mikephil.charting.data.PieData.getEntryForHighlight(PieData.java:68)
+at com.github.mikephil.charting.charts.Chart.highlightValue(Chart.java:631)
+at com.github.mikephil.charting.charts.Chart.highlightValue(Chart.java:598)
+at com.github.mikephil.charting.charts.Chart.highlightValue(Chart.java:582)
+at com.github.mikephil.charting.charts.Chart.highlightValue(Chart.java:559)
+at io.github.omisie11.coronatracker.ui.global.GlobalFragment$onViewCreated$7.onClick(GlobalFragment.kt:82)
+at android.view.View.performClick(View.java:7870)
+at android.view.View.performClickInternal(View.java:7839)
+at android.view.View.access$3600(View.java:886)
+at android.view.View$PerformClick.run(View.java:29363)
+at android.os.Handler.handleCallback(Handler.java:883)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:148)
+at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:525)
+at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:484)
+at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:236)
+at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:162)
+at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:139)
+at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:170)
+at androidx.test.espresso.action.Tap.access$100(Tap.java:31)
+at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:47)
+at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:137)
+at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:366)
+at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:255)
+at androidx.test.espresso.ViewInteraction.access$100(ViewInteraction.java:65)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:158)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:155)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at android.os.Handler.handleCallback(Handler.java:883)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at android.os.Looper.loop(Looper.java:237)
+at android.app.ActivityThread.main(ActivityThread.java:7807)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1047)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="clickOnBottomNavOpenLocalScreen"></a>
+<h3 class="failures">clickOnBottomNavOpenLocalScreen</h3>
+<span class="code">
+<pre>androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 179, 1080 and precision: 16, 16' on view 'with id: io.github.omisie11.coronatracker:id/stat_recovered'.
+at androidx.test.espresso.PerformException$Builder.build(PerformException.java:86)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:87)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:59)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:322)
+at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:178)
+at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:119)
+at io.github.omisie11.coronatracker.espresso.MainDestinationsEspressoTests.clickOnBottomNavOpenLocalScreen(MainDestinationsEspressoTests.kt:55)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:531)
+at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:134)
+at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:104)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2209)
+Caused by: java.lang.IndexOutOfBoundsException: Empty list doesn't contain element at index 1.
+at kotlin.collections.EmptyList.get(Collections.kt:35)
+at kotlin.collections.EmptyList.get(Collections.kt:23)
+at com.github.mikephil.charting.data.DataSet.getEntryForIndex(DataSet.java:294)
+at com.github.mikephil.charting.data.PieData.getEntryForHighlight(PieData.java:68)
+at com.github.mikephil.charting.charts.Chart.highlightValue(Chart.java:631)
+at com.github.mikephil.charting.charts.Chart.highlightValue(Chart.java:598)
+at com.github.mikephil.charting.charts.Chart.highlightValue(Chart.java:582)
+at com.github.mikephil.charting.charts.Chart.highlightValue(Chart.java:559)
+at io.github.omisie11.coronatracker.ui.local.LocalFragment$onViewCreated$8.onClick(LocalFragment.kt:92)
+at android.view.View.performClick(View.java:7870)
+at android.view.View.performClickInternal(View.java:7839)
+at android.view.View.access$3600(View.java:886)
+at android.view.View$PerformClick.run(View.java:29363)
+at android.os.Handler.handleCallback(Handler.java:883)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:148)
+at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:525)
+at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:484)
+at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:236)
+at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:162)
+at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:139)
+at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:170)
+at androidx.test.espresso.action.Tap.access$100(Tap.java:31)
+at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:47)
+at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:137)
+at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:366)
+at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:255)
+at androidx.test.espresso.ViewInteraction.access$100(ViewInteraction.java:65)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:158)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:155)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at android.os.Handler.handleCallback(Handler.java:883)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at android.os.Looper.loop(Looper.java:237)
+at android.app.ActivityThread.main(ActivityThread.java:7807)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1047)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>SM-M305M - 10</th>
+</tr>
+</thead>
+<tr>
+<td>clickOnBottomNavOpenAboutScreen</td>
+<td class="success">passed (7.254s)</td>
+</tr>
+<tr>
+<td>clickOnBottomNavOpenGlobalScreen</td>
+<td class="failures">failed (7.108s)</td>
+</tr>
+<tr>
+<td>clickOnBottomNavOpenLocalScreen</td>
+<td class="failures">failed (7.183s)</td>
+</tr>
+<tr>
+<td>clickOnBottomNavOpenSettingsScreen</td>
+<td class="success">passed (10.417s)</td>
+</tr>
+<tr>
+<td>clickOnEditLocationImageInLocalScreenOpenSettings</td>
+<td class="success">passed (10.897s)</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 6.1.1</a> at Dec 18, 2021, 11:27:47 PM</p>
+</div>
+</div>
+</body>

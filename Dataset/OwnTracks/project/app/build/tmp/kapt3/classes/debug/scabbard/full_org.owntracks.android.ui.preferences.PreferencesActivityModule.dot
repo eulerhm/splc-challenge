@@ -1,0 +1,52 @@
+digraph "org.owntracks.android.ui.preferences.PreferencesActivityModule" {
+  graph [rankdir="LR", labeljust="l", label="PreferencesActivityModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "61c84cb1-2833-4a1c-a583-4ebbdfef293b" [label="@PerActivity\nAppCompatActivity", color="aquamarine"]
+    "78890804-9dcb-46b1-a5aa-77633ca44b2b" [label="org.owntracks.android.ui.preferences.PreferencesActivity", color="firebrick1"]
+    "7cdef9d2-5e4b-4363-926d-0edd3658172a" [label="PreferencesActivityModule_BindPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "e9006a6a-965c-4743-9eb8-73d945224309" [label="PreferencesActivityModule_BindReportingPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "217613d4-f823-46e7-852f-2dfba64e06d4" [label="PreferencesActivityModule_BindNotificationPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "128cad13-4adf-4880-b3f0-91ecd50deb81" [label="PreferencesActivityModule_BindAdvancedPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    "28c59610-f1d3-4b29-8f6e-129c5eea2eca" [label="PreferencesFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "93b1415b-6a32-476a-bac4-103f3280491a" [label="ReportingFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "59196fb8-d442-4dc5-b2a5-07bed5c09eaf" [label="NotificationFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "a4888ba1-6ef1-4929-967c-6c383246f6b8" [label="AdvancedFragmentSubcomponent.Factory\n\nSubcomponent Creator", color="turquoise"]
+    "7d8b9a12-df1d-4fb2-914b-4369c8dbb91b" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+    "688b4333-2069-409e-bd58-fab6aff640a3" [label="org.greenrobot.eventbus.EventBus", color="firebrick1"]
+    "c1343921-322e-40ad-8466-cf56f5bedbb0" [label="org.owntracks.android.support.preferences.PreferencesStore", color="firebrick1"]
+    subgraph "cluster_Map<Class<?>, AndroidInjector.Factory<?>>" {
+      graph [label="Map<Class<?>, AndroidInjector.Factory<?>>", labeljust="c", style="rounded", color="black"]
+      "94168326-3efa-458f-8fa8-319f8a1cd0e4" [label="Map<Class<?>, AndroidInjector.Factory<?>>", color="turquoise", shape="tab"]
+      "e9006a6a-965c-4743-9eb8-73d945224309" [label="PreferencesActivityModule_BindReportingPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "7cdef9d2-5e4b-4363-926d-0edd3658172a" [label="PreferencesActivityModule_BindPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "128cad13-4adf-4880-b3f0-91ecd50deb81" [label="PreferencesActivityModule_BindAdvancedPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+      "217613d4-f823-46e7-852f-2dfba64e06d4" [label="PreferencesActivityModule_BindNotificationPreferencesFragment.bindAndroidInjectorFactory()", color="turquoise"]
+    }
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+    "05ab57a3-a605-4013-97e7-8615e2978931" [label="@PerFragment\nPreferencesActivityModule_BindPreferencesFragment.PreferencesFragmentSubcomponent", href="full_org.owntracks.android.ui.preferences.PreferencesActivityModule_BindPreferencesFragment.PreferencesFragmentSubcomponent.svg", color="bisque"]
+    "add9f9c1-3a81-4349-bb84-ab20824591d4" [label="@PerFragment\nPreferencesActivityModule_BindReportingPreferencesFragment.ReportingFragmentSubcomponent", href="full_org.owntracks.android.ui.preferences.PreferencesActivityModule_BindReportingPreferencesFragment.ReportingFragmentSubcomponent.svg", color="bisque"]
+    "220c1de4-db89-4b10-aff5-4a3a5aca73f6" [label="@PerFragment\nPreferencesActivityModule_BindNotificationPreferencesFragment.NotificationFragmentSubcomponent", href="full_org.owntracks.android.ui.preferences.PreferencesActivityModule_BindNotificationPreferencesFragment.NotificationFragmentSubcomponent.svg", color="bisque"]
+    "6626e75c-bd35-4698-9eae-7735b07c93aa" [label="@PerFragment\nPreferencesActivityModule_BindAdvancedPreferencesFragment.AdvancedFragmentSubcomponent", href="full_org.owntracks.android.ui.preferences.PreferencesActivityModule_BindAdvancedPreferencesFragment.AdvancedFragmentSubcomponent.svg", color="bisque"]
+  }
+  "61c84cb1-2833-4a1c-a583-4ebbdfef293b" -> "78890804-9dcb-46b1-a5aa-77633ca44b2b" [style="dashed", label="delegates", arrowType="empty", headlabel="Missing binding"]
+  "94168326-3efa-458f-8fa8-319f8a1cd0e4" -> "7cdef9d2-5e4b-4363-926d-0edd3658172a"
+  "94168326-3efa-458f-8fa8-319f8a1cd0e4" -> "e9006a6a-965c-4743-9eb8-73d945224309"
+  "94168326-3efa-458f-8fa8-319f8a1cd0e4" -> "128cad13-4adf-4880-b3f0-91ecd50deb81"
+  "94168326-3efa-458f-8fa8-319f8a1cd0e4" -> "217613d4-f823-46e7-852f-2dfba64e06d4"
+  "7cdef9d2-5e4b-4363-926d-0edd3658172a" -> "28c59610-f1d3-4b29-8f6e-129c5eea2eca" [style="dotted", label="delegates"]
+  "e9006a6a-965c-4743-9eb8-73d945224309" -> "93b1415b-6a32-476a-bac4-103f3280491a" [style="dotted", label="delegates"]
+  "217613d4-f823-46e7-852f-2dfba64e06d4" -> "59196fb8-d442-4dc5-b2a5-07bed5c09eaf" [style="dotted", label="delegates"]
+  "128cad13-4adf-4880-b3f0-91ecd50deb81" -> "a4888ba1-6ef1-4929-967c-6c383246f6b8" [style="dotted", label="delegates"]
+  "28c59610-f1d3-4b29-8f6e-129c5eea2eca" -> "05ab57a3-a605-4013-97e7-8615e2978931" [style="dashed", label="subcomponent", headport="w"]
+  "93b1415b-6a32-476a-bac4-103f3280491a" -> "add9f9c1-3a81-4349-bb84-ab20824591d4" [style="dashed", label="subcomponent", headport="w"]
+  "59196fb8-d442-4dc5-b2a5-07bed5c09eaf" -> "220c1de4-db89-4b10-aff5-4a3a5aca73f6" [style="dashed", label="subcomponent", headport="w"]
+  "a4888ba1-6ef1-4929-967c-6c383246f6b8" -> "6626e75c-bd35-4698-9eae-7735b07c93aa" [style="dashed", label="subcomponent", headport="w"]
+}

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mozilla.components:lib-crash:27.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bea623e5028a28f546f9e071f9a87228/jetified-lib-crash-27.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bea623e5028a28f546f9e071f9a87228/jetified-lib-crash-27.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bea623e5028a28f546f9e071f9a87228/jetified-lib-crash-27.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla.components/lib-crash/27.0.4/39e5475f00c333a7a1c1e857b7591e3162059080/lib-crash-27.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

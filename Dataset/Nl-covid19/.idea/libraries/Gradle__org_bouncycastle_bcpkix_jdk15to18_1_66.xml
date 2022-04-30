@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.bouncycastle:bcpkix-jdk15to18:1.66">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15to18/1.66/86ede6e5165c4bddc1b756fa856973d0b6209498/bcpkix-jdk15to18-1.66.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15to18/1.66/766eb604ddc8b955dc77a3a006ef03d6885333d9/bcpkix-jdk15to18-1.66-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15to18/1.66/b4d643e55fda7c0d93b256cefb3b5a5ee5e40ed4/bcpkix-jdk15to18-1.66-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

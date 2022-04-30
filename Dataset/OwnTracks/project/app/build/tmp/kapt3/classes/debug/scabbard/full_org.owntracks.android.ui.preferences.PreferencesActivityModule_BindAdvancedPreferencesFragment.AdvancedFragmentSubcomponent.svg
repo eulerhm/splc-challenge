@@ -1,0 +1,39 @@
+<svg width="780px" height="153px"
+ viewBox="0.00 0.00 779.54 152.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(14.4 138.2)">
+<title>org.owntracks.android.ui.preferences.PreferencesActivityModule → org.owntracks.android.ui.preferences.PreferencesActivityModule_BindAdvancedPreferencesFragment.AdvancedFragmentSubcomponent</title>
+<polygon fill="#ffffff" stroke="transparent" points="-14.4,14.4 -14.4,-138.2 765.141,-138.2 765.141,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="375.3705" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">PreferencesActivityModule → PreferencesActivityModule_BindAdvancedPreferencesFragment.AdvancedFragmentSubcomponent</text>
+<g id="clust1" class="cluster">
+<title>cluster_Entry Points</title>
+<polygon fill="none" stroke="#000000" points="214.4266,-35.8 214.4266,-112.8 400.7528,-112.8 400.7528,-35.8 214.4266,-35.8"/>
+<text text-anchor="middle" x="257.2327" y="-96.2" font-family="Times,serif" font-size="14.00" fill="#000000">Entry Points</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_Dependency Graph</title>
+<polygon fill="none" stroke="#000000" points="420.7528,-32.8 420.7528,-115.8 544.3144,-115.8 544.3144,-32.8 420.7528,-32.8"/>
+<text text-anchor="middle" x="482.9762" y="-99.2" font-family="Times,serif" font-size="14.00" fill="#000000">Dependency Graph</text>
+</g>
+<!-- 269b1f45&#45;3729&#45;4b10&#45;ab3b&#45;4dddd832a364 -->
+<g id="node1" class="node">
+<title>269b1f45&#45;3729&#45;4b10&#45;ab3b&#45;4dddd832a364</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" stroke-width="2" points="392.9162,-79.8 222.2632,-79.8 222.2632,-75.8 218.2632,-75.8 218.2632,-71.8 222.2632,-71.8 222.2632,-51.8 218.2632,-51.8 218.2632,-47.8 222.2632,-47.8 222.2632,-43.8 392.9162,-43.8 392.9162,-79.8"/>
+<polyline fill="none" stroke="#40e0d0" stroke-width="2" points="222.2632,-75.8 226.2632,-75.8 226.2632,-71.8 222.2632,-71.8 "/>
+<polyline fill="none" stroke="#40e0d0" stroke-width="2" points="222.2632,-51.8 226.2632,-51.8 226.2632,-47.8 222.2632,-47.8 "/>
+<text text-anchor="middle" x="307.5897" y="-57.6" font-family="Times,serif" font-size="14.00" fill="#000000">inject (AdvancedFragment)</text>
+</g>
+<!-- a7ef9caf&#45;e480&#45;48ac&#45;bd11&#45;e05362abf640 -->
+<g id="node2" class="node">
+<title>a7ef9caf&#45;e480&#45;48ac&#45;bd11&#45;e05362abf640</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="523.0964,-82.4019 440.9708,-82.4019 440.9708,-41.1981 523.0964,-41.1981 523.0964,-82.4019"/>
+<text text-anchor="middle" x="482.0336" y="-66" font-family="Times,serif" font-size="14.00" fill="#000000">@Singleton</text>
+<text text-anchor="middle" x="482.0336" y="-49.2" font-family="Times,serif" font-size="14.00" fill="#000000">Preferences</text>
+</g>
+<!-- 269b1f45&#45;3729&#45;4b10&#45;ab3b&#45;4dddd832a364&#45;&gt;a7ef9caf&#45;e480&#45;48ac&#45;bd11&#45;e05362abf640 -->
+<g id="edge1" class="edge">
+<title>269b1f45&#45;3729&#45;4b10&#45;ab3b&#45;4dddd832a364&#45;&gt;a7ef9caf&#45;e480&#45;48ac&#45;bd11&#45;e05362abf640</title>
+<path fill="none" stroke="#000000" d="M392.7676,-61.8C405.7447,-61.8 418.7823,-61.8 430.7303,-61.8"/>
+<polygon fill="#000000" stroke="#000000" points="430.9207,-65.3001 440.9206,-61.8 430.9206,-58.3001 430.9207,-65.3001"/>
+</g>
+</g>
+</svg>

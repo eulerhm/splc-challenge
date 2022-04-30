@@ -1,0 +1,57 @@
+digraph "org.owntracks.android.injection.components.AppComponent → org.owntracks.android.injection.modules.AndroidBindingModule_BindConnectionActivity.ConnectionActivitySubcomponent" {
+  graph [rankdir="LR", labeljust="l", label="AppComponent → AndroidBindingModule_BindConnectionActivity.ConnectionActivitySubcomponent", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+    "33d2e0a2-d59e-42c7-a9e9-f2e0945ad586" [label="inject (ConnectionActivity)", color="turquoise", shape="component"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "7e43efbc-009f-4a98-bca5-e5b3fa221d69" [label="ConnectionMvvm.ViewModel<ConnectionMvvm.View>", color="turquoise"]
+    "3987dd2a-7c6c-4b1d-ae59-802a66613122" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "43e7f5f3-0247-4d7e-a17b-506969e5e1f4" [label="@PerActivity\nConnectionViewModel", color="bisque"]
+    "3fc68c13-8c3d-4355-ba25-6ba2a6d5472b" [label="@PerActivity\nNavigator", color="bisque"]
+    "8a0671d2-938b-48f7-a747-7d96e40a6aaf" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "783058b9-081b-42c9-bf8c-8a2b9653b2e5" [label="ConnectionActivity", color="turquoise", shape="parallelogram"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  subgraph "cluster_AppComponent" {
+    graph [labeljust="c", label="Inherited from AppComponent\n@Singleton", style="dashed", href="org.owntracks.android.injection.components.AppComponent.svg", color="aquamarine"]
+    "f285245b-004e-4680-bb92-5708abb569ec" [label="@Singleton\nMessageProcessor", color="aquamarine"]
+    "8f8ac704-987b-49b6-a5e2-0c92c8f1ca3c" [label="DispatchingAndroidInjector<Object>", color="turquoise"]
+    "747e6d09-3627-40ea-8b56-9a013142dd11" [label="@Singleton\nRunThingsOnOtherThreads", color="aquamarine"]
+    "92f5d5e7-734b-448e-98f0-410809b7d829" [label="@Singleton\nEventBus", color="aquamarine"]
+    "9216513d-0fd8-4ed7-8b51-d4f8119cff41" [label="@Singleton\nPreferences", color="aquamarine"]
+    "c522ba1b-5e8c-4b07-a93c-9e4d2ce6199a" [label="@Singleton\nScheduler", color="aquamarine"]
+    "bbf99f48-ed4c-48e5-a3f4-6b70ed5e321a" [label="@AppContext\n@Singleton\nContext", color="aquamarine"]
+    "9216513d-0fd8-4ed7-8b51-d4f8119cff41" [label="@Singleton\nPreferences", color="aquamarine"]
+  }
+  subgraph "cluster_AppComponent → AndroidBindingModule_BindConnectionActivity.ConnectionActivitySubcomponent" {
+    graph [labeljust="c", label="Inherited from AndroidBindingModule_BindConnectionActivity.ConnectionActivitySubcomponent\n@PerActivity", style="dashed", href="org.owntracks.android.injection.modules.AndroidBindingModule_BindConnectionActivity.ConnectionActivitySubcomponent.svg", color="bisque"]
+    "3987dd2a-7c6c-4b1d-ae59-802a66613122" [label="@PerActivity\nDrawerProvider", color="bisque"]
+    "7e43efbc-009f-4a98-bca5-e5b3fa221d69" [label="ConnectionMvvm.ViewModel<ConnectionMvvm.View>", color="turquoise"]
+    "43e7f5f3-0247-4d7e-a17b-506969e5e1f4" [label="@PerActivity\nConnectionViewModel", color="bisque"]
+    "8a0671d2-938b-48f7-a747-7d96e40a6aaf" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "3fc68c13-8c3d-4355-ba25-6ba2a6d5472b" [label="@PerActivity\nNavigator", color="bisque"]
+    "8a0671d2-938b-48f7-a747-7d96e40a6aaf" [label="@PerActivity\nAppCompatActivity", color="bisque"]
+    "783058b9-081b-42c9-bf8c-8a2b9653b2e5" [label="ConnectionActivity", color="turquoise", shape="parallelogram"]
+  }
+  "33d2e0a2-d59e-42c7-a9e9-f2e0945ad586" -> "3987dd2a-7c6c-4b1d-ae59-802a66613122"
+  "33d2e0a2-d59e-42c7-a9e9-f2e0945ad586" -> "9216513d-0fd8-4ed7-8b51-d4f8119cff41"
+  "33d2e0a2-d59e-42c7-a9e9-f2e0945ad586" -> "f285245b-004e-4680-bb92-5708abb569ec"
+  "33d2e0a2-d59e-42c7-a9e9-f2e0945ad586" -> "7e43efbc-009f-4a98-bca5-e5b3fa221d69"
+  "33d2e0a2-d59e-42c7-a9e9-f2e0945ad586" -> "8f8ac704-987b-49b6-a5e2-0c92c8f1ca3c"
+  "33d2e0a2-d59e-42c7-a9e9-f2e0945ad586" -> "92f5d5e7-734b-448e-98f0-410809b7d829"
+  "33d2e0a2-d59e-42c7-a9e9-f2e0945ad586" -> "747e6d09-3627-40ea-8b56-9a013142dd11"
+  "7e43efbc-009f-4a98-bca5-e5b3fa221d69" -> "43e7f5f3-0247-4d7e-a17b-506969e5e1f4" [style="dotted", label="delegates"]
+  "3987dd2a-7c6c-4b1d-ae59-802a66613122" -> "8a0671d2-938b-48f7-a747-7d96e40a6aaf"
+  "3987dd2a-7c6c-4b1d-ae59-802a66613122" -> "c522ba1b-5e8c-4b07-a93c-9e4d2ce6199a"
+  "43e7f5f3-0247-4d7e-a17b-506969e5e1f4" -> "bbf99f48-ed4c-48e5-a3f4-6b70ed5e321a"
+  "43e7f5f3-0247-4d7e-a17b-506969e5e1f4" -> "3fc68c13-8c3d-4355-ba25-6ba2a6d5472b"
+  "43e7f5f3-0247-4d7e-a17b-506969e5e1f4" -> "9216513d-0fd8-4ed7-8b51-d4f8119cff41"
+  "3fc68c13-8c3d-4355-ba25-6ba2a6d5472b" -> "8a0671d2-938b-48f7-a747-7d96e40a6aaf"
+  "8a0671d2-938b-48f7-a747-7d96e40a6aaf" -> "783058b9-081b-42c9-bf8c-8a2b9653b2e5" [style="dotted", label="delegates"]
+}

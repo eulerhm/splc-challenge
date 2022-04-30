@@ -1,0 +1,38 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    featureSplit="search"
+5    package="com.haroldadmin.moonshot"
+6    android:versionCode="33"
+7    android:versionName="0.9.7" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="23"
+10-->/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/AndroidManifest.xml
+11        android:targetSdkVersion="29" />
+11-->/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/AndroidManifest.xml
+12
+13    <dist:module
+13-->/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/AndroidManifest.xml:5:5-12:19
+14        dist:instant="false"
+14-->/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/AndroidManifest.xml:6:9-29
+15        dist:title="@strings/title_search" >
+15-->/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/AndroidManifest.xml:7:9-43
+16        <dist:delivery>
+16-->/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/AndroidManifest.xml:8:9-10:25
+17            <dist:install-time />
+17-->/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/AndroidManifest.xml:9:13-34
+18        </dist:delivery>
+19
+20        <dist:fusing dist:include="true" />
+20-->/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/AndroidManifest.xml:11:9-44
+20-->/home/eulerhm/Documents/workspaceSQJ/MoonShot/features/search/src/main/AndroidManifest.xml:11:22-41
+21    </dist:module>
+22
+23    <application
+23-->[com.airbnb.android:lottie:3.4.0] /home/eulerhm/.gradle/caches/transforms-2/files-2.1/7ded27f4ee15e275bd03934065a7f33d/jetified-lottie-3.4.0/AndroidManifest.xml:9:5-20
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:testOnly="true" />
+27
+28</manifest>

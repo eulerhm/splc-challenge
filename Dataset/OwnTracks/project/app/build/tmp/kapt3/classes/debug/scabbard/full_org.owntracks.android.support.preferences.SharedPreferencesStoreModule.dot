@@ -1,0 +1,19 @@
+digraph "org.owntracks.android.support.preferences.SharedPreferencesStoreModule" {
+  graph [rankdir="LR", labeljust="l", label="SharedPreferencesStoreModule", pad="0.2", compound="true"]
+  node [shape="rectangle", style="filled", color="turquoise"]
+  subgraph "cluster_Entry Points" {
+    graph [labeljust="l", label="Entry Points"]
+    node [shape="component", penwidth="2"]
+  }
+  subgraph "cluster_Dependency Graph" {
+    graph [labeljust="l", label="Dependency Graph"]
+    "74247d85-16e3-4096-8177-538bed14db18" [label="PreferencesStore", color="turquoise"]
+    "a5192f96-e0ec-4113-b47d-4c76a4322ea1" [label="@Singleton\nSharedPreferencesStore", color="aquamarine"]
+    "603ca6eb-8466-43ba-9265-cdf4159582ee" [label="@org.owntracks.android.injection.qualifier.AppContext android.content.Context", color="firebrick1"]
+  }
+  subgraph "cluster_Subcomponents" {
+    graph [labeljust="l", shape="folder", label="Subcomponents"]
+  }
+  "74247d85-16e3-4096-8177-538bed14db18" -> "a5192f96-e0ec-4113-b47d-4c76a4322ea1" [style="dotted", label="delegates"]
+  "a5192f96-e0ec-4113-b47d-4c76a4322ea1" -> "603ca6eb-8466-43ba-9265-cdf4159582ee" [style="dashed", arrowType="empty", headlabel="Missing binding"]
+}

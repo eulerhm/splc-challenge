@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="iosched.androidTest-shared" target="11" />
+      <module name="iosched.ar" target="11" />
+      <module name="iosched.benchmark" target="11" />
+      <module name="iosched.buildSrc" target="11" />
+      <module name="iosched.mobile" target="11" />
+      <module name="iosched.shared" target="11" />
+      <module name="iosched.test-shared" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

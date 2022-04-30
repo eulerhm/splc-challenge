@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MoonShot</string>
+    <string name="menuLaunchesLabel">Launches</string>
+    <string name="menuRocketsLabel">Rockets</string>
+    <string name="headerLaunchDetailsHeader">Details</string>
+    <string name="headerLaunchImageContentDescription">Image related to the launch</string>
+    <string name="headerLaunchMissionPatchContentDescription">Mission patch image</string>
+    <string name="launchRocketHeaderText">Rocket</string>
+    <string name="launchRocketTypeLabel">Type</string>
+    <string name="launchRocketDetailsButtonText">See details</string>
+    <string name="headerLaunchDateHeader">Launch Date</string>
+    <string name="shortcutLaunchesShortLabel">Launches</string>
+    <string name="shortcutRocketsShortLabel">Rockets</string>
+    <string name="shortcutSettingsShortLabel">Settings</string>
+    <string name="itemRocketHeader">Rocket</string>
+    <string name="launchNotificationsJustBeforeLaunchChannelName">Channel for reminders just before a launch</string>
+    <string name="launchNotificationsJustBeforeLaunchChannelDescription">Reminder notifications just before a launch takes place</string>
+    <string name="launchNotificationsWeekBeforeLaunchChannelName">Channel for reminders about launches this week</string>
+    <string name="launchNotificationsWeekBeforeLaunchChannelDescription">Reminder notifications for launches taking place this week</string>
+    <string name="launchNotificationsDayBeforeLaunchChannelName">Channel for reminders a day before the launch</string>
+    <string name="launchNotificationsDayBeforeLaunchChannelDescription">Reminder notifications for launches taking place on that day</string>
+    <string name="title_search">Search</string>
+
+    <string name="launchCardHeaderText">Launch</string>
+    <string name="launchCardNoMissionNameText">Unknown</string>
+    <string name="launchCardNoSiteNameText">Unknown</string>
+    <string name="rocketStatusTextActive">Active</string>
+    <string name="rocketStatusTextInactive">Inactive</string>
+
+    <string name="countdownImpreciseDifferenceText">%1$d %2$s</string>
+
+    <string name="title_missions">Mission</string>
+</resources>
