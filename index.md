@@ -4,7 +4,7 @@ The dataset includes 20 mobile applications. These applications are from differe
 
 |Name 	        |Category  | LOC|	Test LOC	|Test Cases|Resources|	Commits	  |
 |-------        |-------|---------|---------|-------|--------|-------                   |
-|AnkiDroid             |Education |158,607       |2,770   |164  |	Camera, Mobile Data, Wi-Fi      |13,643      |
+|[AnkiDroid](https://github.com/eulerhm/samplingapptest/blob/master/pages/ankidroid.md)             |Education |158,607       |2,770   |164  |	Camera, Mobile Data, Wi-Fi      |13,643      |
 |CovidNow             |Medical |2,269       |540   |21  |	Mobile Data, Wi-Fi      |85      |
 |Ground             |Productivity |19,906      |525   |4  |	Camera, Location, Mobile Data, Wi-Fi      |4,936     |
 |Iosched             |Books, Reference |27,824       |473   |9  |	Location, Mobile Data, Wi-Fi       |3,101      |
