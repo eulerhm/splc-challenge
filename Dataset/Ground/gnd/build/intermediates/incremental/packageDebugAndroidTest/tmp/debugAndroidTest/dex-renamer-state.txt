@@ -1,0 +1,7 @@
+#Thu Jul 07 14:53:14 BRT 2022
+base.1=/home/eulerhm/Documents/workspaceSQJ/EXECUCOES_REVISAO/ground-android/gnd/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes2.dex
+path.1=classes2.dex
+base.0=/home/eulerhm/Documents/workspaceSQJ/EXECUCOES_REVISAO/ground-android/gnd/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

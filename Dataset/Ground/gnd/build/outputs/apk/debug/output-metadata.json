@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.google.android.gnd",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 9175,
+      "versionName": "9175-SNAPSHOT(4 +47 -26) 4b42d453",
+      "outputFile": "gnd-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}
