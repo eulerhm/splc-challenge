@@ -1,6 +1,0 @@
-Execution 1 configurations 
-c6-c13-c10-c9-c2-c8-c4-c12-c11-c7-c1-c0-c3-c5
-Execution 2 configurations 
-c0-c9-c6-c12-c4-c2-c13-c3-c8-c5-c7-c1-c11-c10
-Execution 3 configurations 
-c4-c7-c0-c13-c12-c6-c5-c10-c3-c11-c1-c9-c2-c8
