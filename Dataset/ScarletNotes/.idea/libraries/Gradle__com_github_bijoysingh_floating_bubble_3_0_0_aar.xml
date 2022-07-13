@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bijoysingh:floating-bubble:3.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c864dae1e92c178d6498732b9ccb661a/transformed/jetified-floating-bubble-3.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c864dae1e92c178d6498732b9ccb661a/transformed/jetified-floating-bubble-3.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c864dae1e92c178d6498732b9ccb661a/transformed/jetified-floating-bubble-3.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bijoysingh/floating-bubble/3.0.0/d74f0d6c6b15a9533b468d697e0029296c10500b/floating-bubble-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bijoysingh/floating-bubble/3.0.0/f6be3ffb02acd5dd708b401e02580d83ad01a326/floating-bubble-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
