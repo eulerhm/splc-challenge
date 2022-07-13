@@ -1,0 +1,96 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeVanillaDebugResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/home/eulerhm/.gradle/caches/transforms-3/3fe9e8d78934858966dcc8483b4c0b86/transformed/login-0.13.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,265",
+                        "endLines": "5,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "260,432"
+                    },
+                    "to": {
+                        "startLines": "53,57",
+                        "startColumns": "4,4",
+                        "startOffsets": "3674,3884",
+                        "endLines": "56,59",
+                        "endColumns": "12,12",
+                        "endOffsets": "3879,4051"
+                    }
+                },
+                {
+                    "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/values-v23/themes.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "296",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "507"
+                    },
+                    "to": {
+                        "startLines": "60",
+                        "startColumns": "4",
+                        "startOffsets": "4056",
+                        "endLines": "63",
+                        "endColumns": "12",
+                        "endOffsets": "4267"
+                    }
+                },
+                {
+                    "source": "/home/eulerhm/.gradle/caches/transforms-3/0932a74e8316fa428589947537224c4f/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "3524",
+                        "endLines": "52",
+                        "endColumns": "12",
+                        "endOffsets": "3669"
+                    }
+                },
+                {
+                    "source": "/home/eulerhm/.gradle/caches/transforms-3/44399027cc82c1c1a80bd4e1f32ec591/transformed/material-1.6.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
+                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
+                    },
+                    "to": {
+                        "startLines": "64,67,70,75,79,82,85,88,93,96,100",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4272,4488,4698,5018,5255,5462,5669,5872,6204,6406,6671",
+                        "endLines": "66,69,74,78,81,84,87,92,95,99,103",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "4483,4693,5013,5250,5457,5664,5867,6199,6401,6666,6939"
+                    }
+                },
+                {
+                    "source": "/home/eulerhm/.gradle/caches/transforms-3/ae55427095aeab6e5270e0aab3238e2e/transformed/appcompat-1.4.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2735,2959,3074,3181,3294",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
+                    }
+                }
+            ]
+        }
+    ]
+}

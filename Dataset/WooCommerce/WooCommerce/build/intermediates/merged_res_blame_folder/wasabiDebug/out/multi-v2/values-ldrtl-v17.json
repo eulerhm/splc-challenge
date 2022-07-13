@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "/home/eulerhm/.gradle/caches/transforms-3/22f949588636671fe4fa452068d78fd9/transformed/common-ui-4.0.3/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "396",
+                        "endColumns": "56",
+                        "endOffsets": "448"
+                    }
+                },
+                {
+                    "source": "/home/eulerhm/.gradle/caches/transforms-3/44399027cc82c1c1a80bd4e1f32ec591/transformed/material-1.6.1/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    }
+                },
+                {
+                    "source": "/home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "332",
+                        "endColumns": "63",
+                        "endOffsets": "391"
+                    }
+                }
+            ]
+        }
+    ]
+}

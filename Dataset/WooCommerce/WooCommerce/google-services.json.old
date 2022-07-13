@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "199677897854",
+    "project_id": "woocommerce-3390b",
+    "storage_bucket": "woocommerce-3390b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199677897854:android:5448797354fc87eb687c2f",
+        "android_client_info": {
+          "package_name": "com.woocommerce.android.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199677897854-ojtfrdrob1v8si02qmhfha1urqaolss7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCczOblbdHWGrNE2rA0tivf2atr5OQZPAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199677897854-ojtfrdrob1v8si02qmhfha1urqaolss7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

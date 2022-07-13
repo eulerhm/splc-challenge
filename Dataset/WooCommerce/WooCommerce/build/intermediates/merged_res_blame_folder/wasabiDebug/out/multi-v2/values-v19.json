@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/merged.dir/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/home/eulerhm/.gradle/caches/transforms-3/298ca272b973a6ea53ea7db3085cf65a/transformed/aztec-v1.3.45/res/values-v19/values-v19.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "240"
+                    }
+                }
+            ]
+        }
+    ]
+}

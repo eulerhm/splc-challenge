@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout-land/fragment_login_jetpack_required.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout-land/fragment_login_jetpack_required.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout-land/view_login_epilogue_button_bar.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout-land/view_login_epilogue_button_bar.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout-land/fragment_login_prologue.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout-land/fragment_login_prologue.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout-land/view_login_no_stores.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout-land/view_login_no_stores.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout-land/fragment_login_what_is_jetpack.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout-land/fragment_login_what_is_jetpack.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout-land/fragment_login_site_check_error.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout-land/fragment_login_site_check_error.xml"
+    }
+]

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.woocommerce.android.AppPrefsTest" tests="24" failures="0" errors="0" skipped="0" time="764.188" timestamp="2022-06-25T01:53:16" hostname="localhost">
+  <properties>
+    <property name="device" value="POCO F1 - 10" />
+    <property name="flavor" value="vanilla" />
+    <property name="project" value="WooCommerce" />
+  </properties>
+  <testcase name="whenCardReaderOnboardingCompletedWithWCPayThenCorrectOnboardingStatusIsStored" classname="com.woocommerce.android.AppPrefsTest" time="0.012" />
+  <testcase name="whenEmptyPreferredPluginSetThenNullReturned" classname="com.woocommerce.android.AppPrefsTest" time="0.051" />
+  <testcase name="whenCardReaderOnboardingPendingRequirementsWithWCPayThenCorrectPreferredPluginIsStored" classname="com.woocommerce.android.AppPrefsTest" time="0.053" />
+  <testcase name="whenCardReaderOnboardingPendingRequirementWithStripeExtThenCorrectOnboardingStatusIsStored" classname="com.woocommerce.android.AppPrefsTest" time="0.098" />
+  <testcase name="whenCardReaderOnboardingPendingRequirementsWithWCPayThenCorrectOnboardingStatusIsStored" classname="com.woocommerce.android.AppPrefsTest" time="0.049" />
+  <testcase name="givenCardReaderStateDescriptorSetWhenGettingDescriptorThenSameDescriptorReturned" classname="com.woocommerce.android.AppPrefsTest" time="0.021" />
+  <testcase name="whenCardReaderOnboardingPendingRequirementsWithStripeExtThenCorrectOnboardingStatusFlagIsReturned" classname="com.woocommerce.android.AppPrefsTest" time="0.051" />
+  <testcase name="whenCardReaderOnboardingPendingRequirementWithStripeExtThenCorrectPreferredPluginIsStored" classname="com.woocommerce.android.AppPrefsTest" time="0.05" />
+  <testcase name="whenCardReaderOnboardingCompletedWithStripeExtThenCorrectOnboardingStatusIsStored" classname="com.woocommerce.android.AppPrefsTest" time="0.05" />
+  <testcase name="givenSetCardReaderOnboardingStatusAndPreferredPluginVersionWithOnePluginGetWithAnotherReturnsNull" classname="com.woocommerce.android.AppPrefsTest" time="0.05" />
+  <testcase name="whenCardReaderOnboardingNotCompletedThenCorrectOnboardingStatusFlagIsReturned" classname="com.woocommerce.android.AppPrefsTest" time="0.05" />
+  <testcase name="whenCardReaderOnboardingCompletedWithWCPayThenCorrectOnboardingStatusFlagIsReturned" classname="com.woocommerce.android.AppPrefsTest" time="0.032" />
+  <testcase name="whenCardReaderOnboardingCompletedWithStripeExtThenCorrectOnboardingStatusFlagIsReturned" classname="com.woocommerce.android.AppPrefsTest" time="0.024" />
+  <testcase name="whenCardReaderOnboardingNotCompletedThenCorrectOnboardingStatusIsReturned" classname="com.woocommerce.android.AppPrefsTest" time="0.03" />
+  <testcase name="whenCardReaderOnboardingCompletedWithWCPayThenCorrectPreferredPluginIsStored" classname="com.woocommerce.android.AppPrefsTest" time="0.049" />
+  <testcase name="whenCardReaderOnboardingCompletedWithStripeExtThenCorrectPreferredPluginIsStored" classname="com.woocommerce.android.AppPrefsTest" time="0.05" />
+  <testcase name="givenSetCardReaderOnboardingStatusAndPreferredPluginVersionGetReturnsVersion" classname="com.woocommerce.android.AppPrefsTest" time="0.05" />
+  <testcase name="whenCardReaderOnboardingPendingRequirementsWithWCPayThenCorrectOnboardingStatusFlagIsReturned" classname="com.woocommerce.android.AppPrefsTest" time="0.05" />
+  <testcase name="whenRemoveLastConnectedCardReaderIdThenIdIsNull" classname="com.woocommerce.android.AppPrefsTest" time="0.05" />
+  <testcase name="whenSetLastConnectedCardReaderIdThenIdStored" classname="com.woocommerce.android.AppPrefsTest" time="0.032" />
+  <testcase name="whenCardReaderOnboardingNotCompletedThenCorrectOnboardingStatusIsStored" classname="com.woocommerce.android.AppPrefsTest" time="0.03" />
+  <testcase name="givenSpecificSiteIdWhenProductSortingChoiceIsSetThenGetReturnsStoredValue" classname="com.woocommerce.android.AppPrefsTest" time="0.051" />
+  <testcase name="givenCardReaderStatementDescriptorNotEmptyWhenSettingItToNullThenValueOverriddenWithNull" classname="com.woocommerce.android.AppPrefsTest" time="0.049" />
+  <testcase name="whenFCMTokenIsSetThenGetReturnsStoredValue" classname="com.woocommerce.android.AppPrefsTest" time="0.05" />
+</testsuite>

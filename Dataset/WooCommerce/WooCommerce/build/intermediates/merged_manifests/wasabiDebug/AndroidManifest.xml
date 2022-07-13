@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.woocommerce.android.dev"
+    android:versionCode="307"
+    android:versionName="9.4-rc-2" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
+
+    <!-- Allows unlocking your device and activating its screen so UI tests can succeed -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Allows for storing and retrieving screenshots -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Allows changing locales -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <!--
+    Clean the status bar for screenshots automation
+    See https://docs.fastlane.tools/actions/screengrab/#clean-status-bar
+    -->
+    <!-- Indicates the use of the clean status bar feature -->
+    <uses-feature android:name="tools.fastlane.screengrab.cleanstatusbar" />
+    <!-- Allows for changing the status bar -->
+    <uses-permission android:name="android.permission.DUMP" />
+
+    <!-- Mark the camera as optional, as the back camera is missing from some ChromeOS devices -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" /> <!-- Normal permissions, access automatically granted to app -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACTION_OPEN_DOCUMENT" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <queries>
+
+        <!-- Required for Android 11 to allow camera access -->
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+        <!-- Required for Android 11 and allows for querying for installed apps -->
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+        <!-- Browser -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <data android:scheme="http" />
+        </intent> <!-- Gallery -->
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="com.woocommerce.android.WooCommerceDebug"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/backup_scheme"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/legacy_backup_scheme"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Woo.Splash" > <!-- TODO: we eventually want to drop support for Apache, but for now it's used by FluxC -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.woocommerce.android.ui.main.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.woocommerce.android.ui.login.LoginActivity"
+            android:theme="@style/LoginTheme"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.woocommerce.android.ui.login.MagicLinkInterceptActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="magic-login"
+                    android:scheme="woocommerce" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.woocommerce.android.ui.prefs.AppSettingsActivity"
+            android:theme="@style/Theme.Woo.DayNight" />
+        <activity
+            android:name="com.woocommerce.android.ui.prefs.UnifiedAboutScreenActivity"
+            android:theme="@style/Theme.Woo.UnifiedAbout" />
+        <activity
+            android:name="com.woocommerce.android.support.WooLogViewerActivity"
+            android:label="@string/logviewer_activity_title"
+            android:theme="@style/Theme.Woo.DayNight" />
+        <activity
+            android:name="com.woocommerce.android.support.SSRActivity"
+            android:label="@string/support_system_status_report"
+            android:theme="@style/Theme.Woo.DayNight" />
+        <activity
+            android:name="com.woocommerce.android.support.HelpActivity"
+            android:label="@string/support_help"
+            android:theme="@style/Theme.Woo.DayNight" />
+        <activity
+            android:name="zendesk.support.guide.HelpCenterActivity"
+            android:label="@string/support_activity_title"
+            android:theme="@style/Theme.Woo.DayNight.Zendesk"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="zendesk.support.guide.ViewArticleActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/zs_view_article_loading_title"
+            android:theme="@style/Theme.Woo.DayNight.Zendesk" />
+        <activity
+            android:name="zendesk.support.request.RequestActivity"
+            android:theme="@style/Theme.Woo.DayNight.Zendesk"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="zendesk.support.requestlist.RequestListActivity"
+            android:label="@string/request_list_activity_title"
+            android:theme="@style/Theme.Woo.DayNight.Zendesk" />
+        <activity
+            android:name="org.wordpress.android.mediapicker.ui.MediaPickerActivity"
+            android:theme="@style/Theme.Woo.DayNight" /> <!-- Services -->
+        <service
+            android:name="com.woocommerce.android.push.FCMMessageService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.woocommerce.android.push.NotificationsProcessingService"
+            android:exported="false"
+            android:label="Notifications Quick Actions processing Service" >
+        </service>
+        <service
+            android:name="org.wordpress.android.login.LoginWpcomService"
+            android:exported="false"
+            android:label="Login to WPCOM Service" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name="com.woocommerce.android.media.ProductImagesService"
+            android:exported="false" /> <!-- Provider for exposing file URIs on Android 7+ (required for camera) -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.woocommerce.android.dev.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <receiver
+            android:name="zendesk.support.DeepLinkingBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="zendesk.support" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="zendesk.support.SupportSdkStartupProvider"
+            android:authorities="com.woocommerce.android.dev.zendesk.support.SupportSdkStartupProvider"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.stripe.stripeterminal.UsbEventReceiverActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:process=":UsbEventReceiverActivityProcess"
+            android:taskAffinity="com.stripe.stripeterminal.taskAffinityUsbEventReceiver"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/usb_device_filter" />
+        </activity>
+        <activity
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true" />
+
+        <provider
+            android:name="zendesk.support.guide.GuideSdkStartupProvider"
+            android:authorities="com.woocommerce.android.dev.zendesk.support.GuideSdkStartupProvider"
+            android:enabled="true"
+            android:exported="false" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+
+        <activity
+            android:name="zendesk.messaging.MessagingActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <meta-data
+            android:name="io.sentry.auto-init"
+            android:value="false" />
+
+        <provider
+            android:name="leakcanary.internal.LeakCanaryFileProvider"
+            android:authorities="com.squareup.leakcanary.fileprovider.com.woocommerce.android.dev"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/leak_canary_file_paths" />
+        </provider>
+
+        <activity
+            android:name="leakcanary.internal.activity.LeakActivity"
+            android:exported="true"
+            android:icon="@mipmap/leak_canary_icon"
+            android:label="@string/leak_canary_display_activity_label"
+            android:taskAffinity="com.squareup.leakcanary.com.woocommerce.android.dev"
+            android:theme="@style/leak_canary_LeakCanary.Base" >
+            <intent-filter android:label="@string/leak_canary_import_hprof_file" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.hprof" />
+                <data android:pathPattern=".*\\..*\\.hprof" />
+                <data android:pathPattern=".*\\..*\\..*\\.hprof" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.hprof" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.hprof" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+                <!--
+            Since hprof isn't a standard MIME type, we have to declare such patterns.
+            Most file providers will generate URIs including their own package name,
+            which contains `.` characters that must be explicitly escaped in pathPattern.
+            @see https://stackoverflow.com/a/31028507/703646
+                -->
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+            android:banner="@drawable/leak_canary_tv_icon"
+            android:enabled="@bool/leak_canary_add_launcher_icon"
+            android:exported="true"
+            android:icon="@mipmap/leak_canary_icon"
+            android:label="@string/leak_canary_display_activity_label"
+            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+            android:taskAffinity="com.squareup.leakcanary.com.woocommerce.android.dev"
+            android:theme="@style/leak_canary_LeakCanary.Base" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- Android TV launcher intent -->
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+            android:excludeFromRecents="true"
+            android:icon="@mipmap/leak_canary_icon"
+            android:label="@string/leak_canary_storage_permission_activity_label"
+            android:taskAffinity="com.squareup.leakcanary.com.woocommerce.android.dev"
+            android:theme="@style/leak_canary_Theme.Transparent" />
+
+        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.woocommerce.android.dev.com.squareup.picasso"
+            android:exported="false" />
+
+        <activity
+            android:name="androidx.activity.ComponentActivity"
+            android:exported="true" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.woocommerce.android.dev.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="zendesk.belvedere.BelvedereFileProvider"
+            android:authorities="com.woocommerce.android.dev.belvedere2.attachments"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:readPermission="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/belvedere_attachment_storage_v2" />
+        </provider>
+
+        <meta-data
+            android:name="com.bumptech.glide.integration.volley.VolleyGlideModule"
+            android:value="GlideModule" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+        <activity
+            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:process=":playcore_missing_splits_activity"
+            android:stateNotNeeded="true" />
+        <activity
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+        <service
+            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+            android:enabled="false"
+            android:exported="true" >
+            <meta-data
+                android:name="com.google.android.play.core.assetpacks.versionCode"
+                android:value="11003" />
+        </service>
+        <service
+            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+            android:enabled="false"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.woocommerce.android.dev.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider> <!-- 'android:authorities' must be unique in the device, across all apps -->
+        <provider
+            android:name="io.sentry.android.core.SentryInitProvider"
+            android:authorities="com.woocommerce.android.dev.SentryInitProvider"
+            android:exported="false" />
+        <provider
+            android:name="io.sentry.android.core.SentryPerformanceProvider"
+            android:authorities="com.woocommerce.android.dev.SentryPerformanceProvider"
+            android:exported="false"
+            android:initOrder="200" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+
+        <provider
+            android:name="leakcanary.internal.MainProcessAppWatcherInstaller"
+            android:authorities="com.woocommerce.android.dev.leakcanary-installer"
+            android:enabled="@bool/leak_canary_watcher_auto_install"
+            android:exported="false" />
+        <provider
+            android:name="leakcanary.internal.PlumberInstaller"
+            android:authorities="com.woocommerce.android.dev.plumber-installer"
+            android:enabled="@bool/leak_canary_plumber_auto_install"
+            android:exported="false" />
+    </application>
+
+</manifest>

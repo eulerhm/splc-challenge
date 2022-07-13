@@ -1,0 +1,13 @@
+06-24 22:48:20.319 14431 14462 I TestRunner: started: whenCardReaderOnboardingCompletedWithWCPayThenCorrectPreferredPluginIsStored(com.woocommerce.android.AppPrefsTest)
+06-24 22:48:20.323  2723  2723 D ImageWallpaper: wallpaper visibility changes to: true
+06-24 22:48:20.327   965   965 E Layer   : [Surface(name=AppWindowToken{1c0086e token=Token{75f3e9 ActivityRecord{348c470 u0 com.mrchandler.disableprox/.ui.SensorSettingsActivity t9616}}})/@0x10bc64 - animation-leash#0] No local sync point found
+06-24 22:48:20.328   965   965 E Layer   : [Surface(name=AppWindowToken{1c0086e token=Token{75f3e9 ActivityRecord{348c470 u0 com.mrchandler.disableprox/.ui.SensorSettingsActivity t9616}}})/@0x10bc64 - animation-leash#0] No local sync point found
+06-24 22:48:20.328   965   965 E Layer   : [Surface(name=AppWindowToken{3f8fb41 token=Token{c507228 ActivityRecord{fe7684b u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0x5c40734 - animation-leash#0] No local sync point found
+06-24 22:48:20.328   965   965 E Layer   : [Surface(name=AppWindowToken{3f8fb41 token=Token{c507228 ActivityRecord{fe7684b u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0x5c40734 - animation-leash#0] No local sync point found
+06-24 22:48:20.330 14431 14462 I GrantPermissionCallable: Permission: android.permission.ACCESS_WIFI_STATE is already granted!
+06-24 22:48:20.330 14431 14462 I GrantPermissionCallable: Permission: android.permission.ACCESS_NETWORK_STATE is already granted!
+06-24 22:48:20.361   965   965 E Layer   : [Surface(name=AppWindowToken{3f8fb41 token=Token{c507228 ActivityRecord{fe7684b u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0x5c40734 - animation-leash#0] No local sync point found
+06-24 22:48:20.361   965   965 E Layer   : [Surface(name=AppWindowToken{3f8fb41 token=Token{c507228 ActivityRecord{fe7684b u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0x5c40734 - animation-leash#0] No local sync point found
+06-24 22:48:20.361   965   965 E Layer   : [Surface(name=AppWindowToken{1c0086e token=Token{75f3e9 ActivityRecord{348c470 u0 com.mrchandler.disableprox/.ui.SensorSettingsActivity t9616}}})/@0x10bc64 - animation-leash#0] No local sync point found
+06-24 22:48:20.361   965   965 E Layer   : [Surface(name=AppWindowToken{1c0086e token=Token{75f3e9 ActivityRecord{348c470 u0 com.mrchandler.disableprox/.ui.SensorSettingsActivity t9616}}})/@0x10bc64 - animation-leash#0] No local sync point found
+06-24 22:48:20.364 14431 14462 I TestRunner: finished: whenCardReaderOnboardingCompletedWithWCPayThenCorrectPreferredPluginIsStored(com.woocommerce.android.AppPrefsTest)

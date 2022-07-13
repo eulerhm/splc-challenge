@@ -1,0 +1,9 @@
+06-24 22:52:44.680 15442 15473 I TestRunner: started: givenCardReaderStatementDescriptorNotEmptyWhenSettingItToNullThenValueOverriddenWithNull(com.woocommerce.android.AppPrefsTest)
+06-24 22:52:44.684  2723  2723 D ImageWallpaper: wallpaper visibility changes to: true
+06-24 22:52:44.691 15442 15473 I GrantPermissionCallable: Permission: android.permission.ACCESS_WIFI_STATE is already granted!
+06-24 22:52:44.691 15442 15473 I GrantPermissionCallable: Permission: android.permission.ACCESS_NETWORK_STATE is already granted!
+06-24 22:52:44.723   965   965 E Layer   : [Surface(name=AppWindowToken{3f8fb41 token=Token{c507228 ActivityRecord{fe7684b u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0x5c40734 - animation-leash#0] No local sync point found
+06-24 22:52:44.723   965   965 E Layer   : [Surface(name=AppWindowToken{3f8fb41 token=Token{c507228 ActivityRecord{fe7684b u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0x5c40734 - animation-leash#0] No local sync point found
+06-24 22:52:44.723   965   965 E Layer   : [Surface(name=AppWindowToken{429ef9a token=Token{23f8c45 ActivityRecord{92a54bc u0 com.mrchandler.disableprox/.ui.SensorSettingsActivity t9632}}})/@0xa9a55f0 - animation-leash#0] No local sync point found
+06-24 22:52:44.723   965   965 E Layer   : [Surface(name=AppWindowToken{429ef9a token=Token{23f8c45 ActivityRecord{92a54bc u0 com.mrchandler.disableprox/.ui.SensorSettingsActivity t9632}}})/@0xa9a55f0 - animation-leash#0] No local sync point found
+06-24 22:52:44.723 15442 15473 I TestRunner: finished: givenCardReaderStatementDescriptorNotEmptyWhenSettingItToNullThenValueOverriddenWithNull(com.woocommerce.android.AppPrefsTest)
