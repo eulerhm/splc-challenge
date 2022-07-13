@@ -1,6 +1,0 @@
-Execution 1 configurations 
-c21-c9-c15-c5-c2-c28-c13-c24-c11-c23-c7-c25-c19-c0-c6-c10-c27-c29-c14-c4-c3-c26-c1-c17-c20-c8-c22-c16-c12-c18
-Execution 2 configurations 
-c6-c9-c10-c19-c11-c12-c8-c15-c27-c25-c2-c28-c4-c23-c13-c16-c22-c20-c0-c29-c7-c18-c14-c3-c17-c5-c1-c21-c24-c26
-Execution 3 configurations 
-c27-c14-c0-c13-c9-c21-c23-c25-c16-c20-c3-c4-c26-c18-c6-c17-c24-c7-c19-c28-c15-c29-c2-c12-c22-c10-c11-c5-c8-c1
