@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/eulerhm/Documents/workspaceSQJ/Temp3/WordPress-Android/WordPress/build/intermediates/incremental/mergeWordpressJalapenoDebugResources/merged.dir/values-large-hdpi-v4/values-large-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/WordPress-Android/WordPress/src/main/res/values-large-hdpi/dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endColumns": "86",
+                        "endOffsets": "184"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "84",
+                        "endOffsets": "180"
+                    }
+                }
+            ]
+        }
+    ]
+}

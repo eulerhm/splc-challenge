@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/WordPress-Android/WordPress/build/intermediates/incremental/mergeWordpressJalapenoDebugResources/stripped.dir/layout-sw600dp-v13/theme_grid_cardview_header.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/WordPress-Android/WordPress/src/main/res/layout-sw600dp/theme_grid_cardview_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/WordPress-Android/WordPress/build/intermediates/incremental/mergeWordpressJalapenoDebugResources/stripped.dir/layout-sw600dp-v13/post_signup_interstitial_activity.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/WordPress-Android/WordPress/src/main/res/layout-sw600dp/post_signup_interstitial_activity.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/WordPress-Android/WordPress/build/intermediates/incremental/mergeWordpressJalapenoDebugResources/stripped.dir/layout-sw600dp-v13/login_prologue_bottom_buttons_container.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/WordPress-Android/WordPress/src/main/res/layout-sw600dp/login_prologue_bottom_buttons_container.xml"
+    }
+]
