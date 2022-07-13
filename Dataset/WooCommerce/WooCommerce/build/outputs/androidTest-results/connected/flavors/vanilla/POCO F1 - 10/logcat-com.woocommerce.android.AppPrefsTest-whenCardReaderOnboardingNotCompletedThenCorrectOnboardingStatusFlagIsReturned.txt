@@ -1,0 +1,5 @@
+06-24 22:46:08.221 13918 13949 I TestRunner: started: whenCardReaderOnboardingNotCompletedThenCorrectOnboardingStatusFlagIsReturned(com.woocommerce.android.AppPrefsTest)
+06-24 22:46:08.225  2723  2723 D ImageWallpaper: wallpaper visibility changes to: true
+06-24 22:46:08.233 13918 13949 I GrantPermissionCallable: Permission: android.permission.ACCESS_WIFI_STATE is already granted!
+06-24 22:46:08.233 13918 13949 I GrantPermissionCallable: Permission: android.permission.ACCESS_NETWORK_STATE is already granted!
+06-24 22:46:08.261 13918 13949 I TestRunner: finished: whenCardReaderOnboardingNotCompletedThenCorrectOnboardingStatusFlagIsReturned(com.woocommerce.android.AppPrefsTest)

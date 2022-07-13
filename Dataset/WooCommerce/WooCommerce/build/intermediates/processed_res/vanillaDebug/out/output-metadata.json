@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.woocommerce.android",
+  "variantName": "vanillaDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 307,
+      "versionName": "9.4-rc-2",
+      "outputFile": "resources-vanillaDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

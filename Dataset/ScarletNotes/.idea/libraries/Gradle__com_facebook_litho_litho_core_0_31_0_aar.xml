@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.litho:litho-core:0.31.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/eee39775b27b83fe8e2182ad5b57521b/transformed/litho-core-0.31.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/eee39775b27b83fe8e2182ad5b57521b/transformed/litho-core-0.31.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eee39775b27b83fe8e2182ad5b57521b/transformed/litho-core-0.31.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eee39775b27b83fe8e2182ad5b57521b/transformed/litho-core-0.31.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.litho/litho-core/0.31.0/7e2628227e138e15f43d9ab86c0b97f96c2f0929/litho-core-0.31.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.litho/litho-core/0.31.0/7c6f37b237324358fe79808b1df50d9d092a49d4/litho-core-0.31.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

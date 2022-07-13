@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bijoysingh:ui-basics:1.0.0-x@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/83264a5e2fbd636e6937dbde149c4a8a/transformed/ui-basics-1.0.0-x/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/83264a5e2fbd636e6937dbde149c4a8a/transformed/ui-basics-1.0.0-x/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/83264a5e2fbd636e6937dbde149c4a8a/transformed/ui-basics-1.0.0-x/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bijoysingh/ui-basics/1.0.0-x/33883fa208a36bc512b3dc08b240d33e16d9c01f/ui-basics-1.0.0-x-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bijoysingh/ui-basics/1.0.0-x/58032a52d51d1d5d79fe944292d222e4f1b6c97c/ui-basics-1.0.0-x-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

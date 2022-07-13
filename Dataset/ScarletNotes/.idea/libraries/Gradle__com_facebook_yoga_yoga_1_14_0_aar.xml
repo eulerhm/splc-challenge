@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.yoga:yoga:1.14.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3c104487322e2cf68d274da228c157d7/transformed/yoga-1.14.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3c104487322e2cf68d274da228c157d7/transformed/yoga-1.14.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3c104487322e2cf68d274da228c157d7/transformed/yoga-1.14.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.yoga/yoga/1.14.0/e8be2c1d15029f98fcced6810b4ae72cf8f439c6/yoga-1.14.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.yoga/yoga/1.14.0/36aafd75126ee6154a981877c23ff0da41b360c8/yoga-1.14.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

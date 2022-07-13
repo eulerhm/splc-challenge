@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Scarlet-Notes.iml" filepath="$PROJECT_DIR$/.idea/modules/Scarlet-Notes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Scarlet-Notes.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Scarlet-Notes.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Scarlet-Notes.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Scarlet-Notes.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Scarlet-Notes.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Scarlet-Notes.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Scarlet-Notes.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Scarlet-Notes.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/Scarlet-Notes.base.iml" filepath="$PROJECT_DIR$/.idea/modules/base/Scarlet-Notes.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/Scarlet-Notes.base.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/base/Scarlet-Notes.base.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/Scarlet-Notes.base.main.iml" filepath="$PROJECT_DIR$/.idea/modules/base/Scarlet-Notes.base.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/Scarlet-Notes.base.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/base/Scarlet-Notes.base.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/markdown/Scarlet-Notes.markdown.iml" filepath="$PROJECT_DIR$/.idea/modules/markdown/Scarlet-Notes.markdown.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/markdown/Scarlet-Notes.markdown.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/markdown/Scarlet-Notes.markdown.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/markdown/Scarlet-Notes.markdown.main.iml" filepath="$PROJECT_DIR$/.idea/modules/markdown/Scarlet-Notes.markdown.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/markdown/Scarlet-Notes.markdown.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/markdown/Scarlet-Notes.markdown.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scarlet/Scarlet-Notes.scarlet.iml" filepath="$PROJECT_DIR$/.idea/modules/scarlet/Scarlet-Notes.scarlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scarlet/Scarlet-Notes.scarlet.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/scarlet/Scarlet-Notes.scarlet.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scarlet/Scarlet-Notes.scarlet.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scarlet/Scarlet-Notes.scarlet.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scarlet/Scarlet-Notes.scarlet.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/scarlet/Scarlet-Notes.scarlet.unitTest.iml" />
+    </modules>
+  </component>
+</project>

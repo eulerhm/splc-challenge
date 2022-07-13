@@ -1,0 +1,945 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.woocommerce.android.dev"
+4    android:versionCode="307"
+5    android:versionName="9.4-rc-2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <!-- Allows unlocking your device and activating its screen so UI tests can succeed -->
+12    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+12-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:8:5-74
+12-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:8:22-72
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:12:5-67
+13-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:12:22-65
+14
+15    <!-- Allows for storing and retrieving screenshots -->
+16    <uses-permission
+16-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:12:5-108
+17        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+17-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:12:22-78
+18        android:maxSdkVersion="28" />
+18-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:12:79-105
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:13:5-80
+19-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:13:22-77
+20
+21    <!-- Allows changing locales -->
+22    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+22-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:16:5-115
+22-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:16:22-76
+23
+24    <!--
+25    Clean the status bar for screenshots automation
+26    See https://docs.fastlane.tools/actions/screengrab/#clean-status-bar
+27    -->
+28    <!-- Indicates the use of the clean status bar feature -->
+29    <uses-feature android:name="tools.fastlane.screengrab.cleanstatusbar" />
+29-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:21:5-77
+29-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:21:19-74
+30    <!-- Allows for changing the status bar -->
+31    <uses-permission android:name="android.permission.DUMP" />
+31-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:23:5-99
+31-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/debug/AndroidManifest.xml:23:22-60
+32
+33    <!-- Mark the camera as optional, as the back camera is missing from some ChromeOS devices -->
+34    <uses-feature
+34-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:6:5-85
+35        android:name="android.hardware.camera"
+35-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:6:19-57
+36        android:required="false" /> <!-- Normal permissions, access automatically granted to app -->
+36-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:6:58-82
+37    <uses-permission android:name="android.permission.INTERNET" />
+37-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:9:5-67
+37-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:9:22-64
+38    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+38-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:10:5-79
+38-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:10:22-76
+39    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+39-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:11:5-77
+39-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:11:22-74
+40    <uses-permission android:name="android.permission.ACTION_OPEN_DOCUMENT" />
+40-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:13:5-78
+40-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:13:22-76
+41    <uses-permission android:name="android.permission.NFC" />
+41-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:14:5-62
+41-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:14:22-59
+42    <uses-permission
+42-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:16:5-67
+43        android:name="android.permission.BLUETOOTH"
+43-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:16:22-65
+44        android:maxSdkVersion="30" />
+44-->[:libs:cardreader] /home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/libs/cardreader/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-35
+45    <uses-permission
+45-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:17:5-73
+46        android:name="android.permission.BLUETOOTH_ADMIN"
+46-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:17:22-71
+47        android:maxSdkVersion="30" />
+47-->[:libs:cardreader] /home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/libs/cardreader/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-35
+48    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+48-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:18:5-78
+48-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:18:22-76
+49    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+49-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:19:5-75
+49-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:19:22-73
+50    <uses-permission android:name="android.permission.CAMERA" />
+50-->[org.wordpress:mediapicker:trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601] /home/eulerhm/.gradle/caches/transforms-3/f7dfbd41bca721d927c3bbd9594f92b6/transformed/mediapicker-trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601/AndroidManifest.xml:9:5-65
+50-->[org.wordpress:mediapicker:trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601] /home/eulerhm/.gradle/caches/transforms-3/f7dfbd41bca721d927c3bbd9594f92b6/transformed/mediapicker-trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601/AndroidManifest.xml:9:22-62
+51
+52    <queries>
+52-->[org.wordpress:mediapicker:trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601] /home/eulerhm/.gradle/caches/transforms-3/f7dfbd41bca721d927c3bbd9594f92b6/transformed/mediapicker-trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601/AndroidManifest.xml:15:5-25:15
+53
+54        <!-- Required for Android 11 to allow camera access -->
+55        <intent>
+55-->[org.wordpress:mediapicker:trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601] /home/eulerhm/.gradle/caches/transforms-3/f7dfbd41bca721d927c3bbd9594f92b6/transformed/mediapicker-trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601/AndroidManifest.xml:18:9-20:18
+56            <action android:name="android.media.action.IMAGE_CAPTURE" />
+56-->[org.wordpress:mediapicker:trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601] /home/eulerhm/.gradle/caches/transforms-3/f7dfbd41bca721d927c3bbd9594f92b6/transformed/mediapicker-trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601/AndroidManifest.xml:19:13-73
+56-->[org.wordpress:mediapicker:trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601] /home/eulerhm/.gradle/caches/transforms-3/f7dfbd41bca721d927c3bbd9594f92b6/transformed/mediapicker-trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601/AndroidManifest.xml:19:21-70
+57        </intent>
+58        <!-- Required for Android 11 and allows for querying for installed apps -->
+59        <intent>
+59-->[org.wordpress:mediapicker:trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601] /home/eulerhm/.gradle/caches/transforms-3/f7dfbd41bca721d927c3bbd9594f92b6/transformed/mediapicker-trunk-d0db2634cf27511bec3ef9b837f9cfe27c5ab601/AndroidManifest.xml:22:9-24:18
+60            <action android:name="android.intent.action.MAIN" />
+60-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:43:17-68
+60-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:43:25-66
+61        </intent>
+62        <!-- Browser -->
+63        <intent>
+63-->[com.zendesk:common-ui:4.0.3] /home/eulerhm/.gradle/caches/transforms-3/22f949588636671fe4fa452068d78fd9/transformed/common-ui-4.0.3/AndroidManifest.xml:14:9-18:18
+64            <action android:name="android.intent.action.VIEW" />
+64-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:56:17-68
+64-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:56:25-66
+65
+66            <data android:scheme="http" />
+66-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+66-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:61:21-49
+67        </intent> <!-- Gallery -->
+68        <intent>
+68-->[com.zendesk:common-ui:4.0.3] /home/eulerhm/.gradle/caches/transforms-3/22f949588636671fe4fa452068d78fd9/transformed/common-ui-4.0.3/AndroidManifest.xml:26:9-28:18
+69            <action android:name="android.intent.action.GET_CONTENT" />
+69-->[com.zendesk:common-ui:4.0.3] /home/eulerhm/.gradle/caches/transforms-3/22f949588636671fe4fa452068d78fd9/transformed/common-ui-4.0.3/AndroidManifest.xml:27:13-72
+69-->[com.zendesk:common-ui:4.0.3] /home/eulerhm/.gradle/caches/transforms-3/22f949588636671fe4fa452068d78fd9/transformed/common-ui-4.0.3/AndroidManifest.xml:27:21-69
+70        </intent>
+71    </queries>
+72
+73    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+73-->[:libs:cardreader] /home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/libs/cardreader/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-73
+73-->[:libs:cardreader] /home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/libs/cardreader/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-70
+74    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+74-->[:libs:cardreader] /home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/libs/cardreader/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
+74-->[:libs:cardreader] /home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/libs/cardreader/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-73
+75    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+75-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:13:5-81
+75-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:13:22-78
+76    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+76-->[org.wordpress:utils:2.3.0] /home/eulerhm/.gradle/caches/transforms-3/485401638ae643168f9a207ee7b7f1de/transformed/utils-2.3.0/AndroidManifest.xml:9:5-71
+76-->[org.wordpress:utils:2.3.0] /home/eulerhm/.gradle/caches/transforms-3/485401638ae643168f9a207ee7b7f1de/transformed/utils-2.3.0/AndroidManifest.xml:9:22-68
+77    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+77-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:28:5-82
+77-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:28:22-79
+78
+79    <application
+79-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:21:5-141:19
+80        android:name="com.woocommerce.android.WooCommerceDebug"
+80-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:29:9-36
+81        android:allowBackup="true"
+81-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:22:9-35
+82        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+82-->[androidx.core:core:1.7.0] /home/eulerhm/.gradle/caches/transforms-3/78b5e29b1ed181662c8f64d2c4eab445/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+83        android:dataExtractionRules="@xml/backup_scheme"
+83-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:24:9-57
+84        android:debuggable="true"
+85        android:fullBackupContent="@xml/legacy_backup_scheme"
+85-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:23:9-62
+86        android:hardwareAccelerated="true"
+86-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:25:9-43
+87        android:icon="@mipmap/ic_launcher"
+87-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:26:9-43
+88        android:label="@string/app_name"
+88-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:27:9-41
+89        android:largeHeap="true"
+89-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:28:9-33
+90        android:networkSecurityConfig="@xml/network_security_config"
+90-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:30:9-69
+91        android:roundIcon="@mipmap/ic_launcher_round"
+91-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:31:9-54
+92        android:supportsRtl="true"
+92-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:32:9-35
+93        android:testOnly="true"
+94        android:theme="@style/Theme.Woo.Splash" > <!-- TODO: we eventually want to drop support for Apache, but for now it's used by FluxC -->
+94-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:33:9-48
+95        <uses-library
+95-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:36:9-87
+96            android:name="org.apache.http.legacy"
+96-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:36:23-60
+97            android:required="false" />
+97-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:36:61-85
+98
+99        <activity
+99-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:38:9-46:20
+100            android:name="com.woocommerce.android.ui.main.MainActivity"
+100-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:39:13-49
+101            android:exported="true"
+101-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:40:13-36
+102            android:windowSoftInputMode="adjustResize" >
+102-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:41:13-55
+103            <intent-filter>
+103-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:42:13-45:29
+104                <action android:name="android.intent.action.MAIN" />
+104-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:43:17-68
+104-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:43:25-66
+105
+106                <category android:name="android.intent.category.LAUNCHER" />
+106-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:44:17-76
+106-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:44:27-74
+107            </intent-filter>
+108        </activity>
+109        <activity
+109-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:48:9-51:20
+110            android:name="com.woocommerce.android.ui.login.LoginActivity"
+110-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:48:19-57
+111            android:theme="@style/LoginTheme"
+111-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:49:19-52
+112            android:windowSoftInputMode="adjustResize" >
+112-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:50:19-61
+113        </activity>
+114        <activity
+114-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:53:9-63:20
+115            android:name="com.woocommerce.android.ui.login.MagicLinkInterceptActivity"
+115-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:53:19-70
+116            android:exported="true" >
+116-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:54:13-36
+117            <intent-filter>
+117-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:55:13-62:29
+118                <action android:name="android.intent.action.VIEW" />
+118-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:56:17-68
+118-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:56:25-66
+119
+120                <category android:name="android.intent.category.DEFAULT" />
+120-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:57:17-76
+120-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:57:27-73
+121                <category android:name="android.intent.category.BROWSABLE" />
+121-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:58:17-78
+121-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:58:27-75
+122
+123                <data
+123-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+124                    android:host="magic-login"
+124-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:60:21-47
+125                    android:scheme="woocommerce" />
+125-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:61:21-49
+126            </intent-filter>
+127        </activity>
+128        <activity
+128-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:65:9-67:56
+129            android:name="com.woocommerce.android.ui.prefs.AppSettingsActivity"
+129-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:66:13-57
+130            android:theme="@style/Theme.Woo.DayNight" />
+130-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:67:13-54
+131        <activity
+131-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:69:9-71:60
+132            android:name="com.woocommerce.android.ui.prefs.UnifiedAboutScreenActivity"
+132-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:70:13-64
+133            android:theme="@style/Theme.Woo.UnifiedAbout" />
+133-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:71:13-58
+134        <activity
+134-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:73:9-76:56
+135            android:name="com.woocommerce.android.support.WooLogViewerActivity"
+135-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:75:13-57
+136            android:label="@string/logviewer_activity_title"
+136-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:74:13-61
+137            android:theme="@style/Theme.Woo.DayNight" />
+137-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:76:13-54
+138        <activity
+138-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:78:9-81:56
+139            android:name="com.woocommerce.android.support.SSRActivity"
+139-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:80:13-48
+140            android:label="@string/support_system_status_report"
+140-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:79:13-65
+141            android:theme="@style/Theme.Woo.DayNight" />
+141-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:81:13-54
+142        <activity
+142-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:83:9-86:57
+143            android:name="com.woocommerce.android.support.HelpActivity"
+143-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:84:13-49
+144            android:label="@string/support_help"
+144-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:85:13-49
+145            android:theme="@style/Theme.Woo.DayNight" />
+145-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:86:13-54
+146        <activity
+146-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:88:9-89:65
+147            android:name="zendesk.support.guide.HelpCenterActivity"
+147-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:88:19-74
+148            android:label="@string/support_activity_title"
+148-->[com.zendesk:guide:1.0.7] /home/eulerhm/.gradle/caches/transforms-3/04d19f4484139f9879d6f0ff0a4ab9bd/transformed/guide-1.0.7/AndroidManifest.xml:19:13-59
+149            android:theme="@style/Theme.Woo.DayNight.Zendesk"
+149-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:89:13-62
+150            android:windowSoftInputMode="adjustResize" />
+150-->[com.zendesk:guide:1.0.7] /home/eulerhm/.gradle/caches/transforms-3/04d19f4484139f9879d6f0ff0a4ab9bd/transformed/guide-1.0.7/AndroidManifest.xml:20:13-55
+151        <activity
+151-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:91:9-92:65
+152            android:name="zendesk.support.guide.ViewArticleActivity"
+152-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:91:19-75
+153            android:configChanges="orientation|screenSize"
+153-->[com.zendesk:guide:1.0.7] /home/eulerhm/.gradle/caches/transforms-3/04d19f4484139f9879d6f0ff0a4ab9bd/transformed/guide-1.0.7/AndroidManifest.xml:15:13-59
+154            android:label="@string/zs_view_article_loading_title"
+154-->[com.zendesk:guide:1.0.7] /home/eulerhm/.gradle/caches/transforms-3/04d19f4484139f9879d6f0ff0a4ab9bd/transformed/guide-1.0.7/AndroidManifest.xml:16:13-66
+155            android:theme="@style/Theme.Woo.DayNight.Zendesk" />
+155-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:92:13-62
+156        <activity
+156-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:94:9-95:65
+157            android:name="zendesk.support.request.RequestActivity"
+157-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:94:19-73
+158            android:theme="@style/Theme.Woo.DayNight.Zendesk"
+158-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:95:13-62
+159            android:windowSoftInputMode="adjustResize" />
+159-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:15:13-55
+160        <activity
+160-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:97:9-98:65
+161            android:name="zendesk.support.requestlist.RequestListActivity"
+161-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:97:19-81
+162            android:label="@string/request_list_activity_title"
+162-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:18:13-64
+163            android:theme="@style/Theme.Woo.DayNight.Zendesk" />
+163-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:98:13-62
+164        <activity
+164-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:100:9-101:57
+165            android:name="org.wordpress.android.mediapicker.ui.MediaPickerActivity"
+165-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:100:19-90
+166            android:theme="@style/Theme.Woo.DayNight" /> <!-- Services -->
+166-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:101:13-54
+167        <service
+167-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:104:9-110:19
+168            android:name="com.woocommerce.android.push.FCMMessageService"
+168-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:105:13-51
+169            android:exported="false" >
+169-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:106:13-37
+170            <intent-filter>
+170-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:107:13-109:29
+171                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+171-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:108:17-78
+171-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:108:25-75
+172            </intent-filter>
+173        </service>
+174        <service
+174-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:112:9-116:19
+175            android:name="com.woocommerce.android.push.NotificationsProcessingService"
+175-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:113:13-64
+176            android:exported="false"
+176-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:114:13-37
+177            android:label="Notifications Quick Actions processing Service" >
+177-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:115:13-75
+178        </service>
+179        <service
+179-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:118:9-121:54
+180            android:name="org.wordpress.android.login.LoginWpcomService"
+180-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:119:13-73
+181            android:exported="false"
+181-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:120:13-37
+182            android:label="Login to WPCOM Service" />
+182-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:121:13-51
+183
+184        <meta-data
+184-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:122:9-124:56
+185            android:name="preloaded_fonts"
+185-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:123:13-43
+186            android:resource="@array/preloaded_fonts" />
+186-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:124:13-54
+187
+188        <service
+188-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:126:9-128:40
+189            android:name="com.woocommerce.android.media.ProductImagesService"
+189-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:127:13-55
+190            android:exported="false" /> <!-- Provider for exposing file URIs on Android 7+ (required for camera) -->
+190-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:128:13-37
+191        <provider
+192            android:name="androidx.core.content.FileProvider"
+193            android:authorities="com.woocommerce.android.dev.provider"
+194            android:exported="false"
+195            android:grantUriPermissions="true" >
+196            <meta-data
+197                android:name="android.support.FILE_PROVIDER_PATHS"
+198                android:resource="@xml/provider_paths" />
+199        </provider>
+200
+201        <receiver
+201-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:20:9-26:20
+202            android:name="zendesk.support.DeepLinkingBroadcastReceiver"
+202-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:21:13-72
+203            android:exported="false" >
+203-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:22:13-37
+204            <intent-filter>
+204-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:23:13-25:29
+205                <action android:name="zendesk.support" />
+205-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:24:17-58
+205-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:24:25-55
+206            </intent-filter>
+207        </receiver>
+208
+209        <provider
+209-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:28:9-32:40
+210            android:name="zendesk.support.SupportSdkStartupProvider"
+210-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:29:13-69
+211            android:authorities="com.woocommerce.android.dev.zendesk.support.SupportSdkStartupProvider"
+211-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:30:13-93
+212            android:enabled="true"
+212-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:31:13-35
+213            android:exported="false" />
+213-->[com.zendesk:support:5.0.8] /home/eulerhm/.gradle/caches/transforms-3/3b1c9cead1725c29cf00cdaba6ad82f3/transformed/support-5.0.8/AndroidManifest.xml:32:13-37
+214
+215        <activity
+215-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:19:9-35:20
+216            android:name="com.stripe.stripeterminal.UsbEventReceiverActivity"
+216-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:20:13-78
+217            android:excludeFromRecents="true"
+217-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:21:13-46
+218            android:exported="false"
+218-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:22:13-37
+219            android:label="@string/app_name"
+219-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:23:13-45
+220            android:noHistory="true"
+220-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:24:13-37
+221            android:process=":UsbEventReceiverActivityProcess"
+221-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:25:13-63
+222            android:taskAffinity="com.stripe.stripeterminal.taskAffinityUsbEventReceiver"
+222-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:26:13-90
+223            android:theme="@style/Theme.Transparent" >
+223-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:27:13-53
+224            <intent-filter>
+224-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:28:13-30:29
+225                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+225-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:29:17-90
+225-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:29:25-87
+226            </intent-filter>
+227
+228            <meta-data
+228-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:32:13-34:61
+229                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+229-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:33:17-79
+230                android:resource="@xml/usb_device_filter" />
+230-->[com.stripe:stripeterminal-core:2.10.0] /home/eulerhm/.gradle/caches/transforms-3/4387d8331c7799acced3d01ce09e14f1/transformed/stripeterminal-core-2.10.0/AndroidManifest.xml:34:17-58
+231        </activity>
+232        <activity
+232-->[androidx.compose.ui:ui-tooling:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/786b0cc28d440ee044538e1a5ec1da7d/transformed/ui-tooling-1.1.1/AndroidManifest.xml:25:9-27:39
+233            android:name="androidx.compose.ui.tooling.PreviewActivity"
+233-->[androidx.compose.ui:ui-tooling:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/786b0cc28d440ee044538e1a5ec1da7d/transformed/ui-tooling-1.1.1/AndroidManifest.xml:26:13-71
+234            android:exported="true" />
+234-->[androidx.compose.ui:ui-tooling:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/786b0cc28d440ee044538e1a5ec1da7d/transformed/ui-tooling-1.1.1/AndroidManifest.xml:27:13-36
+235
+236        <provider
+236-->[com.zendesk:guide:1.0.7] /home/eulerhm/.gradle/caches/transforms-3/04d19f4484139f9879d6f0ff0a4ab9bd/transformed/guide-1.0.7/AndroidManifest.xml:22:9-26:40
+237            android:name="zendesk.support.guide.GuideSdkStartupProvider"
+237-->[com.zendesk:guide:1.0.7] /home/eulerhm/.gradle/caches/transforms-3/04d19f4484139f9879d6f0ff0a4ab9bd/transformed/guide-1.0.7/AndroidManifest.xml:23:13-73
+238            android:authorities="com.woocommerce.android.dev.zendesk.support.GuideSdkStartupProvider"
+238-->[com.zendesk:guide:1.0.7] /home/eulerhm/.gradle/caches/transforms-3/04d19f4484139f9879d6f0ff0a4ab9bd/transformed/guide-1.0.7/AndroidManifest.xml:24:13-91
+239            android:enabled="true"
+239-->[com.zendesk:guide:1.0.7] /home/eulerhm/.gradle/caches/transforms-3/04d19f4484139f9879d6f0ff0a4ab9bd/transformed/guide-1.0.7/AndroidManifest.xml:25:13-35
+240            android:exported="false" />
+240-->[com.zendesk:guide:1.0.7] /home/eulerhm/.gradle/caches/transforms-3/04d19f4484139f9879d6f0ff0a4ab9bd/transformed/guide-1.0.7/AndroidManifest.xml:26:13-37
+241
+242        <uses-library
+242-->[androidx.window:window:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/b246e09782b415102afdebe9bf5b5290/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+243            android:name="androidx.window.extensions"
+243-->[androidx.window:window:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/b246e09782b415102afdebe9bf5b5290/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+244            android:required="false" />
+244-->[androidx.window:window:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/b246e09782b415102afdebe9bf5b5290/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+245        <uses-library
+245-->[androidx.window:window:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/b246e09782b415102afdebe9bf5b5290/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+246            android:name="androidx.window.sidecar"
+246-->[androidx.window:window:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/b246e09782b415102afdebe9bf5b5290/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+247            android:required="false" />
+247-->[androidx.window:window:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/b246e09782b415102afdebe9bf5b5290/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+248
+249        <activity
+249-->[com.zendesk:messaging:5.2.3] /home/eulerhm/.gradle/caches/transforms-3/7bcf6ce94f5a158f06b62c248a3cc8b3/transformed/messaging-5.2.3/AndroidManifest.xml:12:9-14:58
+250            android:name="zendesk.messaging.MessagingActivity"
+250-->[com.zendesk:messaging:5.2.3] /home/eulerhm/.gradle/caches/transforms-3/7bcf6ce94f5a158f06b62c248a3cc8b3/transformed/messaging-5.2.3/AndroidManifest.xml:13:13-63
+251            android:windowSoftInputMode="adjustResize" />
+251-->[com.zendesk:messaging:5.2.3] /home/eulerhm/.gradle/caches/transforms-3/7bcf6ce94f5a158f06b62c248a3cc8b3/transformed/messaging-5.2.3/AndroidManifest.xml:14:13-55
+252
+253        <meta-data
+253-->[com.automattic:Automattic-Tracks-Android:2.2.0] /home/eulerhm/.gradle/caches/transforms-3/decb40bc680cac3f4f6c58668c878806/transformed/Automattic-Tracks-Android-2.2.0/AndroidManifest.xml:14:9-16:37
+254            android:name="io.sentry.auto-init"
+254-->[com.automattic:Automattic-Tracks-Android:2.2.0] /home/eulerhm/.gradle/caches/transforms-3/decb40bc680cac3f4f6c58668c878806/transformed/Automattic-Tracks-Android-2.2.0/AndroidManifest.xml:15:13-47
+255            android:value="false" />
+255-->[com.automattic:Automattic-Tracks-Android:2.2.0] /home/eulerhm/.gradle/caches/transforms-3/decb40bc680cac3f4f6c58668c878806/transformed/Automattic-Tracks-Android-2.2.0/AndroidManifest.xml:16:13-34
+256
+257        <provider
+257-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:31:9-39:20
+258            android:name="leakcanary.internal.LeakCanaryFileProvider"
+258-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:32:13-70
+259            android:authorities="com.squareup.leakcanary.fileprovider.com.woocommerce.android.dev"
+259-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:33:13-88
+260            android:exported="false"
+260-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:34:13-37
+261            android:grantUriPermissions="true" >
+261-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:35:13-47
+262            <meta-data
+263                android:name="android.support.FILE_PROVIDER_PATHS"
+264                android:resource="@xml/leak_canary_file_paths" />
+265        </provider>
+266
+267        <activity
+267-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:41:9-72:20
+268            android:name="leakcanary.internal.activity.LeakActivity"
+268-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:42:13-69
+269            android:exported="true"
+269-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:43:13-36
+270            android:icon="@mipmap/leak_canary_icon"
+270-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:44:13-52
+271            android:label="@string/leak_canary_display_activity_label"
+271-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:45:13-71
+272            android:taskAffinity="com.squareup.leakcanary.com.woocommerce.android.dev"
+272-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:46:13-76
+273            android:theme="@style/leak_canary_LeakCanary.Base" >
+273-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:47:13-63
+274            <intent-filter android:label="@string/leak_canary_import_hprof_file" >
+274-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:48:13-71:29
+274-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:48:28-81
+275                <action android:name="android.intent.action.VIEW" />
+275-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:56:17-68
+275-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:56:25-66
+276
+277                <category android:name="android.intent.category.DEFAULT" />
+277-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:57:17-76
+277-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:57:27-73
+278                <category android:name="android.intent.category.BROWSABLE" />
+278-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:58:17-78
+278-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:58:27-75
+279
+280                <data android:scheme="file" />
+280-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+280-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:61:21-49
+281                <data android:scheme="content" />
+281-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+281-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:61:21-49
+282                <data android:mimeType="*/*" />
+282-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+283                <data android:host="*" />
+283-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+283-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:60:21-47
+284                <data android:pathPattern=".*\\.hprof" />
+284-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+285                <data android:pathPattern=".*\\..*\\.hprof" />
+285-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+286                <data android:pathPattern=".*\\..*\\..*\\.hprof" />
+286-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+287                <data android:pathPattern=".*\\..*\\..*\\..*\\.hprof" />
+287-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+288                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.hprof" />
+288-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+289                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+289-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+290                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+290-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:59:17-61:52
+291                <!--
+292            Since hprof isn't a standard MIME type, we have to declare such patterns.
+293            Most file providers will generate URIs including their own package name,
+294            which contains `.` characters that must be explicitly escaped in pathPattern.
+295            @see https://stackoverflow.com/a/31028507/703646
+296                -->
+297            </intent-filter>
+298        </activity>
+299
+300        <activity-alias
+300-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:74:9-91:26
+301            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+301-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:75:13-77
+302            android:banner="@drawable/leak_canary_tv_icon"
+302-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:76:13-59
+303            android:enabled="@bool/leak_canary_add_launcher_icon"
+303-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:77:13-66
+304            android:exported="true"
+304-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:78:13-36
+305            android:icon="@mipmap/leak_canary_icon"
+305-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:79:13-52
+306            android:label="@string/leak_canary_display_activity_label"
+306-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:80:13-71
+307            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+307-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:81:13-79
+308            android:taskAffinity="com.squareup.leakcanary.com.woocommerce.android.dev"
+308-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:82:13-76
+309            android:theme="@style/leak_canary_LeakCanary.Base" >
+309-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:83:13-63
+310            <intent-filter>
+310-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:84:13-90:29
+311                <action android:name="android.intent.action.MAIN" />
+311-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:43:17-68
+311-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:43:25-66
+312
+313                <category android:name="android.intent.category.LAUNCHER" />
+313-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:44:17-76
+313-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:44:27-74
+314                <!-- Android TV launcher intent -->
+315                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+315-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:89:17-86
+315-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:89:27-83
+316            </intent-filter>
+317        </activity-alias>
+318
+319        <activity
+319-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:93:9-99:68
+320            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+320-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:94:13-80
+321            android:excludeFromRecents="true"
+321-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:95:13-46
+322            android:icon="@mipmap/leak_canary_icon"
+322-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:96:13-52
+323            android:label="@string/leak_canary_storage_permission_activity_label"
+323-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:97:13-82
+324            android:taskAffinity="com.squareup.leakcanary.com.woocommerce.android.dev"
+324-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:98:13-76
+325            android:theme="@style/leak_canary_Theme.Transparent" />
+325-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:99:13-65
+326
+327        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+327-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:101:9-77
+327-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/29916a71d2e75d34d545f8037bc2ca94/transformed/leakcanary-android-core-2.9.1/AndroidManifest.xml:101:19-74
+328
+329        <provider
+329-->[com.squareup.picasso:picasso:2.8] /home/eulerhm/.gradle/caches/transforms-3/a7d9f1d2df5c773936262c4bbd64f9e4/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
+330            android:name="com.squareup.picasso.PicassoProvider"
+330-->[com.squareup.picasso:picasso:2.8] /home/eulerhm/.gradle/caches/transforms-3/a7d9f1d2df5c773936262c4bbd64f9e4/transformed/picasso-2.8/AndroidManifest.xml:9:13-64
+331            android:authorities="com.woocommerce.android.dev.com.squareup.picasso"
+331-->[com.squareup.picasso:picasso:2.8] /home/eulerhm/.gradle/caches/transforms-3/a7d9f1d2df5c773936262c4bbd64f9e4/transformed/picasso-2.8/AndroidManifest.xml:10:13-72
+332            android:exported="false" />
+332-->[com.squareup.picasso:picasso:2.8] /home/eulerhm/.gradle/caches/transforms-3/a7d9f1d2df5c773936262c4bbd64f9e4/transformed/picasso-2.8/AndroidManifest.xml:11:13-37
+333
+334        <activity
+334-->[androidx.compose.ui:ui-test-manifest:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/7e7e798aa934d0635d4e8a5f570585cc/transformed/ui-test-manifest-1.1.1/AndroidManifest.xml:25:9-27:39
+335            android:name="androidx.activity.ComponentActivity"
+335-->[androidx.compose.ui:ui-test-manifest:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/7e7e798aa934d0635d4e8a5f570585cc/transformed/ui-test-manifest-1.1.1/AndroidManifest.xml:26:13-63
+336            android:exported="true" />
+336-->[androidx.compose.ui:ui-test-manifest:1.1.1] /home/eulerhm/.gradle/caches/transforms-3/7e7e798aa934d0635d4e8a5f570585cc/transformed/ui-test-manifest-1.1.1/AndroidManifest.xml:27:13-36
+337
+338        <service
+338-->[com.google.firebase:firebase-messaging-ktx:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/6d3fb5282df737f5d40da2511b678528/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:26:9-32:19
+339            android:name="com.google.firebase.components.ComponentDiscoveryService"
+339-->[com.google.firebase:firebase-messaging-ktx:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/6d3fb5282df737f5d40da2511b678528/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:27:13-84
+340            android:directBootAware="true"
+340-->[com.google.firebase:firebase-common:20.1.1] /home/eulerhm/.gradle/caches/transforms-3/442fd03bcffdc8dd87fc4af0e92187f1/transformed/firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+341            android:exported="false" >
+341-->[com.google.firebase:firebase-messaging-ktx:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/6d3fb5282df737f5d40da2511b678528/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:28:13-37
+342            <meta-data
+342-->[com.google.firebase:firebase-messaging-ktx:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/6d3fb5282df737f5d40da2511b678528/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:29:13-31:85
+343                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+343-->[com.google.firebase:firebase-messaging-ktx:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/6d3fb5282df737f5d40da2511b678528/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:30:17-126
+344                android:value="com.google.firebase.components.ComponentRegistrar" />
+344-->[com.google.firebase:firebase-messaging-ktx:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/6d3fb5282df737f5d40da2511b678528/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:31:17-82
+345            <meta-data
+345-->[com.google.firebase:firebase-common-ktx:20.1.1] /home/eulerhm/.gradle/caches/transforms-3/15bc658f2c4745c2635f15e6a74047bd/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
+346                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+346-->[com.google.firebase:firebase-common-ktx:20.1.1] /home/eulerhm/.gradle/caches/transforms-3/15bc658f2c4745c2635f15e6a74047bd/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
+347                android:value="com.google.firebase.components.ComponentRegistrar" />
+347-->[com.google.firebase:firebase-common-ktx:20.1.1] /home/eulerhm/.gradle/caches/transforms-3/15bc658f2c4745c2635f15e6a74047bd/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
+348            <meta-data
+348-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:55:13-57:85
+349                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+349-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:56:17-119
+350                android:value="com.google.firebase.components.ComponentRegistrar" />
+350-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:57:17-82
+351            <meta-data
+351-->[com.google.firebase:firebase-datatransport:18.1.4] /home/eulerhm/.gradle/caches/transforms-3/c028c21b54ef670c6d919d46569d27e1/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:28:13-30:85
+352                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+352-->[com.google.firebase:firebase-datatransport:18.1.4] /home/eulerhm/.gradle/caches/transforms-3/c028c21b54ef670c6d919d46569d27e1/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:29:17-115
+353                android:value="com.google.firebase.components.ComponentRegistrar" />
+353-->[com.google.firebase:firebase-datatransport:18.1.4] /home/eulerhm/.gradle/caches/transforms-3/c028c21b54ef670c6d919d46569d27e1/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:30:17-82
+354            <meta-data
+354-->[com.google.firebase:firebase-installations:17.0.1] /home/eulerhm/.gradle/caches/transforms-3/1436cffabdb33a28e8e2224d9516810c/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+355                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+355-->[com.google.firebase:firebase-installations:17.0.1] /home/eulerhm/.gradle/caches/transforms-3/1436cffabdb33a28e8e2224d9516810c/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+356                android:value="com.google.firebase.components.ComponentRegistrar" />
+356-->[com.google.firebase:firebase-installations:17.0.1] /home/eulerhm/.gradle/caches/transforms-3/1436cffabdb33a28e8e2224d9516810c/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+357        </service>
+358
+359        <activity
+359-->[com.google.android.gms:play-services-auth:20.2.0] /home/eulerhm/.gradle/caches/transforms-3/7c64555d049a8d9b477077586961a06f/transformed/play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+360            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+360-->[com.google.android.gms:play-services-auth:20.2.0] /home/eulerhm/.gradle/caches/transforms-3/7c64555d049a8d9b477077586961a06f/transformed/play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+361            android:excludeFromRecents="true"
+361-->[com.google.android.gms:play-services-auth:20.2.0] /home/eulerhm/.gradle/caches/transforms-3/7c64555d049a8d9b477077586961a06f/transformed/play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+362            android:exported="false"
+362-->[com.google.android.gms:play-services-auth:20.2.0] /home/eulerhm/.gradle/caches/transforms-3/7c64555d049a8d9b477077586961a06f/transformed/play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+363            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+363-->[com.google.android.gms:play-services-auth:20.2.0] /home/eulerhm/.gradle/caches/transforms-3/7c64555d049a8d9b477077586961a06f/transformed/play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+364        <!--
+365            Service handling Google Sign-In user revocation. For apps that do not integrate with
+366            Google Sign-In, this service will never be started.
+367        -->
+368        <service
+368-->[com.google.android.gms:play-services-auth:20.2.0] /home/eulerhm/.gradle/caches/transforms-3/7c64555d049a8d9b477077586961a06f/transformed/play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+369            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+369-->[com.google.android.gms:play-services-auth:20.2.0] /home/eulerhm/.gradle/caches/transforms-3/7c64555d049a8d9b477077586961a06f/transformed/play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+370            android:exported="true"
+370-->[com.google.android.gms:play-services-auth:20.2.0] /home/eulerhm/.gradle/caches/transforms-3/7c64555d049a8d9b477077586961a06f/transformed/play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+371            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+371-->[com.google.android.gms:play-services-auth:20.2.0] /home/eulerhm/.gradle/caches/transforms-3/7c64555d049a8d9b477077586961a06f/transformed/play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+372            android:visibleToInstantApps="true" />
+372-->[com.google.android.gms:play-services-auth:20.2.0] /home/eulerhm/.gradle/caches/transforms-3/7c64555d049a8d9b477077586961a06f/transformed/play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+373
+374        <receiver
+374-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:31:9-38:20
+375            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+375-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:32:13-78
+376            android:exported="true"
+376-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:33:13-36
+377            android:permission="com.google.android.c2dm.permission.SEND" >
+377-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:34:13-73
+378            <intent-filter>
+378-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:35:13-37:29
+379                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+379-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:36:17-81
+379-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:36:25-78
+380            </intent-filter>
+381        </receiver>
+382        <!--
+383             FirebaseMessagingService performs security checks at runtime,
+384             but set to not exported to explicitly avoid allowing another app to call it.
+385        -->
+386        <service
+386-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:44:9-51:19
+387            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+387-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:45:13-82
+388            android:directBootAware="true"
+388-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:46:13-43
+389            android:exported="false" >
+389-->[com.google.firebase:firebase-messaging:23.0.5] /home/eulerhm/.gradle/caches/transforms-3/728eb73ad066bbd8f951afe5c10141ba/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:47:13-37
+390            <intent-filter android:priority="-500" >
+390-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:107:13-109:29
+391                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+391-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:108:17-78
+391-->/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/AndroidManifest.xml:108:25-75
+392            </intent-filter>
+393        </service>
+394
+395        <provider
+395-->[com.google.firebase:firebase-common:20.1.1] /home/eulerhm/.gradle/caches/transforms-3/442fd03bcffdc8dd87fc4af0e92187f1/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+396            android:name="com.google.firebase.provider.FirebaseInitProvider"
+396-->[com.google.firebase:firebase-common:20.1.1] /home/eulerhm/.gradle/caches/transforms-3/442fd03bcffdc8dd87fc4af0e92187f1/transformed/firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+397            android:authorities="com.woocommerce.android.dev.firebaseinitprovider"
+397-->[com.google.firebase:firebase-common:20.1.1] /home/eulerhm/.gradle/caches/transforms-3/442fd03bcffdc8dd87fc4af0e92187f1/transformed/firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+398            android:directBootAware="true"
+398-->[com.google.firebase:firebase-common:20.1.1] /home/eulerhm/.gradle/caches/transforms-3/442fd03bcffdc8dd87fc4af0e92187f1/transformed/firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+399            android:exported="false"
+399-->[com.google.firebase:firebase-common:20.1.1] /home/eulerhm/.gradle/caches/transforms-3/442fd03bcffdc8dd87fc4af0e92187f1/transformed/firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+400            android:initOrder="100" />
+400-->[com.google.firebase:firebase-common:20.1.1] /home/eulerhm/.gradle/caches/transforms-3/442fd03bcffdc8dd87fc4af0e92187f1/transformed/firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+401
+402        <activity
+402-->[com.google.android.gms:play-services-base:18.0.1] /home/eulerhm/.gradle/caches/transforms-3/66da5de64d7392557a668122e2535a6d/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+403            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+403-->[com.google.android.gms:play-services-base:18.0.1] /home/eulerhm/.gradle/caches/transforms-3/66da5de64d7392557a668122e2535a6d/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+404            android:exported="false"
+404-->[com.google.android.gms:play-services-base:18.0.1] /home/eulerhm/.gradle/caches/transforms-3/66da5de64d7392557a668122e2535a6d/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+405            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+405-->[com.google.android.gms:play-services-base:18.0.1] /home/eulerhm/.gradle/caches/transforms-3/66da5de64d7392557a668122e2535a6d/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+406
+407        <meta-data
+407-->[com.google.android.gms:play-services-basement:18.0.0] /home/eulerhm/.gradle/caches/transforms-3/dec95d06b2fa275411fb205306849354/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+408            android:name="com.google.android.gms.version"
+408-->[com.google.android.gms:play-services-basement:18.0.0] /home/eulerhm/.gradle/caches/transforms-3/dec95d06b2fa275411fb205306849354/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+409            android:value="@integer/google_play_services_version" />
+409-->[com.google.android.gms:play-services-basement:18.0.0] /home/eulerhm/.gradle/caches/transforms-3/dec95d06b2fa275411fb205306849354/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+410
+411        <provider
+411-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] /home/eulerhm/.gradle/caches/transforms-3/6b5edbf8320b9af24a6f5143e2cdea97/transformed/belvedere-core-3.0.0-RC/AndroidManifest.xml:12:9-21:20
+412            android:name="zendesk.belvedere.BelvedereFileProvider"
+412-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] /home/eulerhm/.gradle/caches/transforms-3/6b5edbf8320b9af24a6f5143e2cdea97/transformed/belvedere-core-3.0.0-RC/AndroidManifest.xml:13:13-67
+413            android:authorities="com.woocommerce.android.dev.belvedere2.attachments"
+413-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] /home/eulerhm/.gradle/caches/transforms-3/6b5edbf8320b9af24a6f5143e2cdea97/transformed/belvedere-core-3.0.0-RC/AndroidManifest.xml:14:13-74
+414            android:exported="false"
+414-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] /home/eulerhm/.gradle/caches/transforms-3/6b5edbf8320b9af24a6f5143e2cdea97/transformed/belvedere-core-3.0.0-RC/AndroidManifest.xml:15:13-37
+415            android:grantUriPermissions="true"
+415-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] /home/eulerhm/.gradle/caches/transforms-3/6b5edbf8320b9af24a6f5143e2cdea97/transformed/belvedere-core-3.0.0-RC/AndroidManifest.xml:16:13-47
+416            android:readPermission="true" >
+416-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] /home/eulerhm/.gradle/caches/transforms-3/6b5edbf8320b9af24a6f5143e2cdea97/transformed/belvedere-core-3.0.0-RC/AndroidManifest.xml:17:13-42
+417            <meta-data
+418                android:name="android.support.FILE_PROVIDER_PATHS"
+419                android:resource="@xml/belvedere_attachment_storage_v2" />
+420        </provider>
+421
+422        <meta-data
+422-->[com.github.bumptech.glide:volley-integration:4.13.2] /home/eulerhm/.gradle/caches/transforms-3/42378c9f6c2fb73bd64d314bcdc0becf/transformed/volley-integration-4.13.2/AndroidManifest.xml:11:9-13:43
+423            android:name="com.bumptech.glide.integration.volley.VolleyGlideModule"
+423-->[com.github.bumptech.glide:volley-integration:4.13.2] /home/eulerhm/.gradle/caches/transforms-3/42378c9f6c2fb73bd64d314bcdc0becf/transformed/volley-integration-4.13.2/AndroidManifest.xml:12:13-83
+424            android:value="GlideModule" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+424-->[com.github.bumptech.glide:volley-integration:4.13.2] /home/eulerhm/.gradle/caches/transforms-3/42378c9f6c2fb73bd64d314bcdc0becf/transformed/volley-integration-4.13.2/AndroidManifest.xml:13:13-40
+425        <activity
+425-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:18:9-24:45
+426            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+426-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:19:13-100
+427            android:enabled="false"
+427-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:20:13-36
+428            android:exported="false"
+428-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:21:13-37
+429            android:launchMode="singleInstance"
+429-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:22:13-48
+430            android:process=":playcore_missing_splits_activity"
+430-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:23:13-64
+431            android:stateNotNeeded="true" />
+431-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:24:13-42
+432        <activity
+432-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:25:9-29:65
+433            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+433-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:26:13-93
+434            android:exported="false"
+434-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:27:13-37
+435            android:stateNotNeeded="true"
+435-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:28:13-42
+436            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+436-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:29:13-62
+437        <service
+437-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:32:9-39:19
+438            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+438-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:33:13-94
+439            android:enabled="false"
+439-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:34:13-36
+440            android:exported="true" >
+440-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:35:13-36
+441            <meta-data
+441-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:36:13-38:41
+442                android:name="com.google.android.play.core.assetpacks.versionCode"
+442-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:37:17-83
+443                android:value="11003" />
+443-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:38:17-38
+444        </service>
+445        <service
+445-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:40:9-43:40
+446            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+446-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:41:13-95
+447            android:enabled="false"
+447-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:42:13-36
+448            android:exported="false" />
+448-->[com.google.android.play:core:1.10.3] /home/eulerhm/.gradle/caches/transforms-3/e3ee810cc95268577334f88e8dc4819f/transformed/core-1.10.3/AndroidManifest.xml:43:13-37
+449
+450        <provider
+450-->[androidx.emoji2:emoji2:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/f4458bd0a686cfb1017bd449dd450c51/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+451            android:name="androidx.startup.InitializationProvider"
+451-->[androidx.emoji2:emoji2:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/f4458bd0a686cfb1017bd449dd450c51/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+452            android:authorities="com.woocommerce.android.dev.androidx-startup"
+452-->[androidx.emoji2:emoji2:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/f4458bd0a686cfb1017bd449dd450c51/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+453            android:exported="false" >
+453-->[androidx.emoji2:emoji2:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/f4458bd0a686cfb1017bd449dd450c51/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+454            <meta-data
+454-->[androidx.emoji2:emoji2:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/f4458bd0a686cfb1017bd449dd450c51/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+455                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+455-->[androidx.emoji2:emoji2:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/f4458bd0a686cfb1017bd449dd450c51/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+456                android:value="androidx.startup" />
+456-->[androidx.emoji2:emoji2:1.0.0] /home/eulerhm/.gradle/caches/transforms-3/f4458bd0a686cfb1017bd449dd450c51/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+457            <meta-data
+457-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/eulerhm/.gradle/caches/transforms-3/d579ad2dd9234ecea7b0877165998044/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+458                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+458-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/eulerhm/.gradle/caches/transforms-3/d579ad2dd9234ecea7b0877165998044/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+459                android:value="androidx.startup" />
+459-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/eulerhm/.gradle/caches/transforms-3/d579ad2dd9234ecea7b0877165998044/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+460            <meta-data
+460-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:31:13-33:52
+461                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+461-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:32:17-85
+462                android:value="androidx.startup" />
+462-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:33:17-49
+463        </provider> <!-- 'android:authorities' must be unique in the device, across all apps -->
+464        <provider
+464-->[io.sentry:sentry-android-core:5.4.3] /home/eulerhm/.gradle/caches/transforms-3/acab07d33e518915ba79c370f8afd117/transformed/sentry-android-core-5.4.3/AndroidManifest.xml:14:9-17:40
+465            android:name="io.sentry.android.core.SentryInitProvider"
+465-->[io.sentry:sentry-android-core:5.4.3] /home/eulerhm/.gradle/caches/transforms-3/acab07d33e518915ba79c370f8afd117/transformed/sentry-android-core-5.4.3/AndroidManifest.xml:15:13-69
+466            android:authorities="com.woocommerce.android.dev.SentryInitProvider"
+466-->[io.sentry:sentry-android-core:5.4.3] /home/eulerhm/.gradle/caches/transforms-3/acab07d33e518915ba79c370f8afd117/transformed/sentry-android-core-5.4.3/AndroidManifest.xml:16:13-70
+467            android:exported="false" />
+467-->[io.sentry:sentry-android-core:5.4.3] /home/eulerhm/.gradle/caches/transforms-3/acab07d33e518915ba79c370f8afd117/transformed/sentry-android-core-5.4.3/AndroidManifest.xml:17:13-37
+468        <provider
+468-->[io.sentry:sentry-android-core:5.4.3] /home/eulerhm/.gradle/caches/transforms-3/acab07d33e518915ba79c370f8afd117/transformed/sentry-android-core-5.4.3/AndroidManifest.xml:18:9-22:39
+469            android:name="io.sentry.android.core.SentryPerformanceProvider"
+469-->[io.sentry:sentry-android-core:5.4.3] /home/eulerhm/.gradle/caches/transforms-3/acab07d33e518915ba79c370f8afd117/transformed/sentry-android-core-5.4.3/AndroidManifest.xml:19:13-76
+470            android:authorities="com.woocommerce.android.dev.SentryPerformanceProvider"
+470-->[io.sentry:sentry-android-core:5.4.3] /home/eulerhm/.gradle/caches/transforms-3/acab07d33e518915ba79c370f8afd117/transformed/sentry-android-core-5.4.3/AndroidManifest.xml:20:13-77
+471            android:exported="false"
+471-->[io.sentry:sentry-android-core:5.4.3] /home/eulerhm/.gradle/caches/transforms-3/acab07d33e518915ba79c370f8afd117/transformed/sentry-android-core-5.4.3/AndroidManifest.xml:21:13-37
+472            android:initOrder="200" />
+472-->[io.sentry:sentry-android-core:5.4.3] /home/eulerhm/.gradle/caches/transforms-3/acab07d33e518915ba79c370f8afd117/transformed/sentry-android-core-5.4.3/AndroidManifest.xml:22:13-36
+473
+474        <service
+474-->[androidx.room:room-runtime:2.4.2] /home/eulerhm/.gradle/caches/transforms-3/ca8faf4ebf619166947f0f596486b937/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+475            android:name="androidx.room.MultiInstanceInvalidationService"
+475-->[androidx.room:room-runtime:2.4.2] /home/eulerhm/.gradle/caches/transforms-3/ca8faf4ebf619166947f0f596486b937/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+476            android:directBootAware="true"
+476-->[androidx.room:room-runtime:2.4.2] /home/eulerhm/.gradle/caches/transforms-3/ca8faf4ebf619166947f0f596486b937/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+477            android:exported="false" />
+477-->[androidx.room:room-runtime:2.4.2] /home/eulerhm/.gradle/caches/transforms-3/ca8faf4ebf619166947f0f596486b937/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+478
+479        <receiver
+479-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:36:9-45:20
+480            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+480-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:37:13-76
+481            android:directBootAware="false"
+481-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:38:13-44
+482            android:enabled="true"
+482-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:39:13-35
+483            android:exported="true"
+483-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:40:13-36
+484            android:permission="android.permission.DUMP" >
+484-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:41:13-57
+485            <intent-filter>
+485-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:42:13-44:29
+486                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+486-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:43:17-91
+486-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/eulerhm/.gradle/caches/transforms-3/8ddc319b018c240d3ef502819ce5cc16/transformed/profileinstaller-1.1.0/AndroidManifest.xml:43:25-88
+487            </intent-filter>
+488        </receiver>
+489
+490        <service
+490-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/5525b9482328c3de4ca7887151b03ac0/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:29:9-35:19
+491            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+491-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/5525b9482328c3de4ca7887151b03ac0/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:30:13-103
+492            android:exported="false" >
+492-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/5525b9482328c3de4ca7887151b03ac0/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:31:13-37
+493            <meta-data
+493-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/5525b9482328c3de4ca7887151b03ac0/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:32:13-34:39
+494                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+494-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/5525b9482328c3de4ca7887151b03ac0/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:33:17-94
+495                android:value="cct" />
+495-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/5525b9482328c3de4ca7887151b03ac0/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:34:17-36
+496        </service>
+497        <service
+497-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/8038613e7b5dde70f87f659501c95e31/transformed/transport-runtime-3.1.5/AndroidManifest.xml:26:9-30:19
+498            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+498-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/8038613e7b5dde70f87f659501c95e31/transformed/transport-runtime-3.1.5/AndroidManifest.xml:27:13-117
+499            android:exported="false"
+499-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/8038613e7b5dde70f87f659501c95e31/transformed/transport-runtime-3.1.5/AndroidManifest.xml:28:13-37
+500            android:permission="android.permission.BIND_JOB_SERVICE" >
+500-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/8038613e7b5dde70f87f659501c95e31/transformed/transport-runtime-3.1.5/AndroidManifest.xml:29:13-69
+501        </service>
+502
+503        <receiver
+503-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/8038613e7b5dde70f87f659501c95e31/transformed/transport-runtime-3.1.5/AndroidManifest.xml:32:9-34:40
+504            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+504-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/8038613e7b5dde70f87f659501c95e31/transformed/transport-runtime-3.1.5/AndroidManifest.xml:33:13-132
+505            android:exported="false" />
+505-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/eulerhm/.gradle/caches/transforms-3/8038613e7b5dde70f87f659501c95e31/transformed/transport-runtime-3.1.5/AndroidManifest.xml:34:13-37
+506
+507        <provider
+507-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/71e160bbc7c73253a08c961e0b7bcf4f/transformed/leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:8:9-12:40
+508            android:name="leakcanary.internal.MainProcessAppWatcherInstaller"
+508-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/71e160bbc7c73253a08c961e0b7bcf4f/transformed/leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:9:13-78
+509            android:authorities="com.woocommerce.android.dev.leakcanary-installer"
+509-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/71e160bbc7c73253a08c961e0b7bcf4f/transformed/leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:10:13-72
+510            android:enabled="@bool/leak_canary_watcher_auto_install"
+510-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/71e160bbc7c73253a08c961e0b7bcf4f/transformed/leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:11:13-69
+511            android:exported="false" />
+511-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/71e160bbc7c73253a08c961e0b7bcf4f/transformed/leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:12:13-37
+512        <provider
+512-->[com.squareup.leakcanary:plumber-android:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/37dab19500ce54c0fa295ad310eb5a86/transformed/plumber-android-2.9.1/AndroidManifest.xml:8:9-12:40
+513            android:name="leakcanary.internal.PlumberInstaller"
+513-->[com.squareup.leakcanary:plumber-android:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/37dab19500ce54c0fa295ad310eb5a86/transformed/plumber-android-2.9.1/AndroidManifest.xml:9:13-64
+514            android:authorities="com.woocommerce.android.dev.plumber-installer"
+514-->[com.squareup.leakcanary:plumber-android:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/37dab19500ce54c0fa295ad310eb5a86/transformed/plumber-android-2.9.1/AndroidManifest.xml:10:13-69
+515            android:enabled="@bool/leak_canary_plumber_auto_install"
+515-->[com.squareup.leakcanary:plumber-android:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/37dab19500ce54c0fa295ad310eb5a86/transformed/plumber-android-2.9.1/AndroidManifest.xml:11:13-69
+516            android:exported="false" />
+516-->[com.squareup.leakcanary:plumber-android:2.9.1] /home/eulerhm/.gradle/caches/transforms-3/37dab19500ce54c0fa295ad310eb5a86/transformed/plumber-android-2.9.1/AndroidManifest.xml:12:13-37
+517    </application>
+518
+519</manifest>

@@ -1,0 +1,123 @@
+[
+  {
+    "name": "nav_graph_add_product_category",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_card_reader_flow",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_coupons",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_image_gallery",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_jetpack_install",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_main",
+    "navigationXmlIds": [
+      "nav_graph_orders",
+      "nav_graph_order_filters",
+      "nav_graph_products",
+      "nav_graph_product_filters",
+      "nav_graph_order_creations",
+      "nav_graph_simple_payments",
+      "nav_graph_jetpack_install",
+      "nav_graph_coupons"
+    ],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_order_creations",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_order_filters",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_orders",
+    "navigationXmlIds": [
+      "nav_graph_card_reader_flow",
+      "nav_graph_refunds"
+    ],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_product_filters",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_product_settings",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_products",
+    "navigationXmlIds": [
+      "nav_graph_add_product_category",
+      "nav_graph_product_settings",
+      "nav_graph_image_gallery"
+    ],
+    "deepLinks": [
+      {
+        "schemes": [
+          "wcandroid"
+        ],
+        "host": "variationDetail",
+        "port": -1,
+        "path": "/",
+        "query": "remoteProductId\u003d.*\u0026remoteVariationId\u003d.*",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mFilePath": "/home/eulerhm/Documents/workspaceSQJ/EXECUCOES_REVISAO/woocommerce-android/WooCommerce/src/main/res/navigation/nav_graph_products.xml",
+            "mDescription": "nav_graph_products"
+          },
+          "mSourcePosition": {
+            "mStartLine": 544,
+            "mStartColumn": 8,
+            "mStartOffset": 23211,
+            "mEndLine": 544,
+            "mEndColumn": 134,
+            "mEndOffset": 23337
+          }
+        },
+        "isAutoVerify": false
+      }
+    ]
+  },
+  {
+    "name": "nav_graph_refunds",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_settings",
+    "navigationXmlIds": [
+      "nav_graph_jetpack_install",
+      "nav_graph_card_reader_flow"
+    ],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_simple_payments",
+    "navigationXmlIds": [
+      "nav_graph_card_reader_flow"
+    ],
+    "deepLinks": []
+  }
+]

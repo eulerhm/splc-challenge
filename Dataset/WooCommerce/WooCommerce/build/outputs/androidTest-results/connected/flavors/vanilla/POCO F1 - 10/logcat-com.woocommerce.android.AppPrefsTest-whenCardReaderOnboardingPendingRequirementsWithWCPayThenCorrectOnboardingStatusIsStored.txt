@@ -1,0 +1,15 @@
+06-24 22:42:47.504 13252 13283 I TestRunner: started: whenCardReaderOnboardingPendingRequirementsWithWCPayThenCorrectOnboardingStatusIsStored(com.woocommerce.android.AppPrefsTest)
+06-24 22:42:47.509  2723  2723 D ImageWallpaper: wallpaper visibility changes to: true
+06-24 22:42:47.514   965   965 E Layer   : [Surface(name=AppWindowToken{7fe52a7 token=Token{65c8f66 ActivityRecord{b54dbc1 u0 com.mrchandler.disableprox/.ui.SensorSettingsActivity t9596}}})/@0x80f59f0 - animation-leash#0] No local sync point found
+06-24 22:42:47.514   965   965 E Layer   : [Surface(name=AppWindowToken{7fe52a7 token=Token{65c8f66 ActivityRecord{b54dbc1 u0 com.mrchandler.disableprox/.ui.SensorSettingsActivity t9596}}})/@0x80f59f0 - animation-leash#0] No local sync point found
+06-24 22:42:47.514   965   965 E Layer   : [Surface(name=AppWindowToken{3f8fb41 token=Token{c507228 ActivityRecord{fe7684b u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0x5c40734 - animation-leash#0] No local sync point found
+06-24 22:42:47.514   965   965 E Layer   : [Surface(name=AppWindowToken{3f8fb41 token=Token{c507228 ActivityRecord{fe7684b u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0x5c40734 - animation-leash#0] No local sync point found
+06-24 22:42:47.515 13252 13283 I GrantPermissionCallable: Permission: android.permission.ACCESS_WIFI_STATE is already granted!
+06-24 22:42:47.515 13252 13283 I GrantPermissionCallable: Permission: android.permission.ACCESS_NETWORK_STATE is already granted!
+06-24 22:42:47.547   965   965 E Layer   : [Surface(name=AppWindowToken{7fe52a7 token=Token{65c8f66 ActivityRecord{b54dbc1 u0 com.mrchandler.disableprox/.ui.SensorSettingsActivity t9596}}})/@0x80f59f0 - animation-leash#0] No local sync point found
+06-24 22:42:47.547   965   965 E Layer   : [Surface(name=AppWindowToken{7fe52a7 token=Token{65c8f66 ActivityRecord{b54dbc1 u0 com.mrchandler.disableprox/.ui.SensorSettingsActivity t9596}}})/@0x80f59f0 - animation-leash#0] No local sync point found
+06-24 22:42:47.547   965   965 E Layer   : [Surface(name=AppWindowToken{3f8fb41 token=Token{c507228 ActivityRecord{fe7684b u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0x5c40734 - animation-leash#0] No local sync point found
+06-24 22:42:47.547   965   965 E Layer   : [Surface(name=AppWindowToken{3f8fb41 token=Token{c507228 ActivityRecord{fe7684b u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0x5c40734 - animation-leash#0] No local sync point found
+06-24 22:42:47.555  3045  3072 W System  : A resource failed to call release.
+06-24 22:42:47.555  3045  3072 W System  : A resource failed to call release.
+06-24 22:42:47.556 13252 13283 I TestRunner: finished: whenCardReaderOnboardingPendingRequirementsWithWCPayThenCorrectOnboardingStatusIsStored(com.woocommerce.android.AppPrefsTest)

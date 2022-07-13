@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bijoysingh:android-basics:5.1.0-x@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/218566dc80975c861e6316f592629c7f/transformed/android-basics-5.1.0-x/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/218566dc80975c861e6316f592629c7f/transformed/android-basics-5.1.0-x/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/218566dc80975c861e6316f592629c7f/transformed/android-basics-5.1.0-x/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bijoysingh/android-basics/5.1.0-x/15625cea03d76548f74f4a6f1ee6c60af6ee97f8/android-basics-5.1.0-x-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bijoysingh/android-basics/5.1.0-x/857ccfc94def2726b47c7c8cbd531be1048019c5/android-basics-5.1.0-x-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

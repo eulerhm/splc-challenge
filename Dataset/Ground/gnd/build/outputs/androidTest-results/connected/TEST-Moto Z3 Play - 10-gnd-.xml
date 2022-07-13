@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.google.android.gnd.AcceptTermsOfServiceTest" tests="4" failures="0" errors="0" skipped="0" time="300.979" timestamp="2022-07-09T14:44:42" hostname="localhost">
+  <properties>
+    <property name="device" value="Moto Z3 Play - 10" />
+    <property name="flavor" value="" />
+    <property name="project" value="gnd" />
+  </properties>
+  <testcase name="acceptTerms" classname="com.google.android.gnd.AcceptTermsOfServiceTest" time="10.515" />
+  <testcase name="tappingCrosshairOnEmptyMapDoesNothing" classname="com.google.android.gnd.AddFeatureTest" time="9.672" />
+  <testcase name="selectingMapTypeItem_shouldUpdateBasemapType" classname="com.google.android.gnd.MapTypeDialogTest" time="10.422" />
+  <testcase name="tappingMapTypeButton_shouldOpenDialog" classname="com.google.android.gnd.MapTypeDialogTest" time="11.111" />
+</testsuite>

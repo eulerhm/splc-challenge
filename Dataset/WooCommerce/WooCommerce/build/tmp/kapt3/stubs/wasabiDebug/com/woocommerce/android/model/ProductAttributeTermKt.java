@@ -1,0 +1,13 @@
+package com.woocommerce.android.model;
+
+import java.lang.System;
+
+@kotlin.Metadata(mv = {1, 6, 0}, k = 2, d1 = {"\u0000\f\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u001a\n\u0010\u0000\u001a\u00020\u0001*\u00020\u0002\u00a8\u0006\u0003"}, d2 = {"toAppModel", "Lcom/woocommerce/android/model/ProductAttributeTerm;", "Lorg/wordpress/android/fluxc/model/attribute/terms/WCAttributeTermModel;", "WooCommerce_wasabiDebug"})
+public final class ProductAttributeTermKt {
+    
+    @org.jetbrains.annotations.NotNull
+    public static final com.woocommerce.android.model.ProductAttributeTerm toAppModel(@org.jetbrains.annotations.NotNull
+    org.wordpress.android.fluxc.model.attribute.terms.WCAttributeTermModel $this$toAppModel) {
+        return null;
+    }
+}

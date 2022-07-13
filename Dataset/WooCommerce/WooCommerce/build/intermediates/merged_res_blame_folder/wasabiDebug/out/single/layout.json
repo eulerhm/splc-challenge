@@ -1,0 +1,1318 @@
+[
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/feedback_request_card.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/feedback_request_card.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_shipping_class_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_shipping_class_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_site_picker.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_site_picker.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/wc_read_more_textview_layout.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/wc_read_more_textview_layout.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_product_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_product_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_downloads_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_downloads_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_add_order_note.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_add_order_note.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_login_no_jetpack.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_login_no_jetpack.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/shipping_rate_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/shipping_rate_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_product_image_source.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_product_image_source.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_simple_payments.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_simple_payments.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_onboarding_stripe.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_onboarding_stripe.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_simple_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_simple_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_tags.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_tags.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_read_more_view_layout.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_read_more_view_layout.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/image_gallery_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/image_gallery_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_shipping_label_payment_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_shipping_label_payment_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_site_picker.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_site_picker.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_note_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_note_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_shipping_class_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_shipping_class_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_editable_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_editable_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_slug.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_slug.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_rename_attribute.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_rename_attribute.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/products_sort_and_filters_card.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/products_sort_and_filters_card.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_order_product_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_order_product_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_media_upload_error_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_media_upload_error_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/top_performers_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/top_performers_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_order_tracking_provider_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_order_tracking_provider_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_material_outlined_edittext.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_material_outlined_edittext.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/feature_announcement_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/feature_announcement_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_edit_shipping_label_packages.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_edit_shipping_label_packages.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_jetpack_install_progress.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_jetpack_install_progress.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_refunds_info.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_refunds_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/card_reader_update_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/card_reader_update_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/layout_address_form.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/layout_address_form.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_feedback_survey.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_feedback_survey.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_shipping_packages_selector.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_shipping_packages_selector.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_printing_instructions.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_printing_instructions.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_shipping_label_carrier_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_shipping_label_carrier_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_review_detail.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_review_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_print_shipping_label_info.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_print_shipping_label_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_simple_payments.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_simple_payments.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_order_creation_fee.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_order_creation_fee.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_aztec_editor.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_aztec_editor.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_login_site_check_error.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_login_site_check_error.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_category_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_category_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_create_shipping_label.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_create_shipping_label.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_onboarding.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_onboarding.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_about.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_about.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_shipping_label_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_shipping_label_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_images.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_images.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/card_reader_status_checker_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/card_reader_status_checker_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_tutorial_viewpager_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_tutorial_viewpager_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_product_detail_bottom_sheet_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_product_detail_bottom_sheet_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_addon_card.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_addon_card.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_login_user_info.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_login_user_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_ordered_addon_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_ordered_addon_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_item_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_item_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_list_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_list_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_linked_products.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_linked_products.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_login_no_stores.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_login_no_stores.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_shipping_label_package_details.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_shipping_label_package_details.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_payment_info.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_payment_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_grouped_product_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_grouped_product_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_filters_card.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_filters_card.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/offline_status_bar.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/offline_status_bar.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_shipping_label_package_product.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_shipping_label_package_product.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/refund_by_items_shipping.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/refund_by_items_shipping.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/number_picker_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/number_picker_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_label_format_options.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_label_format_options.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/card_reader_learn_more_section.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/card_reader_learn_more_section.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_downloads_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_downloads_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_product_detail_divider.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_product_detail_divider.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_edit_shipping_label_address.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_edit_shipping_label_address.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_woo_discount_info.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_woo_discount_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_variation_detail.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_variation_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_material_outlined_spinner.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_material_outlined_spinner.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_info_screen.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_info_screen.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/layout_order_creation_customer_info.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/layout_order_creation_customer_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_banner_warning.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_banner_warning.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_downloads_settings.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_downloads_settings.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_filter_option_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_filter_option_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_shipping_label_address_suggestion.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_shipping_label_address_suggestion.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_receipt_preview.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_receipt_preview.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_add_shipment_tracking.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_add_shipment_tracking.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_order_creation_product_selection.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_order_creation_product_selection.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_print_shipping_label.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_print_shipping_label.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_shipping.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_shipping.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/site_picker_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/site_picker_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_variations_bulk_update_attr_picker.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_variations_bulk_update_attr_picker.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/card_reader_payment_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/card_reader_payment_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_order_tracking_provider_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_order_tracking_provider_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_addon_option_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_addon_option_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_my_store.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_my_store.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/wpmedia_gallery_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/wpmedia_gallery_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_coupon_details.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_coupon_details.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_order_fulfill.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_order_fulfill.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_product_add_downloadable_file.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_product_add_downloadable_file.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/refunds_product_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/refunds_product_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_shipping_label_create_service_package.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_shipping_label_create_service_package.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_login_discovery_error.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_login_discovery_error.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_root.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_root.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/confirmation_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/confirmation_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_dashboard_stats.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_dashboard_stats.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_variations_bulk_update_price.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_variations_bulk_update_price.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_uncheck_is_downloadable_warning.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_uncheck_is_downloadable_warning.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_order_creation_bottom_sheet.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_order_creation_bottom_sheet.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_dashboard_top_performers.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_dashboard_top_performers.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_toggle_single_option.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_toggle_single_option.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_search_filter.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_search_filter.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_cardview.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_cardview.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/attribute_term_selection_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/attribute_term_selection_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/activity_site_picker.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/activity_site_picker.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/analytics_date_range_card_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/analytics_date_range_card_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_notif_detail.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_notif_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_shipping_label_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_shipping_label_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_creation_edit_customer_address.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_creation_edit_customer_address.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_detail.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_pricing.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_pricing.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_settings_toggle_option.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_settings_toggle_option.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/notifs_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/notifs_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/actionable_empty_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/actionable_empty_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_status.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_status.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/activity_help.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/activity_help.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_view_horz_layout.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_view_horz_layout.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_download_details.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_download_details.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/action_menu_progress.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/action_menu_progress.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_toolbar.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_toolbar.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/shipping_rate_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/shipping_rate_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_shipping_label_create_package.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_shipping_label_create_package.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_order_creation_form.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_order_creation_form.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_notif_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_notif_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/activity_app_settings.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/activity_app_settings.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_customer_info.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_customer_info.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_base_edit_address.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_base_edit_address.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_create_shipping_label.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_create_shipping_label.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/zs_activity_request_list_scene_empty.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/zs_activity_request_list_scene_empty.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/shipping_package_list_header.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/shipping_package_list_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_order_filter_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_order_filter_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_settings.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_settings.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/rating_property_view_layout.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/rating_property_view_layout.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_shipping_customs.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_shipping_customs.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_order_creation_product_details.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_order_creation_product_details.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_login_user_info_centered.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_login_user_info_centered.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_jetpack_benefits_bottom_banner.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_jetpack_benefits_bottom_banner.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_filter_option_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_filter_option_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_creation_section.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_creation_section.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/zs_activity_request_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/zs_activity_request_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/my_store_stats.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/my_store_stats.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_jetpack_install_start.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_jetpack_install_start.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/logviewer_listitem.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/logviewer_listitem.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_move_shipping_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_move_shipping_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_shipment_tracking_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_shipment_tracking_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/refund_by_items_fees.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/refund_by_items_fees.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_attributes_added.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_attributes_added.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_settings_beta.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_settings_beta.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_shipping_label_order_package_price.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_shipping_label_order_package_price.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_stepper.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_stepper.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/card_reader_tutorial_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/card_reader_tutorial_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_notif_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_notif_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_order_notes_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_order_notes_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_add_attribute_terms.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_add_attribute_terms.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/card_reader_welcome_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/card_reader_welcome_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/filter_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/filter_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_categories_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_categories_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/variation_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/variation_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_wpcom_webview.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_wpcom_webview.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/wc_empty_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/wc_empty_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/shipping_label_package_details_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/shipping_label_package_details_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_login_prologue_viewpager_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_login_prologue_viewpager_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_addons.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_addons.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/parent_category_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/parent_category_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_shipping_label_payment_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_shipping_label_payment_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_edit_shipping_label_payment.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_edit_shipping_label_payment.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/shipping_label_creation_step.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/shipping_label_creation_step.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_product_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_product_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_list_header.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_list_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_image_viewer.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_image_viewer.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_onboarding_unsupported.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_onboarding_unsupported.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/layout_file_picker_sources.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/layout_file_picker_sources.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_issue_refund.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_issue_refund.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_addon_card.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_addon_card.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_simple_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_simple_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_version_upgrade_required.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_version_upgrade_required.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_reviews_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_reviews_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_sorting_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_sorting_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_shipping_label_order_summary.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_shipping_label_order_summary.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_onboarding_loading.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_onboarding_loading.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_status_list_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_status_list_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_onboarding_network_error.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_onboarding_network_error.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_note_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_note_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/add_product_tag_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/add_product_tag_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_filter_option_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_filter_option_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_shipping_label_service_package.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_shipping_label_service_package.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/card_reader_connect_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/card_reader_connect_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/feature_announcement_dialog_fragment.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/feature_announcement_dialog_fragment.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_product_filter_options_categories_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_product_filter_options_categories_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_link_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_link_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_user_eligibility_error.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_user_eligibility_error.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_shipping_label_refund.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_shipping_label_refund.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_login_epilogue_button_bar.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_login_epilogue_button_bar.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_shipping_label_carrier_rate.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_shipping_label_carrier_rate.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_take_payment.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_take_payment.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_site_picker_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_site_picker_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_shipping_warning.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_shipping_warning.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_order_creation_shipping.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_order_creation_shipping.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_order_detail.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_order_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_login_what_is_jetpack.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_login_what_is_jetpack.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/shipping_customs_line_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/shipping_customs_line_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_feedback_completed.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_feedback_completed.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_order_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_order_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_detail.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_jetpack_benefits.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_jetpack_benefits.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/media_upload_error_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/media_upload_error_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_editable_view_layout.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_editable_view_layout.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_hub.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_hub.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/card_reader_connect_scanning_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/card_reader_connect_scanning_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_login_no_wpcom_account_found.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_login_no_wpcom_account_found.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_login_jetpack_required.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_login_jetpack_required.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_detail_connected_state.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_detail_connected_state.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_shipping_label_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_shipping_label_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/shipping_package_selectable_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/shipping_package_selectable_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_tag_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_tag_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/layout_address_switch.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/layout_address_switch.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_product_tag_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_product_tag_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/refunds_detail_product_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/refunds_detail_product_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_link_view_layout.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_link_view_layout.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_refund_payment_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_refund_payment_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dashboard_main_stats_row.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dashboard_main_stats_row.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_settings_privacy.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_settings_privacy.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/add_product_element_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/add_product_element_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/print_customs_form_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/print_customs_form_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/my_store_date_bar.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/my_store_date_bar.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/shipping_label_payment_method_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/shipping_label_payment_method_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_note_list_note.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_note_list_note.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/feature_wip_notice.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/feature_wip_notice.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_tracking_provider_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_tracking_provider_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/activity_ssr.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/activity_ssr.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_coupon_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_coupon_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_menu_order.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_menu_order.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_product_list_sorting.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_product_list_sorting.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_print_label_customs_form.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_print_label_customs_form.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_order_notes_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_order_notes_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_refund_by_amount.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_refund_by_amount.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_option_with_active_setting.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_option_with_active_setting.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_order_detail.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_order_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_onboarding_generic_error.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_onboarding_generic_error.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_shipment_tracking_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_shipment_tracking_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_creation_product_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_creation_product_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_login_prologue.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_login_prologue.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/attribute_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/attribute_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_variation_detail.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_variation_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/my_store_top_performers.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/my_store_top_performers.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_list_header.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_list_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/card_reader_hub_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/card_reader_hub_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_add_product_category.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_add_product_category.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_image_viewer.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_image_viewer.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_ordered_addon.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_ordered_addon.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/shipping_label_package_product_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/shipping_label_package_product_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/my_store_stats_reverted_notice.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/my_store_stats_reverted_notice.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/refund_by_items_products.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/refund_by_items_products.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_add_attribute.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_add_attribute.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_edit_customer_order_note.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_edit_customer_order_note.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/support_email_and_name_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/support_email_and_name_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_product_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_product_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_note_list_header.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_note_list_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_status_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_status_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_creation_payment_section.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_creation_payment_section.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_shipping_label_service_package_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_shipping_label_service_package_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_filter_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_filter_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_product_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_product_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_create_shipping_label_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_create_shipping_label_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_external_link.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_external_link.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_catalog_visibility.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_catalog_visibility.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_attribute_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_attribute_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_product_secondary_card.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_product_secondary_card.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_switch_layout.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_switch_layout.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/wc_actionable_empty_label.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/wc_actionable_empty_label.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_product_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_product_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_alert_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_alert_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_product_categories_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_product_categories_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/unified_about_screen_activity.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/unified_about_screen_activity.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_order_status.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_order_status.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_variation_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_variation_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_order_list_item_auto.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_order_list_item_auto.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_refund_summary.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_refund_summary.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_refund_by_items.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_refund_by_items.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_visibility.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_visibility.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_cardview_layout.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_cardview_layout.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_detail_disconnected_state.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_detail_disconnected_state.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_onboarding_both_plugins_activated.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_onboarding_both_plugins_activated.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_edit_variation_attributes.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_edit_variation_attributes.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_view_vert_layout.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_view_vert_layout.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/card_reader_connect_reader_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/card_reader_connect_reader_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_variation_attributes_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_variation_attributes_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/shipping_package_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/shipping_package_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/refund_fee_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/refund_fee_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_card_reader_onboarding_wcpay.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_card_reader_onboarding_wcpay.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_dashboard_top_performer_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_dashboard_top_performer_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_licenses.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_licenses.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_product_detail.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_product_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_refund_detail.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_refund_detail.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_property_read_more_view.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_property_read_more_view.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/shipping_customs_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/shipping_customs_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_analytics.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_analytics.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_settings_main.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_settings_main.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/view_progress_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/view_progress_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_order_detail_product_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_order_detail_product_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/attribute_term_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/attribute_term_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_product_category_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_product_category_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_product_tags.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_product_tags.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_variation_attributes_list.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_variation_attributes_list.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_order_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_order_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_tax_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_tax_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/order_detail_install_wc_shipping_banner.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/order_detail_install_wc_shipping_banner.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/currency_amount_dialog.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/currency_amount_dialog.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_shipping_carrier_rates.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_shipping_carrier_rates.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/product_detail_bottom_sheet_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/product_detail_bottom_sheet_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/refund_shipping_list_item.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/refund_shipping_list_item.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_shipping_label_create_custom_package.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_shipping_label_create_custom_package.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/dialog_order_tracking_provider_list_header.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/dialog_order_tracking_provider_list_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/skeleton_dashboard_top_performer_header.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/skeleton_dashboard_top_performer_header.xml"
+    },
+    {
+        "merged": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/intermediates/incremental/mergeWasabiDebugResources/stripped.dir/layout/fragment_product_inventory.xml",
+        "source": "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/src/main/res/layout/fragment_product_inventory.xml"
+    }
+]

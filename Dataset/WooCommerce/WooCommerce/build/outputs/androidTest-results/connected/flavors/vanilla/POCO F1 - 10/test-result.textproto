@@ -1,0 +1,1264 @@
+# 2022-06-25T01:53:16.816Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 24
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingCompletedWithWCPayThenCorrectOnboardingStatusIsStored"
+    start_time {
+      seconds: 1656121232
+      nanos: 536000000
+    }
+    end_time {
+      seconds: 1656121232
+      nanos: 606000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingCompletedWithWCPayThenCorrectOnboardingStatusIsStored.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenEmptyPreferredPluginSetThenNullReturned"
+    start_time {
+      seconds: 1656121265
+      nanos: 876000000
+    }
+    end_time {
+      seconds: 1656121265
+      nanos: 930000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenEmptyPreferredPluginSetThenNullReturned.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingPendingRequirementsWithWCPayThenCorrectPreferredPluginIsStored"
+    start_time {
+      seconds: 1656121299
+      nanos: 190000000
+    }
+    end_time {
+      seconds: 1656121299
+      nanos: 244000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingPendingRequirementsWithWCPayThenCorrectPreferredPluginIsStored.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingPendingRequirementWithStripeExtThenCorrectOnboardingStatusIsStored"
+    start_time {
+      seconds: 1656121332
+      nanos: 411000000
+    }
+    end_time {
+      seconds: 1656121332
+      nanos: 516000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingPendingRequirementWithStripeExtThenCorrectOnboardingStatusIsStored.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingPendingRequirementsWithWCPayThenCorrectOnboardingStatusIsStored"
+    start_time {
+      seconds: 1656121365
+      nanos: 455000000
+    }
+    end_time {
+      seconds: 1656121365
+      nanos: 508000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingPendingRequirementsWithWCPayThenCorrectOnboardingStatusIsStored.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "givenCardReaderStateDescriptorSetWhenGettingDescriptorThenSameDescriptorReturned"
+    start_time {
+      seconds: 1656121398
+      nanos: 347000000
+    }
+    end_time {
+      seconds: 1656121398
+      nanos: 375000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-givenCardReaderStateDescriptorSetWhenGettingDescriptorThenSameDescriptorReturned.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingPendingRequirementsWithStripeExtThenCorrectOnboardingStatusFlagIsReturned"
+    start_time {
+      seconds: 1656121432
+      nanos: 118000000
+    }
+    end_time {
+      seconds: 1656121432
+      nanos: 171000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingPendingRequirementsWithStripeExtThenCorrectOnboardingStatusFlagIsReturned.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingPendingRequirementWithStripeExtThenCorrectPreferredPluginIsStored"
+    start_time {
+      seconds: 1656121466
+      nanos: 266000000
+    }
+    end_time {
+      seconds: 1656121466
+      nanos: 320000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingPendingRequirementWithStripeExtThenCorrectPreferredPluginIsStored.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingCompletedWithStripeExtThenCorrectOnboardingStatusIsStored"
+    start_time {
+      seconds: 1656121500
+      nanos: 113000000
+    }
+    end_time {
+      seconds: 1656121500
+      nanos: 166000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingCompletedWithStripeExtThenCorrectOnboardingStatusIsStored.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "givenSetCardReaderOnboardingStatusAndPreferredPluginVersionWithOnePluginGetWithAnotherReturnsNull"
+    start_time {
+      seconds: 1656121533
+      nanos: 124000000
+    }
+    end_time {
+      seconds: 1656121533
+      nanos: 177000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-givenSetCardReaderOnboardingStatusAndPreferredPluginVersionWithOnePluginGetWithAnotherReturnsNull.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingNotCompletedThenCorrectOnboardingStatusFlagIsReturned"
+    start_time {
+      seconds: 1656121566
+      nanos: 161000000
+    }
+    end_time {
+      seconds: 1656121566
+      nanos: 214000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingNotCompletedThenCorrectOnboardingStatusFlagIsReturned.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingCompletedWithWCPayThenCorrectOnboardingStatusFlagIsReturned"
+    start_time {
+      seconds: 1656121599
+      nanos: 174000000
+    }
+    end_time {
+      seconds: 1656121599
+      nanos: 204000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingCompletedWithWCPayThenCorrectOnboardingStatusFlagIsReturned.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingCompletedWithStripeExtThenCorrectOnboardingStatusFlagIsReturned"
+    start_time {
+      seconds: 1656121632
+      nanos: 65000000
+    }
+    end_time {
+      seconds: 1656121632
+      nanos: 93000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingCompletedWithStripeExtThenCorrectOnboardingStatusFlagIsReturned.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingNotCompletedThenCorrectOnboardingStatusIsReturned"
+    start_time {
+      seconds: 1656121664
+      nanos: 880000000
+    }
+    end_time {
+      seconds: 1656121664
+      nanos: 908000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingNotCompletedThenCorrectOnboardingStatusIsReturned.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingCompletedWithWCPayThenCorrectPreferredPluginIsStored"
+    start_time {
+      seconds: 1656121698
+      nanos: 280000000
+    }
+    end_time {
+      seconds: 1656121698
+      nanos: 333000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingCompletedWithWCPayThenCorrectPreferredPluginIsStored.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingCompletedWithStripeExtThenCorrectPreferredPluginIsStored"
+    start_time {
+      seconds: 1656121731
+      nanos: 94000000
+    }
+    end_time {
+      seconds: 1656121731
+      nanos: 147000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingCompletedWithStripeExtThenCorrectPreferredPluginIsStored.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "givenSetCardReaderOnboardingStatusAndPreferredPluginVersionGetReturnsVersion"
+    start_time {
+      seconds: 1656121764
+      nanos: 185000000
+    }
+    end_time {
+      seconds: 1656121764
+      nanos: 239000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-givenSetCardReaderOnboardingStatusAndPreferredPluginVersionGetReturnsVersion.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingPendingRequirementsWithWCPayThenCorrectOnboardingStatusFlagIsReturned"
+    start_time {
+      seconds: 1656121797
+      nanos: 198000000
+    }
+    end_time {
+      seconds: 1656121797
+      nanos: 251000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingPendingRequirementsWithWCPayThenCorrectOnboardingStatusFlagIsReturned.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenRemoveLastConnectedCardReaderIdThenIdIsNull"
+    start_time {
+      seconds: 1656121830
+      nanos: 289000000
+    }
+    end_time {
+      seconds: 1656121830
+      nanos: 343000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenRemoveLastConnectedCardReaderIdThenIdIsNull.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenSetLastConnectedCardReaderIdThenIdStored"
+    start_time {
+      seconds: 1656121863
+      nanos: 505000000
+    }
+    end_time {
+      seconds: 1656121863
+      nanos: 534000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenSetLastConnectedCardReaderIdThenIdStored.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenCardReaderOnboardingNotCompletedThenCorrectOnboardingStatusIsStored"
+    start_time {
+      seconds: 1656121896
+      nanos: 698000000
+    }
+    end_time {
+      seconds: 1656121896
+      nanos: 727000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenCardReaderOnboardingNotCompletedThenCorrectOnboardingStatusIsStored.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "givenSpecificSiteIdWhenProductSortingChoiceIsSetThenGetReturnsStoredValue"
+    start_time {
+      seconds: 1656121929
+      nanos: 510000000
+    }
+    end_time {
+      seconds: 1656121929
+      nanos: 563000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-givenSpecificSiteIdWhenProductSortingChoiceIsSetThenGetReturnsStoredValue.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "givenCardReaderStatementDescriptorNotEmptyWhenSettingItToNullThenValueOverriddenWithNull"
+    start_time {
+      seconds: 1656121962
+      nanos: 619000000
+    }
+    end_time {
+      seconds: 1656121962
+      nanos: 672000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-givenCardReaderStatementDescriptorNotEmptyWhenSettingItToNullThenValueOverriddenWithNull.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "AppPrefsTest"
+    test_package: "com.woocommerce.android"
+    test_method: "whenFCMTokenIsSetThenGetReturnsStoredValue"
+    start_time {
+      seconds: 1656121996
+      nanos: 29000000
+    }
+    end_time {
+      seconds: 1656121996
+      nanos: 82000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/logcat-com.woocommerce.android.AppPrefsTest-whenFCMTokenIsSetThenGetReturnsStoredValue.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/home/eulerhm/Documents/workspaceSQJ/Temp3/woocommerce-android/WooCommerce/build/outputs/androidTest-results/connected/flavors/vanilla/POCO F1 - 10/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

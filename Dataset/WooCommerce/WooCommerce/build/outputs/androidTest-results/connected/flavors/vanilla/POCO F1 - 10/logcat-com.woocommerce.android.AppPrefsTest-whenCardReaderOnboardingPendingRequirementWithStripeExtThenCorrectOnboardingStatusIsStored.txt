@@ -1,0 +1,4 @@
+06-24 22:42:14.457 13146 13177 I TestRunner: started: whenCardReaderOnboardingPendingRequirementWithStripeExtThenCorrectOnboardingStatusIsStored(com.woocommerce.android.AppPrefsTest)
+06-24 22:42:14.498 13146 13177 I GrantPermissionCallable: Permission: android.permission.ACCESS_WIFI_STATE is already granted!
+06-24 22:42:14.499 13146 13177 I GrantPermissionCallable: Permission: android.permission.ACCESS_NETWORK_STATE is already granted!
+06-24 22:42:14.579 13146 13177 I TestRunner: finished: whenCardReaderOnboardingPendingRequirementWithStripeExtThenCorrectOnboardingStatusIsStored(com.woocommerce.android.AppPrefsTest)
