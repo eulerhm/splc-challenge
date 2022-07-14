@@ -25,28 +25,38 @@ The dataset includes 20 mobile applications. These applications are from differe
 |[WooCommerce](pages/woocommerce.md)             |Business |156,962       |1,367   |27  | Mobile Data, Wi-Fi     |26,527      |
 |[WordPress-Android](pages/wordpress.md)             |Productivity |347,897       |3,674   |115  | Camera, Mobile Data, Wi-Fi     |68,148      |
 
+
+
 ### Study phases
 
 Our study consists of five phases as illustrated bellow:
 
 ![image](https://user-images.githubusercontent.com/2692168/178997322-d8177282-4367-4f2c-9107-355b22ad36d6.png)
 
-1 - Setting definition: The [settings](Settings) were defined for five testing strategies (Random, One-Disabled, One-Enabled, Most-Enabled-Disabled, and Pairwise) 
+1 - Setting definition: 
 
-2 - Application selection: The [dataset](Dataset) includes 20 applications. The gradle build scripts and the AndroidManifest files were adapted to our instrumentation, for instance, to include suitable API dependencies and to allow control permissions (such as for accessing Wi-Fi state). Each application has the test classes of androidTest folder extended with our instrumentation.
+The [settings](Settings) were defined for five testing strategies (Random, One-Disabled, One-Enabled, Most-Enabled-Disabled, and Pairwise) 
 
-3 - Application test extension: Our [instrumentation](TestInstrumentation) was implemented for Java and Kotlin. There are particularities according to the screen device, since we use the [UI Automator testing framework](https://developer.android.com/training/testing/other-components/ui-automator).
+2 - Application selection: 
+
+The [dataset](Dataset) includes 20 applications. The gradle build scripts and the AndroidManifest files were adapted to our instrumentation, for instance, to include suitable API dependencies and to allow control permissions (such as for accessing Wi-Fi state). Each application has the test classes of androidTest folder extended with our instrumentation.
+
+3 - Application test extension: 
+
+Our [instrumentation](TestInstrumentation) was implemented for Java and Kotlin. There are particularities according to the screen device, since we use the [UI Automator testing framework](https://developer.android.com/training/testing/other-components/ui-automator).
 
 4 - Test execution: 
 
 Requirements: A device running Android 10. This device must be rooted in order to install [Sensor Disabler app](https://play.google.com/store/apps/details?id=com.mrchandler.disableprox&hl=en&gl=US) to manage the sensors. Also, the [Lens Cap app](https://play.google.com/store/apps/details?id=com.ownzordage.chrx.lenscap&hl=en_IN&gl=US) must be installed to allow camera control.
 The host machine must have Python 3 installed and the Android SDK and the Java SDK environment system variables properly set.
 
-Python [scripts](Scripts) must be executed according to the proper gradle verification task, often *connectedDebugAndroidTest*, for installing and running Android instrumented tests on the connected device.
+The Python [script](Scripts) *runExpAll-MultiExec* must be executed according to the proper gradle verification task, often *connectedDebugAndroidTest*, for installing and running Android instrumented tests on the connected device.
 
-5 - Test analysis:
+5 - Test analysis: 
 
-All test reports are available in [TestResults](TestResults).
+All test reports are available in [TestResults](TestResults). The frequent item set mining analysis was performed using the Apriori implementation of the [mlxtend library](https://pypi.org/project/mlxtend/).
+
+
 
 ### Contact
 
