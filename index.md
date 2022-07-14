@@ -33,11 +33,16 @@ Our study consists of five phases as illustrated bellow:
 
 1 - Setting definition: The [settings](Settings) were defined for five testing strategies (Random, One-Disabled, One-Enabled, Most-Enabled-Disabled, and Pairwise) 
 
-2 - Application selection: The [dataset](Dataset) includes 20 applications.
+2 - Application selection: The [dataset](Dataset) includes 20 applications. The gradle build scripts and the AndroidManifest files were adapted to our instrumentation, for instance, to include suitable API dependencies and to allow control permissions (such as for accessing Wi-Fi state).
 
-3 - Test execution: 
+3 - Application test extension: Our [instrumentation](TestInstrumentation) was implemented for Java and Kotlin. There are particularities according to the screen device, since we use the [UI Automator testing framework](https://developer.android.com/training/testing/other-components/ui-automator).
+
+4 - Test execution: 
 
 Requirements: A device running Android 10. This device must be rooted in order to install [Sensor Disabler app] (https://play.google.com/store/apps/details?id=com.mrchandler.disableprox&hl=en&gl=US) to manage the sensors. Also, the [Lens Cap app](https://play.google.com/store/apps/details?id=com.ownzordage.chrx.lenscap&hl=en_IN&gl=US) must be installed to allow camera control.
+The host machine must have Python 3 installed and the Android SDK and Java environment variables properly set.
+
+The python [scripts](Scripts) must be executed according to the proper gradle verification task. In general: connectedDebugAndroidTest for installing and running Android instrumented tests on the connected device.
 
 ### Contact
 
