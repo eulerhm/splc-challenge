@@ -29,9 +29,9 @@ The dataset includes 20 mobile applications. These applications are from differe
 
 Our study consists of five phases as illustrated bellow:
 
-![image](https://user-images.githubusercontent.com/2692168/178994481-7375ff4b-c204-4bce-9479-8a0df375130a.png)
+![image](https://user-images.githubusercontent.com/2692168/178997322-d8177282-4367-4f2c-9107-355b22ad36d6.png)
 
-1 - Setting definition: The [settings/ were defined for five testing strategies (Random, One-Disabled, One-Enabled, Most-Enabled-Disabled, and Pairwise) 
+1 - Setting definition: The [settings](Settings) were defined for five testing strategies (Random, One-Disabled, One-Enabled, Most-Enabled-Disabled, and Pairwise) 
 
 2 - Application selection: The [dataset](Dataset) includes 20 applications.
 
