@@ -1,3 +1,4 @@
+#A script to perform frequent itemset mining analysis
 import pandas as pd
 from mlxtend.frequent_patterns import apriori
 

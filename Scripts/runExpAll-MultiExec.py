@@ -1,12 +1,14 @@
+#A script to manage the test suite execution
 import csv
 import random
 from subprocess import check_output
-import timing 
 from time import perf_counter
 
+#The imput setting file
 fileName = 'configCombinations-MostEnabledDisabled_new.csv'
-totalExecutions = 3
+totalExecutions = 3 #Multiple executions to deal with flaky tests
 
+#The output folder for test reports
 print(check_output("mkdir testReportsMult-MostEnabledDisabled", shell="True").decode('cp850'))
 print()
 
@@ -16,6 +18,7 @@ with open(fileName) as csv_file:
  
     allConfig = {}
 
+    #Initialize a dictionary with the settings
     for row in csv_reader:
         config = {'location':False,'wifi':False,'mobiledata':False,'bluetooth':False,'autorotate':False,'batterysaver':False,'donotdisturb':False, 'camera':False,'accelerometer':False,'gyroscope':False,'light':False,'magneticfield':False,'orientation':False,'proximity':False} 
 
@@ -32,6 +35,7 @@ with open(fileName) as csv_file:
     #print(allConfig)
     print(f'Processed {line_count} combinations.')
 
+    #Output files for logging the execution order of the settings and the CPU execution time of the test suite
     execFile = open("executionLog-MostEnabledDisabled.txt","a")
     execTimeFile = open("executionTime-MostEnabledDisabled.txt","a")
 
@@ -42,6 +46,7 @@ with open(fileName) as csv_file:
         print(check_output(f"mkdir testReportsMult-MostEnabledDisabled/execution{currentExec}", shell="True").decode('cp850'))
         print()
         
+        #Shuffled the settings to minimize order dependencies between tests
         random.shuffle(keys)
         
         execFile.write(f"Execution {currentExec} configurations \n")
@@ -53,8 +58,10 @@ with open(fileName) as csv_file:
         for k in keys:
             cf = allConfig[k]	
             print(f"config: {cf}")
-            startTime_Config = perf_counter()
+            startTime_Config = perf_counter() #perf_counter is a function to access a performance counter to measure the test suite execution time (https://docs.python.org/3/library/time.html)
             
+            
+            #Some devices require this adb command to allow the battery saver interaction
             command1 = f"adb shell dumpsys battery unplug"
             print(check_output(command1, shell=True).decode('cp850'))
             print()
@@ -77,6 +84,7 @@ with open(fileName) as csv_file:
             print(check_output(command, shell=True).decode('cp850'))
             print()
             
+            #Some devices require this adb command to allow the battery saver interaction
             command2 = f"adb shell dumpsys battery reset"
             print(check_output(command2, shell=True).decode('cp850'))
             print()    
