@@ -39,7 +39,7 @@ Our study consists of five phases as illustrated bellow:
 
 4 - Test execution: 
 
-Requirements: A device running Android 10. This device must be rooted in order to install [Sensor Disabler app] (https://play.google.com/store/apps/details?id=com.mrchandler.disableprox&hl=en&gl=US) to manage the sensors. Also, the [Lens Cap app](https://play.google.com/store/apps/details?id=com.ownzordage.chrx.lenscap&hl=en_IN&gl=US) must be installed to allow camera control.
+Requirements: A device running Android 10. This device must be rooted in order to install [Sensor Disabler app](https://play.google.com/store/apps/details?id=com.mrchandler.disableprox&hl=en&gl=US) to manage the sensors. Also, the [Lens Cap app](https://play.google.com/store/apps/details?id=com.ownzordage.chrx.lenscap&hl=en_IN&gl=US) must be installed to allow camera control.
 The host machine must have Python 3 installed and the Android SDK and the Java SDK environment system variables properly set.
 
 Python [scripts](Scripts) must be executed according to the proper gradle verification task, often *connectedDebugAndroidTest*, for installing and running Android instrumented tests on the connected device.
