@@ -25,6 +25,20 @@ The dataset includes 20 mobile applications. These applications are from differe
 |[WooCommerce](pages/woocommerce.md)             |Business |156,962       |1,367   |27  | Mobile Data, Wi-Fi     |26,527      |
 |[WordPress-Android](pages/wordpress.md)             |Productivity |347,897       |3,674   |115  | Camera, Mobile Data, Wi-Fi     |68,148      |
 
+### Study phases
+
+Our study consists of five phases as illustrated bellow:
+
+![image](https://user-images.githubusercontent.com/2692168/178994481-7375ff4b-c204-4bce-9479-8a0df375130a.png)
+
+1 - Setting definition: The [settings/ were defined for five testing strategies (Random, One-Disabled, One-Enabled, Most-Enabled-Disabled, and Pairwise) 
+
+2 - Application selection: The [dataset](Dataset) includes 20 applications.
+
+3 - Test execution: 
+
+Requirements: A device running Android 10. This device must be rooted in order to install [Sensor Disabler app] (https://play.google.com/store/apps/details?id=com.mrchandler.disableprox&hl=en&gl=US) to manage the sensors. Also, the [Lens Cap app](https://play.google.com/store/apps/details?id=com.ownzordage.chrx.lenscap&hl=en_IN&gl=US) must be installed to allow camera control.
+
 ### Contact
 
 - [Euler Marinho](http://labsoft.dcc.ufmg.br/doku.php?id=people:students:euler_marinho): eulerhm at dcc dot ufmg dot br 
