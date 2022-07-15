@@ -56,7 +56,7 @@ The Python [script](Scripts) *runExpAll-MultiExec* must be executed according to
 
 All test reports are available in [TestResults](TestResults). The frequent item set mining analysis was performed using the Apriori implementation of the [mlxtend library](https://pypi.org/project/mlxtend/).
 
-There are some [descriptive data[(Descriptive data/) in this repository.
+There are some [descriptive data](Descriptive%20data) in this repository.
 
 ### Contact
 
