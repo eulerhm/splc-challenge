@@ -35,15 +35,15 @@ Our study consists of five phases as illustrated bellow:
 
 1 - Setting definition: 
 
-The [settings](Settings) were defined for five testing strategies (Random, One-Disabled, One-Enabled, Most-Enabled-Disabled, and Pairwise) 
+The [settings](https://github.com/eulerhm/samplingapptest/tree/master/Settings) were defined for five testing strategies (Random, One-Disabled, One-Enabled, Most-Enabled-Disabled, and Pairwise) 
 
 2 - Application selection: 
 
-The [dataset](Dataset) includes 20 applications. The gradle build scripts and the AndroidManifest files were adapted to our instrumentation, for instance, to include suitable API dependencies and to allow control permissions (such as for accessing Wi-Fi state). Each application has the test classes of androidTest folder extended with our instrumentation.
+The [dataset](https://github.com/eulerhm/samplingapptest/tree/master/Dataset) includes 20 applications. The gradle build scripts and the AndroidManifest files were adapted to our instrumentation, for instance, to include suitable API dependencies and to allow control permissions (such as for accessing Wi-Fi state). Each application has the test classes of androidTest folder extended with our instrumentation.
 
 3 - Application test extension: 
 
-Our [instrumentation](TestInstrumentation) was implemented for Java and Kotlin. There are particularities according to the screen device, since we use the [UI Automator testing framework](https://developer.android.com/training/testing/other-components/ui-automator).
+Our [instrumentation](https://github.com/eulerhm/samplingapptest/tree/master/TestInstrumentation) was implemented for Java and Kotlin. There are particularities according to the screen device, since we use the [UI Automator testing framework](https://developer.android.com/training/testing/other-components/ui-automator).
 
 4 - Test execution: 
 
@@ -54,9 +54,9 @@ The Python [script](Scripts) *runExpAll-MultiExec* must be executed according to
 
 5 - Test analysis: 
 
-All test reports are available in [TestResults](TestResults). The frequent item set mining analysis was performed using the Apriori implementation of the [mlxtend library](https://pypi.org/project/mlxtend/).
+All test reports are available in [TestResults](https://github.com/eulerhm/samplingapptest/tree/master/TestResults). The frequent item set mining analysis was performed using the Apriori implementation of the [mlxtend library](https://pypi.org/project/mlxtend/).
 
-There are some [descriptive data](Descriptive%20data) in this repository.
+There are some [descriptive data](https://github.com/eulerhm/samplingapptest/tree/master/Descriptive%20data/Failing%20settings) in this repository.
 
 ### Contact
 
