@@ -58,7 +58,7 @@ All test reports are available in [TestResults](https://github.com/eulerhm/sampl
 
 There are some [descriptive data](https://github.com/eulerhm/samplingapptest/tree/master/Descriptive%20data/Failing%20settings) in this repository.
 
-There are [deitaled instructions for replicability]((pages/replicationInstructions.md)).
+There are [deitaled instructions for replicability](pages/replicationInstructions.md).
 
 ### Contact
 
