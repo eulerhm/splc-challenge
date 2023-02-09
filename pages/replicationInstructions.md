@@ -14,9 +14,9 @@ variable must be set.
 
 5) A rooted smartphone with Android 10. 
 
-    5.1) The simple way is using [Magisk](https://magiskmanager.com/). [Detailed instructions](https://droidfeats.com/how-to-install-magisk/) 
+    i) The simple way is using [Magisk](https://magiskmanager.com/). [Detailed instructions](https://droidfeats.com/how-to-install-magisk/) 
     
-    5.2) [Xposed framework](https://droidfeats.com/install-xposed-framework-on-android-10/)  
+    ii) [Xposed framework](https://droidfeats.com/install-xposed-framework-on-android-10/)  
 
 6) [Sensor Disable app](https://apkpure.com/br/xposed-sensor-disabler/com.mrchandler.disableprox) version 3.0.2 
 
