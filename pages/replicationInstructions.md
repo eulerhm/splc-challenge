@@ -22,7 +22,7 @@ variable must be set.
 
 7) [Sensor Disable Xposed module](https://github.com/wardellbagby/sensor-disabler)
 
-6) Each instrumented test class must be extended with our [instrumentation]((https://github.com/eulerhm/samplingapptest/tree/master/TestInstrumentation) )
+8) Each instrumented test class must be extended with the [instrumentation](https://github.com/eulerhm/samplingapptest/tree/master/TestInstrumentation)
 
 
 ## Test suite execution [script](https://github.com/eulerhm/samplingapptest/blob/master/Scripts/runExpAll-MultiExec.py):
