@@ -1,4 +1,4 @@
-# CovidNow
+# WordPress
 
 Description: WordPress for Android.
 
