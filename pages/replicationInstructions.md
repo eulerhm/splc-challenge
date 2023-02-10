@@ -12,11 +12,8 @@ variable must be set.
 
 4) [Python 3.6](https://docs.python-guide.org/starting/install3/linux/) (minimum tested version). 
 
-5) A rooted smartphone with Android 10. 
-
-i. The simple way is using [Magisk](https://magiskmanager.com/). [Detailed instructions](https://droidfeats.com/how-to-install-magisk/) 
-    
-ii. [Xposed framework](https://droidfeats.com/install-xposed-framework-on-android-10/)  
+5) A rooted smartphone with Android 10. The simple way is using [Magisk](https://magiskmanager.com/). [Detailed instructions](https://droidfeats.com/how-to-install-magisk/) 
+    [Xposed framework](https://droidfeats.com/install-xposed-framework-on-android-10/)  
 
 6) [Sensor Disable app](https://apkpure.com/br/xposed-sensor-disabler/com.mrchandler.disableprox) version 3.0.2 
 
