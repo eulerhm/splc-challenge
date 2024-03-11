@@ -1,4 +1,4 @@
-## Artifacts of the paper "Evaluating testing strategies for resource related failures in mobile applications"
+## SPLC Challenge Cases
 
 The dataset includes 20 mobile applications. These applications are from different categories named according to the Play Store categories, with a large variation of size and test code size. For instance, applications vary from 455 lines of code (MoonShot) to more than 347,000 lines of code (WordPress-Android). Similarly, test code size vary between 464 lines of code (MoonShot) and 3,732 (Mixin-Messenger). Moreover, the number of test cases vary from 4 (Ground) to 164 (AnkiDroid). The number of commits vary between 21 (Threema) to 68,148 (WordPress-Android).
 
@@ -27,21 +27,18 @@ The dataset includes 20 mobile applications. These applications are from differe
 
 
 
-### Study phases
+### Some notes
 
-Our study consists of five phases as illustrated bellow:
 
-![image](https://user-images.githubusercontent.com/2692168/178997322-d8177282-4367-4f2c-9107-355b22ad36d6.png)
-
-1 - Setting definition: 
+1 - Settings: 
 
 The [settings](https://github.com/eulerhm/samplingapptest/tree/master/Settings) were defined for five testing strategies (Random, One-Disabled, One-Enabled, Most-Enabled-Disabled, and Pairwise) 
 
-2 - Application selection: 
+2 - Build scripts and the Manifest files: 
 
-The [dataset](https://github.com/eulerhm/samplingapptest/tree/master/Dataset) includes 20 applications. The gradle build scripts and the AndroidManifest files were adapted to our instrumentation, for instance, to include suitable API dependencies and to allow control permissions (such as for accessing Wi-Fi state). Each application has the test classes of androidTest folder extended with our instrumentation.
+The gradle build scripts and the Android Manifest files were adapted to our instrumentation, for instance, to include suitable API dependencies and to allow control permissions (such as for accessing Wi-Fi state). Each application has the test classes of androidTest folder extended with our instrumentation.
 
-3 - Application test extension: 
+3 - Test suite instrumentation:
 
 Our [instrumentation](https://github.com/eulerhm/samplingapptest/tree/master/TestInstrumentation) was implemented for Java and Kotlin. There are particularities according to the screen device, since we use the [UI Automator testing framework](https://developer.android.com/training/testing/other-components/ui-automator).
 
@@ -54,9 +51,8 @@ The Python [script](Scripts) *runExpAll-MultiExec* must be executed according to
 
 5 - Test analysis: 
 
-All test reports are available in [TestResults](https://github.com/eulerhm/samplingapptest/tree/master/TestResults). The frequent item set mining analysis was performed using the Apriori implementation of the [mlxtend library](https://pypi.org/project/mlxtend/).
+All test reports are available in [TestResults](https://github.com/eulerhm/samplingapptest/tree/master/TestResults). 
 
-There are some [descriptive data](https://github.com/eulerhm/samplingapptest/tree/master/Descriptive%20data/Failing%20settings) in this repository.
 
 There are [deitaled instructions for replicability](pages/replicationInstructions.md).
 
