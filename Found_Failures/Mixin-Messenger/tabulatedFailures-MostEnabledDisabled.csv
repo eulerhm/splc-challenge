@@ -1,0 +1,3 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+0,C0,F1,TransactionsFragmentTest.testFilter
+0,C0,F2,TransactionsFragmentTest.testOpenDepositAccount

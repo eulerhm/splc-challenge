@@ -1,0 +1,5 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+3,C9640,F1,TransactionsFragmentTest.testFilter
+3,C9640,F2,TransactionsFragmentTest.testOpenDepositAccount
+6,C965,F1,TransactionsFragmentTest.testFilter
+6,C965,F2,TransactionsFragmentTest.testOpenDepositAccount
