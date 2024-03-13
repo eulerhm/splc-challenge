@@ -1,0 +1,17 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+1,C10446,F1,DetailDestinationsEspressoTests.openCapsulesDetailFragment
+3,C9640,F1,DetailDestinationsEspressoTests.openCapsulesDetailFragment
+6,C965,F1,DetailDestinationsEspressoTests.openCapsulesDetailFragment
+1,C10446,F2,"DetailDestinationsEspressoTests.openCoresDetailFragment"""
+3,C9640,F2,"DetailDestinationsEspressoTests.openCoresDetailFragment"""
+6,C965,F2,"DetailDestinationsEspressoTests.openCoresDetailFragment"""
+0,C16383,F3,LaunchNotificationWorkerTest.testLaunchNotificationWorker
+1,C10446,F3,LaunchNotificationWorkerTest.testLaunchNotificationWorker
+2,C5937,F3,LaunchNotificationWorkerTest.testLaunchNotificationWorker
+3,C9640,F3,LaunchNotificationWorkerTest.testLaunchNotificationWorker
+4,C5135,F3,LaunchNotificationWorkerTest.testLaunchNotificationWorker
+5,C14386,F3,LaunchNotificationWorkerTest.testLaunchNotificationWorker
+6,C965,F3,LaunchNotificationWorkerTest.testLaunchNotificationWorker
+7,C2640,F3,LaunchNotificationWorkerTest.testLaunchNotificationWorker
+3,C9640,F4,DetailDestinationsEspressoTests.openLaunchesDetailFragment
+6,C965,F4,DetailDestinationsEspressoTests.openLaunchesDetailFragment
