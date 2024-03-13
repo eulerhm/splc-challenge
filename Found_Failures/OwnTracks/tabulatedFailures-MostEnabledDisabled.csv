@@ -1,0 +1,6 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+0,C0,F3,ContactActivityTests.testClickingOnContactLoadsContactOnMap
+0,C0,F1,LoadActivityTests.loadActivityCanLoadConfigFromContentURL
+0,C0,F2,LogViewerActivityTests.logViewerActivityExportFiresIntent
+1,C16383,F1,LoadActivityTests.loadActivityCanLoadConfigFromContentURL
+1,C16383,F2,LogViewerActivityTests.logViewerActivityExportFiresIntent
