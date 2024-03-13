@@ -1,0 +1,4 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+3,C15293,F1,GistFilesViewActivityTest.testChangingPages
+15,C2926,F1,GistFilesViewActivityTest.testChangingPages
+22,C4698,F1,GistFilesViewActivityTest.testChangingPages
