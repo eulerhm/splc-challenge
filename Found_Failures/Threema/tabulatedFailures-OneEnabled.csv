@@ -1,0 +1,2 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+6,C128,F1,BackgroundErrorNotificationTest.testNotificationWithoutAction
