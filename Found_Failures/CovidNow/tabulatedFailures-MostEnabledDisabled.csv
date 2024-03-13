@@ -1,0 +1,4 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+1,C16383,F1,MainDestinationsEspressoTests.clickOnBottomNavOpenLocalScreen
+0,C0,F2,MainDestinationsEspressoTests.clickOnBottomNavOpenGlobalScreen
+0,C0,F1,MainDestinationsEspressoTests.clickOnBottomNavOpenLocalScreen
