@@ -1,0 +1,11 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+0,C0,F10,ReaderTests.likePost
+0,C0,F11,ReaderTests.navigateThroughPosts
+0,C0,F12,SignUpTests.signUpWithMagicLink
+0,C0,F13,StatsTests.allDayStatsLoad
+0,C0,F2,BlockEditorTests.publishSimplePost
+0,C0,F5,BlockEditorTests.blockEditorCanDisplayElementAddedInHtmlMode
+0,C0,F6,BlockEditorTests.publishFullPost
+0,C0,F7,LoginTests.loginWithEmailPassword
+0,C0,F8,LoginTests.loginWithSelfHostedAccount
+0,C0,F9,LoginTests.loginWithSiteAddress

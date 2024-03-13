@@ -1,0 +1,23 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+1,C10446,F1,ContactUsTests.sendButtonEnabledWhenTextIsEntered
+7,C2640,F1,ContactUsTests.sendButtonEnabledWhenTextIsEntered
+3,C9640,F10,ReaderTests.likePost
+6,C965,F10,ReaderTests.likePost
+3,C9640,F11,ReaderTests.navigateThroughPosts
+6,C965,F11,ReaderTests.navigateThroughPosts
+3,C9640,F12,SignUpTests.signUpWithMagicLink
+6,C965,F12,SignUpTests.signUpWithMagicLink
+3,C9640,F13,StatsTests.allDayStatsLoad
+6,C965,F13,StatsTests.allDayStatsLoad
+3,C9640,F2,BlockEditorTests.publishSimplePost
+6,C965,F2,BlockEditorTests.publishSimplePost
+3,C9640,F5,BlockEditorTests.blockEditorCanDisplayElementAddedInHtmlMode
+6,C965,F5,BlockEditorTests.blockEditorCanDisplayElementAddedInHtmlMode
+3,C9640,F6,BlockEditorTests.publishFullPost
+6,C965,F6,BlockEditorTests.publishFullPost
+3,C9640,F7,LoginTests.loginWithEmailPassword
+6,C965,F7,LoginTests.loginWithEmailPassword
+3,C9640,F8,LoginTests.loginWithSelfHostedAccount
+6,C965,F8,LoginTests.loginWithSelfHostedAccount
+3,C9640,F9,LoginTests.loginWithSiteAddress
+6,C965,F9,LoginTests.loginWithSiteAddress
