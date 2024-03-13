@@ -1,0 +1,15 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+0,C8191,F3,ExplanationFragmentTest.testExplanationStep1To2
+0,C8191,F4,HowItWorksDetailFragmentTest.testRequest
+1,C12287,F3,ExplanationFragmentTest.testExplanationStep1To2
+2,C15359,F2,EnableApiFragmentTest.testRequest
+2,C15359,F4,HowItWorksDetailFragmentTest.testRequest
+2,C15359,F5,HowItWorksFragmentTest.testRequest
+2,C15359,F6,StatusFragmentTest.testRemoveConnectionIssuesNotification
+4,C16127,F1,EnableApiFragmentTest.testSkip
+4,C16127,F3,ExplanationFragmentTest.testExplanationStep1To2
+4,C16127,F4,HowItWorksDetailFragmentTest.testRequest
+5,C15871,F3,ExplanationFragmentTest.testExplanationStep1To2
+8,C16351,F3,ExplanationFragmentTest.testExplanationStep1To2
+11,C16379,F3,ExplanationFragmentTest.testExplanationStep1To2
+13,C16382,F3,ExplanationFragmentTest.testExplanationStep1To2

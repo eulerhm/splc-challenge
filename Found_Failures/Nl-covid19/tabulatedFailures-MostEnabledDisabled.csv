@@ -1,0 +1,7 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+0,C0,F2,EnableApiFragmentTest.testRequest
+0,C0,F1,EnableApiFragmentTest.testSkip
+0,C0,F3,ExplanationFragmentTest.testExplanationStep1To2
+0,C0,F4,HowItWorksDetailFragmentTest.testRequest
+0,C0,F5,HowItWorksFragmentTest.testRequest
+0,C0,F6,StatusFragmentTest.testRemoveConnectionIssuesNotification
