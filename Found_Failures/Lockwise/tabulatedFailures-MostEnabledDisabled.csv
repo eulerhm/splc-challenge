@@ -1,0 +1,9 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+0,C0,F1,ScreenshotsTest.testAppFirstView
+0,C0,F2,ScreenshotsTest.testItemList
+0,C0,F3,AppRoutePresenterTest.testNoSecurityDialog
+0,C0,F4,OnboardingTest.autofillSkipButtonNavigatesToItemList
+1,C16383,F1,ScreenshotsTest.testAppFirstView
+1,C16383,F2,ScreenshotsTest.testItemList
+1,C16383,F3,AppRoutePresenterTest.testNoSecurityDialog
+1,C16383,F4,OnboardingTest.autofillSkipButtonNavigatesToItemList
