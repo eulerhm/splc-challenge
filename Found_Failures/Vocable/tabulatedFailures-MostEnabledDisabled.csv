@@ -1,0 +1,8 @@
+CONFIG_ID,GLOBAL_CONFIG_ID,FAILURE ID,FAILURE DESCRIPTION
+0,C0,F1,KeyboardScreenTest.verifyBackspaceRemovesLetters
+0,C0,F2,KeyboardScreenTest.verifyClearResetsInput
+0,C0,F3,KeyboardScreenTest.verifyKeyboardButtonBringsUpKeyboard
+0,C0,F4,KeyboardScreenTest.verifyPhraseAppearsWhenTyped
+0,C0,F5,KeyboardScreenTest.verifyPresetsButtonReturnsToHome
+0,C0,F6,MainScreenTest.verifyClickingPhraseUpdatesCurrentText
+0,C0,F7,MainScreenTest.verifyDefaultTextAppears
