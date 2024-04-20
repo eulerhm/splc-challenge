@@ -54,7 +54,7 @@ The Python [script](Scripts) *runExpAll-MultiExec* must be executed according to
 All test reports are available in [TestResults](https://github.com/eulerhm/samplingapptest/tree/master/TestResults). 
 
 
-There are [deitaled instructions for replicability](pages/replicationInstructions.md).
+There are [deitaled instructions for replicability](pages/replicationInstructions.md) and a [video tutorial](https://youtu.be/a22WZQXWP4M) illustrating a test suite execution for vocable.
 
 ### Contact
 
